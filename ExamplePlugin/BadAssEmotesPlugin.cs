@@ -19,7 +19,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.1.1";
         public void Awake()
         {
             Assets.PopulateAssets();
@@ -55,6 +55,29 @@ namespace ExamplePlugin
             AddAnimation("SpringLoaded", "SpringLoaded", true, false, false);
             AddAnimation("Springy", "Springy", true, true, true);
             AddAnimation("SquatKickIntro", "SquatKick", "SquatKickLoop", true, true);
+            AddAnimation("AnkhaZone", "AnkhaZone", true, true, true);
+            AddAnimation("GangnamStyle", "GangnamStyle", true, true, true);
+            AddAnimation("DontStart", "DontStart", true, true, true);
+            AddAnimation("BunnyHop", "BunnyHop", true, true, true);
+            AddAnimation("BestMates", "BestMates", true, true, true);
+            AddAnimation("JackOPose", "", true, false, false);
+            AddAnimation("Crackdown", "Crackdown", true, true, true);
+            AddAnimation("Thicc", "", true, false, false);
+            AddAnimation("TakeTheL", "TakeTheL", true, true, true);
+            AddAnimation("ArkDance", "ArkDance", true, true, true);
+            AddAnimation("LetsDanceBoys", "LetsDanceBoys", true, true, true);
+            AddAnimation("BlindingLightsIntro", "BlindingLights", "BlindingLights", true, true);
+            AddAnimation("ImDiamond", "ImDiamond", true, true, true);
+            AddAnimation("ItsDynamite", "ItsDynamite", true, true, true);
+            AddAnimation("TheRobot", "TheRobot", true, true, true);
+            AddAnimation("Cartwheelin", "Cartwheelin", true, false, false);
+            AddAnimation("CrazyFeet", "CrazyFeet", true, true, true);
+            AddAnimation("FullTilt", "FullTilt", true, true, true);
+
+            AddAnimation("FloorSamus", "FloorSamus", true, false, false);
+            AddAnimation("DEDEDE", "DEDEDE", true, false, false);
+
+            AddAnimation("Specialist", "Specialist", false, true, true);
         }
         internal void AddAnimation(string AnimClip, string wwise, bool looping, bool dimAudio, bool sync)
         {
