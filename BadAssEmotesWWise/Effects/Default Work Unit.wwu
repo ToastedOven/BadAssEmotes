@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="yes" ID="{23D85639-3858-4FB0-A67E-E65D28982D00}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="WindowSize" Type="int32" Value="1536"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="yesses" ID="{BA97005E-CCE6-4A74-946A-AB4D76E6317E}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

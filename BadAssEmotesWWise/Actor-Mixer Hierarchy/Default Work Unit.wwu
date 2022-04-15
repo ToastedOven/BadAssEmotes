@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B321245-0BF9-46A5-918A-D5EF7119566B}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9B321245-0BF9-46A5-918A-D5EF7119566B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Emotes" ID="{18E4B2A0-9670-4313-8C8B-58B0CC5B72CC}" ShortID="531821648">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{32C1280D-1725-4BD4-BED6-5527B1E904F2}" ShortID="1006787359">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_SFX" ID="{B6032CCD-6758-4116-9B5D-CE3FB72446C1}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1EFA7C51-0337-48F4-B4EB-A683A875B6F9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{577EFF5F-2F12-400B-BA12-441B721A2859}" ShortID="991000691">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_Emotes" ID="{3997388B-7362-4A82-AB62-5499D6BC825F}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6A7AAE2E-5AF9-45A5-9846-05188B85E121}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="New emotes" ID="{00142078-68DA-4697-AB0C-3486C296E6D8}" ShortID="417295216">
+							<ChildrenList>
+								<Sound Name="AnkhaZone" ID="{32F10DC7-836D-4CD7-9930-24ED55024C49}" ShortID="78904106">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AnkhaZone" ID="{D35C40A0-78BB-457D-83FF-4CA86DCFE8CF}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\AnkhaZone.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168243202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AnkhaZone" ID="{D35C40A0-78BB-457D-83FF-4CA86DCFE8CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GangnamStyle" ID="{AF1BAF6B-EA80-450A-B0A6-BF19B69AD501}" ShortID="722193857">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GangnamStyle" ID="{E705E1AC-1DB8-4C28-80FD-E29B81DD7FBE}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\GangnamStyle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1065322382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GangnamStyle" ID="{E705E1AC-1DB8-4C28-80FD-E29B81DD7FBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DontStart" ID="{B22CB235-306F-4549-BEC1-9EF95965744C}" ShortID="323508704">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DontStart" ID="{91C1ACB0-A057-4906-A65D-F81AA9E692E2}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\DontStart.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52218649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DontStart" ID="{91C1ACB0-A057-4906-A65D-F81AA9E692E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BunnyHop" ID="{E29B1703-FD99-4958-B439-03FC265483A7}" ShortID="239300842">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BunnyHop" ID="{78C0DCB7-5460-4FC7-9B34-73069FA40184}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\BunnyHop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287756944"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BunnyHop" ID="{78C0DCB7-5460-4FC7-9B34-73069FA40184}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BestMates" ID="{344822ED-0BF9-44F1-AF7C-3E8396E3F5B5}" ShortID="351598713">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BestMates" ID="{D97F61C5-32A7-4FCF-8AF5-A4EEB6EC7F36}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\BestMates.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="623780510"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BestMates" ID="{D97F61C5-32A7-4FCF-8AF5-A4EEB6EC7F36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crackdown" ID="{0295523C-D762-4ECE-B96D-08CC44214C4C}" ShortID="88778922">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crackdown" ID="{5C1340B8-BA77-4D3A-9C6E-D208672C8B80}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Crackdown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574532012"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crackdown" ID="{5C1340B8-BA77-4D3A-9C6E-D208672C8B80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Thicc" ID="{F216661D-3D01-4BA7-BD0F-F20F7D28F6F2}" ShortID="752921796">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Thicc" ID="{4A798B81-928B-4C03-B7B7-237611F6764A}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Thicc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="313525913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Thicc" ID="{4A798B81-928B-4C03-B7B7-237611F6764A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TakeTheL" ID="{8C7A5D34-A7DE-482A-9F3B-93FF97A3843F}" ShortID="71006704">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TakeTheL" ID="{A4A25BDC-2979-4663-B462-E02B5071FAFA}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\TakeTheL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821426950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TakeTheL" ID="{A4A25BDC-2979-4663-B462-E02B5071FAFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ArkDance" ID="{19230B42-572D-4C9C-859C-24563B1D1845}" ShortID="710486487">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ark" ID="{E9EA3E52-53B0-4B29-8930-7B56D4A828C0}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ArkDance" ID="{B07F677A-979E-48F8-B426-D0903AA931FD}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\ArkDance.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="215704961"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ArkDance" ID="{B07F677A-979E-48F8-B426-D0903AA931FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LetsDanceBoys" ID="{5DE5225C-6223-4EAC-86C6-E35C1CF637DB}" ShortID="564697480">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LetsDanceBoys" ID="{61E84EF0-37D4-45C9-A12D-3EE2BCC5FDFE}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\LetsDanceBoys.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239737930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LetsDanceBoys" ID="{61E84EF0-37D4-45C9-A12D-3EE2BCC5FDFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="BlindingLights" ID="{D84FC404-D82B-48C6-8BD0-936C3C650778}" ShortID="582522280">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BlindingLightsIntro" ID="{3795EDB2-52E1-4087-8933-37000121210B}" ShortID="259170217">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BlindingLightsIntro" ID="{6C665FEC-8100-4864-9B06-14D23F5C1482}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\BlindingLightsIntro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850727505"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BlindingLightsIntro" ID="{6C665FEC-8100-4864-9B06-14D23F5C1482}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BlindingLightsLoop" ID="{81B5F1BF-FE7A-4AC1-9F26-5467992E5905}" ShortID="7914583">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BlindingLightsLoop" ID="{7A4AF4C6-5C27-4DA5-AD3F-232518EB62B1}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\BlindingLightsLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321315922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BlindingLightsLoop" ID="{7A4AF4C6-5C27-4DA5-AD3F-232518EB62B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="BlindingLightsIntro" ID="{3795EDB2-52E1-4087-8933-37000121210B}"/>
+										<ItemRef Name="BlindingLightsLoop" ID="{81B5F1BF-FE7A-4AC1-9F26-5467992E5905}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="ImDiamond" ID="{48F9B352-A1CA-498B-A8DE-9DD1F5A095E3}" ShortID="666339033">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ImDiamond" ID="{C973C783-2C7A-4341-B771-6DAE15C8C45D}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\ImDiamond.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760458160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ImDiamond" ID="{C973C783-2C7A-4341-B771-6DAE15C8C45D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ItsDynamite" ID="{474B400A-29A6-4E93-A2FD-A7F750BFBA1C}" ShortID="777771128">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ItsDynamite" ID="{CCB3BE42-8919-49CC-B637-5CCFC0898A5D}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\ItsDynamite.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579062041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ItsDynamite" ID="{CCB3BE42-8919-49CC-B637-5CCFC0898A5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TheRobot" ID="{70BA3192-4E6F-4B99-9C4A-9DC84799802C}" ShortID="481575970">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TheRobot" ID="{A934083C-D617-41B2-A5FE-FC8EF92A3398}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\TheRobot.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1027952488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TheRobot" ID="{A934083C-D617-41B2-A5FE-FC8EF92A3398}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartwheelin" ID="{C84796D8-E23E-4C8C-A3B1-FABC58564AAD}" ShortID="36716819">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartwheelin" ID="{B4F1556F-AFA9-4EDA-AEBD-F971C129670B}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Cartwheelin.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="188156113"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartwheelin" ID="{B4F1556F-AFA9-4EDA-AEBD-F971C129670B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CrazyFeet" ID="{207620DA-EC1A-46D7-BA17-6AFF9F07403F}" ShortID="918129736">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CrazyFeet" ID="{1F187F95-19A4-437D-A240-C5AC25F9199D}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\CrazyFeet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451183420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CrazyFeet" ID="{1F187F95-19A4-437D-A240-C5AC25F9199D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FullTilt2" ID="{1C146F3A-A5FB-4CAE-96E5-480DA051F6F7}" ShortID="64522458">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FullTilt2" ID="{BEF4428E-FCF9-4D71-A357-EA5D53C99B6A}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\FullTilt2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139866433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FullTilt2" ID="{BEF4428E-FCF9-4D71-A357-EA5D53C99B6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FullTilt" ID="{F8B824D9-EE2C-4D60-A36E-D22B2DC7BC90}" ShortID="826747439">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FullTilt" ID="{D24FECBB-6B5C-462C-9883-1A8B3FFE5304}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\FullTilt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="611100602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FullTilt" ID="{D24FECBB-6B5C-462C-9883-1A8B3FFE5304}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Specialist" ID="{FFFC100B-BD6C-4BD8-AD81-30710C98B5A4}" ShortID="417894660">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Specialist" ID="{407E645F-7363-4CC4-9EF0-06EBF965A46B}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Specialist.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="635525640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Specialist" ID="{407E645F-7363-4CC4-9EF0-06EBF965A46B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="emotes" ID="{A23C07C0-8ACD-4632-BF1B-CC9A39A0D1A3}" ShortID="669882486">
+							<ChildrenList>
+								<Sound Name="Breakneck" ID="{3EB91770-529A-4F69-B070-37851AB518E1}" ShortID="116737574">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breakneck" ID="{7BA0BAA3-DC1D-4FE4-A28F-C5CE488B1836}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Breakneck.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769581195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breakneck" ID="{7BA0BAA3-DC1D-4FE4-A28F-C5CE488B1836}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dabstand" ID="{0D562354-5DE3-402B-A3F3-82554E4D5DA5}" ShortID="232725782">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dabstand" ID="{A5E85B3F-1086-42A9-A44C-81677F5F25DF}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Dabstand.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="311636974"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dabstand" ID="{A5E85B3F-1086-42A9-A44C-81677F5F25DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crabby" ID="{774E1299-0792-4942-A927-6EAEF6024C34}" ShortID="663319343">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crabby" ID="{E4F3AE49-FF78-4344-B3FA-69B3D477CC93}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Crabby.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372643282"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crabby" ID="{E4F3AE49-FF78-4344-B3FA-69B3D477CC93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breakin'" ID="{3156D3AC-5B19-4924-8F2B-D422BE5A7736}" ShortID="775781648">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breakin'" ID="{971B0A3C-BAD6-41CB-867E-B412747C7FE0}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Breakin'.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="551181905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breakin'" ID="{971B0A3C-BAD6-41CB-867E-B412747C7FE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Extraterestrial" ID="{409766B7-CC92-4B66-9455-FEFE6EDD8356}" ShortID="889906375">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Extraterestrial" ID="{AA9EB8A8-C177-412C-B8CA-A6903E89DE70}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Extraterestrial.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700718868"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Extraterestrial" ID="{AA9EB8A8-C177-412C-B8CA-A6903E89DE70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PopLock" ID="{AD45D984-A9B0-47AD-92B0-5981DDDD244B}" ShortID="325244649">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PopLock" ID="{1CE40A98-3657-44C5-BA8E-74D43E9FA11E}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\PopLock.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="461389380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PopLock" ID="{1CE40A98-3657-44C5-BA8E-74D43E9FA11E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Never Gonna Give you Up" ID="{D55432A3-D284-4532-81E9-47F013716957}" ShortID="986691301">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Never Gonna Give you Up" ID="{C5268CE2-B503-401F-B07F-BDFC0127808F}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Never Gonna Give you Up.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22197893"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Never Gonna Give you Up" ID="{C5268CE2-B503-401F-B07F-BDFC0127808F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SquatKick" ID="{E3338132-5BC4-4705-918B-B20360EF0213}" ShortID="541307160">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SquatKick" ID="{AA4B4C08-BDF6-49F3-97F4-5ACC2937F2FD}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\SquatKick.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="170824598"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SquatKick" ID="{AA4B4C08-BDF6-49F3-97F4-5ACC2937F2FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PhoneItIn" ID="{035FCCD6-18FA-4990-811D-6674E7BFD930}" ShortID="359873333">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Phone It In" ID="{496E69DA-A0C3-4387-ACDE-E9962299D1DC}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Phone It In.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="433757311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Phone It In" ID="{496E69DA-A0C3-4387-ACDE-E9962299D1DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="DanceTherapy" ID="{0A085E28-1682-444D-98A2-9AB53C6F575D}" ShortID="717206251">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dance Therapy Intro" ID="{A086B942-DAD9-4268-B673-0DA5142D643F}" ShortID="894718055">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dance Therapy Intro" ID="{7CF87C97-75A6-48B9-8FA8-63EDC1CE881B}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Dance Therapy Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="153802453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dance Therapy Intro" ID="{7CF87C97-75A6-48B9-8FA8-63EDC1CE881B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dance Therapy Loop" ID="{FF4B95E0-D29D-4F2B-B2A2-52C5C8D870D1}" ShortID="219331051">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dance Therapy Loop" ID="{2469AB06-4CBB-4DE2-9E1A-D403F5089E00}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Dance Therapy Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="625052513"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dance Therapy Loop" ID="{2469AB06-4CBB-4DE2-9E1A-D403F5089E00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Dance Therapy Intro" ID="{A086B942-DAD9-4268-B673-0DA5142D643F}"/>
+										<ItemRef Name="Dance Therapy Loop" ID="{FF4B95E0-D29D-4F2B-B2A2-52C5C8D870D1}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="Scenario" ID="{7F262429-02F6-4274-AFFC-1B8D18AFD5E2}" ShortID="357164862">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Scenario" ID="{A00C8A2E-7744-4360-BC06-A26386687D85}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Scenario.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="146585453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Scenario" ID="{A00C8A2E-7744-4360-BC06-A26386687D85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Flamenco" ID="{5257E596-F590-47F4-8A7D-84F8EC8AF8D7}" ShortID="400445442">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Flamenco" ID="{814B590E-D528-4A58-A205-47B10D50CAD5}" ShortID="854343216">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flamenco" ID="{78E3ACE1-6127-4A4C-9CA7-5F1322626FF3}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Flamenco.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="658696158"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flamenco" ID="{78E3ACE1-6127-4A4C-9CA7-5F1322626FF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlamencoLoop" ID="{32649A10-DADF-48D2-97CF-3731E2733431}" ShortID="280287360">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlamencoLoop" ID="{7240C3BD-8990-4F8B-AC62-F87F83EA25CE}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\FlamencoLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="682654059"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FlamencoLoop" ID="{7240C3BD-8990-4F8B-AC62-F87F83EA25CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Flamenco" ID="{814B590E-D528-4A58-A205-47B10D50CAD5}"/>
+										<ItemRef Name="FlamencoLoop" ID="{32649A10-DADF-48D2-97CF-3731E2733431}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="SpringLoaded" ID="{73E91349-D411-4038-A7DA-04431AED7939}" ShortID="730329684">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SpringLoaded" ID="{FCD7ADB5-03C9-475D-B11D-32BC6AA80E2E}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\SpringLoaded.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="628532740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SpringLoaded" ID="{FCD7ADB5-03C9-475D-B11D-32BC6AA80E2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Droop" ID="{08A382A8-02ED-4C3D-94D5-2173A314712F}" ShortID="1033655358">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Droop" ID="{650F89E8-804F-45B3-954B-93BC56347698}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Droop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504147652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Droop" ID="{650F89E8-804F-45B3-954B-93BC56347698}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Paws&amp;Claws" ID="{B7539041-A1CB-4212-AAB4-C2BCF58D4452}" ShortID="148178554">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Im A Cat" ID="{913C5630-E6D3-4386-A8A7-1FA01510B4D2}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Im A Cat.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="914307656"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Im A Cat" ID="{913C5630-E6D3-4386-A8A7-1FA01510B4D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Infectious" ID="{D57FD087-4AA2-4B84-BA53-C33B449F6533}" ShortID="37771408">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Infectious" ID="{62489B9F-9210-44B0-92DD-2E0ABE9E786C}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Infectious.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="198448931"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Infectious" ID="{62489B9F-9210-44B0-92DD-2E0ABE9E786C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OldSchool" ID="{4753B385-CEA2-49E0-A538-CC01D2E67158}" ShortID="85874440">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Old SChool" ID="{0FF5C5CA-B535-483E-B0C4-9B85EDA43499}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Old SChool.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="957939238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Old SChool" ID="{0FF5C5CA-B535-483E-B0C4-9B85EDA43499}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ElectroSwing" ID="{2D1234AA-3537-4D4E-B938-5E6D80B3D11A}" ShortID="361021431">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ElectroSwing" ID="{1657A003-CFA8-4A00-80AD-8DEC21FF20EF}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\ElectroSwing.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960109726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ElectroSwing" ID="{1657A003-CFA8-4A00-80AD-8DEC21FF20EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DanceMoves" ID="{788A09D8-E7A3-4490-8C93-87F82CAD8149}" ShortID="773850858">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fortnite default dance sound" ID="{949750DC-C417-4E59-9EBA-B44B1EEE785C}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Fortnite default dance sound.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719458032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fortnite default dance sound" ID="{949750DC-C417-4E59-9EBA-B44B1EEE785C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Infinidab" ID="{B7B4A42E-867C-4343-B2AB-02B770FDC54E}" ShortID="203838209">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="InfinidabIntro" ID="{4B68D23F-A469-4041-B4DE-1A67FFA2DD00}" ShortID="581240298">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="InfinidabIntro" ID="{602035C7-A686-4503-8AF9-7E95E2581D8C}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\InfinidabIntro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="830724367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="InfinidabIntro" ID="{602035C7-A686-4503-8AF9-7E95E2581D8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="InfinidabLoop" ID="{B5E9A4B6-64BA-445E-895C-3327C846ADBF}" ShortID="648549614">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="InfinidabLoop" ID="{B1BAA17B-9367-40AB-9D22-046695466D45}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\InfinidabLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="250120523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="InfinidabLoop" ID="{B1BAA17B-9367-40AB-9D22-046695466D45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="InfinidabIntro" ID="{4B68D23F-A469-4041-B4DE-1A67FFA2DD00}"/>
+										<ItemRef Name="InfinidabLoop" ID="{B5E9A4B6-64BA-445E-895C-3327C846ADBF}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="NinjaStyle" ID="{3436D118-4D48-4221-98FB-579F86D46312}" ShortID="919512477">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NinjaStyle" ID="{C8CA6B47-F7F5-4DA4-9FF5-75296FCD9516}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\NinjaStyle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787738225"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NinjaStyle" ID="{C8CA6B47-F7F5-4DA4-9FF5-75296FCD9516}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Springy" ID="{1C407B6C-E434-4704-846C-78BCB6FEC121}" ShortID="941455005">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Springy" ID="{B1B91D85-A02E-4AE5-A933-717C76221B0F}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Springy.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="105575453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Springy" ID="{B1B91D85-A02E-4AE5-A933-717C76221B0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FancyFeet" ID="{44E1DFB3-E09C-4287-B2FA-B2F14C4E1D2F}" ShortID="441228819">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FancyFeet" ID="{3E260FC4-1357-43EA-BC1B-9F0D5AED5657}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\FancyFeet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665818124"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FancyFeet" ID="{3E260FC4-1357-43EA-BC1B-9F0D5AED5657}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fresh" ID="{540A72D2-7178-4840-835C-4895E1F1A883}" ShortID="639756672">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fresh" ID="{FD60BCAC-C097-4233-ABE3-987C4C4BF615}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Fresh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329430408"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fresh" ID="{FD60BCAC-C097-4233-ABE3-987C4C4BF615}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Floss" ID="{0242B43A-F97C-4651-9D05-BB44A0A06862}" ShortID="959820601">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Floss" ID="{DD488403-D366-43C0-975A-1290DB5D44E8}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Floss.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104657059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Floss" ID="{DD488403-D366-43C0-975A-1290DB5D44E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OrangeJustice" ID="{46E17848-C3F9-4A7F-BFC0-6820EEA80258}" ShortID="947529326">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Orange Justice" ID="{A7B5902E-E35F-45DF-B24E-D2D9C85167E7}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Orange Justice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="207251754"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Orange Justice" ID="{A7B5902E-E35F-45DF-B24E-D2D9C85167E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Overdrive" ID="{33265D09-055B-4F74-BA02-266D25C63153}" ShortID="1034321428">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Overdrive" ID="{56C2388B-A9F8-4647-96E8-2DE5672F37E0}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Overdrive.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351681333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Overdrive" ID="{56C2388B-A9F8-4647-96E8-2DE5672F37E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hype" ID="{35F69F7F-D7FB-4CF1-98B0-46A3498461C8}" ShortID="866824137">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hype" ID="{F2BA7DFD-26AC-4FF7-A58E-73EDCDA67CDC}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Hype.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423398404"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hype" ID="{F2BA7DFD-26AC-4FF7-A58E-73EDCDA67CDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Intensity" ID="{E58F1211-5793-4FC6-9AF3-89E1450BD380}" ShortID="352483714">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="IntesityIntro" ID="{3F204546-15A1-452B-90EF-5D4FE11CC1F3}" ShortID="757161178">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IntesityIntro" ID="{03D16839-24C3-4D8C-BFF2-9423BE0F425C}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\IntesityIntro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="249196016"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IntesityIntro" ID="{03D16839-24C3-4D8C-BFF2-9423BE0F425C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="IntensityLoop" ID="{7F595930-CECB-4A7A-8BC7-A99DAA410C25}" ShortID="31597478">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IntensityLoop" ID="{02CAE284-570B-47AB-B4D5-0E88919C4655}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\IntensityLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808233883"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IntensityLoop" ID="{02CAE284-570B-47AB-B4D5-0E88919C4655}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="IntesityIntro" ID="{3F204546-15A1-452B-90EF-5D4FE11CC1F3}"/>
+										<ItemRef Name="IntensityLoop" ID="{7F595930-CECB-4A7A-8BC7-A99DAA410C25}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="new emotes 2" ID="{B825A56E-0E5A-46B6-940A-CEC7CB4F62AB}" ShortID="283149882">
+							<ChildrenList>
+								<Sound Name="PPmusic" ID="{067EBB9D-80C5-42C0-90F8-9F3B72B57AF9}" ShortID="454777826">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PPmusic" ID="{629792AD-7466-439E-BE89-8C123DD6962C}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\PPmusic.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787279635"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PPmusic" ID="{629792AD-7466-439E-BE89-8C123DD6962C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GetDown" ID="{B2EAF16F-C890-4F26-BEDF-2939C702EC7F}" ShortID="231838274">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GetDown" ID="{B2BFC4BC-78EF-46C4-835E-6CB3C777BA0D}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\GetDown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892494116"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GetDown" ID="{B2BFC4BC-78EF-46C4-835E-6CB3C777BA0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Yakuza" ID="{A973CF4E-147E-429B-BBA4-20E27DD6218D}" ShortID="977136643">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Yakuza" ID="{1721DE08-10A8-4EE4-B5D6-19DCD7693C2B}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Yakuza.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="356289195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Yakuza" ID="{1721DE08-10A8-4EE4-B5D6-19DCD7693C2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Miku" ID="{41C51840-4F23-4EC4-97A8-E211859FA5EC}" ShortID="1022188121">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Miku" ID="{06158597-A6CA-4D7E-9F6B-D1705D7D0E28}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Miku.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5854293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Miku" ID="{06158597-A6CA-4D7E-9F6B-D1705D7D0E28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Horny" ID="{F79A9C3A-8FA1-42B5-A00F-F99513F19C12}" ShortID="814933292">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horny" ID="{7FF23017-312A-4D0E-BDDB-893AD845AC3E}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Horny.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="800301908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Horny" ID="{7FF23017-312A-4D0E-BDDB-893AD845AC3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GangTorture" ID="{D0D65DF3-B938-47DF-9701-C738737578B5}" ShortID="574865699">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GangTorture" ID="{63856BC7-79CC-47DF-9915-857627E6A106}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\GangTorture.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350421790"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GangTorture" ID="{63856BC7-79CC-47DF-9915-857627E6A106}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GinyuForce" ID="{4E637AB8-7606-4162-B37A-F3D595B50032}" ShortID="59408695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GinyuForce" ID="{42102A07-5FB0-405A-96B8-9B6669A4E3CE}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\GinyuForce.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359863975"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GinyuForce" ID="{42102A07-5FB0-405A-96B8-9B6669A4E3CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="StandingHere" ID="{84E253BF-D261-4A29-89CE-FD084099B71F}" ShortID="105897859">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="StandingHere" ID="{E65A45AB-D363-44AA-AE38-2034CD47BC53}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\StandingHere.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="384265436"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="StandingHere" ID="{E65A45AB-D363-44AA-AE38-2034CD47BC53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Carson" ID="{CDE194B3-608A-4E39-988A-5A4EB4B1AC14}" ShortID="582841205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Carson" ID="{8975C487-919B-48B9-803E-0B7088217733}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Carson.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104807641"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Carson" ID="{8975C487-919B-48B9-803E-0B7088217733}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Frolic" ID="{79AEEBF3-0478-4FCB-AED6-0AB81FCBCA77}" ShortID="609451687">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Frolic" ID="{176172B1-BE1C-4FC6-9A2F-008BF35599EF}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Frolic.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="667027545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Frolic" ID="{176172B1-BE1C-4FC6-9A2F-008BF35599EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MoveIt" ID="{9AF8D655-0459-43E9-B6A9-23B655FEA3E7}" ShortID="353761683">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MoveIt" ID="{B8DF835E-604E-4E7E-A224-184D94BEB23F}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\MoveIt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372285233"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MoveIt" ID="{B8DF835E-604E-4E7E-A224-184D94BEB23F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ByTheFire" ID="{0D8843E5-F7EB-4E91-8A70-7B8273D317A9}" ShortID="33288493">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ByTheFire" ID="{C73B9676-EB23-45CC-9E45-327740233F4E}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\ByTheFire.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="222179220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ByTheFire" ID="{C73B9676-EB23-45CC-9E45-327740233F4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sway" ID="{81A75E20-90EB-4857-8D15-3402322477C1}" ShortID="938404680">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sway" ID="{91291F74-EDF4-46D5-A596-291801F6EECE}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Sway.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="637023442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sway" ID="{91291F74-EDF4-46D5-A596-291801F6EECE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Macarena" ID="{8C5D90ED-992E-4A47-8278-9653572F07D8}" ShortID="622040635">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Macarena" ID="{8213217D-0C5A-4ECF-AF61-27C7299FB4D1}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Macarena.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267329345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Macarena" ID="{8213217D-0C5A-4ECF-AF61-27C7299FB4D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Renegade" ID="{3C346A95-2AC3-446C-BC7B-2071700EE313}" ShortID="56434696">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Renegade" ID="{7713E401-37D8-4901-8D30-3934D3597F04}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Renegade.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589932617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Renegade" ID="{7713E401-37D8-4901-8D30-3934D3597F04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Thanos" ID="{9E72ADC3-9AEF-4C7D-800C-69E952A2E842}" ShortID="62621157">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Thanos" ID="{927A988B-F228-4F68-BBDE-17F1AFDB1A78}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Thanos.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950145501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Thanos" ID="{927A988B-F228-4F68-BBDE-17F1AFDB1A78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="StarGet" ID="{78C01439-44A0-4A42-AF8A-AD873980975D}" ShortID="474913003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="StarGet2" ID="{7401140A-0435-479D-878A-DDA12182BD68}" ShortID="193613144">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StarGet2" ID="{FFA544B2-2210-4220-99D8-2366533E8F80}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\StarGet2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="269508921"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StarGet2" ID="{FFA544B2-2210-4220-99D8-2366533E8F80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="starget3" ID="{FEC22B71-3041-4C5A-843B-73302B2F663E}" ShortID="852369358">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="starget3" ID="{DC0A58C9-7784-427D-8DBD-F21E0FB058EC}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\starget3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112117115"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="starget3" ID="{DC0A58C9-7784-427D-8DBD-F21E0FB058EC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="starget4" ID="{FEF0AEAB-4ECD-45C9-B85E-B15DD65AA8C5}" ShortID="262014162">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="starget4" ID="{552FF77B-3BEA-456D-AE45-3DD948DBAAD5}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\starget4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="717722066"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="starget4" ID="{552FF77B-3BEA-456D-AE45-3DD948DBAAD5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="starget5" ID="{76ED7103-A3D5-43B7-8F09-EBCDC85C7C75}" ShortID="837500334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="starget5" ID="{F791A711-8842-4360-AA01-85186705A143}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\starget5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="959529791"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="starget5" ID="{F791A711-8842-4360-AA01-85186705A143}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="starget6" ID="{A070D179-F673-47CB-BFF0-7C9A5A85FCDA}" ShortID="141225946">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="starget6" ID="{EE1CB034-409E-4E37-8502-DED3C2279BAE}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\starget6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="540478322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="starget6" ID="{EE1CB034-409E-4E37-8502-DED3C2279BAE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="starget7" ID="{6661D1B3-A769-42EB-940F-E9896EC1A501}" ShortID="117273056">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="starget7" ID="{F353B7C1-E285-46A3-A63F-A1560653675A}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\starget7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="236167254"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="starget7" ID="{F353B7C1-E285-46A3-A63F-A1560653675A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Poyo" ID="{6E6D8CDE-32BB-4280-AB8E-3AB0D23F5CD3}" ShortID="45274267">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Poyo" ID="{83DA5C5F-63B8-49A3-8739-938FB719EDA5}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Poyo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396533803"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Poyo" ID="{83DA5C5F-63B8-49A3-8739-938FB719EDA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Hi" ID="{DB1DBEC2-25BB-4171-90D5-01F733C43DD9}" ShortID="854516779">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="hi1" ID="{D8944EEB-C9BA-4C73-865E-4F10EA3867FB}" ShortID="317713190">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hi1" ID="{5DFE4100-278A-4F75-9E2D-DA82A27D2957}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Hi\hi1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="838367546"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="hi1" ID="{5DFE4100-278A-4F75-9E2D-DA82A27D2957}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hi2" ID="{A597E1DD-DDB4-4960-8784-6131C4AB646C}" ShortID="24506540">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hi2" ID="{EECCD0DB-7460-4996-817D-8A908C5E8DCA}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Hi\hi2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604678094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="hi2" ID="{EECCD0DB-7460-4996-817D-8A908C5E8DCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hi3" ID="{0109C267-C58E-4AF1-8AFC-F3FF7751063B}" ShortID="31941796">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hi3" ID="{56B0FC13-2D1E-4293-B0BC-8A018D6D0959}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Hi\hi3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="876497341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="hi3" ID="{56B0FC13-2D1E-4293-B0BC-8A018D6D0959}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hi4" ID="{3B108036-43DA-49D1-B233-1D98734CF1AD}" ShortID="245865464">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hi4" ID="{D2EFFC51-89AC-4337-8166-543B1837BB18}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Hi\hi4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1048696440"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="hi4" ID="{D2EFFC51-89AC-4337-8166-543B1837BB18}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hi5" ID="{00B3E054-CBD0-4A18-BCB5-708E95BD2A32}" ShortID="919282214">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hi5" ID="{DA10B6BB-1243-4107-81EF-CA0A46608E1C}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Hi\hi5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328795648"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="hi5" ID="{DA10B6BB-1243-4107-81EF-CA0A46608E1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Butt" ID="{52EB926F-80AC-4CDD-ADE1-308EF2637CEF}" ShortID="139865765">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Butt" ID="{6BA20A38-3169-404C-8235-B913283DD953}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Butt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="74182108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Butt" ID="{6BA20A38-3169-404C-8235-B913283DD953}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goopie" ID="{B3B5B7DE-947B-4931-9A91-C39AF1138BB4}" ShortID="616864906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goopie" ID="{27519482-A2ED-4668-8DB1-C4D83C7C51F4}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Goopie.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846861708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goopie" ID="{27519482-A2ED-4668-8DB1-C4D83C7C51F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crossbounce" ID="{D3BAA52B-99F0-4DD7-A039-DFC68160AEFA}" ShortID="189041705">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crossbounce" ID="{CF5EB2D8-F98C-486A-915E-8A5270B48CE0}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Crossbounce.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945033372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crossbounce" ID="{CF5EB2D8-F98C-486A-915E-8A5270B48CE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Sad" ID="{8EEAD0C3-8CDD-4827-A0B6-6165FD1498F9}" ShortID="615088697">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Athena_Emote_SadTrombone" ID="{12B393B4-0E55-40E6-B12E-3B5E5511D894}" ShortID="757651435">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Athena_Emote_SadTrombone" ID="{36B22251-E30F-4627-AD76-E906047ECEB5}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Sad\Athena_Emote_SadTrombone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115302274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Athena_Emote_SadTrombone" ID="{36B22251-E30F-4627-AD76-E906047ECEB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Trombonetauntv2" ID="{EEAA310D-198D-47F5-89BC-86ABA959DBFF}" ShortID="513943773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Trombonetauntv2" ID="{D327E664-3B23-445B-BD38-9126541074A5}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Sad\Trombonetauntv2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="31086969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Trombonetauntv2" ID="{D327E664-3B23-445B-BD38-9126541074A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wah Wah Wahhhh (Sound Effect)" ID="{81B07FE7-FF6B-4D62-BC3B-8BE497EA1AC0}" ShortID="188960589">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wah Wah Wahhhh (Sound Effect)" ID="{D746D4A5-2672-49AB-B270-D59C509F44F5}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Sad\Wah Wah Wahhhh (Sound Effect).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534816575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wah Wah Wahhhh (Sound Effect)" ID="{D746D4A5-2672-49AB-B270-D59C509F44F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Chika" ID="{BFDC8883-8452-4128-A5D9-2FA7B3190BF3}" ShortID="27306401">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chika" ID="{EC6959E9-6995-4CE4-B3F4-85BC6DD85AFF}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Chika.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057510112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chika" ID="{EC6959E9-6995-4CE4-B3F4-85BC6DD85AFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="New emotes 3" ID="{E1401F6E-5FA8-4021-A313-98363C111399}" ShortID="689055934">
+							<ChildrenList>
+								<Sound Name="SuperIdol" ID="{726795A8-9C32-4B0A-A823-A42A72202B1E}" ShortID="105607069">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SuperIdol" ID="{2CD2A1C7-9AFC-4584-8361-1A0BBC671EF9}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\SuperIdol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="444764063"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SuperIdol" ID="{2CD2A1C7-9AFC-4584-8361-1A0BBC671EF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

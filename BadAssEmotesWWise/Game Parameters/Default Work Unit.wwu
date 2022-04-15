@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Volume_Emotes" ID="{3997388B-7362-4A82-AB62-5499D6BC825F}"/>
+				<GameParameter Name="Volume_SFX" ID="{B6032CCD-6758-4116-9B5D-CE3FB72446C1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

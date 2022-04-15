@@ -1,0 +1,238 @@
+Event	ID	Name			Wwise Object Path	Notes
+	29792155	Stop_Flamenco			\Default Work Unit\Emotes\Stop_Flamenco	
+	95990573	Stop_Goopie			\Default Work Unit\New Emotes 2\Stop_Goopie	
+	170285316	Stop_Sad			\Default Work Unit\New Emotes 2\Stop_Sad	
+	171083968	Stop_MoveIt			\Default Work Unit\New Emotes 2\Stop_MoveIt	
+	196555151	Play_Crabby			\Default Work Unit\Emotes\Play_Crabby	
+	223087538	Play_BestMates			\Default Work Unit\New Emotes 1\Play_BestMates	
+	229814850	Play_Crossbounce			\Default Work Unit\New Emotes 2\Play_Crossbounce	
+	240058584	Play_StandingHere			\Default Work Unit\New Emotes 2\Play_StandingHere	
+	246143008	Play_Paws_Claws			\Default Work Unit\Emotes\Play_Paws_Claws	
+	256153500	Stop_StarGet			\Default Work Unit\New Emotes 2\Stop_StarGet	
+	299993122	Play_Sway			\Default Work Unit\New Emotes 2\Play_Sway	
+	308903397	Stop_Renegade			\Default Work Unit\New Emotes 2\Stop_Renegade	
+	393452856	Stop_Droop			\Default Work Unit\Emotes\Stop_Droop	
+	461605231	Stop_Thicc			\Default Work Unit\New Emotes 1\Stop_Thicc	
+	476094675	Stop_Intensity			\Default Work Unit\Emotes\Stop_Intensity	
+	478603733	Stop_Yakuza			\Default Work Unit\New Emotes 2\Stop_Yakuza	
+	578450013	Stop_ArkDance			\Default Work Unit\New Emotes 1\Stop_ArkDance	
+	587463168	Stop_GetDown			\Default Work Unit\New Emotes 2\Stop_GetDown	
+	609354958	Stop_LetsDanceBoys			\Default Work Unit\New Emotes 1\Stop_LetsDanceBoys	
+	726991772	Play_Overdrive			\Default Work Unit\Emotes\Play_Overdrive	
+	770905341	Play_Intensity			\Default Work Unit\Emotes\Play_Intensity	
+	789686538	Stop_Cartwheelin			\Default Work Unit\New Emotes 1\Stop_Cartwheelin	
+	791024472	Play_TakeTheL			\Default Work Unit\New Emotes 1\Play_TakeTheL	
+	851915445	Play_Thanos			\Default Work Unit\New Emotes 2\Play_Thanos	
+	852365355	Play_Goopie			\Default Work Unit\New Emotes 2\Play_Goopie	
+	926917861	Stop_OrangeJustice			\Default Work Unit\Emotes\Stop_OrangeJustice	
+	981597226	Play_Never_Gonna_Give_you_Up			\Default Work Unit\Emotes\Play_Never_Gonna_Give_you_Up	
+	1000996504	Stop_BestMates			\Default Work Unit\New Emotes 1\Stop_BestMates	
+	1044337974	Stop_Infinidab			\Default Work Unit\Emotes\Stop_Infinidab	
+	1052653477	Stop_Frolic			\Default Work Unit\New Emotes 2\Stop_Frolic	
+	1073155275	Play_DanceMoves			\Default Work Unit\Emotes\Play_DanceMoves	
+	1078219310	Stop_Carson			\Default Work Unit\New Emotes 2\Stop_Carson	
+	1084720583	Stop_AnkhaZone			\Default Work Unit\New Emotes 1\Stop_AnkhaZone	
+	1117427782	Stop_Paws_Claws			\Default Work Unit\Emotes\Stop_Paws_Claws	
+	1163679226	Play_BlindingLights			\Default Work Unit\New Emotes 1\Play_BlindingLights	
+	1275111858	Play_Horny			\Default Work Unit\New Emotes 2\Play_Horny	
+	1337364286	Stop_PhoneItIn			\Default Work Unit\Emotes\Stop_PhoneItIn	
+	1400165779	Stop_TheRobot			\Default Work Unit\New Emotes 1\Stop_TheRobot	
+	1400398136	Play_Cartwheelin			\Default Work Unit\New Emotes 1\Play_Cartwheelin	
+	1413951596	Play_ElectroSwing			\Default Work Unit\Emotes\Play_ElectroSwing	
+	1505758822	Stop_Chika			\Default Work Unit\Stop_Chika	
+	1538240022	Play_Fresh			\Default Work Unit\Emotes\Play_Fresh	
+	1540665125	Play_Floss			\Default Work Unit\Emotes\Play_Floss	
+	1544852033	Stop_Extraterestrial			\Default Work Unit\Emotes\Stop_Extraterestrial	
+	1560338856	Stop_DanceTherapy			\Default Work Unit\Emotes\Stop_DanceTherapy	
+	1585167278	Stop_ImDiamond			\Default Work Unit\New Emotes 1\Stop_ImDiamond	
+	1593989185	Play_Specialist			\Default Work Unit\New Emotes 1\Play_Specialist	
+	1600955909	Stop_BunnyHop			\Default Work Unit\New Emotes 1\Stop_BunnyHop	
+	1672912446	Play_Breakneck			\Default Work Unit\Emotes\Play_Breakneck	
+	1687329012	Stop_Never_Gonna_Give_you_Up			\Default Work Unit\Emotes\Stop_Never_Gonna_Give_you_Up	
+	1732242186	Play_MoveIt			\Default Work Unit\New Emotes 2\Play_MoveIt	
+	1765621212	Play_Miku			\Default Work Unit\New Emotes 2\Play_Miku	
+	1786437368	Stop_Crossbounce			\Default Work Unit\New Emotes 2\Stop_Crossbounce	
+	1791795284	Play_Scenario			\Default Work Unit\Emotes\Play_Scenario	
+	1808941305	Play_Butt			\Default Work Unit\New Emotes 2\Play_Butt	
+	1818147751	Stop_Thanos			\Default Work Unit\New Emotes 2\Stop_Thanos	
+	1920913173	Play_Poyo			\Default Work Unit\New Emotes 2\Play_Poyo	
+	1937403564	Stop_Springy			\Default Work Unit\Emotes\Stop_Springy	
+	1982780246	Stop_Macarena			\Default Work Unit\New Emotes 2\Stop_Macarena	
+	1985354438	Play_PopLock			\Default Work Unit\Emotes\Play_PopLock	
+	2002994874	Play_Springy			\Default Work Unit\Emotes\Play_Springy	
+	2113712877	Stop_Crabby			\Default Work Unit\Emotes\Stop_Crabby	
+	2234559522	Stop_TakeTheL			\Default Work Unit\New Emotes 1\Stop_TakeTheL	
+	2237729388	Play_Infinidab			\Default Work Unit\Emotes\Play_Infinidab	
+	2244413701	Play_Infectious			\Default Work Unit\Emotes\Play_Infectious	
+	2255872501	Play_CrazyFeet			\Default Work Unit\New Emotes 1\Play_CrazyFeet	
+	2258123542	Stop_Scenario			\Default Work Unit\Emotes\Stop_Scenario	
+	2258858796	Play_Crackdown			\Default Work Unit\New Emotes 1\Play_Crackdown	
+	2273384033	Play_AnkhaZone			\Default Work Unit\New Emotes 1\Play_AnkhaZone	
+	2323178122	Play_SquatKick			\Default Work Unit\Emotes\Play_SquatKick	
+	2339110651	Stop_OldSchool			\Default Work Unit\Emotes\Stop_OldSchool	
+	2343795684	Stop_Fresh			\Default Work Unit\Emotes\Stop_Fresh	
+	2423616169	Stop_Hi			\Default Work Unit\New Emotes 2\Stop_Hi	
+	2462568986	Stop_FullTilt			\Default Work Unit\New Emotes 1\Stop_FullTilt	
+	2497743187	Play_Hi			\Default Work Unit\New Emotes 2\Play_Hi	
+	2500679095	Play_Yakuza			\Default Work Unit\New Emotes 2\Play_Yakuza	
+	2519726551	Play_Extraterestrial			\Default Work Unit\Emotes\Play_Extraterestrial	
+	2578240237	Play_Thicc			\Default Work Unit\New Emotes 1\Play_Thicc	
+	2595956965	Stop_DanceMoves			\Default Work Unit\Emotes\Stop_DanceMoves	
+	2597828886	Play_SpringLoaded			\Default Work Unit\Emotes\Play_SpringLoaded	
+	2637240459	Stop_NinjaStyle			\Default Work Unit\Emotes\Stop_NinjaStyle	
+	2671022266	Stop_GangTorture			\Default Work Unit\New Emotes 2\Stop_GangTorture	
+	2688619661	Play_Flamenco			\Default Work Unit\Emotes\Play_Flamenco	
+	2732782146	Stop_Overdrive			\Default Work Unit\Emotes\Stop_Overdrive	
+	2735417078	Play_StarGet			\Default Work Unit\New Emotes 2\Play_StarGet	
+	2746037049	Stop_PPmusic			\Default Work Unit\New Emotes 2\Stop_PPmusic	
+	2756333940	Stop_Hype			\Default Work Unit\Emotes\Stop_Hype	
+	2785512014	Play_Hype			\Default Work Unit\Emotes\Play_Hype	
+	2817487683	Stop_FancyFeet			\Default Work Unit\Emotes\Stop_FancyFeet	
+	2823183102	Play_DanceTherapy			\Default Work Unit\Emotes\Play_DanceTherapy	
+	2839619656	Play_PhoneItIn			\Default Work Unit\Emotes\Play_PhoneItIn	
+	2863956990	Stop_Miku			\Default Work Unit\New Emotes 2\Stop_Miku	
+	2882547615	Stop_Infectious			\Default Work Unit\Emotes\Stop_Infectious	
+	2889382180	Play_ImDiamond			\Default Work Unit\New Emotes 1\Play_ImDiamond	
+	2898378660	Play_Carson			\Default Work Unit\New Emotes 2\Play_Carson	
+	2900254579	Stop_Specialist			\Default Work Unit\New Emotes 1\Stop_Specialist	
+	2939172889	Play_FancyFeet			\Default Work Unit\Emotes\Play_FancyFeet	
+	2985177453	Play_OldSchool			\Default Work Unit\Emotes\Play_OldSchool	
+	3055967018	Play_ByTheFire			\Default Work Unit\New Emotes 2\Play_ByTheFire	
+	3069711804	Play_Chika			\Default Work Unit\Play_Chika	
+	3132306211	Stop_DontStart			\Default Work Unit\New Emotes 1\Stop_DontStart	
+	3177684802	Stop_GangnamStyle			\Default Work Unit\New Emotes 1\Stop_GangnamStyle	
+	3180981952	Play_GangnamStyle			\Default Work Unit\New Emotes 1\Play_GangnamStyle	
+	3191328536	Stop_PopLock			\Default Work Unit\Emotes\Stop_PopLock	
+	3218083406	Play_GetDown			\Default Work Unit\New Emotes 2\Play_GetDown	
+	3225017982	Play_Sad			\Default Work Unit\New Emotes 2\Play_Sad	
+	3225428019	Stop_ItsDynamite			\Default Work Unit\New Emotes 1\Stop_ItsDynamite	
+	3295654239	Play_OrangeJustice			\Default Work Unit\Emotes\Play_OrangeJustice	
+	3413426191	Play_ArkDance			\Default Work Unit\New Emotes 1\Play_ArkDance	
+	3467103731	Stop_Breakin_			\Default Work Unit\Emotes\Stop_Breakin_	
+	3469606554	Stop_StandingHere			\Default Work Unit\New Emotes 2\Stop_StandingHere	
+	3480225049	Play_Breakin_			\Default Work Unit\Emotes\Play_Breakin_	
+	3561049931	Stop_Butt			\Default Work Unit\New Emotes 2\Stop_Butt	
+	3575995933	Play_TheRobot			\Default Work Unit\New Emotes 1\Play_TheRobot	
+	3581141368	Play_FullTilt			\Default Work Unit\New Emotes 1\Play_FullTilt	
+	3588760379	Stop_Poyo			\Default Work Unit\New Emotes 2\Stop_Poyo	
+	3591569191	Play_Frolic			\Default Work Unit\New Emotes 2\Play_Frolic	
+	3593170719	Stop_CrazyFeet			\Default Work Unit\New Emotes 1\Stop_CrazyFeet	
+	3658764114	Stop_Crackdown			\Default Work Unit\New Emotes 1\Stop_Crackdown	
+	3665331543	Play_BunnyHop			\Default Work Unit\New Emotes 1\Play_BunnyHop	
+	3691419464	Stop_BlindingLights			\Default Work Unit\New Emotes 1\Stop_BlindingLights	
+	3720537328	Stop_Horny			\Default Work Unit\New Emotes 2\Stop_Horny	
+	3743729291	Stop_Dabstand			\Default Work Unit\Emotes\Stop_Dabstand	
+	3753885755	Play_GinyuForce			\Default Work Unit\New Emotes 2\Play_GinyuForce	
+	3760268623	Play_PPmusic			\Default Work Unit\New Emotes 2\Play_PPmusic	
+	3768260481	Play_Dabstand			\Default Work Unit\Emotes\Play_Dabstand	
+	3807099887	Stop_Floss			\Default Work Unit\Emotes\Stop_Floss	
+	3818113153	Play_DontStart			\Default Work Unit\New Emotes 1\Play_DontStart	
+	3846432779	Play_Renegade			\Default Work Unit\New Emotes 2\Play_Renegade	
+	3875528016	Stop_ByTheFire			\Default Work Unit\New Emotes 2\Stop_ByTheFire	
+	3907188806	Stop_ElectroSwing			\Default Work Unit\Emotes\Stop_ElectroSwing	
+	3985412508	Stop_SquatKick			\Default Work Unit\Emotes\Stop_SquatKick	
+	3996257737	Play_ItsDynamite			\Default Work Unit\New Emotes 1\Play_ItsDynamite	
+	4025363538	Play_Droop			\Default Work Unit\Emotes\Play_Droop	
+	4112254572	Play_Macarena			\Default Work Unit\New Emotes 2\Play_Macarena	
+	4122890544	Stop_SpringLoaded			\Default Work Unit\Emotes\Stop_SpringLoaded	
+	4162817568	Stop_Breakneck			\Default Work Unit\Emotes\Stop_Breakneck	
+	4252070008	Play_GangTorture			\Default Work Unit\New Emotes 2\Play_GangTorture	
+	4252381820	Play_LetsDanceBoys			\Default Work Unit\New Emotes 1\Play_LetsDanceBoys	
+	4286638857	Stop_GinyuForce			\Default Work Unit\New Emotes 2\Stop_GinyuForce	
+	4288008096	Stop_Sway			\Default Work Unit\New Emotes 2\Stop_Sway	
+	4289548637	Play_NinjaStyle			\Default Work Unit\Emotes\Play_NinjaStyle	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5854293	Miku	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Miku_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Miku		3968379
+	22197893	Never Gonna Give you Up	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Never Gonna Give you Up_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Never Gonna Give you Up		598305
+	31086969	Trombonetauntv2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Trombonetauntv2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Trombonetauntv2		108909
+	52218649	DontStart	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DontStart_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\DontStart		294639
+	74182108	Butt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Butt_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Butt		24216
+	104657059	Floss	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Floss_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Floss		153188
+	104807641	Carson	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Carson_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Carson		284071
+	105575453	Springy	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Springy_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Springy		228546
+	112117115	starget3	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget3		48322
+	115302274	Athena_Emote_SadTrombone	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Athena_Emote_SadTrombone_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Athena_Emote_SadTrombone		113843
+	139866433	FullTilt2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FullTilt2_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt2		1592004
+	146585453	Scenario	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Scenario_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Scenario		622668
+	153802453	Dance Therapy Intro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dance Therapy Intro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Intro		61971
+	168243202	AnkhaZone	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\AnkhaZone_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\AnkhaZone		2724354
+	170824598	SquatKick	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SquatKick_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SquatKick		267771
+	188156113	Cartwheelin	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Cartwheelin_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Cartwheelin		51839
+	198448931	Infectious	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Infectious_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infectious		1685944
+	207251754	OrangeJustice	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Orange Justice_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OrangeJustice		384152
+	215704961	ArkDance	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ArkDance_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ArkDance		2409026
+	222179220	ByTheFire	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ByTheFire_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\ByTheFire		365693
+	236167254	starget7	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget7_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget7		84998
+	239737930	LetsDanceBoys	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\LetsDanceBoys_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\LetsDanceBoys		3819249
+	249196016	IntesityIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\IntesityIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntesityIntro		120587
+	250120523	InfinidabLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\InfinidabLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabLoop		300231
+	267329345	Macarena	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Macarena_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Macarena		410694
+	269508921	StarGet2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\StarGet2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\StarGet2		55589
+	287756944	BunnyHop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BunnyHop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BunnyHop		344584
+	311636974	Dabstand	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dabstand_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Dabstand		55254
+	313525913	Thicc	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Thicc_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Thicc		2239406
+	321315922	BlindingLightsLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BlindingLightsLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsLoop		293591
+	328795648	hi5	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi5_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi5		49193
+	329430408	Fresh	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Fresh_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Fresh		82597
+	350421790	GangTorture	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangTorture_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GangTorture		914427
+	351681333	Overdrive	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Overdrive_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Overdrive		560722
+	356289195	Yakuza	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Yakuza_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Yakuza		2308908
+	359863975	GinyuForce	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GinyuForce_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GinyuForce		238464
+	372285233	MoveIt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MoveIt_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\MoveIt		149645
+	372643282	Crabby	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crabby_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Crabby		851625
+	384265436	StandingHere	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\StandingHere_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StandingHere		2180636
+	396533803	Poyo	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Poyo_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Poyo		1144374
+	423398404	Hype	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hype_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Hype		283203
+	433757311	PhoneItIn	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Phone It In_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PhoneItIn		372525
+	451183420	CrazyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\CrazyFeet_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\CrazyFeet		518713
+	461389380	PopLock	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PopLock_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PopLock		155660
+	504147652	Droop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Droop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Droop		1058023
+	534816575	Wah Wah Wahhhh (Sound Effect)	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Wah Wah Wahhhh (Sound Effect)		57536
+	540478322	starget6	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget6_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget6		86306
+	551181905	Breakin'	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakin'_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakin'		152099
+	574532012	Crackdown	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crackdown_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Crackdown		249578
+	579062041	ItsDynamite	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ItsDynamite_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ItsDynamite		268775
+	589932617	Renegade	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Renegade_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Renegade		486546
+	604678094	hi2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi2		32606
+	611100602	FullTilt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FullTilt_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt		180480
+	623780510	BestMates	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BestMates_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BestMates		102887
+	625052513	Dance Therapy Loop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dance Therapy Loop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Loop		507536
+	628532740	SpringLoaded	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SpringLoaded_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SpringLoaded		151670
+	635525640	Specialist	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Specialist_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Specialist		3100648
+	637023442	Sway	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sway_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sway		1516129
+	658696158	Flamenco	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Flamenco_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\Flamenco		13328
+	665818124	FancyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FancyFeet_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\FancyFeet		355380
+	667027545	Frolic	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Frolic_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Frolic		2736688
+	682654059	FlamencoLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FlamencoLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\FlamencoLoop		518362
+	700718868	Extraterestrial	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Extraterestrial_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Extraterestrial		526232
+	717722066	starget4	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget4		80438
+	719458032	DanceMoves	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Fortnite default dance sound_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceMoves		131380
+	760458160	ImDiamond	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ImDiamond_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ImDiamond		224513
+	769581195	Breakneck	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakneck_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakneck		737431
+	787279635	PPmusic	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PPmusic_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\PPmusic		338430
+	787738225	NinjaStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\NinjaStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\NinjaStyle		229493
+	800301908	Horny	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Horny_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny		559636
+	808233883	IntensityLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\IntensityLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntensityLoop		486986
+	821426950	TakeTheL	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TakeTheL_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TakeTheL		180199
+	830724367	InfinidabIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\InfinidabIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabIntro		8371
+	838367546	hi1	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi1		20137
+	846861708	Goopie	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Goopie_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Goopie		478562
+	850727505	BlindingLightsIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BlindingLightsIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsIntro		58247
+	876497341	hi3	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi3		44842
+	892494116	GetDown	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GetDown_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GetDown		739548
+	914307656	Paws&Claws	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Im A Cat_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Paws&Claws		3903028
+	945033372	Crossbounce	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crossbounce_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Crossbounce		305096
+	950145501	Thanos	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Thanos_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Thanos		1621858
+	957939238	OldSchool	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Old SChool_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OldSchool		619369
+	959529791	starget5	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget5_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget5		65425
+	960109726	ElectroSwing	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ElectroSwing_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\ElectroSwing		291197
+	1027952488	TheRobot	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TheRobot_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TheRobot		406999
+	1048696440	hi4	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi4		19160
+	1057510112	Chika	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Chika_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Chika		1986210
+	1065322382	GangnamStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangnamStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\GangnamStyle		586652
+

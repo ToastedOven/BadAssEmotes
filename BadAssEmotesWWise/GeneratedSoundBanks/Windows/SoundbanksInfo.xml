@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1903580793">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4059541694" Language="SFX" Hash="874294160">
+			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes</ObjectPath>
+			<ShortName>BadAssEmotes</ShortName>
+			<Path>BadAssEmotes.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2273384033" Name="Play_AnkhaZone" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_AnkhaZone">
+					<IncludedMemoryFiles>
+						<File Id="168243202" Language="SFX">
+							<ShortName>Emotes\AnkhaZone.wav</ShortName>
+							<Path>SFX\Emotes\AnkhaZone_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3413426191" Name="Play_ArkDance" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ArkDance">
+					<IncludedMemoryFiles>
+						<File Id="215704961" Language="SFX">
+							<ShortName>Emotes\ArkDance.wav</ShortName>
+							<Path>SFX\Emotes\ArkDance_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="223087538" Name="Play_BestMates" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BestMates">
+					<IncludedMemoryFiles>
+						<File Id="623780510" Language="SFX">
+							<ShortName>Emotes\BestMates.wav</ShortName>
+							<Path>SFX\Emotes\BestMates_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1163679226" Name="Play_BlindingLights" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BlindingLights">
+					<IncludedMemoryFiles>
+						<File Id="321315922" Language="SFX">
+							<ShortName>Emotes\BlindingLightsLoop.wav</ShortName>
+							<Path>SFX\Emotes\BlindingLightsLoop_6AF693E7.wem</Path>
+						</File>
+						<File Id="850727505" Language="SFX">
+							<ShortName>Emotes\BlindingLightsIntro.wav</ShortName>
+							<Path>SFX\Emotes\BlindingLightsIntro_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3480225049" Name="Play_Breakin_" ObjectPath="\Events\Default Work Unit\Emotes\Play_Breakin_">
+					<IncludedMemoryFiles>
+						<File Id="551181905" Language="SFX">
+							<ShortName>Emotes\Breakin'.wav</ShortName>
+							<Path>SFX\Emotes\Breakin'_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1672912446" Name="Play_Breakneck" ObjectPath="\Events\Default Work Unit\Emotes\Play_Breakneck">
+					<IncludedMemoryFiles>
+						<File Id="769581195" Language="SFX">
+							<ShortName>Emotes\Breakneck.wav</ShortName>
+							<Path>SFX\Emotes\Breakneck_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3665331543" Name="Play_BunnyHop" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BunnyHop">
+					<IncludedMemoryFiles>
+						<File Id="287756944" Language="SFX">
+							<ShortName>Emotes\BunnyHop.wav</ShortName>
+							<Path>SFX\Emotes\BunnyHop_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1808941305" Name="Play_Butt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Butt">
+					<IncludedMemoryFiles>
+						<File Id="74182108" Language="SFX">
+							<ShortName>Emotes\Butt.wav</ShortName>
+							<Path>SFX\Emotes\Butt_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3055967018" Name="Play_ByTheFire" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_ByTheFire">
+					<IncludedMemoryFiles>
+						<File Id="222179220" Language="SFX">
+							<ShortName>Emotes\ByTheFire.wav</ShortName>
+							<Path>SFX\Emotes\ByTheFire_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2898378660" Name="Play_Carson" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Carson">
+					<IncludedMemoryFiles>
+						<File Id="104807641" Language="SFX">
+							<ShortName>Emotes\Carson.wav</ShortName>
+							<Path>SFX\Emotes\Carson_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1400398136" Name="Play_Cartwheelin" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Cartwheelin">
+					<IncludedMemoryFiles>
+						<File Id="188156113" Language="SFX">
+							<ShortName>Emotes\Cartwheelin.wav</ShortName>
+							<Path>SFX\Emotes\Cartwheelin_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3069711804" Name="Play_Chika" ObjectPath="\Events\Default Work Unit\Play_Chika">
+					<IncludedMemoryFiles>
+						<File Id="1057510112" Language="SFX">
+							<ShortName>Emotes\Chika.wav</ShortName>
+							<Path>SFX\Emotes\Chika_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="196555151" Name="Play_Crabby" ObjectPath="\Events\Default Work Unit\Emotes\Play_Crabby">
+					<IncludedMemoryFiles>
+						<File Id="372643282" Language="SFX">
+							<ShortName>Emotes\Crabby.wav</ShortName>
+							<Path>SFX\Emotes\Crabby_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2258858796" Name="Play_Crackdown" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Crackdown">
+					<IncludedMemoryFiles>
+						<File Id="574532012" Language="SFX">
+							<ShortName>Emotes\Crackdown.wav</ShortName>
+							<Path>SFX\Emotes\Crackdown_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2255872501" Name="Play_CrazyFeet" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_CrazyFeet">
+					<IncludedMemoryFiles>
+						<File Id="451183420" Language="SFX">
+							<ShortName>Emotes\CrazyFeet.wav</ShortName>
+							<Path>SFX\Emotes\CrazyFeet_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="229814850" Name="Play_Crossbounce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Crossbounce">
+					<IncludedMemoryFiles>
+						<File Id="945033372" Language="SFX">
+							<ShortName>Emotes\Crossbounce.wav</ShortName>
+							<Path>SFX\Emotes\Crossbounce_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3768260481" Name="Play_Dabstand" ObjectPath="\Events\Default Work Unit\Emotes\Play_Dabstand">
+					<IncludedMemoryFiles>
+						<File Id="311636974" Language="SFX">
+							<ShortName>Emotes\Dabstand.wav</ShortName>
+							<Path>SFX\Emotes\Dabstand_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1073155275" Name="Play_DanceMoves" ObjectPath="\Events\Default Work Unit\Emotes\Play_DanceMoves">
+					<IncludedMemoryFiles>
+						<File Id="719458032" Language="SFX">
+							<ShortName>Emotes\Fortnite default dance sound.wav</ShortName>
+							<Path>SFX\Emotes\Fortnite default dance sound_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2823183102" Name="Play_DanceTherapy" ObjectPath="\Events\Default Work Unit\Emotes\Play_DanceTherapy">
+					<IncludedMemoryFiles>
+						<File Id="153802453" Language="SFX">
+							<ShortName>Emotes\Dance Therapy Intro.wav</ShortName>
+							<Path>SFX\Emotes\Dance Therapy Intro_05842A19.wem</Path>
+						</File>
+						<File Id="625052513" Language="SFX">
+							<ShortName>Emotes\Dance Therapy Loop.wav</ShortName>
+							<Path>SFX\Emotes\Dance Therapy Loop_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3818113153" Name="Play_DontStart" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_DontStart">
+					<IncludedMemoryFiles>
+						<File Id="52218649" Language="SFX">
+							<ShortName>Emotes\DontStart.wav</ShortName>
+							<Path>SFX\Emotes\DontStart_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4025363538" Name="Play_Droop" ObjectPath="\Events\Default Work Unit\Emotes\Play_Droop">
+					<IncludedMemoryFiles>
+						<File Id="504147652" Language="SFX">
+							<ShortName>Emotes\Droop.wav</ShortName>
+							<Path>SFX\Emotes\Droop_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1413951596" Name="Play_ElectroSwing" ObjectPath="\Events\Default Work Unit\Emotes\Play_ElectroSwing">
+					<IncludedMemoryFiles>
+						<File Id="960109726" Language="SFX">
+							<ShortName>Emotes\ElectroSwing.wav</ShortName>
+							<Path>SFX\Emotes\ElectroSwing_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2519726551" Name="Play_Extraterestrial" ObjectPath="\Events\Default Work Unit\Emotes\Play_Extraterestrial">
+					<IncludedMemoryFiles>
+						<File Id="700718868" Language="SFX">
+							<ShortName>Emotes\Extraterestrial.wav</ShortName>
+							<Path>SFX\Emotes\Extraterestrial_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2939172889" Name="Play_FancyFeet" ObjectPath="\Events\Default Work Unit\Emotes\Play_FancyFeet">
+					<IncludedMemoryFiles>
+						<File Id="665818124" Language="SFX">
+							<ShortName>Emotes\FancyFeet.wav</ShortName>
+							<Path>SFX\Emotes\FancyFeet_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2688619661" Name="Play_Flamenco" ObjectPath="\Events\Default Work Unit\Emotes\Play_Flamenco">
+					<IncludedMemoryFiles>
+						<File Id="658696158" Language="SFX">
+							<ShortName>Emotes\Flamenco.wav</ShortName>
+							<Path>SFX\Emotes\Flamenco_05842A19.wem</Path>
+						</File>
+						<File Id="682654059" Language="SFX">
+							<ShortName>Emotes\FlamencoLoop.wav</ShortName>
+							<Path>SFX\Emotes\FlamencoLoop_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1540665125" Name="Play_Floss" ObjectPath="\Events\Default Work Unit\Emotes\Play_Floss">
+					<IncludedMemoryFiles>
+						<File Id="104657059" Language="SFX">
+							<ShortName>Emotes\Floss.wav</ShortName>
+							<Path>SFX\Emotes\Floss_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1538240022" Name="Play_Fresh" ObjectPath="\Events\Default Work Unit\Emotes\Play_Fresh">
+					<IncludedMemoryFiles>
+						<File Id="329430408" Language="SFX">
+							<ShortName>Emotes\Fresh.wav</ShortName>
+							<Path>SFX\Emotes\Fresh_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3591569191" Name="Play_Frolic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Frolic">
+					<IncludedMemoryFiles>
+						<File Id="667027545" Language="SFX">
+							<ShortName>Emotes\Frolic.wav</ShortName>
+							<Path>SFX\Emotes\Frolic_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3581141368" Name="Play_FullTilt" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_FullTilt">
+					<IncludedMemoryFiles>
+						<File Id="139866433" Language="SFX">
+							<ShortName>Emotes\FullTilt2.wav</ShortName>
+							<Path>SFX\Emotes\FullTilt2_6AF693E7.wem</Path>
+						</File>
+						<File Id="611100602" Language="SFX">
+							<ShortName>Emotes\FullTilt.wav</ShortName>
+							<Path>SFX\Emotes\FullTilt_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3180981952" Name="Play_GangnamStyle" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_GangnamStyle">
+					<IncludedMemoryFiles>
+						<File Id="1065322382" Language="SFX">
+							<ShortName>Emotes\GangnamStyle.wav</ShortName>
+							<Path>SFX\Emotes\GangnamStyle_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4252070008" Name="Play_GangTorture" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GangTorture">
+					<IncludedMemoryFiles>
+						<File Id="350421790" Language="SFX">
+							<ShortName>Emotes\GangTorture.wav</ShortName>
+							<Path>SFX\Emotes\GangTorture_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3218083406" Name="Play_GetDown" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GetDown">
+					<IncludedMemoryFiles>
+						<File Id="892494116" Language="SFX">
+							<ShortName>Emotes\GetDown.wav</ShortName>
+							<Path>SFX\Emotes\GetDown_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3753885755" Name="Play_GinyuForce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GinyuForce">
+					<IncludedMemoryFiles>
+						<File Id="359863975" Language="SFX">
+							<ShortName>Emotes\GinyuForce.wav</ShortName>
+							<Path>SFX\Emotes\GinyuForce_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="852365355" Name="Play_Goopie" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Goopie">
+					<IncludedMemoryFiles>
+						<File Id="846861708" Language="SFX">
+							<ShortName>Emotes\Goopie.wav</ShortName>
+							<Path>SFX\Emotes\Goopie_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2497743187" Name="Play_Hi" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Hi">
+					<IncludedMemoryFiles>
+						<File Id="328795648" Language="SFX">
+							<ShortName>Emotes\Hi\hi5.wav</ShortName>
+							<Path>SFX\Emotes\Hi\hi5_05842A19.wem</Path>
+						</File>
+						<File Id="604678094" Language="SFX">
+							<ShortName>Emotes\Hi\hi2.wav</ShortName>
+							<Path>SFX\Emotes\Hi\hi2_05842A19.wem</Path>
+						</File>
+						<File Id="838367546" Language="SFX">
+							<ShortName>Emotes\Hi\hi1.wav</ShortName>
+							<Path>SFX\Emotes\Hi\hi1_05842A19.wem</Path>
+						</File>
+						<File Id="876497341" Language="SFX">
+							<ShortName>Emotes\Hi\hi3.wav</ShortName>
+							<Path>SFX\Emotes\Hi\hi3_05842A19.wem</Path>
+						</File>
+						<File Id="1048696440" Language="SFX">
+							<ShortName>Emotes\Hi\hi4.wav</ShortName>
+							<Path>SFX\Emotes\Hi\hi4_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1275111858" Name="Play_Horny" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Horny">
+					<IncludedMemoryFiles>
+						<File Id="800301908" Language="SFX">
+							<ShortName>Emotes\Horny.wav</ShortName>
+							<Path>SFX\Emotes\Horny_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2785512014" Name="Play_Hype" ObjectPath="\Events\Default Work Unit\Emotes\Play_Hype">
+					<IncludedMemoryFiles>
+						<File Id="423398404" Language="SFX">
+							<ShortName>Emotes\Hype.wav</ShortName>
+							<Path>SFX\Emotes\Hype_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2889382180" Name="Play_ImDiamond" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ImDiamond">
+					<IncludedMemoryFiles>
+						<File Id="760458160" Language="SFX">
+							<ShortName>Emotes\ImDiamond.wav</ShortName>
+							<Path>SFX\Emotes\ImDiamond_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2244413701" Name="Play_Infectious" ObjectPath="\Events\Default Work Unit\Emotes\Play_Infectious">
+					<IncludedMemoryFiles>
+						<File Id="198448931" Language="SFX">
+							<ShortName>Emotes\Infectious.wav</ShortName>
+							<Path>SFX\Emotes\Infectious_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2237729388" Name="Play_Infinidab" ObjectPath="\Events\Default Work Unit\Emotes\Play_Infinidab">
+					<IncludedMemoryFiles>
+						<File Id="250120523" Language="SFX">
+							<ShortName>Emotes\InfinidabLoop.wav</ShortName>
+							<Path>SFX\Emotes\InfinidabLoop_6AF693E7.wem</Path>
+						</File>
+						<File Id="830724367" Language="SFX">
+							<ShortName>Emotes\InfinidabIntro.wav</ShortName>
+							<Path>SFX\Emotes\InfinidabIntro_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="770905341" Name="Play_Intensity" ObjectPath="\Events\Default Work Unit\Emotes\Play_Intensity">
+					<IncludedMemoryFiles>
+						<File Id="249196016" Language="SFX">
+							<ShortName>Emotes\IntesityIntro.wav</ShortName>
+							<Path>SFX\Emotes\IntesityIntro_05842A19.wem</Path>
+						</File>
+						<File Id="808233883" Language="SFX">
+							<ShortName>Emotes\IntensityLoop.wav</ShortName>
+							<Path>SFX\Emotes\IntensityLoop_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3996257737" Name="Play_ItsDynamite" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ItsDynamite">
+					<IncludedMemoryFiles>
+						<File Id="579062041" Language="SFX">
+							<ShortName>Emotes\ItsDynamite.wav</ShortName>
+							<Path>SFX\Emotes\ItsDynamite_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4252381820" Name="Play_LetsDanceBoys" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_LetsDanceBoys">
+					<IncludedMemoryFiles>
+						<File Id="239737930" Language="SFX">
+							<ShortName>Emotes\LetsDanceBoys.wav</ShortName>
+							<Path>SFX\Emotes\LetsDanceBoys_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4112254572" Name="Play_Macarena" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Macarena">
+					<IncludedMemoryFiles>
+						<File Id="267329345" Language="SFX">
+							<ShortName>Emotes\Macarena.wav</ShortName>
+							<Path>SFX\Emotes\Macarena_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1765621212" Name="Play_Miku" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Miku">
+					<IncludedMemoryFiles>
+						<File Id="5854293" Language="SFX">
+							<ShortName>Emotes\Miku.wav</ShortName>
+							<Path>SFX\Emotes\Miku_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1732242186" Name="Play_MoveIt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_MoveIt">
+					<IncludedMemoryFiles>
+						<File Id="372285233" Language="SFX">
+							<ShortName>Emotes\MoveIt.wav</ShortName>
+							<Path>SFX\Emotes\MoveIt_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="981597226" Name="Play_Never_Gonna_Give_you_Up" ObjectPath="\Events\Default Work Unit\Emotes\Play_Never_Gonna_Give_you_Up">
+					<IncludedMemoryFiles>
+						<File Id="22197893" Language="SFX">
+							<ShortName>Emotes\Never Gonna Give you Up.wav</ShortName>
+							<Path>SFX\Emotes\Never Gonna Give you Up_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4289548637" Name="Play_NinjaStyle" ObjectPath="\Events\Default Work Unit\Emotes\Play_NinjaStyle">
+					<IncludedMemoryFiles>
+						<File Id="787738225" Language="SFX">
+							<ShortName>Emotes\NinjaStyle.wav</ShortName>
+							<Path>SFX\Emotes\NinjaStyle_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2985177453" Name="Play_OldSchool" ObjectPath="\Events\Default Work Unit\Emotes\Play_OldSchool">
+					<IncludedMemoryFiles>
+						<File Id="957939238" Language="SFX">
+							<ShortName>Emotes\Old SChool.wav</ShortName>
+							<Path>SFX\Emotes\Old SChool_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3295654239" Name="Play_OrangeJustice" ObjectPath="\Events\Default Work Unit\Emotes\Play_OrangeJustice">
+					<IncludedMemoryFiles>
+						<File Id="207251754" Language="SFX">
+							<ShortName>Emotes\Orange Justice.wav</ShortName>
+							<Path>SFX\Emotes\Orange Justice_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="726991772" Name="Play_Overdrive" ObjectPath="\Events\Default Work Unit\Emotes\Play_Overdrive">
+					<IncludedMemoryFiles>
+						<File Id="351681333" Language="SFX">
+							<ShortName>Emotes\Overdrive.wav</ShortName>
+							<Path>SFX\Emotes\Overdrive_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="246143008" Name="Play_Paws_Claws" ObjectPath="\Events\Default Work Unit\Emotes\Play_Paws_Claws">
+					<IncludedMemoryFiles>
+						<File Id="914307656" Language="SFX">
+							<ShortName>Emotes\Im A Cat.wav</ShortName>
+							<Path>SFX\Emotes\Im A Cat_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2839619656" Name="Play_PhoneItIn" ObjectPath="\Events\Default Work Unit\Emotes\Play_PhoneItIn">
+					<IncludedMemoryFiles>
+						<File Id="433757311" Language="SFX">
+							<ShortName>Emotes\Phone It In.wav</ShortName>
+							<Path>SFX\Emotes\Phone It In_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1985354438" Name="Play_PopLock" ObjectPath="\Events\Default Work Unit\Emotes\Play_PopLock">
+					<IncludedMemoryFiles>
+						<File Id="461389380" Language="SFX">
+							<ShortName>Emotes\PopLock.wav</ShortName>
+							<Path>SFX\Emotes\PopLock_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1920913173" Name="Play_Poyo" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Poyo">
+					<IncludedMemoryFiles>
+						<File Id="396533803" Language="SFX">
+							<ShortName>Emotes\Poyo.wav</ShortName>
+							<Path>SFX\Emotes\Poyo_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3760268623" Name="Play_PPmusic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_PPmusic">
+					<IncludedMemoryFiles>
+						<File Id="787279635" Language="SFX">
+							<ShortName>Emotes\PPmusic.wav</ShortName>
+							<Path>SFX\Emotes\PPmusic_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3846432779" Name="Play_Renegade" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Renegade">
+					<IncludedMemoryFiles>
+						<File Id="589932617" Language="SFX">
+							<ShortName>Emotes\Renegade.wav</ShortName>
+							<Path>SFX\Emotes\Renegade_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3225017982" Name="Play_Sad" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Sad">
+					<IncludedMemoryFiles>
+						<File Id="31086969" Language="SFX">
+							<ShortName>Emotes\Sad\Trombonetauntv2.wav</ShortName>
+							<Path>SFX\Emotes\Sad\Trombonetauntv2_05842A19.wem</Path>
+						</File>
+						<File Id="115302274" Language="SFX">
+							<ShortName>Emotes\Sad\Athena_Emote_SadTrombone.wav</ShortName>
+							<Path>SFX\Emotes\Sad\Athena_Emote_SadTrombone_05842A19.wem</Path>
+						</File>
+						<File Id="534816575" Language="SFX">
+							<ShortName>Emotes\Sad\Wah Wah Wahhhh (Sound Effect).wav</ShortName>
+							<Path>SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1791795284" Name="Play_Scenario" ObjectPath="\Events\Default Work Unit\Emotes\Play_Scenario">
+					<IncludedMemoryFiles>
+						<File Id="146585453" Language="SFX">
+							<ShortName>Emotes\Scenario.wav</ShortName>
+							<Path>SFX\Emotes\Scenario_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1593989185" Name="Play_Specialist" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Specialist">
+					<IncludedMemoryFiles>
+						<File Id="635525640" Language="SFX">
+							<ShortName>Emotes\Specialist.wav</ShortName>
+							<Path>SFX\Emotes\Specialist_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2597828886" Name="Play_SpringLoaded" ObjectPath="\Events\Default Work Unit\Emotes\Play_SpringLoaded">
+					<IncludedMemoryFiles>
+						<File Id="628532740" Language="SFX">
+							<ShortName>Emotes\SpringLoaded.wav</ShortName>
+							<Path>SFX\Emotes\SpringLoaded_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2002994874" Name="Play_Springy" ObjectPath="\Events\Default Work Unit\Emotes\Play_Springy">
+					<IncludedMemoryFiles>
+						<File Id="105575453" Language="SFX">
+							<ShortName>Emotes\Springy.wav</ShortName>
+							<Path>SFX\Emotes\Springy_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2323178122" Name="Play_SquatKick" ObjectPath="\Events\Default Work Unit\Emotes\Play_SquatKick">
+					<IncludedMemoryFiles>
+						<File Id="170824598" Language="SFX">
+							<ShortName>Emotes\SquatKick.wav</ShortName>
+							<Path>SFX\Emotes\SquatKick_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="240058584" Name="Play_StandingHere" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_StandingHere">
+					<IncludedMemoryFiles>
+						<File Id="384265436" Language="SFX">
+							<ShortName>Emotes\StandingHere.wav</ShortName>
+							<Path>SFX\Emotes\StandingHere_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2735417078" Name="Play_StarGet" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_StarGet">
+					<IncludedMemoryFiles>
+						<File Id="112117115" Language="SFX">
+							<ShortName>Emotes\starget3.wav</ShortName>
+							<Path>SFX\Emotes\starget3_05842A19.wem</Path>
+						</File>
+						<File Id="236167254" Language="SFX">
+							<ShortName>Emotes\starget7.wav</ShortName>
+							<Path>SFX\Emotes\starget7_05842A19.wem</Path>
+						</File>
+						<File Id="269508921" Language="SFX">
+							<ShortName>Emotes\StarGet2.wav</ShortName>
+							<Path>SFX\Emotes\StarGet2_05842A19.wem</Path>
+						</File>
+						<File Id="540478322" Language="SFX">
+							<ShortName>Emotes\starget6.wav</ShortName>
+							<Path>SFX\Emotes\starget6_05842A19.wem</Path>
+						</File>
+						<File Id="717722066" Language="SFX">
+							<ShortName>Emotes\starget4.wav</ShortName>
+							<Path>SFX\Emotes\starget4_05842A19.wem</Path>
+						</File>
+						<File Id="959529791" Language="SFX">
+							<ShortName>Emotes\starget5.wav</ShortName>
+							<Path>SFX\Emotes\starget5_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="299993122" Name="Play_Sway" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Sway">
+					<IncludedMemoryFiles>
+						<File Id="637023442" Language="SFX">
+							<ShortName>Emotes\Sway.wav</ShortName>
+							<Path>SFX\Emotes\Sway_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="791024472" Name="Play_TakeTheL" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_TakeTheL">
+					<IncludedMemoryFiles>
+						<File Id="821426950" Language="SFX">
+							<ShortName>Emotes\TakeTheL.wav</ShortName>
+							<Path>SFX\Emotes\TakeTheL_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="851915445" Name="Play_Thanos" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Thanos">
+					<IncludedMemoryFiles>
+						<File Id="950145501" Language="SFX">
+							<ShortName>Emotes\Thanos.wav</ShortName>
+							<Path>SFX\Emotes\Thanos_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3575995933" Name="Play_TheRobot" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_TheRobot">
+					<IncludedMemoryFiles>
+						<File Id="1027952488" Language="SFX">
+							<ShortName>Emotes\TheRobot.wav</ShortName>
+							<Path>SFX\Emotes\TheRobot_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2578240237" Name="Play_Thicc" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Thicc">
+					<IncludedMemoryFiles>
+						<File Id="313525913" Language="SFX">
+							<ShortName>Emotes\Thicc.wav</ShortName>
+							<Path>SFX\Emotes\Thicc_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2500679095" Name="Play_Yakuza" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Yakuza">
+					<IncludedMemoryFiles>
+						<File Id="356289195" Language="SFX">
+							<ShortName>Emotes\Yakuza.wav</ShortName>
+							<Path>SFX\Emotes\Yakuza_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1084720583" Name="Stop_AnkhaZone" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_AnkhaZone"/>
+				<Event Id="578450013" Name="Stop_ArkDance" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_ArkDance"/>
+				<Event Id="1000996504" Name="Stop_BestMates" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_BestMates"/>
+				<Event Id="3691419464" Name="Stop_BlindingLights" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_BlindingLights"/>
+				<Event Id="3467103731" Name="Stop_Breakin_" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Breakin_"/>
+				<Event Id="4162817568" Name="Stop_Breakneck" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Breakneck"/>
+				<Event Id="1600955909" Name="Stop_BunnyHop" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_BunnyHop"/>
+				<Event Id="3561049931" Name="Stop_Butt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Butt"/>
+				<Event Id="3875528016" Name="Stop_ByTheFire" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_ByTheFire"/>
+				<Event Id="1078219310" Name="Stop_Carson" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Carson"/>
+				<Event Id="789686538" Name="Stop_Cartwheelin" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_Cartwheelin"/>
+				<Event Id="1505758822" Name="Stop_Chika" ObjectPath="\Events\Default Work Unit\Stop_Chika"/>
+				<Event Id="2113712877" Name="Stop_Crabby" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Crabby"/>
+				<Event Id="3658764114" Name="Stop_Crackdown" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_Crackdown"/>
+				<Event Id="3593170719" Name="Stop_CrazyFeet" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_CrazyFeet"/>
+				<Event Id="1786437368" Name="Stop_Crossbounce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Crossbounce"/>
+				<Event Id="3743729291" Name="Stop_Dabstand" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Dabstand"/>
+				<Event Id="2595956965" Name="Stop_DanceMoves" ObjectPath="\Events\Default Work Unit\Emotes\Stop_DanceMoves"/>
+				<Event Id="1560338856" Name="Stop_DanceTherapy" ObjectPath="\Events\Default Work Unit\Emotes\Stop_DanceTherapy"/>
+				<Event Id="3132306211" Name="Stop_DontStart" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_DontStart"/>
+				<Event Id="393452856" Name="Stop_Droop" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Droop"/>
+				<Event Id="3907188806" Name="Stop_ElectroSwing" ObjectPath="\Events\Default Work Unit\Emotes\Stop_ElectroSwing"/>
+				<Event Id="1544852033" Name="Stop_Extraterestrial" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Extraterestrial"/>
+				<Event Id="2817487683" Name="Stop_FancyFeet" ObjectPath="\Events\Default Work Unit\Emotes\Stop_FancyFeet"/>
+				<Event Id="29792155" Name="Stop_Flamenco" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Flamenco"/>
+				<Event Id="3807099887" Name="Stop_Floss" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Floss"/>
+				<Event Id="2343795684" Name="Stop_Fresh" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Fresh"/>
+				<Event Id="1052653477" Name="Stop_Frolic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Frolic"/>
+				<Event Id="2462568986" Name="Stop_FullTilt" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_FullTilt"/>
+				<Event Id="3177684802" Name="Stop_GangnamStyle" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_GangnamStyle"/>
+				<Event Id="2671022266" Name="Stop_GangTorture" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_GangTorture"/>
+				<Event Id="587463168" Name="Stop_GetDown" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_GetDown"/>
+				<Event Id="4286638857" Name="Stop_GinyuForce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_GinyuForce"/>
+				<Event Id="95990573" Name="Stop_Goopie" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Goopie"/>
+				<Event Id="2423616169" Name="Stop_Hi" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Hi"/>
+				<Event Id="3720537328" Name="Stop_Horny" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Horny"/>
+				<Event Id="2756333940" Name="Stop_Hype" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Hype"/>
+				<Event Id="1585167278" Name="Stop_ImDiamond" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_ImDiamond"/>
+				<Event Id="2882547615" Name="Stop_Infectious" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Infectious"/>
+				<Event Id="1044337974" Name="Stop_Infinidab" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Infinidab"/>
+				<Event Id="476094675" Name="Stop_Intensity" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Intensity"/>
+				<Event Id="3225428019" Name="Stop_ItsDynamite" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_ItsDynamite"/>
+				<Event Id="609354958" Name="Stop_LetsDanceBoys" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_LetsDanceBoys"/>
+				<Event Id="1982780246" Name="Stop_Macarena" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Macarena"/>
+				<Event Id="2863956990" Name="Stop_Miku" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Miku"/>
+				<Event Id="171083968" Name="Stop_MoveIt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_MoveIt"/>
+				<Event Id="1687329012" Name="Stop_Never_Gonna_Give_you_Up" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Never_Gonna_Give_you_Up"/>
+				<Event Id="2637240459" Name="Stop_NinjaStyle" ObjectPath="\Events\Default Work Unit\Emotes\Stop_NinjaStyle"/>
+				<Event Id="2339110651" Name="Stop_OldSchool" ObjectPath="\Events\Default Work Unit\Emotes\Stop_OldSchool"/>
+				<Event Id="926917861" Name="Stop_OrangeJustice" ObjectPath="\Events\Default Work Unit\Emotes\Stop_OrangeJustice"/>
+				<Event Id="2732782146" Name="Stop_Overdrive" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Overdrive"/>
+				<Event Id="1117427782" Name="Stop_Paws_Claws" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Paws_Claws"/>
+				<Event Id="1337364286" Name="Stop_PhoneItIn" ObjectPath="\Events\Default Work Unit\Emotes\Stop_PhoneItIn"/>
+				<Event Id="3191328536" Name="Stop_PopLock" ObjectPath="\Events\Default Work Unit\Emotes\Stop_PopLock"/>
+				<Event Id="3588760379" Name="Stop_Poyo" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Poyo"/>
+				<Event Id="2746037049" Name="Stop_PPmusic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_PPmusic"/>
+				<Event Id="308903397" Name="Stop_Renegade" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Renegade"/>
+				<Event Id="170285316" Name="Stop_Sad" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Sad"/>
+				<Event Id="2258123542" Name="Stop_Scenario" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Scenario"/>
+				<Event Id="2900254579" Name="Stop_Specialist" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_Specialist"/>
+				<Event Id="4122890544" Name="Stop_SpringLoaded" ObjectPath="\Events\Default Work Unit\Emotes\Stop_SpringLoaded"/>
+				<Event Id="1937403564" Name="Stop_Springy" ObjectPath="\Events\Default Work Unit\Emotes\Stop_Springy"/>
+				<Event Id="3985412508" Name="Stop_SquatKick" ObjectPath="\Events\Default Work Unit\Emotes\Stop_SquatKick"/>
+				<Event Id="3469606554" Name="Stop_StandingHere" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_StandingHere"/>
+				<Event Id="256153500" Name="Stop_StarGet" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_StarGet"/>
+				<Event Id="4288008096" Name="Stop_Sway" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Sway"/>
+				<Event Id="2234559522" Name="Stop_TakeTheL" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_TakeTheL"/>
+				<Event Id="1818147751" Name="Stop_Thanos" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Thanos"/>
+				<Event Id="1400165779" Name="Stop_TheRobot" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_TheRobot"/>
+				<Event Id="461605231" Name="Stop_Thicc" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_Thicc"/>
+				<Event Id="478603733" Name="Stop_Yakuza" ObjectPath="\Events\Default Work Unit\New Emotes 2\Stop_Yakuza"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

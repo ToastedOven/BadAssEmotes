@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D2C6920-8B38-403F-B6F5-B8A78DB14FD0}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4D2C6920-8B38-403F-B6F5-B8A78DB14FD0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="BadAssEmotes" ID="{E6EB98EF-4CD5-4AC4-832C-2EC2D13AEA4D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

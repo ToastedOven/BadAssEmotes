@@ -1,0 +1,125 @@
+ManifestFileVersion: 0
+CRC: 1752366931
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 497dcb386cd678ca5e6a8ec42f9e0cea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 19cd4196b427adf977fe65a1493de1e7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BadAssEmotes/BlindingLightsIntro.anim
+- Assets/BadAssEmotes/PoseJeice.anim
+- Assets/BadAssEmotes/DanceTherapyLoop.anim
+- Assets/BadAssEmotes/OrangeJustice.anim
+- Assets/BadAssEmotes/PopLock.anim
+- Assets/BadAssEmotes/FlamencoLoop.anim
+- Assets/BadAssEmotes/Infectious.anim
+- Assets/BadAssEmotes/GangnamStyle.anim
+- Assets/BadAssEmotes/IntensityIntro.anim
+- Assets/BadAssEmotes/Hi.anim
+- Assets/BadAssEmotes/ImDiamond.anim
+- Assets/BadAssEmotes/ArkDance.anim
+- Assets/BadAssEmotes/Crossbounce.anim
+- Assets/Models/desker.prefab
+- Assets/BadAssEmotes/Crabby.anim
+- Assets/BadAssEmotes/BestMates.anim
+- Assets/BadAssEmotes/InfinidabIntro.anim
+- Assets/BadAssEmotes/FullTilt.anim
+- Assets/BadAssEmotes/TakeTheL.anim
+- Assets/BadAssEmotes/Horny.anim
+- Assets/BadAssEmotes/Crackdown.anim
+- Assets/BadAssEmotes/NinjaStyle.anim
+- Assets/BadAssEmotes/DontStart.anim
+- Assets/BadAssEmotes/Poyo.anim
+- Assets/BadAssEmotes/Miku.anim
+- Assets/BadAssEmotes/Butt.anim
+- Assets/BadAssEmotes/Thicc.anim
+- Assets/BadAssEmotes/SquatKickIntro.anim
+- Assets/BadAssEmotes/Hype.anim
+- Assets/BadAssEmotes/Dabstand.anim
+- Assets/BadAssEmotes/DEDEDE.anim
+- Assets/BadAssEmotes/Frolic.anim
+- Assets/BadAssEmotes/TheRobot.anim
+- Assets/BadAssEmotes/Sad.anim
+- Assets/BadAssEmotes/Scenario.anim
+- Assets/BadAssEmotes/Overdrive.anim
+- Assets/BadAssEmotes/Goopie.anim
+- Assets/BadAssEmotes/Renegade.anim
+- Assets/BadAssEmotes/DeepDab.anim
+- Assets/BadAssEmotes/Cartwheelin.anim
+- Assets/BadAssEmotes/Yakuza.anim
+- Assets/BadAssEmotes/LetsDanceBoys.anim
+- Assets/BadAssEmotes/Droop.anim
+- Assets/BadAssEmotes/Breakin.anim
+- Assets/BadAssEmotes/Extraterrestial.anim
+- Assets/BadAssEmotes/PPmusicFollow.anim
+- Assets/BadAssEmotes/Breakneck.anim
+- Assets/BadAssEmotes/ElectroSwing.anim
+- Assets/BadAssEmotes/PoseRecoome.anim
+- Assets/BadAssEmotes/SquatKickLoop.anim
+- Assets/BadAssEmotes/PoseBurter.anim
+- Assets/BadAssEmotes/SpringLoaded.anim
+- Assets/BadAssEmotes/ItsDynamite.anim
+- Assets/Models/trombone.prefab
+- Assets/BadAssEmotes/AnkhaZone.anim
+- Assets/BadAssEmotes/Thanos.anim
+- Assets/BadAssEmotes/ByTheFireLead.anim
+- Assets/BadAssEmotes/SwayLead.anim
+- Assets/BadAssEmotes/FlamencoIntro.anim
+- Assets/BadAssEmotes/BlindingLights.anim
+- Assets/BadAssEmotes/GangTorture.anim
+- Assets/BadAssEmotes/Specialist.anim
+- Assets/BadAssEmotes/DanceTherapyIntro.anim
+- Assets/BadAssEmotes/FloorSamus.anim
+- Assets/BadAssEmotes/Carson.anim
+- Assets/BadAssEmotes/FancyFeet.anim
+- Assets/BadAssEmotes/BunnyHop.anim
+- Assets/BadAssEmotes/MoveIt.anim
+- Assets/BadAssEmotes/PawsAndClaws.anim
+- Assets/BadAssEmotes/DanceMoves.anim
+- Assets/BadAssEmotes/StandingHere.anim
+- Assets/BadAssEmotes/CrazyFeet.anim
+- Assets/BadAssEmotes/Floss.anim
+- Assets/BadAssEmotes/Macarena.anim
+- Assets/BadAssEmotes/Springy.anim
+- Assets/BadAssEmotes/ByTheFirePartner.anim
+- Assets/BadAssEmotes/PhoneItIn.anim
+- Assets/BadAssEmotes/OldSchool.anim
+- Assets/BadAssEmotes/SwayPartner.anim
+- Assets/BadAssEmotes/PPmusic.anim
+- Assets/BadAssEmotes/PoseGuldo.anim
+- Assets/BadAssEmotes/StoodHere.anim
+- Assets/BadAssEmotes/GetDown.anim
+- Assets/BadAssEmotes/JackOPose.anim
+- Assets/BadAssEmotes/Chika.anim
+- Assets/BadAssEmotes/NeverGonna.anim
+- Assets/BadAssEmotes/Fresh.anim
+- Assets/BadAssEmotes/IntensityLoop.anim
+- Assets/BadAssEmotes/InfinidabLoop.anim
+- Assets/BadAssEmotes/StarGet.anim
+- Assets/BadAssEmotes/PoseGinyu.anim
+Dependencies: []
