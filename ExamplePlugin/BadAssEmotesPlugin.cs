@@ -1,12 +1,15 @@
 using BepInEx;
 using BepInEx.Configuration;
 using EmotesAPI;
+using Generics.Dynamics;
 using R2API;
 using R2API.Utils;
 using RiskOfOptions;
 using RiskOfOptions.Options;
 using RoR2;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace ExamplePlugin
 {
@@ -95,7 +98,7 @@ namespace ExamplePlugin
             AddAnimation("PoseGuldo", "GinyuForce", true, true, true);
             AddAnimation("PoseJeice", "GinyuForce", true, true, true);
             AddAnimation("PoseRecoome", "GinyuForce", true, true, true);
-            AddStartAndJoinAnim(new string[] { "StandingHere", "StoodHere" }, "StandingHere", true, true, true);
+            AddStartAndJoinAnim(new string[] { "StoodHere", "StandingHere" }, "StandingHere", true, true, true);
             AddAnimation("Carson", "Carson", false, true, true);
             AddAnimation("Frolic", "Frolic", true, true, true);
             AddAnimation("MoveIt", "MoveIt", true, true, true);
@@ -115,8 +118,24 @@ namespace ExamplePlugin
 
 
 
+            //update 3
+            AddAnimation("SuperIdol", "SuperIdol", true, true, true);
+            AddAnimation("MakeItRainIntro", "MakeItRain", "MakeItRainLoop", true, true);
+            AddAnimation("Penguin", "Penguin", true, true, true);
+            AddAnimation("DesertRivers", "DesertRivers", false, true, true);
+            AddAnimation("HondaStep", "HondaStep", false, true, true);
+            AddAnimation("UGotThat", "UGotThat", false, true, true);
+
+
 
             //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/Standing Here.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/I Realise.anim") }, true, "Play_StandingHere", "Stop_StandingHere", dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: 0, joinPref: 1);
+
+
+
+
+
+
+
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
         }
@@ -130,7 +149,7 @@ namespace ExamplePlugin
             {
                 prop1 = -1;
             }
-            if (newAnimation == "StandingHere" )
+            if (newAnimation == "StandingHere")
             {
                 stand = mapper.currentClip.syncPos;
             }
@@ -147,7 +166,7 @@ namespace ExamplePlugin
             }
             if (newAnimation == "Chika")
             {
-                prop1 = mapper.props.Count; //this aint netowrked, should have a unique list of props for each mapper?
+                prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/models/desker.prefab")));
                 mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
@@ -177,6 +196,34 @@ namespace ExamplePlugin
                     fovHandle = default(CameraTargetParams.CameraParamsOverrideHandle);
                 }
             }
+            if (newAnimation == "MakeItRainIntro")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/money.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+            }
+            if (newAnimation == "DesertRivers")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/desertlight.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+            }
+            if (newAnimation == "HondaStep")
+            {
+                prop1 = mapper.props.Count;
+                //GameObject myNutz = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/hondastuff.prefab"));
+                //myNutz.GetComponentInChildren<Animation>().playAutomatically = false;
+                //myNutz.GetComponentInChildren<Animator>().Play("MusicSync", -1, (CustomAnimationClip.syncTimer[mapper.currentClip.syncPos] % mapper.currentClip.clip[0].length) / mapper.currentClip.clip[0].length);
+                //myNutz.GetComponentInChildren<Animation>().Play("MusicSync");
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/hondastuff.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+            }
             //if (newAnimation == "Sad")
             //{
             //    prop1 = mapper.props.Count;
@@ -198,7 +245,9 @@ namespace ExamplePlugin
         }
         internal void AddStartAndJoinAnim(string[] AnimClip, string wwise, bool looping, bool dimaudio, bool sync)
         {
-            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[0]}.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[1]}.anim") }, looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 1, joinPref: 0);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[0]}.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[1]}.anim") }, looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 0, joinPref: 1);
         }
     }
+
+
 }

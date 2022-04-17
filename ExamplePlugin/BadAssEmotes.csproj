@@ -18,6 +18,7 @@
     <None Remove="braindamage" />
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
+    <None Remove="enemyskeletons" />
     <None Remove="nunchukemotes.bnk" />
   </ItemGroup>
 
@@ -48,6 +49,9 @@
     <Reference Include="Facepunch.Steamworks">
       <HintPath>libs\Facepunch.Steamworks.dll</HintPath>
       <Private>false</Private>
+    </Reference>
+    <Reference Include="GenericIK">
+      <HintPath>G:\Windows.old.000\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Managed\GenericIK.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
       <HintPath>libs\KdTreeLib.dll</HintPath>
