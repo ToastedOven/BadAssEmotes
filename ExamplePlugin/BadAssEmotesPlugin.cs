@@ -88,7 +88,7 @@ namespace ExamplePlugin
 
             //Update 2
             AddStartAndJoinAnim(new string[] { "PPmusic", "PPmusicFollow" }, "PPmusic", true, true, true);
-            AddAnimation("GetDown", "GetDown", true, true, true);
+            AddAnimation("GetDown", "GetDown", false, true, true);
             AddAnimation("Yakuza", "Yakuza", true, true, true);
             AddAnimation("Miku", "Miku", true, true, true);
             AddAnimation("Horny", "Horny", true, true, true);
@@ -145,6 +145,7 @@ namespace ExamplePlugin
         internal CharacterBody localBody = null;
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
         {
+            DebugClass.Log($"----------{newAnimation}");
             if (prop1 != -1)
             {
                 prop1 = -1;
