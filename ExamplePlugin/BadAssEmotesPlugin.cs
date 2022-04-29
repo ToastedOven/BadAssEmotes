@@ -7,6 +7,7 @@ using R2API.Utils;
 using RiskOfOptions;
 using RiskOfOptions.Options;
 using RoR2;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -22,11 +23,12 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.2.0";
+        public const string PluginVersion = "1.3.0";
         public void Awake()
         {
             Assets.PopulateAssets();
             Assets.AddSoundBank("nunchukemotes.bnk");
+            Assets.AddSoundBank("Init.bnk");
             Assets.AddSoundBank("BadAssEmotes.bnk");
             Assets.LoadSoundBanks();
             AddAnimation("Breakin", "Breakin_", false, true, true);
@@ -131,30 +133,66 @@ namespace ExamplePlugin
             //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/Standing Here.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/I Realise.anim") }, true, "Play_StandingHere", "Stop_StandingHere", dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: 0, joinPref: 1);
 
 
+            //update 4
+            AddAnimation("OfficerEarl", "", true, false, false);
+            AddAnimation("Cirno", "Cirno", false, true, true);
+            AddAnimation("Haruhi", new string[] { "Play_Haruhi, Play_HaruhiYoung" }, "Haruhi", false, true, true);
+            AddStartAndJoinAnim(new string[] { "GGGG", "GGGG2", "GGGG3" }, "GGGG", false, true, true);
+            AddAnimation("Shufflin", "Shufflin", false, true, true);
+            AddStartAndJoinAnim(new string[] { "Train", "TrainPassenger" }, "Train", new string[] { "Trainloop", "TrainPassenger" }, true, false, true); //train //passenger
+            AddAnimation("BimBamBom", "BimBamBom", true, true, true);
+            AddAnimation("Savage", "Savage", true, true, true);
+            AddAnimation("Stuck", "Stuck", true, true, true);
+            AddAnimation("Roflcopter", "Roflcopter", true, true, true);
+            AddAnimation("Float", "Float", false, true, true);
+            AddAnimation("Rollie", "Rollie", true, true, true);
+            AddAnimation("GalaxyObservatory", new string[] { "Play_GalaxyObservatory1", "Play_GalaxyObservatory2", "Play_GalaxyObservatory3" }, "GalaxyObservatory", true, true, true);
+            AddAnimation("Markiplier", "Markiplier", false, false, false);
+            AddAnimation("DevilSpawn", "DevilSpawn", true, true, true);
 
-
-
-
-
+            //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DevilSpawn.anim") }, true, joinSpots: new JoinSpot[] { new JoinSpot(Vector3.zero) });
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
+            //CustomEmotesAPI.AddNonAnimatingEmote("SpawnEnemies");
+            //CustomEmotesAPI.AddNonAnimatingEmote("EnemyChika");
         }
         int stand = -1;
         int prop1 = -1;
         CameraTargetParams.CameraParamsOverrideHandle fovHandle;
         internal CharacterBody localBody = null;
+        IEnumerator SpawnEnemies()
+        {
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body BeetleQueen");
+            yield return new WaitForSeconds(.75f);
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Larva");
+            yield return new WaitForSeconds(.75f);
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body BeetleGuard");
+            yield return new WaitForSeconds(.75f);
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Mithrix");
+            yield return new WaitForSeconds(.75f);
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body ClayTemplar");
+            yield return new WaitForSeconds(.75f);
+            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Aurelionite");
+        }
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
         {
-            DebugClass.Log($"----------{newAnimation}");
-            if (prop1 != -1)
+            if (newAnimation == "SpawnEnemies")
             {
-                prop1 = -1;
+                StartCoroutine(SpawnEnemies());
             }
-            if (newAnimation == "StandingHere")
+            if (newAnimation == "EnemyChika")
+            {
+                foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
+                {
+                    CustomEmotesAPI.PlayAnimation("Chika", item);
+                }
+            }
+            prop1 = -1;
+            if (newAnimation != "none")
             {
                 stand = mapper.currentClip.syncPos;
             }
-            if (stand != -1)
+            if (stand != -1 && newAnimation == "StandingHere")
             {
                 if (CustomAnimationClip.syncPlayerCount[stand] > 1)
                 {
@@ -172,6 +210,7 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
 
                 if (mapper.local)
                 {
@@ -204,8 +243,9 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
             }
-            if (newAnimation == "DesertRivers")
+            if (newAnimation == "DesertRivers" || newAnimation == "Cirno" || newAnimation == "Haruhi" || newAnimation == "GGGG")
             {
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/desertlight.prefab")));
@@ -225,6 +265,54 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
             }
+            if (stand != -1 && newAnimation == "Train")
+            {
+                prop1 = mapper.props.Count;
+                if (CustomAnimationClip.syncPlayerCount[stand] == 1)
+                {
+                    mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/train.prefab")));
+                }
+                else
+                {
+                    mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/passenger.prefab")));
+                }
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.SetAutoWalk(1, true);
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "BimBamBom")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/BimBamBom.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Float")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/FloatLight.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Markiplier")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/Amogus.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "OfficerEarl")
+            {
+                mapper.SetAutoWalk(1, false);
+            }
             //if (newAnimation == "Sad")
             //{
             //    prop1 = mapper.props.Count;
@@ -235,10 +323,18 @@ namespace ExamplePlugin
             //    mapper.props[prop1].transform.localScale = Vector3.one;
             //}
         }
-
         internal void AddAnimation(string AnimClip, string wwise, bool looping, bool dimAudio, bool sync)
         {
             CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim"), looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimAudio, syncAnim: sync, syncAudio: sync);
+        }
+        internal void AddAnimation(string AnimClip, string[] wwise, string stopWwise, bool looping, bool dimAudio, bool sync)
+        {
+            List<string> stopwwise = new List<string>();
+            foreach (var item in wwise)
+            {
+                stopwwise.Add($"Stop_{stopWwise}");
+            }
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim") }, looping, wwise, stopwwise.ToArray(), dimWhenClose: dimAudio, syncAnim: sync, syncAudio: sync);
         }
         internal void AddAnimation(string AnimClip, string wwise, string AnimClip2ElectricBoogaloo, bool dimAudio, bool sync)
         {
@@ -246,7 +342,26 @@ namespace ExamplePlugin
         }
         internal void AddStartAndJoinAnim(string[] AnimClip, string wwise, bool looping, bool dimaudio, bool sync)
         {
-            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[0]}.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip[1]}.anim") }, looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 0, joinPref: 1);
+            List<AnimationClip> nuts = new List<AnimationClip>();
+            foreach (var item in AnimClip)
+            {
+                nuts.Add(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{item}.anim"));
+            }
+            CustomEmotesAPI.AddCustomAnimation(nuts.ToArray(), looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 0, joinPref: 1);
+        }
+        internal void AddStartAndJoinAnim(string[] AnimClip, string wwise, string[] AnimClip2ElectricBoogaloo, bool looping, bool dimaudio, bool sync)
+        {
+            List<AnimationClip> nuts = new List<AnimationClip>();
+            foreach (var item in AnimClip)
+            {
+                nuts.Add(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{item}.anim"));
+            }
+            List<AnimationClip> nuts2 = new List<AnimationClip>();
+            foreach (var item in AnimClip2ElectricBoogaloo)
+            {
+                nuts2.Add(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{item}.anim"));
+            }
+            CustomEmotesAPI.AddCustomAnimation(nuts.ToArray(), looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 0, joinPref: 1, secondaryAnimation: nuts2.ToArray());
         }
     }
 

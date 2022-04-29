@@ -19,10 +19,12 @@
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
     <None Remove="enemyskeletons" />
+    <None Remove="Init.bnk" />
     <None Remove="nunchukemotes.bnk" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Init.bnk" />
     <EmbeddedResource Include="nunchukemotes.bnk" />
   </ItemGroup>
 
