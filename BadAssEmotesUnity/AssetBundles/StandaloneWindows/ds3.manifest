@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 4263898166
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d044720d31a5d89f4826b1e7e749f52
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/DS3/DS3-sleeploop.anim
+- Assets/DS3/DS3-rest.anim
+- Assets/DS3/DS3-welcome.anim
+- Assets/DS3/DS3-toast.anim
+- Assets/DS3/DS3-restloop.anim
+- Assets/DS3/DS3-sittingtoastend.anim
+- Assets/DS3/DS3-patchessquat.anim
+- Assets/DS3/DS3-sleepend.anim
+- Assets/DS3/DS3-stretchoutloop.anim
+- Assets/DS3/DS3-sleep.anim
+- Assets/DS3/DS3-legionetiquette.anim
+- Assets/DS3/DS3-Beckon.anim
+- Assets/DS3/DS3-pointdown.anim
+- Assets/DS3/DS3-kneelingprayer.anim
+- Assets/DS3/DS3-rejoice.anim
+- Assets/DS3/DS3-patchessquatend.anim
+- Assets/DS3/DS3-pathofthedragonend.anim
+- Assets/DS3/DS3-toss.anim
+- Assets/DS3/DS3-pathofthedragonloop.anim
+- Assets/DS3/DS3-bymysword.anim
+- Assets/DS3/DS3-duelbow.anim
+- Assets/DS3/DS3-darkmoonloyalty.anim
+- Assets/DS3/DS3-patchessquatloop.anim
+- Assets/DS3/DS3-squatloop.anim
+- Assets/DS3/DS3-properbow.anim
+- Assets/DS3/DS3-stretchout.anim
+- Assets/DS3/DS3-stretchoutend.anim
+- Assets/DS3/DS3-roar.anim
+- Assets/DS3/DS3-squatend.anim
+- Assets/DS3/DS3-restend.anim
+- Assets/DS3/DS3-bow.anim
+- Assets/DS3/DS3-pointforward.anim
+- Assets/DS3/DS3-hurrah.anim
+- Assets/DS3/DS3-clap.anim
+- Assets/DS3/DS3-pathead.anim
+- Assets/DS3/DS3-praisethesun.anim
+- Assets/DS3/DS3-squat.anim
+- Assets/DS3/DS3-prayer.anim
+- Assets/DS3/DS3-joy.anim
+- Assets/DS3/DS3-sittingtoastloop.anim
+- Assets/DS3/DS3-collapse.anim
+- Assets/DS3/DS3-wave.anim
+- Assets/DS3/DS3-callover.anim
+- Assets/DS3/DS3-sittingtoast.anim
+- Assets/DS3/DS3-pointup.anim
+- Assets/DS3/DS3-shrug.anim
+- Assets/DS3/DS3-silentally.anim
+- Assets/DS3/DS3-mythanks.anim
+- Assets/DS3/DS3-pathofthedragon.anim
+- Assets/DS3/DS3-dignifiedbow.anim
+Dependencies: []

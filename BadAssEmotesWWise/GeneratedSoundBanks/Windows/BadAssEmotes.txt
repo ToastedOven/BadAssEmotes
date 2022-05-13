@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	299993122	Play_Sway			\Default Work Unit\New Emotes 2\Play_Sway	
 	308903397	Stop_Renegade			\Default Work Unit\New Emotes 2\Stop_Renegade	
 	393452856	Stop_Droop			\Default Work Unit\Emotes\Stop_Droop	
+	439399278	Play_EmoteInput			\Default Work Unit\Emotes\Play_EmoteInput	
 	461605231	Stop_Thicc			\Default Work Unit\New Emotes 1\Stop_Thicc	
 	476094675	Stop_Intensity			\Default Work Unit\Emotes\Stop_Intensity	
 	478603733	Stop_Yakuza			\Default Work Unit\New Emotes 2\Stop_Yakuza	
@@ -29,21 +30,23 @@ Event	ID	Name			Wwise Object Path	Notes
 	1000996504	Stop_BestMates			\Default Work Unit\New Emotes 1\Stop_BestMates	
 	1044337974	Stop_Infinidab			\Default Work Unit\Emotes\Stop_Infinidab	
 	1052653477	Stop_Frolic			\Default Work Unit\New Emotes 2\Stop_Frolic	
+	1058628620	Stop_EmoteInput			\Default Work Unit\Emotes\Stop_EmoteInput	
 	1073155275	Play_DanceMoves			\Default Work Unit\Emotes\Play_DanceMoves	
 	1078219310	Stop_Carson			\Default Work Unit\New Emotes 2\Stop_Carson	
 	1084720583	Stop_AnkhaZone			\Default Work Unit\New Emotes 1\Stop_AnkhaZone	
 	1117427782	Stop_Paws_Claws			\Default Work Unit\Emotes\Stop_Paws_Claws	
 	1163679226	Play_BlindingLights			\Default Work Unit\New Emotes 1\Play_BlindingLights	
-	1275111858	Play_Horny			\Default Work Unit\New Emotes 2\Play_Horny	
+	1275111858	Play_Horny			\Default Work Unit\New Emotes 2\Horny\Play_Horny	
 	1337364286	Stop_PhoneItIn			\Default Work Unit\Emotes\Stop_PhoneItIn	
 	1400165779	Stop_TheRobot			\Default Work Unit\New Emotes 1\Stop_TheRobot	
 	1400398136	Play_Cartwheelin			\Default Work Unit\New Emotes 1\Play_Cartwheelin	
 	1413951596	Play_ElectroSwing			\Default Work Unit\Emotes\Play_ElectroSwing	
-	1505758822	Stop_Chika			\Default Work Unit\Stop_Chika	
+	1505758822	Stop_Chika			\Default Work Unit\New Emotes 2\Stop_Chika	
 	1538240022	Play_Fresh			\Default Work Unit\Emotes\Play_Fresh	
 	1540665125	Play_Floss			\Default Work Unit\Emotes\Play_Floss	
 	1544852033	Stop_Extraterestrial			\Default Work Unit\Emotes\Stop_Extraterestrial	
 	1560338856	Stop_DanceTherapy			\Default Work Unit\Emotes\Stop_DanceTherapy	
+	1565865752	Play_MEMEME			\Default Work Unit\New Emotes 2\Horny\Play_MEMEME	
 	1585167278	Stop_ImDiamond			\Default Work Unit\New Emotes 1\Stop_ImDiamond	
 	1593989185	Play_Specialist			\Default Work Unit\New Emotes 1\Play_Specialist	
 	1600955909	Stop_BunnyHop			\Default Work Unit\New Emotes 1\Stop_BunnyHop	
@@ -98,7 +101,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2939172889	Play_FancyFeet			\Default Work Unit\Emotes\Play_FancyFeet	
 	2985177453	Play_OldSchool			\Default Work Unit\Emotes\Play_OldSchool	
 	3055967018	Play_ByTheFire			\Default Work Unit\New Emotes 2\Play_ByTheFire	
-	3069711804	Play_Chika			\Default Work Unit\Play_Chika	
+	3069711804	Play_Chika			\Default Work Unit\New Emotes 2\Play_Chika	
 	3132306211	Stop_DontStart			\Default Work Unit\New Emotes 1\Stop_DontStart	
 	3177684802	Stop_GangnamStyle			\Default Work Unit\New Emotes 1\Stop_GangnamStyle	
 	3180981952	Play_GangnamStyle			\Default Work Unit\New Emotes 1\Play_GangnamStyle	
@@ -120,7 +123,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3658764114	Stop_Crackdown			\Default Work Unit\New Emotes 1\Stop_Crackdown	
 	3665331543	Play_BunnyHop			\Default Work Unit\New Emotes 1\Play_BunnyHop	
 	3691419464	Stop_BlindingLights			\Default Work Unit\New Emotes 1\Stop_BlindingLights	
-	3720537328	Stop_Horny			\Default Work Unit\New Emotes 2\Stop_Horny	
+	3720537328	Stop_Horny			\Default Work Unit\New Emotes 2\Horny\Stop_Horny	
 	3743729291	Stop_Dabstand			\Default Work Unit\Emotes\Stop_Dabstand	
 	3753885755	Play_GinyuForce			\Default Work Unit\New Emotes 2\Play_GinyuForce	
 	3760268623	Play_PPmusic			\Default Work Unit\New Emotes 2\Play_PPmusic	
@@ -143,13 +146,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	4289548637	Play_NinjaStyle			\Default Work Unit\Emotes\Play_NinjaStyle	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	246773394	Volume_EmoteInput			\Default Work Unit\Volume_EmoteInput	
 	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
+	517048260	People_In_Range			\Default Work Unit\People_In_Range	
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+	3695994288	Volume_Master			\Default Work Unit\Volume_Master	
+
+External Source	ID	Name			Wwise Object Path	Notes
+	618371124	External_Source			\Default Work Unit\Emotes\EmoteInput\External_Source	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5854293	Miku	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Miku_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Miku		3968379
 	22197893	Never Gonna Give you Up	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Never Gonna Give you Up_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Never Gonna Give you Up		598305
 	31086969	Trombonetauntv2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Trombonetauntv2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Trombonetauntv2		108909
+	33132360	MEMEME	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TeddyLoid - ME!ME!ME! feat. Daoko_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\MEMEME		661644
 	52218649	DontStart	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DontStart_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\DontStart		294639
 	74182108	Butt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Butt_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Butt		24216
 	104657059	Floss	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Floss_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Floss		153188
@@ -189,7 +199,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	396533803	Poyo	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Poyo_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Poyo		1144374
 	423398404	Hype	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hype_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Hype		283203
 	433757311	PhoneItIn	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Phone It In_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PhoneItIn		372525
-	451183420	CrazyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\CrazyFeet_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\CrazyFeet		518713
+	451183420	CrazyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\CrazyFeet_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\CrazyFeet		518713
 	461389380	PopLock	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PopLock_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PopLock		155660
 	504147652	Droop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Droop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Droop		1058023
 	534816575	Wah Wah Wahhhh (Sound Effect)	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Wah Wah Wahhhh (Sound Effect)		57536
@@ -197,7 +207,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	551181905	Breakin'	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakin'_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakin'		152099
 	574532012	Crackdown	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crackdown_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Crackdown		249578
 	579062041	ItsDynamite	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ItsDynamite_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ItsDynamite		268775
-	589932617	Renegade	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Renegade_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Renegade		486546
+	589932617	Renegade	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Renegade_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Renegade		486546
 	604678094	hi2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi2		32606
 	611100602	FullTilt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FullTilt_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt		180480
 	623780510	BestMates	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BestMates_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BestMates		102887
@@ -216,7 +226,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	769581195	Breakneck	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakneck_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakneck		737431
 	787279635	PPmusic	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PPmusic_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\PPmusic		338430
 	787738225	NinjaStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\NinjaStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\NinjaStyle		229493
-	800301908	Horny	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Horny_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny		559636
+	800301908	Horny	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Horny_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\Horny		559636
 	808233883	IntensityLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\IntensityLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntensityLoop		486986
 	821426950	TakeTheL	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TakeTheL_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TakeTheL		180199
 	830724367	InfinidabIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\InfinidabIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabIntro		8371
@@ -234,5 +244,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1027952488	TheRobot	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TheRobot_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TheRobot		406999
 	1048696440	hi4	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi4		19160
 	1057510112	Chika	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Chika_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Chika		1986210
-	1065322382	GangnamStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangnamStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\GangnamStyle		586652
+	1065322382	GangnamStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangnamStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\GangnamStyle		4548806
 
