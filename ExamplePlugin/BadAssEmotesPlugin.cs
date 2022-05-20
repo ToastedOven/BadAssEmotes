@@ -23,13 +23,14 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.3.0";
+        public const string PluginVersion = "1.5.1";
         public void Awake()
         {
             Assets.PopulateAssets();
             Assets.AddSoundBank("nunchukemotes.bnk");
             Assets.AddSoundBank("Init.bnk");
             Assets.AddSoundBank("BadAssEmotes.bnk");
+            Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.LoadSoundBanks();
             AddAnimation("Breakin", "Breakin_", false, true, true);
             AddAnimation("Breakneck", "Breakneck", true, true, true);
@@ -82,6 +83,7 @@ namespace ExamplePlugin
             AddAnimation("Cartwheelin", "Cartwheelin", true, false, false);
             AddAnimation("CrazyFeet", "CrazyFeet", true, true, true);
             AddAnimation("FullTilt", "FullTilt", true, true, true);
+            CustomEmotesAPI.BlackListEmote("FullTilt");
             AddAnimation("FloorSamus", "FloorSamus", true, false, false);
             AddAnimation("DEDEDE", "DEDEDE", true, false, false);
             AddAnimation("Specialist", "Specialist", false, true, true);
@@ -93,14 +95,15 @@ namespace ExamplePlugin
             AddAnimation("GetDown", "GetDown", false, true, true);
             AddAnimation("Yakuza", "Yakuza", true, true, true);
             AddAnimation("Miku", "Miku", true, true, true);
-            AddAnimation("Horny", "Horny", true, true, true);
+            AddAnimation("Horny", new string[] { "Play_MEMEME", "Play_Horny" }, "Horny", true, true, true);
             AddAnimation("GangTorture", "GangTorture", false, true, true);
             AddAnimation("PoseBurter", "GinyuForce", true, true, true);
             AddAnimation("PoseGinyu", "GinyuForce", true, true, true);
             AddAnimation("PoseGuldo", "GinyuForce", true, true, true);
             AddAnimation("PoseJeice", "GinyuForce", true, true, true);
             AddAnimation("PoseRecoome", "GinyuForce", true, true, true);
-            AddStartAndJoinAnim(new string[] { "StoodHere", "StandingHere" }, "StandingHere", true, true, true);
+            AddAnimation("StoodHere", new string[] { "Play_StandingHere" }, "StandingHere", true, true, false, new JoinSpot[] { new JoinSpot("StandingHereJoinSpot", new Vector3(0, 0, 2)) });
+            CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/StandingHere.anim"), true, visible: false);
             AddAnimation("Carson", "Carson", false, true, true);
             AddAnimation("Frolic", "Frolic", true, true, true);
             AddAnimation("MoveIt", "MoveIt", true, true, true);
@@ -130,16 +133,18 @@ namespace ExamplePlugin
 
 
 
-            //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/Standing Here.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_braindamage:assets/animationreplacements/I Realise.anim") }, true, "Play_StandingHere", "Stop_StandingHere", dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: 0, joinPref: 1);
-
 
             //update 4
             AddAnimation("OfficerEarl", "", true, false, false);
+            CustomEmotesAPI.BlackListEmote("OfficerEarl");
             AddAnimation("Cirno", "Cirno", false, true, true);
-            AddAnimation("Haruhi", new string[] { "Play_Haruhi, Play_HaruhiYoung" }, "Haruhi", false, true, true);
-            AddStartAndJoinAnim(new string[] { "GGGG", "GGGG2", "GGGG3" }, "GGGG", false, true, true);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Haruhi.anim") }, false, new string[] { "Play_Haruhi", "Play_HaruhiYoung" }, new string[] { "Stop_Haruhi", "Stop_Haruhi" }, dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: 0, joinPref: 0, joinSpots: new JoinSpot[] { new JoinSpot("Yuki_Nagato", new Vector3(3, 0, -3)), new JoinSpot("Mikuru_Asahina", new Vector3(-3, 0, -3)) });
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Yuki_Nagato.anim") }, false, "", visible: false, syncAnim: true);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Mikuru_Asahina.anim") }, false, "", visible: false, syncAnim: true);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG2.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG3.anim") }, false, new string[] { "Play_GGGG" }, new string[] { "Stop_GGGG" }, dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: -2, joinPref: -2);
             AddAnimation("Shufflin", "Shufflin", false, true, true);
-            AddStartAndJoinAnim(new string[] { "Train", "TrainPassenger" }, "Train", new string[] { "Trainloop", "TrainPassenger" }, true, false, true); //train //passenger
+            AddStartAndJoinAnim(new string[] { "Train", "TrainPassenger" }, "Train", new string[] { "Trainloop", "TrainPassenger" }, true, false, true);
+            CustomEmotesAPI.BlackListEmote("Train");
             AddAnimation("BimBamBom", "BimBamBom", true, true, true);
             AddAnimation("Savage", "Savage", true, true, true);
             AddAnimation("Stuck", "Stuck", true, true, true);
@@ -149,59 +154,155 @@ namespace ExamplePlugin
             AddAnimation("GalaxyObservatory", new string[] { "Play_GalaxyObservatory1", "Play_GalaxyObservatory2", "Play_GalaxyObservatory3" }, "GalaxyObservatory", true, true, true);
             AddAnimation("Markiplier", "Markiplier", false, false, false);
             AddAnimation("DevilSpawn", "DevilSpawn", true, true, true);
-
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOneIdle.anim") }, true, new string[] { "Play_DuckThisOneIdle" }, new string[] { "Stop_DuckThisOne" }, joinSpots: new JoinSpot[] { new JoinSpot("DuckThisJoinSpot", new Vector3(0, 0, 2)) }, dimWhenClose: true);
+            CustomEmotesAPI.BlackListEmote("DuckThisOneIdle");
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOne.anim") }, false, new string[] { "Play_DuckThisOne" }, new string[] { "Stop_DuckThisOne" }, visible: false, dimWhenClose: true);
+            CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOneJoin.anim"), false, visible: false, dimWhenClose: true);
             //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DevilSpawn.anim") }, true, joinSpots: new JoinSpot[] { new JoinSpot(Vector3.zero) });
+            AddAnimation("Griddy", "Griddy", true, true, true);
+            AddAnimation("Tidy", "Tidy", true, true, true);
+            AddAnimation("Toosie", "Toosie", true, true, true);
+            AddAnimation("INEEDAMEDICBAG", "INEEDAMEDICBAG", true, false, false);
+            AddAnimation("Smoke", "Smoke", true, true, true);
+            AddAnimation("FamilyGuyDeath", "", true, false, false);
+            AddAnimation("Panda", "", false, false, false);
+            AddAnimation("Yamcha", "", true, false, false);
+
+
+            //update 5
+            AddAnimation("Thriller", "Thriller", true, true, true);
+            AddAnimation("Wess", "Wess", false, true, true);
+            AddAnimation("Distraction", "Distraction", true, true, true);
+            AddAnimation("Security", "Security", true, true, true);
+            //CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:Assets/animationreplacements/Cum Throne.anim"), false, "Play_Cum", "Stop_Cum", dimWhenClose: true, syncAnim: true, syncAudio: true);
+
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
-            //CustomEmotesAPI.AddNonAnimatingEmote("SpawnEnemies");
-            //CustomEmotesAPI.AddNonAnimatingEmote("EnemyChika");
+            CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
         }
+
+        private void CustomEmotesAPI_emoteSpotJoined_Body(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
+        {
+            string emoteSpotName = emoteSpot.name;
+            if (emoteSpotName == "StandingHereJoinSpot")
+            {
+                joiner.PlayAnim("StandingHere", 0);
+                GameObject g = new GameObject();
+                g.name = "StandingHereProp";
+                joiner.props.Add(g);
+                g.transform.SetParent(host.transform);
+                Vector3 scal = host.transform.lossyScale;
+                g.transform.localPosition = new Vector3(0, 0, .75f / scal.z);
+                g.transform.localEulerAngles = new Vector3(0, 130, 0);
+                g.transform.localScale = new Vector3(.8f, .8f, .8f);
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                joiner.SetAnimationSpeed(2);
+                emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            }
+
+            if (emoteSpotName == "DuckThisJoinSpot")
+            {
+                joiner.PlayAnim("DuckThisOneJoin", 0);
+
+                GameObject g = new GameObject();
+                g.name = "DuckThisOneJoinProp";
+                joiner.props.Add(g);
+                g.transform.SetParent(host.transform);
+                Vector3 scal = host.transform.lossyScale;
+                g.transform.localPosition = new Vector3(0, 0, 1 / scal.z);
+                g.transform.localEulerAngles = new Vector3(0, 180, 0);
+                g.transform.localScale = Vector3.one;
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+
+
+                host.PlayAnim("DuckThisOne", 0);
+
+                g = new GameObject();
+                g.name = "DuckThisOneHostProp";
+                host.props.Add(g);
+                g.transform.localPosition = host.transform.position;
+                g.transform.localEulerAngles = host.transform.eulerAngles;
+                g.transform.localScale = Vector3.one;
+                host.AssignParentGameObject(g, true, true, true, true, false);
+            }
+
+            if (emoteSpotName == "Yuki_Nagato")
+            {
+                joiner.PlayAnim("Yuki_Nagato", 0);
+                CustomAnimationClip.syncTimer[joiner.currentClip.syncPos] = CustomAnimationClip.syncTimer[host.currentClip.syncPos];
+                CustomAnimationClip.syncPlayerCount[joiner.currentClip.syncPos]++;
+                joiner.PlayAnim("Yuki_Nagato", 0);
+                CustomAnimationClip.syncPlayerCount[joiner.currentClip.syncPos]--;
+
+                GameObject g = new GameObject();
+                g.name = "Yuki_NagatoProp";
+                joiner.props.Add(g);
+                g.transform.SetParent(host.transform);
+                Vector3 scal = host.transform.lossyScale;
+                g.transform.localPosition = new Vector3(0, 0, 0);
+                g.transform.localEulerAngles = Vector3.zero;
+                g.transform.localScale = Vector3.one;
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            }
+            if (emoteSpotName == "Mikuru_Asahina")
+            {
+                joiner.PlayAnim("Mikuru_Asahina", 0);
+                CustomAnimationClip.syncTimer[joiner.currentClip.syncPos] = CustomAnimationClip.syncTimer[host.currentClip.syncPos];
+                CustomAnimationClip.syncPlayerCount[joiner.currentClip.syncPos]++;
+                joiner.PlayAnim("Mikuru_Asahina", 0);
+                CustomAnimationClip.syncPlayerCount[joiner.currentClip.syncPos]--;
+
+                GameObject g = new GameObject();
+                g.name = "Mikuru_AsahinaProp";
+                joiner.props.Add(g);
+                g.transform.SetParent(host.transform);
+                Vector3 scal = host.transform.lossyScale;
+                g.transform.localPosition = new Vector3(0, 0, 0);
+                g.transform.localEulerAngles = Vector3.zero;
+                g.transform.localScale = Vector3.one;
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            }
+        }
+
         int stand = -1;
+        List<BoneMapper> punchingMappers = new List<BoneMapper>();
         int prop1 = -1;
         CameraTargetParams.CameraParamsOverrideHandle fovHandle;
         internal CharacterBody localBody = null;
-        IEnumerator SpawnEnemies()
-        {
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body BeetleQueen");
-            yield return new WaitForSeconds(.75f);
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Larva");
-            yield return new WaitForSeconds(.75f);
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body BeetleGuard");
-            yield return new WaitForSeconds(.75f);
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Mithrix");
-            yield return new WaitForSeconds(.75f);
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body ClayTemplar");
-            yield return new WaitForSeconds(.75f);
-            RoR2.Console.instance.SubmitCmd(NetworkUser.readOnlyLocalPlayersList[0], $"spawn_body Aurelionite");
-        }
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
         {
-            if (newAnimation == "SpawnEnemies")
-            {
-                StartCoroutine(SpawnEnemies());
-            }
-            if (newAnimation == "EnemyChika")
-            {
-                foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
-                {
-                    CustomEmotesAPI.PlayAnimation("Chika", item);
-                }
-            }
             prop1 = -1;
-            if (newAnimation != "none")
+            try
             {
-                stand = mapper.currentClip.syncPos;
+                if (newAnimation != "none")
+                {
+                    stand = mapper.currentClip.syncPos;
+                }
             }
-            if (stand != -1 && newAnimation == "StandingHere")
+            catch (System.Exception)
             {
-                if (CustomAnimationClip.syncPlayerCount[stand] > 1)
-                {
-                    AkSoundEngine.SetRTPCValue("MetalGear_Vocals", 1);
-                }
-                else
-                {
-                    AkSoundEngine.SetRTPCValue("MetalGear_Vocals", 0);
-                }
+            }
+            if (punchingMappers.Contains(mapper))
+            {
+                punchingMappers.Remove(mapper);
+                AkSoundEngine.SetRTPCValue("MetalGear_Vocals", 0);
+            }
+            if (newAnimation == "StandingHere")
+            {
+                punchingMappers.Add(mapper);
+                AkSoundEngine.SetRTPCValue("MetalGear_Vocals", 1);
+            }
+            if (newAnimation == "StoodHere")
+            {
+                GameObject g = new GameObject();
+                g.name = "StoodHereProp";
+                mapper.props.Add(g);
+                g.transform.localPosition = mapper.transform.position;
+                g.transform.localEulerAngles = mapper.transform.eulerAngles;
+                g.transform.localScale = Vector3.one;
+                mapper.AssignParentGameObject(g, false, false, true, true, false);
             }
             if (newAnimation == "Chika")
             {
@@ -256,14 +357,19 @@ namespace ExamplePlugin
             if (newAnimation == "HondaStep")
             {
                 prop1 = mapper.props.Count;
-                //GameObject myNutz = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/hondastuff.prefab"));
-                //myNutz.GetComponentInChildren<Animation>().playAutomatically = false;
-                //myNutz.GetComponentInChildren<Animator>().Play("MusicSync", -1, (CustomAnimationClip.syncTimer[mapper.currentClip.syncPos] % mapper.currentClip.clip[0].length) / mapper.currentClip.clip[0].length);
-                //myNutz.GetComponentInChildren<Animation>().Play("MusicSync");
-                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/hondastuff.prefab")));
-                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
-                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
-                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                GameObject myNutz = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/hondastuff.prefab"));
+                foreach (var item in myNutz.GetComponentsInChildren<ParticleSystem>())
+                {
+                    item.time = CustomAnimationClip.syncTimer[mapper.currentClip.syncPos];
+                }
+                Animator a = myNutz.GetComponentInChildren<Animator>();
+                //a.Play("MusicSync", -1);
+                a.Play("MusicSync", 0, (CustomAnimationClip.syncTimer[mapper.currentClip.syncPos] % a.GetCurrentAnimatorClipInfo(0)[0].clip.length) / a.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+                myNutz.transform.SetParent(mapper.transform.parent);
+                myNutz.transform.localEulerAngles = Vector3.zero;
+                myNutz.transform.localPosition = Vector3.zero;
+                mapper.props.Add(myNutz);
+                //mapper.ScaleProps();
             }
             if (stand != -1 && newAnimation == "Train")
             {
@@ -313,6 +419,69 @@ namespace ExamplePlugin
             {
                 mapper.SetAutoWalk(1, false);
             }
+            if (newAnimation == "DuckThisOneIdle")
+            {
+                GameObject g = new GameObject();
+                g.name = "DuckThisOneIdleProp";
+                mapper.props.Add(g);
+                g.transform.localPosition = mapper.transform.position;
+                g.transform.localEulerAngles = mapper.transform.eulerAngles;
+                g.transform.localScale = Vector3.one;
+                mapper.AssignParentGameObject(g, true, true, true, true, false);
+            }
+            if (newAnimation == "FullTilt")
+            {
+                mapper.SetAutoWalk(1, false);
+            }
+            if (newAnimation == "Smoke")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/BluntAnimator.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.props[prop1].GetComponentInChildren<ParticleSystem>().gravityModifier *= mapper.scale;
+                var velocity = mapper.props[prop1].GetComponentInChildren<ParticleSystem>().limitVelocityOverLifetime;
+                velocity.dampen *= mapper.scale;
+                velocity.limitMultiplier = mapper.scale;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Haruhi")
+            {
+                GameObject g = new GameObject();
+                g.name = "HaruhiProp";
+                mapper.props.Add(g);
+                g.transform.localPosition = mapper.transform.position;
+                g.transform.localEulerAngles = mapper.transform.eulerAngles;
+                g.transform.localScale = Vector3.one;
+                mapper.AssignParentGameObject(g, false, false, true, true, false);
+            }
+            if (newAnimation == "Thriller")
+            {
+                if (mapper.local)
+                {
+                    localBody = NetworkUser.readOnlyLocalPlayersList[0].master?.GetBody();
+                    CharacterCameraParamsData data = new CharacterCameraParamsData();
+                    data.fov = 70f;
+                    data.idealLocalCameraPos = new Vector3(0, 1.5f, -23);
+                    if (!fovHandle.isValid)
+                    {
+                        fovHandle = localBody.GetComponentInChildren<EntityStateMachine>().commonComponents.cameraTargetParams.AddParamsOverride(new CameraTargetParams.CameraParamsOverrideRequest
+                        {
+                            cameraParamsData = data
+                        }, 1f);
+                    }
+                }
+            }
+            if (newAnimation == "Security")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/prefabs/neversee.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.Spine));
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
             //if (newAnimation == "Sad")
             //{
             //    prop1 = mapper.props.Count;
@@ -335,6 +504,15 @@ namespace ExamplePlugin
                 stopwwise.Add($"Stop_{stopWwise}");
             }
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim") }, looping, wwise, stopwwise.ToArray(), dimWhenClose: dimAudio, syncAnim: sync, syncAudio: sync);
+        }
+        internal void AddAnimation(string AnimClip, string[] wwise, string stopWwise, bool looping, bool dimAudio, bool sync, JoinSpot[] joinSpots)
+        {
+            List<string> stopwwise = new List<string>();
+            foreach (var item in wwise)
+            {
+                stopwwise.Add($"Stop_{stopWwise}");
+            }
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim") }, looping, wwise, stopwwise.ToArray(), dimWhenClose: dimAudio, syncAnim: sync, syncAudio: sync, joinSpots: joinSpots);
         }
         internal void AddAnimation(string AnimClip, string wwise, string AnimClip2ElectricBoogaloo, bool dimAudio, bool sync)
         {
