@@ -194,6 +194,7 @@ namespace ExamplePlugin
 
         public static T Load<T>(string assetName) where T : UnityEngine.Object
         {
+            assetName = assetName.ToLower();
             if (assetName.Contains(":"))
             {
                 string[] path = assetName.Split(':');

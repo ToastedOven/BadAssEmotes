@@ -11,6 +11,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.Networking;
 
 namespace ExamplePlugin
 {
@@ -24,6 +25,8 @@ namespace ExamplePlugin
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
         public const string PluginVersion = "1.5.1";
+        int stageInt = -1;
+        GameObject stage;
         public void Awake()
         {
             Assets.PopulateAssets();
@@ -177,8 +180,28 @@ namespace ExamplePlugin
             //CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:Assets/animationreplacements/Cum Throne.anim"), false, "Play_Cum", "Stop_Cum", dimWhenClose: true, syncAnim: true, syncAudio: true);
 
 
+            //update 6
+            AddAnimation("KillMeBaby", "KillMeBaby", false, true, true);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2,0,0)) });
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorldJoin.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
+            BoneMapper.animClips["MyWorldJoin"].syncPos--;
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLD.anim") }, true, new string[] { "Play_VSWORLD" }, new string[] { "Stop_VSWORLD" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("VSWORLDJoinSpot", new Vector3(-2, 0, 0)) });
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLDLEFT.anim") }, true, new string[] { "Play_VSWORLD" }, new string[] { "Stop_VSWORLD" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
+            BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ChugJug.anim") }, false, new string[] { "Play_ChugJug", "Play_MikuJug" }, new string[] { "Stop_ChugJug", "Stop_ChugJug" }, dimWhenClose: true, syncAnim: true, syncAudio: true);
+            CustomEmotesAPI.AddNonAnimatingEmote("IFU Stage");
+            //GameObject g = Assets.Load<GameObject>($"Assets/Prefabs/ifustagebase.prefab");
+            //stageInt = CustomEmotesAPI.RegisterWorldProp(g, new JoinSpot[] { new JoinSpot("1", new Vector3(0,0,0)), new JoinSpot("2", new Vector3(-2, 0, 0)), new JoinSpot("2", new Vector3(2, 0, 0)) });
+
+
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
+            CustomEmotesAPI.emoteSpotJoined_Prop += CustomEmotesAPI_emoteSpotJoined_Prop;
+        }
+
+        private void CustomEmotesAPI_emoteSpotJoined_Prop(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
+        {
+
         }
 
         private void CustomEmotesAPI_emoteSpotJoined_Body(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
@@ -261,6 +284,40 @@ namespace ExamplePlugin
                 g.transform.localPosition = new Vector3(0, 0, 0);
                 g.transform.localEulerAngles = Vector3.zero;
                 g.transform.localScale = Vector3.one;
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            }
+            if (emoteSpotName == "MyWorldJoinSpot")
+            {
+                joiner.PlayAnim("MyWorldJoin", 0);
+
+                GameObject g = new GameObject();
+                g.name = "MyWorldJoinProp";
+                joiner.props.Add(g);
+                g.transform.SetParent(host.transform);
+                g.transform.localPosition = new Vector3(0, 0, 0);
+                g.transform.localEulerAngles = Vector3.zero;
+                g.transform.localScale = Vector3.one;
+                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            }
+            if (emoteSpotName == "VSWORLDJoinSpot")
+            {
+                joiner.PlayAnim("VSWORLDLEFT", 0);
+
+                GameObject g = new GameObject();
+                g.name = "VSWORLDLEFTJoinProp";
+                joiner.props.Add(g);
+                Vector3 scale = host.transform.parent.localScale;
+                host.transform.parent.localScale = Vector3.one;
+                g.transform.SetParent(host.transform.parent);
+                g.transform.localPosition = new Vector3(-2, 0, 0);
+                g.transform.localEulerAngles = Vector3.zero;
+                g.transform.localScale = Vector3.one;
+                g.transform.SetParent(null);
+                host.transform.parent.localScale = scale;
+                g.transform.SetParent(host.transform.parent);
+
                 joiner.AssignParentGameObject(g, true, true, true, true, true);
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
@@ -481,6 +538,24 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
+            }
+            DebugClass.Log($"----------   {newAnimation}");
+            if (newAnimation == "IFU Stage")
+            {
+                if (NetworkServer.active)
+                {
+                    DebugClass.Log($"----------  doing it");
+                    if (stage)
+                    {
+                        NetworkServer.Destroy(stage);
+                    }
+                    stage = CustomEmotesAPI.SpawnWorldProp(stageInt);
+                    stage.transform.SetParent(mapper.transform.parent);
+                    stage.transform.localPosition = new Vector3(0, 0, 0);
+                    stage.transform.SetParent(null);
+                    //stage.layer = 11;
+                    NetworkServer.Spawn(stage);
+                }
             }
             //if (newAnimation == "Sad")
             //{

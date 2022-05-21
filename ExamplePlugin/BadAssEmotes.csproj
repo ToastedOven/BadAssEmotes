@@ -20,12 +20,14 @@
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
     <None Remove="enemyskeletons" />
+    <None Remove="ifubundle" />
     <None Remove="Init.bnk" />
     <None Remove="nunchukemotes.bnk" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="BadAssEmotes2.bnk" />
+    <EmbeddedResource Include="ifubundle" />
     <EmbeddedResource Include="Init.bnk" />
     <EmbeddedResource Include="nunchukemotes.bnk" />
   </ItemGroup>
