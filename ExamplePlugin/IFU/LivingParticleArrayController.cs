@@ -2,27 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LivingParticleArrayController : MonoBehaviour {
+namespace ExamplePlugin
+{
 
-    public Transform[] affectors;
+    public class LivingParticleArrayController : MonoBehaviour
+    {
 
-    private Vector4[] positions;
-    private ParticleSystemRenderer psr;
+        public Transform[] affectors;
 
-	void Start () {
-        psr = GetComponent<ParticleSystemRenderer>();
-        Vector4[] maxArray = new Vector4[20];
-        psr.material.SetVectorArray("_Affectors", maxArray);
-    }
+        private Vector4[] positions;
+        private ParticleSystemRenderer psr;
 
-    // Sending an array of positions to particle shader
-    void Update () {
-        positions = new Vector4[affectors.Length];
-        for (int i = 0; i < positions.Length; i++)
+        void Start()
         {
-            positions[i] = affectors[i].position;
+            //error here?
+            psr = GetComponent<ParticleSystemRenderer>(); //prob this
+            Vector4[] maxArray = new Vector4[20];
+            psr.material.SetVectorArray("_Affectors", maxArray);
         }
-        psr.material.SetVectorArray("_Affectors", positions);
-        psr.material.SetInt("_AffectorCount", affectors.Length);
+
+        // Sending an array of positions to particle shader
+        void Update()
+        {
+            positions = new Vector4[affectors.Length];
+            for (int i = 0; i < positions.Length; i++)
+            {
+                positions[i] = affectors[i].position;
+            }
+            psr.material.SetVectorArray("_Affectors", positions);
+            psr.material.SetInt("_AffectorCount", affectors.Length);
+        }
     }
 }

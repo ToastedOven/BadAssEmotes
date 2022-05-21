@@ -2,112 +2,115 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class UIController : MonoBehaviour
+namespace ExamplePlugin
 {
 
-    public Light directionalLight;
-    public ReflectionProbe reflectionProbe;
-    public Material daySkyboxMaterial;
-    public Material nightSkyboxMaterial;
-    public Transform prefabHolder;
-    public Text text;
-
-    private Transform[] prefabs;
-    private List<Transform> lt;
-    private int activeNumber = 0;
-
-    void Start()
+    public class UIController : MonoBehaviour
     {
 
-        lt = new List<Transform>();
-        prefabs = prefabHolder.GetComponentsInChildren<Transform>(true);
+        public Light directionalLight;
+        public ReflectionProbe reflectionProbe;
+        public Material daySkyboxMaterial;
+        public Material nightSkyboxMaterial;
+        public Transform prefabHolder;
+        public Text text;
 
-        foreach (Transform tran in prefabs)
+        private Transform[] prefabs;
+        private List<Transform> lt;
+        private int activeNumber = 0;
+
+        void Start()
         {
-            if (tran.parent == prefabHolder)
+
+            lt = new List<Transform>();
+            prefabs = prefabHolder.GetComponentsInChildren<Transform>(true);
+
+            foreach (Transform tran in prefabs)
             {
-                lt.Add(tran);
+                if (tran.parent == prefabHolder)
+                {
+                    lt.Add(tran);
+                }
+            }
+
+            prefabs = lt.ToArray();
+            EnableActive();
+        }
+
+        // Turn On active VFX Prefab
+        public void EnableActive()
+        {
+            for (int i = 0; i < prefabs.Length; i++)
+            {
+                if (i == activeNumber)
+                {
+                    prefabs[i].gameObject.SetActive(true);
+                    text.text = prefabs[i].name;
+                }
+                else
+                {
+                    prefabs[i].gameObject.SetActive(false);
+                }
             }
         }
 
-        prefabs = lt.ToArray();
-        EnableActive();
-    }
-
-    // Turn On active VFX Prefab
-    public void EnableActive()
-    {
-        for (int i = 0; i < prefabs.Length; i++)
+        // Change active VFX
+        public void ChangeEffect(bool bo)
         {
-            if (i == activeNumber)
+            if (bo == true)
             {
-                prefabs[i].gameObject.SetActive(true);
-                text.text = prefabs[i].name;
+                activeNumber++;
+                if (activeNumber == prefabs.Length)
+                {
+                    activeNumber = 0;
+                }
             }
             else
             {
-                prefabs[i].gameObject.SetActive(false);
+                activeNumber--;
+                if (activeNumber == -1)
+                {
+                    activeNumber = prefabs.Length - 1;
+                }
             }
-        }
-    }
 
-    // Change active VFX
-    public void ChangeEffect(bool bo)
-    {
-        if (bo == true)
+            EnableActive();
+        }
+
+        public void SetDay()
         {
-            activeNumber++;
-            if (activeNumber == prefabs.Length)
+            directionalLight.enabled = true;
+            RenderSettings.skybox = daySkyboxMaterial;
+            reflectionProbe.RenderProbe();
+        }
+
+        public void SetNight()
+        {
+            directionalLight.enabled = false;
+            RenderSettings.skybox = nightSkyboxMaterial;
+            reflectionProbe.RenderProbe();
+        }
+
+
+        // TEMP
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
             {
-                activeNumber = 0;
+                SetDay();
             }
-        }
-        else
-        {
-            activeNumber--;
-            if (activeNumber == -1)
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                activeNumber = prefabs.Length - 1;
+                SetNight();
             }
-        }
-
-        EnableActive();
-    }
-
-    public void SetDay()
-    {
-        directionalLight.enabled = true;
-        RenderSettings.skybox = daySkyboxMaterial;
-        reflectionProbe.RenderProbe();
-    }
-
-    public void SetNight()
-    {
-        directionalLight.enabled = false;
-        RenderSettings.skybox = nightSkyboxMaterial;
-        reflectionProbe.RenderProbe();
-    }
-
-
-    // TEMP
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            SetDay();
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SetNight();
-        }
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            ChangeEffect(true);
-        }
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            ChangeEffect(false);
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                ChangeEffect(true);
+            }
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                ChangeEffect(false);
+            }
         }
     }
 }

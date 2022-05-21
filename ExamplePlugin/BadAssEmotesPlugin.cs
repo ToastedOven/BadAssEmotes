@@ -11,6 +11,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.Animations;
 using UnityEngine.Networking;
 
 namespace ExamplePlugin
@@ -27,6 +28,7 @@ namespace ExamplePlugin
         public const string PluginVersion = "1.5.1";
         int stageInt = -1;
         GameObject stage;
+        LivingParticleArrayController LPAC;
         public void Awake()
         {
             Assets.PopulateAssets();
@@ -182,7 +184,7 @@ namespace ExamplePlugin
 
             //update 6
             AddAnimation("KillMeBaby", "KillMeBaby", false, true, true);
-            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2,0,0)) });
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2, 0, 0)) });
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorldJoin.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             BoneMapper.animClips["MyWorldJoin"].syncPos--;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLD.anim") }, true, new string[] { "Play_VSWORLD" }, new string[] { "Stop_VSWORLD" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("VSWORLDJoinSpot", new Vector3(-2, 0, 0)) });
@@ -190,8 +192,42 @@ namespace ExamplePlugin
             BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ChugJug.anim") }, false, new string[] { "Play_ChugJug", "Play_MikuJug" }, new string[] { "Stop_ChugJug", "Stop_ChugJug" }, dimWhenClose: true, syncAnim: true, syncAudio: true);
             CustomEmotesAPI.AddNonAnimatingEmote("IFU Stage");
-            //GameObject g = Assets.Load<GameObject>($"Assets/Prefabs/ifustagebase.prefab");
-            //stageInt = CustomEmotesAPI.RegisterWorldProp(g, new JoinSpot[] { new JoinSpot("1", new Vector3(0,0,0)), new JoinSpot("2", new Vector3(-2, 0, 0)), new JoinSpot("2", new Vector3(2, 0, 0)) });
+            GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebase.prefab");
+            var g = g2.transform.Find("ifuStage").Find("random moving dust").gameObject;
+            g.AddComponent<ParticleSystemRampGenerator>();
+            ParticleGridGenerator particleGridGenerator = g.AddComponent<ParticleGridGenerator>();
+            particleGridGenerator.particleRotation3D = Vector3.zero;
+            particleGridGenerator.particleSize = .25f;
+            particleGridGenerator.randomColorAlpha = true;
+            particleGridGenerator.xDistance = .25f;
+            particleGridGenerator.yDistance = .25f;
+            particleGridGenerator.zDistance = .21875f;
+            particleGridGenerator.xSize = 40;
+            particleGridGenerator.ySize = 1;
+            particleGridGenerator.zSize = 46;
+            particleGridGenerator.OffsetEven = .125f;
+            particleGridGenerator.updateEveryFrame = false;
+            GameObject ifuaudio = g2.transform.Find("ifuStage").Find("ifuaudio").gameObject;
+            AudioSource source = ifuaudio.AddComponent<AudioSource>();
+            source.clip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
+            source.playOnAwake = false;
+            LivingParticlesAudioModule module = g.AddComponent<LivingParticlesAudioModule>();
+            module.audioPosition = g.transform;
+            module.useBuffer = true;
+            module.firstAndLastPixelBlack = true;
+            LivingParticlesAudioSource audioSource = ifuaudio.AddComponent<LivingParticlesAudioSource>();
+            module.LPaSourse = audioSource;
+            audioSource.audioClip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
+            audioSource.bufferInitialDecreaseSpeed = 2;
+            audioSource.bufferDecreaseSpeedMultiply = 10;
+            audioSource.freqBandsPower = 50;
+            audioSource.audioProfileInitialValue = 0;
+            audioSource.audioProfileDecreasing = false;
+            audioSource.audioProfileDecreasingSpeed = .02f;
+            audioSource.numberOfBands = LivingParticlesAudioSource._numberOfBands.Bands8;
+            stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("1", new Vector3(0, .4f, 0)), new JoinSpot("2", new Vector3(-2, .4f, 0)), new JoinSpot("2", new Vector3(2, .4f, 0)) });
+
+            //AddAnimation("SingleFurry", "SingleFurry", true, true, true);
 
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
@@ -539,12 +575,10 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
             }
-            DebugClass.Log($"----------   {newAnimation}");
             if (newAnimation == "IFU Stage")
             {
                 if (NetworkServer.active)
                 {
-                    DebugClass.Log($"----------  doing it");
                     if (stage)
                     {
                         NetworkServer.Destroy(stage);
@@ -553,7 +587,21 @@ namespace ExamplePlugin
                     stage.transform.SetParent(mapper.transform.parent);
                     stage.transform.localPosition = new Vector3(0, 0, 0);
                     stage.transform.SetParent(null);
+                    stage.transform.localPosition += new Vector3(0, .5f, 0);
                     //stage.layer = 11;
+                    LPAC = stage.transform.Find("ifuStage").Find("random moving dust").gameObject.AddComponent<LivingParticleArrayController>();
+                    List<Transform> YEAHFEET = new List<Transform>();
+                    foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
+                    {
+                        foreach (var bone in item.smr2.bones)
+                        {
+                            if (bone.GetComponent<ParentConstraint>() && (bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.LeftFoot) || bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.RightFoot)))
+                            {
+                                YEAHFEET.Add(bone);
+                            }
+                        }
+                    }
+                    LPAC.affectors = YEAHFEET.ToArray();
                     NetworkServer.Spawn(stage);
                 }
             }
