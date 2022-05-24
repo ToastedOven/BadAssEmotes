@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LivingParticlesAudioModule : MonoBehaviour {
+public class LivingParticlesAudioModule : MonoBehaviour
+{
 
     public Transform audioPosition;
     public LivingParticlesAudioSource LPaSourse;
@@ -15,7 +16,8 @@ public class LivingParticlesAudioModule : MonoBehaviour {
     private ParticleSystemRenderer psr;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         psr = GetComponent<ParticleSystemRenderer>();
         switch (LPaSourse.numberOfBands)
         {
@@ -27,10 +29,10 @@ public class LivingParticlesAudioModule : MonoBehaviour {
                 else
                 {
                     t2d = new Texture2D(8, 1);
-                }                
+                }
                 break;
             case LivingParticlesAudioSource._numberOfBands.Bands16:
-                if(firstAndLastPixelBlack == true)
+                if (firstAndLastPixelBlack == true)
                 {
                     t2d = new Texture2D(18, 1);
                 }
@@ -41,12 +43,13 @@ public class LivingParticlesAudioModule : MonoBehaviour {
                 break;
             default:
                 break;
-        }        
+        }
         t2d.wrapMode = TextureWrapMode.Repeat;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         if (useBuffer == true)
         {
             switch (LPaSourse.numberOfBands)
@@ -59,7 +62,7 @@ public class LivingParticlesAudioModule : MonoBehaviour {
                     break;
                 default:
                     break;
-            }            
+            }
         }
         else
         {
@@ -75,18 +78,17 @@ public class LivingParticlesAudioModule : MonoBehaviour {
                     break;
             }
         }
-        
         for (int i = 0; i < finalSpectrum.Length; i++)
         {
             col.r = finalSpectrum[i];
             if (firstAndLastPixelBlack == true)
             {
-                t2d.SetPixel(i+1, 0, col);
+                t2d.SetPixel(i + 1, 0, col);
             }
             else
             {
                 t2d.SetPixel(i, 0, col);
-            }            
+            }
         }
         if (firstAndLastPixelBlack == true)
         {
@@ -104,7 +106,6 @@ public class LivingParticlesAudioModule : MonoBehaviour {
             }
         }
         t2d.Apply();
-
         psr.material.SetTexture("_AudioSpectrum", t2d);
         psr.material.SetVector("_AudioPosition", audioPosition.position);
         switch (LPaSourse.numberOfBands)

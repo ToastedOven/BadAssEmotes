@@ -9,6 +9,8 @@ using RiskOfOptions.Options;
 using RoR2;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Animations;
@@ -34,6 +36,7 @@ namespace ExamplePlugin
             Assets.PopulateAssets();
             Assets.AddSoundBank("nunchukemotes.bnk");
             Assets.AddSoundBank("Init.bnk");
+            Assets.AddSoundBank("Test.bnk");
             Assets.AddSoundBank("BadAssEmotes.bnk");
             Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.LoadSoundBanks();
@@ -192,43 +195,145 @@ namespace ExamplePlugin
             BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ChugJug.anim") }, false, new string[] { "Play_ChugJug", "Play_MikuJug" }, new string[] { "Stop_ChugJug", "Stop_ChugJug" }, dimWhenClose: true, syncAnim: true, syncAudio: true);
             CustomEmotesAPI.AddNonAnimatingEmote("IFU Stage");
-            GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebase.prefab");
-            var g = g2.transform.Find("ifuStage").Find("random moving dust").gameObject;
-            g.AddComponent<ParticleSystemRampGenerator>();
-            ParticleGridGenerator particleGridGenerator = g.AddComponent<ParticleGridGenerator>();
-            particleGridGenerator.particleRotation3D = Vector3.zero;
-            particleGridGenerator.particleSize = .25f;
-            particleGridGenerator.randomColorAlpha = true;
-            particleGridGenerator.xDistance = .25f;
-            particleGridGenerator.yDistance = .25f;
-            particleGridGenerator.zDistance = .21875f;
-            particleGridGenerator.xSize = 40;
-            particleGridGenerator.ySize = 1;
-            particleGridGenerator.zSize = 46;
-            particleGridGenerator.OffsetEven = .125f;
-            particleGridGenerator.updateEveryFrame = false;
-            GameObject ifuaudio = g2.transform.Find("ifuStage").Find("ifuaudio").gameObject;
-            AudioSource source = ifuaudio.AddComponent<AudioSource>();
-            source.clip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
-            source.playOnAwake = false;
-            LivingParticlesAudioModule module = g.AddComponent<LivingParticlesAudioModule>();
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifu.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifeleft.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
+            BoneMapper.animClips["ifeleft"].syncPos--;
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifuright.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
+            BoneMapper.animClips["ifuright"].syncPos -= 2;
+            GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebasebased.prefab");
+            var g = g2.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject;
+            //ParticleSystemRampGenerator ramp = g.AddComponent<ParticleSystemRampGenerator>();
+            //ramp.RampSpeed = 0.0723846f;
+            //ramp.useRampSpeed = false;
+            //ramp.activeRamp = 0;
+            //ramp.turnOnProceduralRamp = true;
+            //ramp.procedrualGradientEnabled = true;
+            //ramp.updateEveryFrame = true;
+            //ramp.activeProcedrualGradientRamp = new Gradient[15];
+
+            //ramp.activeProcedrualGradientRamp[0] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[0].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[0].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0f, 0.7815788f, 1f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[1] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[1].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[1].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0.1614305f, 1f, 0f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0.6946712f, 0f, 1f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[2] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[2].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[2].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0f, 0.02246475f, 1f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(1f, 0.9871355f, 0f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[3] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[3].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[3].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0.9802504f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0f, 1f, 0.9618928f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[4] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[4].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[4].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0.3801513f, 0f, 1f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(1f, 0.4713902f, 0f, 1f), 0.9264668f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[5] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[5].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[5].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 0f, 1f), 0.2f), new GradientColorKey(new Color(0f, 1f, 0f, 1f), 0.4f), new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0.6f), new GradientColorKey(new Color(1f, 0f, 1f, 1f), 0.8f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[6] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[6].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[6].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[7] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[7].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[7].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[8] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[8].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[8].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[9] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[9].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[9].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 1f, 0.9789009f, 1f), 0f), new GradientColorKey(new Color(0f, 1f, 0.9907742f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[10] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[10].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[10].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 0f), new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[11] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[11].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[11].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 0f), new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[12] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[12].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[12].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 1f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[13] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[13].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[13].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f) };
+
+            //ramp.activeProcedrualGradientRamp[14] = new Gradient();
+            //ramp.activeProcedrualGradientRamp[14].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
+            //ramp.activeProcedrualGradientRamp[14].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f) };
+
+
+            //StringBuilder sb = new StringBuilder();
+            //for (int i = 0; i < ramp.activeProcedrualGradientRamp.Length; i++)
+            //{
+            //    sb.Append("ramp.activeProcedrualGradientRamp[i].alphaKeys = new GradientAlphaKey[] {");
+            //    foreach (var item in ramp.activeProcedrualGradientRamp[i].alphaKeys)
+            //    {
+            //        sb.Append($"new GradientAlphaKey({item.alpha}, {item.time})");
+            //        if (item.time != ramp.activeProcedrualGradientRamp[i].alphaKeys[ramp.activeProcedrualGradientRamp[i].alphaKeys.Length - 1].time)
+            //        {
+            //            sb.Append(',');
+            //        }
+            //    }
+            //    sb.Append("};\n");
+
+
+            //    sb.Append("ramp.activeProcedrualGradientRamp[i].colorKeys = new GradientColorKey[] {");
+            //    foreach (var item in ramp.activeProcedrualGradientRamp[i].colorKeys)
+            //    {
+            //        sb.Append($"new GradientColorKey(new Color({item.color.r}, {item.color.g}, {item.color.b}, {item.color.a}), {item.time})");
+            //        if (item.time != ramp.activeProcedrualGradientRamp[i].colorKeys[ramp.activeProcedrualGradientRamp[i].colorKeys.Length - 1].time)
+            //        {
+            //            sb.Append(',');
+            //        }
+            //    }
+            //    sb.Append("};\n\n");
+            //}
+            //File.WriteAllText("Pain.txt", sb.ToString());
+
+            //ParticleGridGenerator particleGridGenerator = g.AddComponent<ParticleGridGenerator>();
+            //particleGridGenerator.particleRotation3D = Vector3.zero;
+            //particleGridGenerator.particleSize = .25f;
+            //particleGridGenerator.randomColorAlpha = true;
+            //particleGridGenerator.xDistance = .25f;
+            //particleGridGenerator.yDistance = .25f;
+            //particleGridGenerator.zDistance = .21875f;
+            //particleGridGenerator.xSize = 40;
+            //particleGridGenerator.ySize = 1;
+            //particleGridGenerator.zSize = 46;
+            //particleGridGenerator.OffsetEven = .125f;
+            //particleGridGenerator.updateEveryFrame = false;
+            //GameObject ifuaudio = g2.transform.Find("ifuStage").Find("ifuaudio").gameObject;
+            //AudioSource source = ifuaudio.AddComponent<AudioSource>();
+            //source.clip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
+            //source.playOnAwake = false;
+            LivingParticlesAudioModule module = g.GetComponent<LivingParticlesAudioModule>();
             module.audioPosition = g.transform;
-            module.useBuffer = true;
-            module.firstAndLastPixelBlack = true;
-            LivingParticlesAudioSource audioSource = ifuaudio.AddComponent<LivingParticlesAudioSource>();
-            module.LPaSourse = audioSource;
-            audioSource.audioClip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
-            audioSource.bufferInitialDecreaseSpeed = 2;
-            audioSource.bufferDecreaseSpeedMultiply = 10;
-            audioSource.freqBandsPower = 50;
-            audioSource.audioProfileInitialValue = 0;
-            audioSource.audioProfileDecreasing = false;
-            audioSource.audioProfileDecreasingSpeed = .02f;
-            audioSource.numberOfBands = LivingParticlesAudioSource._numberOfBands.Bands8;
-            stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("1", new Vector3(0, .4f, 0)), new JoinSpot("2", new Vector3(-2, .4f, 0)), new JoinSpot("2", new Vector3(2, .4f, 0)) });
+            //module.useBuffer = true;
+            //module.firstAndLastPixelBlack = true;
+            //LivingParticlesAudioSource audioSource = ifuaudio.GetComponent<LivingParticlesAudioSource>();
+            //module.LPaSourse = audioSource;
+            //audioSource.audioClip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
+            //audioSource.bufferInitialDecreaseSpeed = 2;
+            //audioSource.bufferDecreaseSpeedMultiply = 10;
+            //audioSource.freqBandsPower = 50;
+            //audioSource.audioProfileInitialValue = 0;
+            //audioSource.audioProfileDecreasing = false;
+            //audioSource.audioProfileDecreasingSpeed = .02f;
+            //audioSource.numberOfBands = LivingParticlesAudioSource._numberOfBands.Bands8;
+            stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("ifumiddle", new Vector3(0, .4f, 0)), new JoinSpot("ifeleft", new Vector3(-2, .4f, 0)), new JoinSpot("ifuright", new Vector3(2, .4f, 0)) });
+
 
             //AddAnimation("SingleFurry", "SingleFurry", true, true, true);
-
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
@@ -237,9 +342,58 @@ namespace ExamplePlugin
 
         private void CustomEmotesAPI_emoteSpotJoined_Prop(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
         {
+            string emoteSpotName = emoteSpot.name;
+            if (emoteSpotName == "ifumiddle")
+            {
+                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+                joiner.PlayAnim("ifu", 0);
 
+                GameObject g = new GameObject();
+                g.name = "ifumiddle_JoinProp";
+                IFU(joiner, host, emoteSpot, g);
+                host.GetComponentInChildren<LivingParticlesAudioSource>().StartAudio();
+            }
+            else if (emoteSpotName == "ifeleft")
+            {
+                joiner.PlayAnim("ifeleft", 0);
+
+                GameObject g = new GameObject();
+                g.name = "ifeleft_JoinProp";
+                IFU(joiner, host, emoteSpot, g);
+            }
+            else if (emoteSpotName == "ifuright")
+            {
+                joiner.PlayAnim("ifuright", 0);
+
+                GameObject g = new GameObject();
+                g.name = "ifuright_JoinProp";
+                IFU(joiner, host, emoteSpot, g);
+            }
         }
-
+        private void IFU(BoneMapper joiner, BoneMapper host, GameObject emoteSpot, GameObject g)
+        {
+            joiner.props.Add(g);
+            g.transform.SetParent(host.transform);
+            g.transform.localPosition = new Vector3(0, .5f, 0);
+            g.transform.localEulerAngles = Vector3.zero;
+            g.transform.localScale = host.transform.localScale;
+            joiner.AssignParentGameObject(g, true, true, true, true, true);
+            emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            if (joiner.local)
+            {
+                localBody = NetworkUser.readOnlyLocalPlayersList[0].master?.GetBody();
+                CharacterCameraParamsData data = new CharacterCameraParamsData();
+                data.fov = 70f;
+                data.idealLocalCameraPos = new Vector3(0, 1.5f, -20);
+                if (!fovHandle.isValid)
+                {
+                    fovHandle = localBody.GetComponentInChildren<EntityStateMachine>().commonComponents.cameraTargetParams.AddParamsOverride(new CameraTargetParams.CameraParamsOverrideRequest
+                    {
+                        cameraParamsData = data
+                    }, 1f);
+                }
+            }
+        }
         private void CustomEmotesAPI_emoteSpotJoined_Body(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
         {
             string emoteSpotName = emoteSpot.name;
@@ -589,7 +743,7 @@ namespace ExamplePlugin
                     stage.transform.SetParent(null);
                     stage.transform.localPosition += new Vector3(0, .5f, 0);
                     //stage.layer = 11;
-                    LPAC = stage.transform.Find("ifuStage").Find("random moving dust").gameObject.AddComponent<LivingParticleArrayController>();
+                    LPAC = stage.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject.GetComponent<LivingParticleArrayController>();
                     List<Transform> YEAHFEET = new List<Transform>();
                     foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
                     {
@@ -602,6 +756,9 @@ namespace ExamplePlugin
                         }
                     }
                     LPAC.affectors = YEAHFEET.ToArray();
+                    //mapper.props.Add(stage);
+                    //mapper.ScaleProps();
+                    //mapper.props.Remove(stage);
                     NetworkServer.Spawn(stage);
                 }
             }

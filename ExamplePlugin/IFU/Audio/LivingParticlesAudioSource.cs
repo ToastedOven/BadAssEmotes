@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class LivingParticlesAudioSource : MonoBehaviour {
+public class LivingParticlesAudioSource : MonoBehaviour
+{
     public AudioClip audioClip;
 
     [Range(0.1f, 2f)]
     public float bufferInitialDecreaseSpeed = 1f;
-    [Range (0f, 10f)]
+    [Range(0f, 10f)]
     public float bufferDecreaseSpeedMultiply = 5f;
     public float freqBandsPower = 10f;
     public float audioProfileInitialValue = 5f;
@@ -45,18 +46,48 @@ public class LivingParticlesAudioSource : MonoBehaviour {
     [HideInInspector] public float amplitude16, amplitudeBuffer16;
     private float amplitudeHighest;
 
-    
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         audioSource = GetComponent<AudioSource>();
         AudioProfile(audioProfileInitialValue);
+
+        // CreateWindow(512, false);
+
+        // readWav($"C:\\Users\\dwelx\\Documents\\GitHub\\BadAssEmotes\\ExamplePlugin\\Ifu.wav", out left, out right, out samplerate, out channels);
+        //audioSource.GetSpectrumData(initialSamplesL, 0, FFTWindow.Blackman);
+        //audioSource.GetSpectrumData(initialSamplesR, 1, FFTWindow.Blackman);
+    }
+    public void StartAudio()
+    {
+        Reset();
+        var result = AkAudioInputManager.PostAudioInputEvent("IFUTestInput", gameObject, WavBufferToWwise, BeforePlayingAudio);
     }
 
-    // Brought to you by StackOverflow, modified by brain damage.
+    public void Reset()
+    {
+        _length = 0;
+    }
+
+    private static bool speaking = false;
+    private uint _length = 0;
+    private void BeforePlayingAudio(uint playingID, AkAudioFormat format)
+    {
+        uint samplerate, channels;
+
+        left = right = new float[0];
+
+        readWav($"C:\\Users\\dwelx\\Documents\\GitHub\\BadAssEmotes\\ExamplePlugin\\Ifu.wav", out left, out right, out samplerate, out channels);
+        format.channelConfig.uNumChannels = channels;
+        format.uSampleRate = samplerate;
+
+        yote = true;
+    }
+    bool yote = false;
 
     static bool readWav(string filename, out float[] L, out float[] R, out uint samplerate, out uint channels)
     {
+        speaking = true;
         L = R = null;
 
         samplerate = 0;
@@ -160,9 +191,86 @@ public class LivingParticlesAudioSource : MonoBehaviour {
 
         return false;
     }
-    void Update () {
-        audioSource.GetSpectrumData(initialSamplesL, 0, FFTWindow.Blackman);
-        audioSource.GetSpectrumData(initialSamplesR, 1, FFTWindow.Blackman);
+    float[] left, right;
+    private bool WavBufferToWwise(uint playingID, uint channelIndex, float[] samples)
+    {
+        if (left.Length <= 0)
+        {
+            DebugClass.Log("There was an error playing the audio file, The audio buffer is empty!");
+        }
+
+
+        // probably redundant now tbh.
+        if (_length >= (uint)left.Length)
+        {
+            _length = (uint)left.Length;
+        }
+
+        // DebugClass.Log($"Samples: {samples.Length}, Left: {left.Length}, Current: {length}");
+
+        initialSamplesL = new float[samples.Length];
+        initialSamplesR = new float[samples.Length];
+
+        try
+        {
+            uint i = 0;
+
+            for (i = 0; i < samples.Length; ++i)
+            {
+                if (i + _length >= left.Length)
+                {
+                    speaking = false;
+                    AkSoundEngine.ExecuteActionOnEvent(3183910552, AkActionOnEventType.AkActionOnEventType_Stop);
+                    _length = 0;
+                    break;
+                }
+
+                initialSamplesL[i] = left[i + _length];
+                initialSamplesR[i] = right[i + _length];
+
+                samples[i] = 0;
+            }
+
+            _length += i;
+        }
+        catch (Exception)
+        {
+            Debug.Log($"--------end of audio???");
+            throw;
+        }
+        if (_length >= (uint)left.Length)
+        {
+            _length = (uint)left.Length;
+            speaking = false;
+        }
+
+        //DebugClass.Log($"id:{playingID}, samples: {samples}, channlIndex: {channelIndex}");
+
+        DoSpectrumDataStuff();
+
+        return speaking;
+    }
+
+    void ApplyWindow()
+    {
+        var length = initialSamplesL.Length;
+        CreateWindow(length);
+
+        for (int i = 0; i < length; i++)
+        {
+            initialSamplesL[i] = (float)(initialSamplesL[i] * _window[i]);
+            initialSamplesR[i] = (float)(initialSamplesR[i] * _window[i]);
+        }
+    }
+
+    void DoSpectrumDataStuff()
+    {
+        //audioSource.GetSpectrumData(initialSamplesL, 0, FFTWindow.Blackman);
+        //audioSource.GetSpectrumData(initialSamplesR, 1, FFTWindow.Blackman);
+
+        // GetSpectrumData(512);
+
+        ApplyWindow();
 
         switch (numberOfBands)
         {
@@ -180,8 +288,66 @@ public class LivingParticlesAudioSource : MonoBehaviour {
                 break;
             default:
                 break;
-        }        
+        }
     }
+
+    private double[] _window;
+
+    void CreateWindow(int size, bool normalize = false)
+    {
+        const double a = 0.42659071;
+        const double b = 0.49656062;
+        const double c = 0.07684867;
+
+        _window = new double[size];
+        
+        for (int i = 0; i < size; i++)
+        {
+            double frac = (double)i / (size - 1);
+            _window[i] = 0.42f - (0.5f * Mathf.Cos(i / size) ) + (0.08 * Mathf.Cos(2.0f * i / size));
+        }
+
+        if (normalize)
+        {
+            double sum = 0;
+
+            for (int i = 0; i < _window.Length; i++)
+            {
+                sum += _window[i];
+            }
+
+            for (int i = 0; i < _window.Length; i++)
+            {
+                _window[i] /= sum;
+            }
+        }
+    }
+
+    //void GetSpectrumData(int sampleSize)
+    //{
+    //    float[] leftSamples = new float[sampleSize];
+    //    float[] rightSamples = new float[sampleSize];
+
+    //    GetSamples(leftSamples, rightSamples);
+
+    //    for (int i = 0; i < sampleSize; i++)
+    //    {
+    //        initialSamplesL[i] = (float)(leftSamples[i] * _window[i]);
+    //        initialSamplesR[i] = (float)(rightSamples[i] * _window[i]);
+    //    }
+    //}
+    
+
+    //void GetSamples(float[] leftSamples, float[] rightSamples)
+    //{
+    //    for (int i = 0; i < leftSamples.Length; i++)
+    //    {
+    //        leftSamples[i] = left[_offset + i];
+    //        rightSamples[i] = right[_offset + i];
+    //    }
+
+    //    _offset += leftSamples.Length;
+    //}
 
     void AudioProfile(float audioProfileValue)
     {
@@ -247,7 +413,7 @@ public class LivingParticlesAudioSource : MonoBehaviour {
             }
             finalBands8[i] = freqBands8[i] / freqBands8Highest[i];
             finalBands8Buffer[i] = freqBands8Buffer[i] / freqBands8Highest[i];
-        }        
+        }
     }
 
     // Creating Final Bands 16 to use in the Material
@@ -279,7 +445,6 @@ public class LivingParticlesAudioSource : MonoBehaviour {
                 freqBands8Buffer[y] = freqBands8[y];
                 freqBands8BufferDecrease[y] = bufferInitialDecreaseSpeed * freqBands8Highest[y] * Time.deltaTime; // You can delete the second part of multiplication
             }
-
             if (freqBands8[y] < freqBands8Buffer[y])
             {
                 freqBands8Buffer[y] -= freqBands8BufferDecrease[y];
@@ -323,13 +488,15 @@ public class LivingParticlesAudioSource : MonoBehaviour {
             }
             for (int j = 0; j < sampleCount; j++)
             {
+                //DebugClass.Log($"----------  {i}  L: {initialSamplesL[count]}   R: {initialSamplesR[count]}");
                 average += (initialSamplesL[count] + initialSamplesR[count]) * (count + 1);
                 count++;
             }
-
+            //DebugClass.Log($"---------- AVERAGE CALCULATION:  {i}   {average} /= {count}");
             average /= count;
 
             freqBands8[i] = average * freqBandsPower;
+            //DebugClass.Log($"----------         {i}   {freqBands8[i]}");
         }
     }
 

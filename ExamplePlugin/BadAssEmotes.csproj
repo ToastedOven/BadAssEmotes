@@ -16,6 +16,7 @@
     <None Remove="badassemotes" />
     <None Remove="BadAssEmotes.bnk" />
     <None Remove="BadAssEmotes2.bnk" />
+    <None Remove="badassemotesifustage" />
     <None Remove="braindamage" />
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
@@ -23,10 +24,12 @@
     <None Remove="ifubundle" />
     <None Remove="Init.bnk" />
     <None Remove="nunchukemotes.bnk" />
+    <None Remove="Test.bnk" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="BadAssEmotes2.bnk" />
+    <EmbeddedResource Include="badassemotesifustage" />
     <EmbeddedResource Include="ifubundle" />
     <EmbeddedResource Include="Init.bnk" />
     <EmbeddedResource Include="nunchukemotes.bnk" />
@@ -36,6 +39,7 @@
     <EmbeddedResource Include="badassemotes" />
     <EmbeddedResource Include="BadAssEmotes.bnk" />
     <EmbeddedResource Include="braindamage" />
+    <EmbeddedResource Include="Test.bnk" />
   </ItemGroup>
 
   <ItemGroup>
