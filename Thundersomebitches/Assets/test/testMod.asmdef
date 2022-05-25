@@ -1,0 +1,19 @@
+{
+    "name": "testMod",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "CustomEmotesAPI.dll",
+        "R2API.dll",
+        "RoR2.dll",
+        "Wwise.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

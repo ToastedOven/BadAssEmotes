@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 838278933
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eeb8d0cf9704dd7f75dce4a28f17546f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/ifu.wav
+Dependencies: []

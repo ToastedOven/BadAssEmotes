@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 1074287304
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db2764cf11a17316770c193166a3584b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4fb3925665292cca7f3604400ca45901
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 265494803, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 114
+  Script: {fileID: 437360413, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 114
+  Script: {fileID: 567539246, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 114
+  Script: {fileID: -970918128, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 114
+  Script: {fileID: 1948342728, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/ifustagebasebased.prefab
+Dependencies:
+- C:/Users/Lucas/Desktop/Vrchat/Thundersomebitches/AssetBundles/StandaloneWindows/ifubundle

@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 645255094
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ifubundle
+      Dependencies: {}
+    Info_1:
+      Name: badassemotesifustage
+      Dependencies:
+        Dependency_0: ifubundle
