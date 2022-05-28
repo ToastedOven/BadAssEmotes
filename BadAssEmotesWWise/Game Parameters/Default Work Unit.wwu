@@ -27,6 +27,34 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="75"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Band1" ID="{693E75EE-F9D4-4470-8628-5362D8B1EA4F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Band2" ID="{DD9F4C8A-6FE5-410D-9BFB-52617D2026E6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Band3" ID="{9C988E7B-73A9-47EE-8F96-364C2DC38DA9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Band4" ID="{17A4EF2A-C500-4F35-AA32-D6B04602E373}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
