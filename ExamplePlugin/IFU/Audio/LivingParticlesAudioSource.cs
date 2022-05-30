@@ -475,29 +475,47 @@ public class LivingParticlesAudioSource : MonoBehaviour
     // Creating 8 Freq Bands
     void CreateFreqBands8()
     {
-        int count = 0;
+        int num = 1;
+        AkSoundEngine.GetRTPCValue("Band1", null, 0U, out freqBands8[0], ref num);
+        freqBands8[0] = (freqBands8[0] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band1", null, 0U, out freqBands8[1], ref num);
+        freqBands8[1] = (freqBands8[1] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band2", null, 0U, out freqBands8[2], ref num);
+        freqBands8[2] = (freqBands8[2] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band2", null, 0U, out freqBands8[3], ref num);
+        freqBands8[3] = (freqBands8[3] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band3", null, 0U, out freqBands8[4], ref num);
+        freqBands8[4] = (freqBands8[4] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band3", null, 0U, out freqBands8[5], ref num);
+        freqBands8[5] = (freqBands8[5] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band4", null, 0U, out freqBands8[6], ref num);
+        freqBands8[6] = (freqBands8[6] + 48) / 48;
+        AkSoundEngine.GetRTPCValue("Band4", null, 0U, out freqBands8[7], ref num);
+        freqBands8[7] = (freqBands8[7] + 48) / 48;
 
-        for (int i = 0; i < 8; i++)
-        {
-            float average = 0f;
-            int sampleCount = (int)Mathf.Pow(2, i) * 2;
+        //int count = 0;
 
-            if (i == 7)
-            {
-                sampleCount += 2;
-            }
-            for (int j = 0; j < sampleCount; j++)
-            {
-                //DebugClass.Log($"----------  {i}  L: {initialSamplesL[count]}   R: {initialSamplesR[count]}");
-                average += (initialSamplesL[count] + initialSamplesR[count]) * (count + 1);
-                count++;
-            }
-            //DebugClass.Log($"---------- AVERAGE CALCULATION:  {i}   {average} /= {count}");
-            average /= count;
+        //for (int i = 0; i < 8; i++)
+        //{
+        //    float average = 0f;
+        //    int sampleCount = (int)Mathf.Pow(2, i) * 2;
 
-            freqBands8[i] = average * freqBandsPower;
-            //DebugClass.Log($"----------         {i}   {freqBands8[i]}");
-        }
+        //    if (i == 7)
+        //    {
+        //        sampleCount += 2;
+        //    }
+        //    for (int j = 0; j < sampleCount; j++)
+        //    {
+        //        //DebugClass.Log($"----------  {i}  L: {initialSamplesL[count]}   R: {initialSamplesR[count]}");
+        //        average += (initialSamplesL[count] + initialSamplesR[count]) * (count + 1);
+        //        count++;
+        //    }
+        //    //DebugClass.Log($"---------- AVERAGE CALCULATION:  {i}   {average} /= {count}");
+        //    average /= count;
+
+        //    freqBands8[i] = average * freqBandsPower;
+        //    //DebugClass.Log($"----------         {i}   {freqBands8[i]}");
+        //}
     }
 
     // Creating 16 Freq Bands

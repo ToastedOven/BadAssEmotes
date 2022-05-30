@@ -48,6 +48,7 @@ public class LivingParticlesAudioModule : MonoBehaviour
     }
 
     // Update is called once per frame
+    float prevValue = 0213123;
     void Update()
     {
         if (useBuffer == true)
@@ -111,7 +112,16 @@ public class LivingParticlesAudioModule : MonoBehaviour
         switch (LPaSourse.numberOfBands)
         {
             case LivingParticlesAudioSource._numberOfBands.Bands8:
+                int num = 1;
+                AKRESULT r = AkSoundEngine.GetRTPCValue("Band1", null, 0U, out LPaSourse.amplitudeBuffer8, ref num);
+                float finalNumber = (LPaSourse.amplitudeBuffer8 + 48) / 48;
+                LPaSourse.amplitudeBuffer8 = finalNumber;
                 psr.material.SetFloat("_AudioAverageAmplitude", LPaSourse.amplitudeBuffer8);
+                //if (prevValue != LPaSourse.amplitudeBuffer8)
+                //{
+                //    prevValue = LPaSourse.amplitudeBuffer8;
+                //    DebugClass.Log($"--------------  {prevValue}   {num}");
+                //}
                 break;
             case LivingParticlesAudioSource._numberOfBands.Bands16:
                 psr.material.SetFloat("_AudioAverageAmplitude", LPaSourse.amplitudeBuffer16);

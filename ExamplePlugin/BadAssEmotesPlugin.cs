@@ -36,9 +36,11 @@ namespace ExamplePlugin
             Assets.PopulateAssets();
             Assets.AddSoundBank("nunchukemotes.bnk");
             Assets.AddSoundBank("Init.bnk");
+            Assets.AddSoundBank("Init2.bnk");
             Assets.AddSoundBank("Test.bnk");
             Assets.AddSoundBank("BadAssEmotes.bnk");
             Assets.AddSoundBank("BadAssEmotes2.bnk");
+            Assets.AddSoundBank("BadAssEmotes3.bnk");
             Assets.LoadSoundBanks();
             AddAnimation("Breakin", "Breakin_", false, true, true);
             AddAnimation("Breakneck", "Breakneck", true, true, true);
@@ -202,134 +204,11 @@ namespace ExamplePlugin
             BoneMapper.animClips["ifuright"].syncPos -= 2;
             GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebasebased.prefab");
             var g = g2.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject;
-            //ParticleSystemRampGenerator ramp = g.AddComponent<ParticleSystemRampGenerator>();
-            //ramp.RampSpeed = 0.0723846f;
-            //ramp.useRampSpeed = false;
-            //ramp.activeRamp = 0;
-            //ramp.turnOnProceduralRamp = true;
-            //ramp.procedrualGradientEnabled = true;
-            //ramp.updateEveryFrame = true;
-            //ramp.activeProcedrualGradientRamp = new Gradient[15];
-
-            //ramp.activeProcedrualGradientRamp[0] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[0].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[0].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0f, 0.7815788f, 1f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[1] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[1].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[1].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0.1614305f, 1f, 0f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0.6946712f, 0f, 1f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[2] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[2].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[2].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0f, 0.02246475f, 1f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(1f, 0.9871355f, 0f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[3] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[3].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[3].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0.9802504f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(0f, 1f, 0.9618928f, 1f), 0.923537f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[4] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[4].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[4].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0.3801513f, 0f, 1f, 1f), 0.3000076f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f), new GradientColorKey(new Color(1f, 0.4713902f, 0f, 1f), 0.9264668f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[5] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[5].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[5].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 0f, 1f), 0.2f), new GradientColorKey(new Color(0f, 1f, 0f, 1f), 0.4f), new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0.6f), new GradientColorKey(new Color(1f, 0f, 1f, 1f), 0.8f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[6] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[6].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[6].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[7] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[7].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[7].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[8] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[8].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[8].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[9] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[9].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[9].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 1f, 0.9789009f, 1f), 0f), new GradientColorKey(new Color(0f, 1f, 0.9907742f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[10] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[10].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[10].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 0f), new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[11] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[11].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[11].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 0f), new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[12] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[12].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[12].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0f), new GradientColorKey(new Color(0f, 0f, 1f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[13] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[13].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[13].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f) };
-
-            //ramp.activeProcedrualGradientRamp[14] = new Gradient();
-            //ramp.activeProcedrualGradientRamp[14].alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 0.2f), new GradientAlphaKey(1f, 0.2882429f), new GradientAlphaKey(1f, 1f) };
-            //ramp.activeProcedrualGradientRamp[14].colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f), new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f) };
-
-
-            //StringBuilder sb = new StringBuilder();
-            //for (int i = 0; i < ramp.activeProcedrualGradientRamp.Length; i++)
-            //{
-            //    sb.Append("ramp.activeProcedrualGradientRamp[i].alphaKeys = new GradientAlphaKey[] {");
-            //    foreach (var item in ramp.activeProcedrualGradientRamp[i].alphaKeys)
-            //    {
-            //        sb.Append($"new GradientAlphaKey({item.alpha}, {item.time})");
-            //        if (item.time != ramp.activeProcedrualGradientRamp[i].alphaKeys[ramp.activeProcedrualGradientRamp[i].alphaKeys.Length - 1].time)
-            //        {
-            //            sb.Append(',');
-            //        }
-            //    }
-            //    sb.Append("};\n");
-
-
-            //    sb.Append("ramp.activeProcedrualGradientRamp[i].colorKeys = new GradientColorKey[] {");
-            //    foreach (var item in ramp.activeProcedrualGradientRamp[i].colorKeys)
-            //    {
-            //        sb.Append($"new GradientColorKey(new Color({item.color.r}, {item.color.g}, {item.color.b}, {item.color.a}), {item.time})");
-            //        if (item.time != ramp.activeProcedrualGradientRamp[i].colorKeys[ramp.activeProcedrualGradientRamp[i].colorKeys.Length - 1].time)
-            //        {
-            //            sb.Append(',');
-            //        }
-            //    }
-            //    sb.Append("};\n\n");
-            //}
-            //File.WriteAllText("Pain.txt", sb.ToString());
-
-            //ParticleGridGenerator particleGridGenerator = g.AddComponent<ParticleGridGenerator>();
-            //particleGridGenerator.particleRotation3D = Vector3.zero;
-            //particleGridGenerator.particleSize = .25f;
-            //particleGridGenerator.randomColorAlpha = true;
-            //particleGridGenerator.xDistance = .25f;
-            //particleGridGenerator.yDistance = .25f;
-            //particleGridGenerator.zDistance = .21875f;
-            //particleGridGenerator.xSize = 40;
-            //particleGridGenerator.ySize = 1;
-            //particleGridGenerator.zSize = 46;
-            //particleGridGenerator.OffsetEven = .125f;
-            //particleGridGenerator.updateEveryFrame = false;
-            //GameObject ifuaudio = g2.transform.Find("ifuStage").Find("ifuaudio").gameObject;
-            //AudioSource source = ifuaudio.AddComponent<AudioSource>();
-            //source.clip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
-            //source.playOnAwake = false;
             LivingParticlesAudioModule module = g.GetComponent<LivingParticlesAudioModule>();
             module.audioPosition = g.transform;
-            //module.useBuffer = true;
-            //module.firstAndLastPixelBlack = true;
-            //LivingParticlesAudioSource audioSource = ifuaudio.GetComponent<LivingParticlesAudioSource>();
-            //module.LPaSourse = audioSource;
-            //audioSource.audioClip = Assets.Load<AudioClip>("Assets/Prefabs/ifu.wav");
-            //audioSource.bufferInitialDecreaseSpeed = 2;
-            //audioSource.bufferDecreaseSpeedMultiply = 10;
-            //audioSource.freqBandsPower = 50;
-            //audioSource.audioProfileInitialValue = 0;
-            //audioSource.audioProfileDecreasing = false;
-            //audioSource.audioProfileDecreasingSpeed = .02f;
-            //audioSource.numberOfBands = LivingParticlesAudioSource._numberOfBands.Bands8;
+            g.GetComponent<ParticleSystemRenderer>().material.SetFloat("_DistancePower", .5f);
+            g.GetComponent<ParticleSystemRenderer>().material.SetFloat("_NoisePower", 8f);
+            g.GetComponent<ParticleSystemRenderer>().material.SetFloat("_AudioAmplitudeOffsetPower2", 1.5f);
             stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("ifumiddle", new Vector3(0, .4f, 0)), new JoinSpot("ifeleft", new Vector3(-2, .4f, 0)), new JoinSpot("ifuright", new Vector3(2, .4f, 0)) });
 
 
@@ -384,7 +263,7 @@ namespace ExamplePlugin
                 localBody = NetworkUser.readOnlyLocalPlayersList[0].master?.GetBody();
                 CharacterCameraParamsData data = new CharacterCameraParamsData();
                 data.fov = 70f;
-                data.idealLocalCameraPos = new Vector3(0, 1.5f, -20);
+                data.idealLocalCameraPos = new Vector3(0, 1.5f, -16);
                 if (!fovHandle.isValid)
                 {
                     fovHandle = localBody.GetComponentInChildren<EntityStateMachine>().commonComponents.cameraTargetParams.AddParamsOverride(new CameraTargetParams.CameraParamsOverrideRequest
