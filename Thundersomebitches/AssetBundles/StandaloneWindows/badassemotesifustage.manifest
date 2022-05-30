@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1074287304
+CRC: 4140635520
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: db2764cf11a17316770c193166a3584b
+    Hash: ee5b69ecd09fc785cd707cab912c9a63
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4fb3925665292cca7f3604400ca45901
+    Hash: ff9240629f113ea7ae7f6c64395d2391
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,6 +42,8 @@ ClassTypes:
 - Class: 111
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 1948342728, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
+- Class: 114
   Script: {fileID: 265494803, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
 - Class: 114
   Script: {fileID: 437360413, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
@@ -49,8 +51,6 @@ ClassTypes:
   Script: {fileID: 567539246, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
 - Class: 114
   Script: {fileID: -970918128, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
-- Class: 114
-  Script: {fileID: 1948342728, guid: 4b16c4a0ce890b64d8a673e8e8181067, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 198
@@ -60,5 +60,4 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/ifustagebasebased.prefab
-Dependencies:
-- C:/Users/Lucas/Desktop/Vrchat/Thundersomebitches/AssetBundles/StandaloneWindows/ifubundle
+Dependencies: []

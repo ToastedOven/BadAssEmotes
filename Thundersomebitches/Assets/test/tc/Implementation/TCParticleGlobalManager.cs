@@ -22,12 +22,13 @@ namespace TC.Internal {
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void Init()
         {
-            //var instances = Resources.FindObjectsOfTypeAll<TCParticleGlobalManager>();
-            //foreach (var inst in instances)
-            //{
-            //    DestroyImmediate(inst);
-            //}
-
+#if UNITY_EDITOR
+            var instances = Resources.FindObjectsOfTypeAll<TCParticleGlobalManager>();
+            foreach (var inst in instances)
+            {
+                DestroyImmediate(inst);
+            }
+#endif
             Instance = new GameObject("TCParticleGlobalManager").AddComponent<TCParticleGlobalManager>();
             Instance.gameObject.hideFlags = HideFlags.HideAndDontSave;
 
@@ -36,11 +37,16 @@ namespace TC.Internal {
                 DontDestroyOnLoad(Instance);
             }
 
-            //Have to load compute shader first frame as other components
-            //TODO: I don't like resource loading this
-            Instance.ComputeShader = testMod.Assets.computeShader as ComputeShader;
+			//Have to load compute shader first frame as other components
+			//TODO: I don't like resource loading this
+#if UNITY_EDITOR
+			Instance.ComputeShader = Resources.Load("Compute/MassParticle") as ComputeShader;
+#endif
+#if UNITY_STANDALONE
+			Instance.ComputeShader = testMod.Assets.computeShader as ComputeShader;
+#endif
 
-            if (Instance.ComputeShader == null)
+			if (Instance.ComputeShader == null)
             {
                 Debug.LogError("Failed to load compute shader!");
             }

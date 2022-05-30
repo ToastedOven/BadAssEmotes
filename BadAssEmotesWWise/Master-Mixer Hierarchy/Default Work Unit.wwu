@@ -10,6 +10,67 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Ifu" ID="{04C4D8A7-F5E3-4B48-91E8-8C58812434A7}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{AF13A4D6-448E-4CBC-B340-92D1974DAA2D}" WorkUnitID="{CADC543D-77B4-4477-9FB6-B170CE56A96E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Band1" ID="{548511E9-6AD7-40BC-8B82-1B6B79F55459}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Band1_EQ" ID="{17DD7110-113C-412F-9830-1D4E83E5AB1B}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Band1" ID="{CFDF0A4C-9704-4DB5-8328-1E48343DDFAD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Band2" ID="{ECB660C4-0F02-499F-8AEA-FE22D43A7A2A}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Band2_EQ" ID="{02FDA77F-D23B-474E-8A2D-C9FDC5606281}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Band2" ID="{38729D85-7B37-4307-B5E4-E64B7CDB93B7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Band3" ID="{57ACD00F-297B-4EF2-BB28-8E7C5E1136C6}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Band3_EQ" ID="{13330379-BBC7-4DD6-8055-27DC84235209}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Band3" ID="{8248E9C0-33E9-443F-9724-EAC45DA389A7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Band4" ID="{8F1D080B-FD21-426E-9D66-EEF95A400874}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Band4_EQ" ID="{F1B6CF80-FA21-4081-B65C-A9FBA5A2B8AD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Band4" ID="{BB5AA84E-9A9A-4B45-856B-374BA6AC71E7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

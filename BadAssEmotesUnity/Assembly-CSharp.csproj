@@ -111,6 +111,7 @@
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\GPU\LivingParticleMaskedPbrArrayGPU.shader" />
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\GPU\LivingParticleFloorPbrArrayGPU.shader" />
     <None Include="Assets\ToonShader\Shaders\OutlineVC\ToonDiffuseDissolveVC.shader" />
+    <None Include="Assets\Shader\Rainbow.shader" />
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\URP\LivingParticleFloorArrayURP.shader" />
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\URP\LivingParticleMaskedMorphPbrArrayURP.shader" />
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\LivingParticleFloorPbrArray.shader" />
@@ -121,6 +122,7 @@
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\LivingParticleMaskedMorphPbr.shader" />
     <None Include="Assets\ToonShader\Shaders\OutlineVC\ToonBumpDissolveVC.shader" />
     <None Include="Assets\ToonShader\Shaders\MultiTexture\ToonDiffuseMultiTexture.shader" />
+    <None Include="Assets\Shared\ShaderTools.cginc" />
     <None Include="Assets\ToonShader\Shaders\ToonBump.shader" />
     <None Include="Assets\SineVFX\LivingParticles\Resources\Shaders\LivingParticleMaskedPbrArray.shader" />
     <None Include="Assets\ToonShader\Shaders\MultiTexture\ToonBumpMultiTexture.shader" />

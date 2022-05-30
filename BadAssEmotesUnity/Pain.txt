@@ -1,0 +1,45 @@
+ramp.activeProcedrualGradientRamp[0].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[0].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0.3000076f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f),new GradientColorKey(new Color(0f, 0.7815788f, 1f, 1f), 0.923537f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[1].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[1].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(0.1614305f, 1f, 0f, 1f), 0.3000076f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f),new GradientColorKey(new Color(0.6946712f, 0f, 1f, 1f), 0.923537f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[2].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[2].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(0f, 0.02246475f, 1f, 1f), 0.3000076f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f),new GradientColorKey(new Color(1f, 0.9871355f, 0f, 1f), 0.923537f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[3].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[3].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(1f, 0f, 0.9802504f, 1f), 0.3000076f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f),new GradientColorKey(new Color(0f, 1f, 0.9618928f, 1f), 0.923537f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[4].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[4].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(0.3801513f, 0f, 1f, 1f), 0.3000076f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0.5882353f),new GradientColorKey(new Color(1f, 0.4713902f, 0f, 1f), 0.9264668f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[5].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[5].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(1f, 1f, 0f, 1f), 0.2f),new GradientColorKey(new Color(0f, 1f, 0f, 1f), 0.4f),new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0.6f),new GradientColorKey(new Color(1f, 0f, 1f, 1f), 0.8f),new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[6].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[6].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[7].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[7].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f),new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[8].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[8].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(1f, 1f, 1f, 1f), 0f),new GradientColorKey(new Color(0f, 0f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[9].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[9].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 1f, 0.9789009f, 1f), 0f),new GradientColorKey(new Color(0f, 1f, 0.9907742f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[10].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[10].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 0f),new GradientColorKey(new Color(0.05724919f, 1f, 0f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[11].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[11].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 0f),new GradientColorKey(new Color(0.7192278f, 0f, 1f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[12].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[12].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 1f, 1f), 0f),new GradientColorKey(new Color(0f, 0f, 1f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[13].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[13].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(0f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(1f, 1f, 1f, 1f), 1f)};
+
+ramp.activeProcedrualGradientRamp[14].alphaKeys = new GradientAlphaKey[] {new GradientAlphaKey(1f, 0f),new GradientAlphaKey(1f, 0.2f),new GradientAlphaKey(1f, 0.2882429f),new GradientAlphaKey(1f, 1f)};
+ramp.activeProcedrualGradientRamp[14].colorKeys = new GradientColorKey[] {new GradientColorKey(new Color(1f, 0f, 0f, 1f), 0f),new GradientColorKey(new Color(1f, 0f, 0f, 1f), 1f)};
+

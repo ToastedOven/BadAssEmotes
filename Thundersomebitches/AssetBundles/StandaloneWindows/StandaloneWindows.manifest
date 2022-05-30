@@ -1,11 +1,10 @@
 ManifestFileVersion: 0
-CRC: 645255094
+CRC: 1023531309
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: ifubundle
+      Name: badassemotesifustage
       Dependencies: {}
     Info_1:
-      Name: badassemotesifustage
-      Dependencies:
-        Dependency_0: ifubundle
+      Name: thunderanimation
+      Dependencies: {}

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2934731682
+CRC: 478366342
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 178d996cc68eba2f4e6c5e4d757ea1e6
+    Hash: c3dc7950198a7f29f7ae509b059b0364
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2661b0c2bd4bd35b76846a511f7c83c9
+    Hash: 917e7dcfaff41b66507f1049923904d0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,7 +25,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
 - Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
@@ -38,15 +44,25 @@ ClassTypes:
 - Class: 111
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: f847caa0bdea81b4aa75c794a8090874, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 150aed21b87a0ec4583f996364f2d014, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40c9a327a0b28244ea89603f7028a920, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4bf52dff9761aa4ba376ca5ee091407, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 137
@@ -58,6 +74,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/BadAssEmotes/BlindingLightsIntro.anim
+- Assets/Prefabs/Summermogus.prefab
 - Assets/BadAssEmotes/SuperIdol.anim
 - Assets/BadAssEmotes/PoseJeice.anim
 - Assets/Prefabs/passenger.prefab
@@ -65,6 +82,7 @@ Assets:
 - Assets/BadAssEmotes/Rollie.anim
 - Assets/BadAssEmotes/OrangeJustice.anim
 - Assets/BadAssEmotes/PopLock.anim
+- Assets/BadAssEmotes/Dougie.anim
 - Assets/Prefabs/Amogus.prefab
 - Assets/BadAssEmotes/Trainloop.anim
 - Assets/BadAssEmotes/FlamencoLoop.anim
@@ -80,6 +98,7 @@ Assets:
 - Assets/BadAssEmotes/Savage.anim
 - Assets/BadAssEmotes/MakeItRainLoop.anim
 - Assets/BadAssEmotes/DesertRivers.anim
+- Assets/BadAssEmotes/ChugJug.anim
 - Assets/BadAssEmotes/GGGG.anim
 - Assets/BadAssEmotes/ArkDance.anim
 - Assets/Prefabs/Starfield.prefab
@@ -118,6 +137,7 @@ Assets:
 - Assets/BadAssEmotes/Yamcha.anim
 - Assets/BadAssEmotes/BimBamBom.anim
 - Assets/BadAssEmotes/Overdrive.anim
+- Assets/BadAssEmotes/VSWORLD.anim
 - Assets/BadAssEmotes/Goopie.anim
 - Assets/BadAssEmotes/Renegade.anim
 - Assets/BadAssEmotes/Cirno.anim
@@ -126,8 +146,13 @@ Assets:
 - Assets/BadAssEmotes/Yakuza.anim
 - Assets/BadAssEmotes/Thriller.anim
 - Assets/BadAssEmotes/Shufflin.anim
+- Assets/BadAssEmotes/VSWORLDLEFT.anim
+- Assets/BadAssEmotes/SingleFurry.anim
+- Assets/BadAssEmotes/MyWorldJoin.anim
 - Assets/BadAssEmotes/OfficerEarl.anim
+- Assets/BadAssEmotes/BearHugJoin.anim
 - Assets/BadAssEmotes/LetsDanceBoys.anim
+- Assets/BadAssEmotes/Summertime.anim
 - Assets/BadAssEmotes/DuckThisOneJoin.anim
 - Assets/BadAssEmotes/Droop.anim
 - Assets/BadAssEmotes/Breakin.anim
@@ -150,20 +175,26 @@ Assets:
 - Assets/BadAssEmotes/BlindingLights.anim
 - Assets/BadAssEmotes/GangTorture.anim
 - Assets/BadAssEmotes/Specialist.anim
+- Assets/BadAssEmotes/HondaStep.anim
 - Assets/BadAssEmotes/DanceTherapyIntro.anim
 - Assets/BadAssEmotes/FloorSamus.anim
 - Assets/BadAssEmotes/GGGG3.anim
 - Assets/BadAssEmotes/Carson.anim
 - Assets/BadAssEmotes/FancyFeet.anim
 - Assets/BadAssEmotes/BunnyHop.anim
+- Assets/BadAssEmotes/ifuright.anim
 - Assets/BadAssEmotes/Roflcopter.anim
+- Assets/Prefabs/ifustagebase.prefab
 - Assets/BadAssEmotes/MoveIt.anim
 - Assets/Prefabs/BluntAnimator.prefab
 - Assets/BadAssEmotes/PawsAndClaws.anim
+- Assets/BadAssEmotes/ifu.anim
 - Assets/BadAssEmotes/DuckThisOne.anim
 - Assets/BadAssEmotes/DanceMoves.anim
 - Assets/BadAssEmotes/GalaxyObservatory.anim
+- Assets/BadAssEmotes/BearHug.anim
 - Assets/BadAssEmotes/StandingHere.anim
+- Assets/BadAssEmotes/MyWorld.anim
 - Assets/BadAssEmotes/CrazyFeet.anim
 - Assets/BadAssEmotes/Floss.anim
 - Assets/BadAssEmotes/Macarena.anim
@@ -182,12 +213,13 @@ Assets:
 - Assets/BadAssEmotes/GetDown.anim
 - Assets/BadAssEmotes/Panda.anim
 - Assets/BadAssEmotes/MakeItRainIntro.anim
-- Assets/BadAssEmotes/HondaStep.anim
 - Assets/BadAssEmotes/Griddy.anim
 - Assets/Prefabs/Money.prefab
 - Assets/Prefabs/FloatLight.prefab
 - Assets/BadAssEmotes/JackOPose.anim
 - Assets/BadAssEmotes/Chika.anim
+- Assets/BadAssEmotes/KillMeBaby.anim
+- Assets/BadAssEmotes/ifeleft.anim
 - Assets/BadAssEmotes/NeverGonna.anim
 - Assets/BadAssEmotes/Smoke.anim
 - Assets/Prefabs/neversee.prefab
@@ -199,4 +231,5 @@ Assets:
 - Assets/BadAssEmotes/DevilSpawn.anim
 - Assets/BadAssEmotes/StarGet.anim
 - Assets/BadAssEmotes/PoseGinyu.anim
-Dependencies: []
+Dependencies:
+- C:/Users/Lucas/Desktop/Vrchat/BadAssEmotes/AssetBundles/StandaloneWindows/ifubundle

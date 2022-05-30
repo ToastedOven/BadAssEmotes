@@ -11,15 +11,21 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3519019571">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1865832298">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
+				<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
+				<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
+				<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2800433960" Language="SFX" Hash="1850033071">
-			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes2</ObjectPath>
-			<ShortName>BadAssEmotes2</ShortName>
-			<Path>BadAssEmotes2.bnk</Path>
+		<SoundBank Id="2800433960" Language="SFX" Hash="1090604792">
+			<ObjectPath>\SoundBanks\Default Work Unit\Badassemotes2</ObjectPath>
+			<ShortName>Badassemotes2</ShortName>
+			<Path>Badassemotes2.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1170496508" Name="Play_BimBamBom" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_BimBamBom">
 					<IncludedMemoryFiles>
@@ -149,22 +155,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2608483140" Name="Play_Ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Ifu">
-					<IncludedMemoryFiles>
-						<File Id="641698185" Language="SFX">
-							<ShortName>Emotes\Ifu.wav</ShortName>
-							<Path>SFX\Emotes\Ifu_05842A19.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1445193325" Name="Play_ifucover" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_ifucover">
-					<IncludedMemoryFiles>
-						<File Id="303607888" Language="SFX">
-							<ShortName>Emotes\ifucover.wav</ShortName>
-							<Path>SFX\Emotes\ifucover_05842A19.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3402708688" Name="Play_INEEDAMEDICBAG" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_INEEDAMEDICBAG">
 					<IncludedMemoryFiles>
 						<File Id="413690763" Language="SFX">
@@ -174,14 +164,6 @@
 						<File Id="820220678" Language="SFX">
 							<ShortName>Emotes\INEEDAMEDICBAG2.wav</ShortName>
 							<Path>SFX\Emotes\INEEDAMEDICBAG2_05842A19.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3396460556" Name="Play_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_KillMeBaby">
-					<IncludedMemoryFiles>
-						<File Id="782902476" Language="SFX">
-							<ShortName>Emotes\KillMeBaby.wav</ShortName>
-							<Path>SFX\Emotes\KillMeBaby_05842A19.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -329,9 +311,7 @@
 				<Event Id="843855677" Name="Stop_Griddy" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_Griddy"/>
 				<Event Id="985708647" Name="Stop_Haruhi" ObjectPath="\Events\Default Work Unit\New Emotes 4\Haruhi Random\Stop_Haruhi"/>
 				<Event Id="3631817056" Name="Stop_HondaStep" ObjectPath="\Events\Default Work Unit\New Emotes 3\Stop_HondaStep"/>
-				<Event Id="820375322" Name="Stop_ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_ifu"/>
 				<Event Id="2137145078" Name="Stop_INEEDAMEDICBAG" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_INEEDAMEDICBAG"/>
-				<Event Id="2314948190" Name="Stop_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_KillMeBaby"/>
 				<Event Id="121327151" Name="Stop_MakeItRain" ObjectPath="\Events\Default Work Unit\New Emotes 3\Stop_MakeItRain"/>
 				<Event Id="1431426452" Name="Stop_Markiplier" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_Markiplier"/>
 				<Event Id="1856692800" Name="Stop_Penguin" ObjectPath="\Events\Default Work Unit\New Emotes 3\Stop_Penguin"/>
@@ -348,6 +328,159 @@
 				<Event Id="3410615347" Name="Stop_Toosie" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_Toosie"/>
 				<Event Id="998475790" Name="Stop_UGotThat" ObjectPath="\Events\Default Work Unit\New Emotes 3\Stop_UGotThat"/>
 				<Event Id="3526158434" Name="Stop_Wess" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_Wess"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>
+				<GameParameter Id="517048260" Name="People_In_Range" ObjectPath="\Game Parameters\Default Work Unit\People_In_Range"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2800433961" Language="SFX" Hash="130663436">
+			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes3</ObjectPath>
+			<ShortName>BadAssEmotes3</ShortName>
+			<Path>BadAssEmotes3.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2965936580" Name="Play_Chugatone" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_Chugatone">
+					<IncludedMemoryFiles>
+						<File Id="721850728" Language="SFX">
+							<ShortName>Emotes\Chugatone.wav</ShortName>
+							<Path>SFX\Emotes\Chugatone_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3104542863" Name="Play_ChugJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_ChugJug">
+					<IncludedMemoryFiles>
+						<File Id="753326694" Language="SFX">
+							<ShortName>Emotes\ChugJug.wav</ShortName>
+							<Path>SFX\Emotes\ChugJug_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3114478207" Name="Play_Dougie" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Dougie">
+					<IncludedMemoryFiles>
+						<File Id="433095661" Language="SFX">
+							<ShortName>Emotes\Dougie.wav</ShortName>
+							<Path>SFX\Emotes\Dougie_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2608483140" Name="Play_ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Play_ifu">
+					<IncludedMemoryFiles>
+						<File Id="799130385" Language="SFX">
+							<ShortName>Emotes\Ifu2.wav</ShortName>
+							<Path>SFX\Emotes\Ifu2_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1445193325" Name="Play_ifucover" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Play_ifucover">
+					<IncludedMemoryFiles>
+						<File Id="303607888" Language="SFX">
+							<ShortName>Emotes\ifucover.wav</ShortName>
+							<Path>SFX\Emotes\ifucover_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3396460556" Name="Play_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_KillMeBaby">
+					<IncludedMemoryFiles>
+						<File Id="782902476" Language="SFX">
+							<ShortName>Emotes\KillMeBaby.wav</ShortName>
+							<Path>SFX\Emotes\KillMeBaby_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3512614687" Name="Play_MetalJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_MetalJug">
+					<IncludedMemoryFiles>
+						<File Id="114258280" Language="SFX">
+							<ShortName>Emotes\MetalJug.wav</ShortName>
+							<Path>SFX\Emotes\MetalJug_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2476995674" Name="Play_MikuJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_MikuJug">
+					<IncludedMemoryFiles>
+						<File Id="387027888" Language="SFX">
+							<ShortName>Emotes\MikuJug.wav</ShortName>
+							<Path>SFX\Emotes\MikuJug_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="744559796" Name="Play_MyWorld" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_MyWorld">
+					<IncludedMemoryFiles>
+						<File Id="630543393" Language="SFX">
+							<ShortName>Emotes\MyWorld.wav</ShortName>
+							<Path>SFX\Emotes\MyWorld_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2133520559" Name="Play_PeaceAndTranquility" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility">
+					<IncludedMemoryFiles>
+						<File Id="970082705" Language="SFX">
+							<ShortName>Emotes\PeaceAndTranquility.wav</ShortName>
+							<Path>SFX\Emotes\PeaceAndTranquility_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3751338831" Name="Play_PeaceAndTranquility2" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility2">
+					<IncludedMemoryFiles>
+						<File Id="1041115636" Language="SFX">
+							<ShortName>Emotes\PeaceAndTranquility2.wav</ShortName>
+							<Path>SFX\Emotes\PeaceAndTranquility2_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3741709616" Name="Play_PeaceAndTranquilitySlow" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquilitySlow">
+					<IncludedMemoryFiles>
+						<File Id="216601581" Language="SFX">
+							<ShortName>Emotes\PeaceAndTranquilitySlow.wav</ShortName>
+							<Path>SFX\Emotes\PeaceAndTranquilitySlow_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1881092702" Name="Play_SingleFurry" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_SingleFurry">
+					<IncludedMemoryFiles>
+						<File Id="64649456" Language="SFX">
+							<ShortName>Emotes\SingleFurry.wav</ShortName>
+							<Path>SFX\Emotes\SingleFurry_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1252670438" Name="Play_Summertime" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Summertime">
+					<IncludedMemoryFiles>
+						<File Id="459553268" Language="SFX">
+							<ShortName>Emotes\Summertime.wav</ShortName>
+							<Path>SFX\Emotes\Summertime_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3172316917" Name="Play_VSWORLD" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_VSWORLD">
+					<IncludedMemoryFiles>
+						<File Id="1048028950" Language="SFX">
+							<ShortName>Emotes\VSWORLD.wav</ShortName>
+							<Path>SFX\Emotes\VSWORLD_6AF693E7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280836561" Name="Stop_ChugJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Stop_ChugJug"/>
+				<Event Id="2742710221" Name="Stop_Dougie" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Dougie"/>
+				<Event Id="820375322" Name="Stop_ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Stop_ifu"/>
+				<Event Id="2314948190" Name="Stop_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_KillMeBaby"/>
+				<Event Id="2249795290" Name="Stop_MyWorld" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_MyWorld"/>
+				<Event Id="3860486633" Name="Stop_PeaceAndTranquility" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Stop_PeaceAndTranquility"/>
+				<Event Id="1007305616" Name="Stop_SingleFurry" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_SingleFurry"/>
+				<Event Id="3770559380" Name="Stop_Summertime" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Summertime"/>
+				<Event Id="2499063995" Name="Stop_VSWORLD" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_VSWORLD"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>

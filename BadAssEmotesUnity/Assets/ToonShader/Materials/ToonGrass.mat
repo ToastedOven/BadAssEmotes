@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ToonGrass
+  m_Shader: {fileID: 4800000, guid: f1a75fff64a4a0a4e90e2484afd7c1ad, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 302bfd209f74d1c40974843d01cfaf8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: 4a056241e2722dc46a7262a8e7073fd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendInfluence: 0.56
+    - _BlendVetrexColors: 0
+    - _Cutoff: 0.5
+    - _Speed: 1.2
+    - _SpeedMultipler: 1.2
+    - _Waving: 1
+    m_Colors:
+    - _Highlights: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadows: {r: 0.200692, g: 0.4264706, b: 0.3891004, a: 1}
