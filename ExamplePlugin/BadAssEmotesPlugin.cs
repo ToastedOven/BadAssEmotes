@@ -29,15 +29,16 @@ namespace ExamplePlugin
         public const string PluginName = "BadAssEmotes";
         public const string PluginVersion = "1.5.1";
         int stageInt = -1;
-        GameObject stage;
-        LivingParticleArrayController LPAC;
+        internal static GameObject stage;
+        internal static LivingParticleArrayController LPAC;
+        static List<string> HatKidDances = new List<string>();
         public void Awake()
         {
             Assets.PopulateAssets();
-            Assets.AddSoundBank("nunchukemotes.bnk");
-            Assets.AddSoundBank("Init.bnk");
-            Assets.AddSoundBank("Init2.bnk");
             Assets.AddSoundBank("Test.bnk");
+            //Assets.AddSoundBank("nunchukemotes.bnk");
+            Assets.AddSoundBank("Init.bnk");
+            //Assets.AddSoundBank("Init2.bnk");
             Assets.AddSoundBank("BadAssEmotes.bnk");
             Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.AddSoundBank("BadAssEmotes3.bnk");
@@ -112,7 +113,7 @@ namespace ExamplePlugin
             AddAnimation("PoseGuldo", "GinyuForce", true, true, true);
             AddAnimation("PoseJeice", "GinyuForce", true, true, true);
             AddAnimation("PoseRecoome", "GinyuForce", true, true, true);
-            AddAnimation("StoodHere", new string[] { "Play_StandingHere" }, "StandingHere", true, true, false, new JoinSpot[] { new JoinSpot("StandingHereJoinSpot", new Vector3(0, 0, 2)) });
+            AddAnimation("StoodHere", new string[] { "Play_StandingHere2" }, "StandingHere2", true, true, false, new JoinSpot[] { new JoinSpot("StandingHereJoinSpot", new Vector3(0, 0, 2)) });
             CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/StandingHere.anim"), true, visible: false);
             AddAnimation("Carson", "Carson", false, true, true);
             AddAnimation("Frolic", "Frolic", true, true, true);
@@ -197,6 +198,7 @@ namespace ExamplePlugin
             BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ChugJug.anim") }, false, new string[] { "Play_ChugJug", "Play_MikuJug" }, new string[] { "Stop_ChugJug", "Stop_ChugJug" }, dimWhenClose: true, syncAnim: true, syncAudio: true);
             CustomEmotesAPI.AddNonAnimatingEmote("IFU Stage");
+            CustomEmotesAPI.BlackListEmote("IFU Stage");
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifu.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifeleft.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             BoneMapper.animClips["ifeleft"].syncPos--;
@@ -204,6 +206,12 @@ namespace ExamplePlugin
             BoneMapper.animClips["ifuright"].syncPos -= 2;
             GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebasebased.prefab");
             var g = g2.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject;
+            g2.AddComponent<StageHandler>();
+            g2.transform.Find("ifuStage").Find("GameObject").Find("Plane").gameObject.AddComponent<SurfaceDefProvider>().surfaceDef = Addressables.LoadAssetAsync<SurfaceDef>("RoR2/Base/Common/sdMetal.asset").WaitForCompletion();
+            g2.transform.Find("ifuStage").Find("GameObject").Find("stairs front").gameObject.AddComponent<SurfaceDefProvider>().surfaceDef = Addressables.LoadAssetAsync<SurfaceDef>("RoR2/Base/Common/sdMetal.asset").WaitForCompletion();
+            g2.transform.Find("ifuStage").Find("GameObject").Find("stairs left").gameObject.AddComponent<SurfaceDefProvider>().surfaceDef = Addressables.LoadAssetAsync<SurfaceDef>("RoR2/Base/Common/sdMetal.asset").WaitForCompletion();
+            g2.transform.Find("ifuStage").Find("GameObject").Find("stairs right").gameObject.AddComponent<SurfaceDefProvider>().surfaceDef = Addressables.LoadAssetAsync<SurfaceDef>("RoR2/Base/Common/sdMetal.asset").WaitForCompletion();
+            g2.transform.Find("ifuStage").Find("GameObject").Find("stairs back").gameObject.AddComponent<SurfaceDefProvider>().surfaceDef = Addressables.LoadAssetAsync<SurfaceDef>("RoR2/Base/Common/sdMetal.asset").WaitForCompletion();
             LivingParticlesAudioModule module = g.GetComponent<LivingParticlesAudioModule>();
             module.audioPosition = g.transform;
             g.GetComponent<ParticleSystemRenderer>().material.SetFloat("_DistancePower", .5f);
@@ -212,7 +220,11 @@ namespace ExamplePlugin
             stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("ifumiddle", new Vector3(0, .4f, 0)), new JoinSpot("ifeleft", new Vector3(-2, .4f, 0)), new JoinSpot("ifuright", new Vector3(2, .4f, 0)) });
 
 
-            //AddAnimation("SingleFurry", "SingleFurry", true, true, true);
+            AddAnimation("SingleFurry", "SingleFurry", true, true, true);
+            AddAnimation("Summertime", "Summertime", false, true, true);
+            AddAnimation("Dougie", "Dougie", true, true, true);
+            CustomEmotesAPI.AddNonAnimatingEmote("Peace And Tranquility");
+            CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:Assets/ThunderAnimation/PeaceAndTranquility.anim"), true, $"Play_PeaceAndTranquility", $"Stop_PeaceAndTranquility", dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
@@ -226,14 +238,14 @@ namespace ExamplePlugin
             {
                 host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
                 joiner.PlayAnim("ifu", 0);
-
                 GameObject g = new GameObject();
                 g.name = "ifumiddle_JoinProp";
                 IFU(joiner, host, emoteSpot, g);
-                host.GetComponentInChildren<LivingParticlesAudioSource>().StartAudio();
             }
             else if (emoteSpotName == "ifeleft")
             {
+                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+
                 joiner.PlayAnim("ifeleft", 0);
 
                 GameObject g = new GameObject();
@@ -242,6 +254,8 @@ namespace ExamplePlugin
             }
             else if (emoteSpotName == "ifuright")
             {
+                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+
                 joiner.PlayAnim("ifuright", 0);
 
                 GameObject g = new GameObject();
@@ -413,6 +427,9 @@ namespace ExamplePlugin
             if (punchingMappers.Contains(mapper))
             {
                 punchingMappers.Remove(mapper);
+            }
+            if (punchingMappers.Count == 0)
+            {
                 AkSoundEngine.SetRTPCValue("MetalGear_Vocals", 0);
             }
             if (newAnimation == "StandingHere")
@@ -523,6 +540,24 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
             }
+            if (newAnimation == "PeaceAndTranquility")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/test/assets/prefabs/SetupTrail.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.smr1.rootBone);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Summertime")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/Summermogus.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.smr1.rootBone);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
             if (newAnimation == "Float")
             {
                 prop1 = mapper.props.Count;
@@ -621,23 +656,6 @@ namespace ExamplePlugin
                     stage.transform.localPosition = new Vector3(0, 0, 0);
                     stage.transform.SetParent(null);
                     stage.transform.localPosition += new Vector3(0, .5f, 0);
-                    //stage.layer = 11;
-                    LPAC = stage.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject.GetComponent<LivingParticleArrayController>();
-                    List<Transform> YEAHFEET = new List<Transform>();
-                    foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
-                    {
-                        foreach (var bone in item.smr2.bones)
-                        {
-                            if (bone.GetComponent<ParentConstraint>() && (bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.LeftFoot) || bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.RightFoot)))
-                            {
-                                YEAHFEET.Add(bone);
-                            }
-                        }
-                    }
-                    LPAC.affectors = YEAHFEET.ToArray();
-                    //mapper.props.Add(stage);
-                    //mapper.ScaleProps();
-                    //mapper.props.Remove(stage);
                     NetworkServer.Spawn(stage);
                 }
             }
