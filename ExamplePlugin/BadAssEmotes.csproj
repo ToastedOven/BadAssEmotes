@@ -26,6 +26,7 @@
     <None Remove="Init.bnk" />
     <None Remove="Init2.bnk" />
     <None Remove="nunchukemotes.bnk" />
+    <None Remove="peaceextras" />
     <None Remove="Test.bnk" />
     <None Remove="thunderanimation" />
   </ItemGroup>
@@ -44,6 +45,7 @@
     <EmbeddedResource Include="badassemotes" />
     <EmbeddedResource Include="BadAssEmotes.bnk" />
     <EmbeddedResource Include="braindamage" />
+    <EmbeddedResource Include="peaceextras" />
     <EmbeddedResource Include="Test.bnk" />
     <EmbeddedResource Include="thunderanimation" />
   </ItemGroup>

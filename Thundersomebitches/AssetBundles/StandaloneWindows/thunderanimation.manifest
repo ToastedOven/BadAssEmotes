@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2818231821
+CRC: 251944197
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5ac7a18286055e8d7d67451459c1210e
+    Hash: ec5feb09a8f8c3aef9754f55c68b7b0e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: aa8844ceb9dc2fe6dccfc20821f34c3a
+    Hash: 2cd6896ea0a7181822f6f0b93fb80ed1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -19,20 +19,12 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 72
-  Script: {instanceID: 0}
-- Class: 74
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: ede573416e26e194ca38aaad43893d86, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dbf1498160dfd23489970286e39b8d43, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 64d96155723a13b4ba0e405af8c30a9a, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/test/Assets/prefabs/SetupTrail.prefab
-- Assets/ThunderAnimation/PeaceAndTranquility.anim
-Dependencies: []
+Dependencies:
+- C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/AssetBundles/StandaloneWindows/peaceextras

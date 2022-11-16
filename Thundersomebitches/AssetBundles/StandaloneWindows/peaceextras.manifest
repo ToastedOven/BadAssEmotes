@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3532989365
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 56e6cd8c23a3f1dd51421c23ae6eb4e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c3fa93e7a3b35ecccd78ed64437bb4d1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 72
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ede573416e26e194ca38aaad43893d86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64d96155723a13b4ba0e405af8c30a9a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/test/Assets/prefabs/TrailPrefab.prefab
+- Assets/ThunderAnimation/PeaceAndTranquility 2.anim
+- Assets/ThunderAnimation/PeaceAndTranquility 1.anim
+Dependencies: []

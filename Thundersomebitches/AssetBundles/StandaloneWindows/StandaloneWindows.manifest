@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1023531309
+CRC: 2569239676
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,8 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: thunderanimation
+      Dependencies:
+        Dependency_0: peaceextras
+    Info_2:
+      Name: peaceextras
       Dependencies: {}

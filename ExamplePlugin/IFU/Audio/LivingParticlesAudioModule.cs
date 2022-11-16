@@ -48,7 +48,6 @@ public class LivingParticlesAudioModule : MonoBehaviour
     }
 
     // Update is called once per frame
-    float prevValue = 0213123;
     void Update()
     {
         if (useBuffer == true)

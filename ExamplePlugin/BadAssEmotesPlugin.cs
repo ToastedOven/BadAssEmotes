@@ -11,6 +11,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using testMod;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Animations;
@@ -27,11 +28,16 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.5.1";
+        public const string PluginVersion = "1.6.0";
         int stageInt = -1;
         internal static GameObject stage;
         internal static LivingParticleArrayController LPAC;
         static List<string> HatKidDances = new List<string>();
+
+        internal static void TestFunction(BoneMapper mapper)
+        {
+            AkSoundEngine.PostEvent(BoneMapper.startEvents[mapper.currentClip.syncPos][mapper.currEvent], CustomEmotesAPI.audioContainers[mapper.currentClip.syncPos]);
+        }
         public void Awake()
         {
             Assets.PopulateAssets();
@@ -43,7 +49,20 @@ namespace ExamplePlugin
             Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.AddSoundBank("BadAssEmotes3.bnk");
             Assets.LoadSoundBanks();
-            AddAnimation("Breakin", "Breakin_", false, true, true);
+            TC.Internal.TCParticleGlobalManager.Init();
+            TestModPlugin.Cumsplosion();
+            //AddAnimation("Breakin", "Breakin_", false, true, true);
+            AnimationClipParams param = new AnimationClipParams();
+            param.animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Breakin.anim")};
+            param.looping = false;
+            param._wwiseEventName = new string[] { "Play_Breakin_" };
+            param._wwiseStopEvent = new string[] { "Stop_Breakin_" };
+            param.dimWhenClose = true;
+            param.syncAnim = true;
+            param.syncAudio = true;
+            param.customPostEventCodeSync = TestFunction;
+            CustomEmotesAPI.AddCustomAnimation(param);
+            CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Breakin.anim"), false, $"Play_Breakin_", $"Stop_Breakin_", dimWhenClose: true, syncAnim: true, syncAudio: true);
             AddAnimation("Breakneck", "Breakneck", true, true, true);
             AddAnimation("Crabby", "Crabby", true, true, true);
             AddAnimation("Dabstand", "Dabstand", false, false, false);
@@ -219,12 +238,9 @@ namespace ExamplePlugin
             g.GetComponent<ParticleSystemRenderer>().material.SetFloat("_AudioAmplitudeOffsetPower2", 1.5f);
             stageInt = CustomEmotesAPI.RegisterWorldProp(g2, new JoinSpot[] { new JoinSpot("ifumiddle", new Vector3(0, .4f, 0)), new JoinSpot("ifeleft", new Vector3(-2, .4f, 0)), new JoinSpot("ifuright", new Vector3(2, .4f, 0)) });
 
-
             AddAnimation("SingleFurry", "SingleFurry", true, true, true);
             AddAnimation("Summertime", "Summertime", false, true, true);
             AddAnimation("Dougie", "Dougie", true, true, true);
-            CustomEmotesAPI.AddNonAnimatingEmote("Peace And Tranquility");
-            CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:Assets/ThunderAnimation/PeaceAndTranquility.anim"), true, $"Play_PeaceAndTranquility", $"Stop_PeaceAndTranquility", dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
@@ -540,20 +556,11 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
             }
-            if (newAnimation == "PeaceAndTranquility")
-            {
-                prop1 = mapper.props.Count;
-                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/test/assets/prefabs/SetupTrail.prefab")));
-                mapper.props[prop1].transform.SetParent(mapper.smr1.rootBone);
-                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
-                mapper.props[prop1].transform.localPosition = Vector3.zero;
-                mapper.ScaleProps();
-            }
             if (newAnimation == "Summertime")
             {
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/Summermogus.prefab")));
-                mapper.props[prop1].transform.SetParent(mapper.smr1.rootBone);
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();

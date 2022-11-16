@@ -265,9 +265,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="BadAssEmotes">
- <HintPath>C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/Assets/BadAssEmotes.dll</HintPath>
- </Reference>
  <Reference Include="MMHOOK_RoR2">
  <HintPath>C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/Assets/MMHOOK_RoR2.dll</HintPath>
  </Reference>
@@ -279,6 +276,9 @@
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/Library/PackageCache/com.passivepicasso.thunderkit@15524b17aa/Editor/ThirdParty/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="BadAssEmotes">
+ <HintPath>C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/Assets/BadAssEmotes.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/dwelx/Documents/GitHub/BadAssEmotes/Thundersomebitches/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
