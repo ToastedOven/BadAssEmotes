@@ -12,7 +12,7 @@ namespace ExamplePlugin
     public static class Assets
     {
         private static readonly string[] KnownExtensions = { "png", "exe", "txt", "xcf", "bat" };
-        private static readonly List<AssetBundle> AssetBundles = new List<AssetBundle>();
+        internal static readonly List<AssetBundle> AssetBundles = new List<AssetBundle>();
         private static readonly Dictionary<string, int> AssetIndices = new Dictionary<string, int>();
         private static readonly List<string> SoundBanksToLoad = new List<string>();
         private static readonly List<string> FoundSoundBanks = new List<string>();
@@ -167,9 +167,11 @@ namespace ExamplePlugin
 
             foreach (var assetName in assetBundle.GetAllAssetNames())
             {
-                string path = assetName.ToLower();
+                string path = assetName.ToLowerInvariant();
                 if (path.StartsWith("assets/"))
                     path = path.Remove(0, "assets/".Length);
+
+                //DebugClass.Log($"paring [{path}] with [{index}]");
                 AssetIndices[path] = index;
             }
 
@@ -194,26 +196,34 @@ namespace ExamplePlugin
 
         public static T Load<T>(string assetName) where T : UnityEngine.Object
         {
-            assetName = assetName.ToLower();
-            if (assetName.Contains(":"))
+            try
             {
-                string[] path = assetName.Split(':');
+                assetName = assetName.ToLowerInvariant();
+                if (assetName.Contains(":"))
+                {
+                    string[] path = assetName.Split(':');
 
-                assetName = path[1].ToLower();
+                    assetName = path[1].ToLowerInvariant();
+                }
+                if (assetName.StartsWith("assets/"))
+                    assetName = assetName.Remove(0, "assets/".Length);
+                int index = AssetIndices[assetName];
+                //DebugClass.Log($"used [{assetName}] to find index [{index}]");
+                T asset = AssetBundles[index].LoadAsset<T>($"assets/{assetName}");
+
+                if (asset is Material material)
+                {
+                    if (material.shader.name.StartsWith("MoistToolkit/StubbedShader"))
+                        material.shader = Addressables.LoadAssetAsync<Shader>($"RoR2/Base/Shaders/{material.shader.name.Substring(27)}.shader").WaitForCompletion();
+                }
+                return asset;
             }
-            if (assetName.StartsWith("assets/"))
-                assetName = assetName.Remove(0, "assets/".Length);
-            int index = AssetIndices[assetName];
-
-            T asset = AssetBundles[index].LoadAsset<T>($"assets/{assetName}");
-
-            if (asset is Material material)
+            catch (Exception e)
             {
-                if (material.shader.name.StartsWith("MoistToolkit/StubbedShader"))
-                    material.shader = Addressables.LoadAssetAsync<Shader>($"RoR2/Base/Shaders/{material.shader.name.Substring(27)}.shader").WaitForCompletion();
+                DebugClass.Log($"Couldn't load asset [{assetName}] reason: {e}");
+                return null;
             }
 
-            return asset;
         }
 
         public static Stream LoadDisplayRuleSetOverride(string overrideName)

@@ -28,7 +28,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.6.0";
+        public const string PluginVersion = "1.6.1";
         int stageInt = -1;
         internal static GameObject stage;
         internal static LivingParticleArrayController LPAC;
@@ -241,6 +241,12 @@ namespace ExamplePlugin
             AddAnimation("SingleFurry", "SingleFurry", true, true, true);
             AddAnimation("Summertime", "Summertime", false, true, true);
             AddAnimation("Dougie", "Dougie", true, true, true);
+
+
+
+            //Update 7?
+            AddAnimation("CaliforniaGirls", "CaliforniaGirls", true, true, true);
+            AddAnimation("SeeTinh", "SeeTinh", false, true, true);
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
