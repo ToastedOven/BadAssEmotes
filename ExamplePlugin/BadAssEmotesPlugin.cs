@@ -16,10 +16,13 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Animations;
 using UnityEngine.Networking;
+using BepInEx.Bootstrap;
+using BadAssEmotes;
 
 namespace ExamplePlugin
 {
     [BepInDependency("com.weliveinasociety.CustomEmotesAPI")]
+    [BepInDependency("com.valve.CSS", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     [R2APISubmoduleDependency("SoundAPI", "PrefabAPI", "CommandHelper", "ResourcesAPI", "NetworkingAPI")]
@@ -28,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.6.1";
+        public const string PluginVersion = "1.6.3";
         int stageInt = -1;
         internal static GameObject stage;
         internal static LivingParticleArrayController LPAC;
@@ -53,7 +56,7 @@ namespace ExamplePlugin
             TestModPlugin.Cumsplosion();
             //AddAnimation("Breakin", "Breakin_", false, true, true);
             AnimationClipParams param = new AnimationClipParams();
-            param.animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Breakin.anim")};
+            param.animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Breakin.anim") };
             param.looping = false;
             param._wwiseEventName = new string[] { "Play_Breakin_" };
             param._wwiseStopEvent = new string[] { "Stop_Breakin_" };
@@ -160,7 +163,6 @@ namespace ExamplePlugin
             AddAnimation("DesertRivers", "DesertRivers", false, true, true);
             AddAnimation("HondaStep", "HondaStep", false, true, true);
             AddAnimation("UGotThat", "UGotThat", false, true, true);
-
 
 
 
@@ -418,12 +420,12 @@ namespace ExamplePlugin
                 g.transform.SetParent(host.transform.parent);
                 g.transform.localPosition = new Vector3(-2, 0, 0);
                 g.transform.localEulerAngles = Vector3.zero;
-                g.transform.localScale = Vector3.one;
-                g.transform.SetParent(null);
+                g.transform.localScale = Vector3.one * (host.scale / joiner.scale);
+                //g.transform.SetParent(null);
                 host.transform.parent.localScale = scale;
-                g.transform.SetParent(host.transform.parent);
+                //g.transform.SetParent(host.transform.parent);
 
-                joiner.AssignParentGameObject(g, true, true, true, true, true);
+                joiner.AssignParentGameObject(g, true, true, false, false, true);
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
         }
@@ -472,7 +474,16 @@ namespace ExamplePlugin
             if (newAnimation == "Chika")
             {
                 prop1 = mapper.props.Count;
-                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/models/desker.prefab")));
+                GameObject sex;
+                try
+                {
+                    sex = CSS_Loader.LoadDesk();
+                }
+                catch (System.Exception)
+                {
+                    sex = Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/models/desker.prefab");
+                }
+                mapper.props.Add(GameObject.Instantiate(sex));
                 mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;

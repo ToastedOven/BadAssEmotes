@@ -22,7 +22,7 @@ namespace ExamplePlugin
             {
                 foreach (var bone in item.smr2.bones)
                 {
-                    if (bone.GetComponent<ParentConstraint>() && (bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.LeftFoot) || bone.GetComponent<ParentConstraint>().GetSource(0).sourceTransform == item.a2.GetBoneTransform(HumanBodyBones.RightFoot)))
+                    if (bone.GetComponent<EmoteConstraint>() && (bone.GetComponent<EmoteConstraint>().emoteBone == item.a2.GetBoneTransform(HumanBodyBones.LeftFoot) || bone.GetComponent<EmoteConstraint>().emoteBone == item.a2.GetBoneTransform(HumanBodyBones.RightFoot)))
                     {
                         YEAHFEET.Add(bone);
                     }
