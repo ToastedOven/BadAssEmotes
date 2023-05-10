@@ -17,7 +17,7 @@ namespace ExamplePlugin
         {
             //error here?
             psr = GetComponent<ParticleSystemRenderer>(); //prob this
-            Vector4[] maxArray = new Vector4[20];
+            Vector4[] maxArray = new Vector4[120];
             psr.material.SetVectorArray("_Affectors", maxArray);
         }
 
@@ -27,7 +27,14 @@ namespace ExamplePlugin
             positions = new Vector4[affectors.Length];
             for (int i = 0; i < positions.Length; i++)
             {
-                positions[i] = affectors[i].position;
+                if (affectors[i])
+                {
+                    positions[i] = affectors[i].position;
+                }
+                else
+                {
+                    positions[i] = new Vector3(555, 555, 555);
+                }
             }
             psr.material.SetVectorArray("_Affectors", positions);
             psr.material.SetInt("_AffectorCount", affectors.Length);

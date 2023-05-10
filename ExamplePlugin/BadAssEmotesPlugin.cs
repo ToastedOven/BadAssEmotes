@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.6.3";
+        public const string PluginVersion = "1.6.4";
         int stageInt = -1;
         internal static GameObject stage;
         internal static LivingParticleArrayController LPAC;
@@ -253,6 +253,22 @@ namespace ExamplePlugin
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
             CustomEmotesAPI.emoteSpotJoined_Prop += CustomEmotesAPI_emoteSpotJoined_Prop;
+            CustomEmotesAPI.boneMapperCreated += CustomEmotesAPI_boneMapperCreated;
+        }
+
+        private void CustomEmotesAPI_boneMapperCreated(BoneMapper mapper)
+        {
+            if(LPAC && LPAC.affectors.Length != 0 && !mapper.worldProp){
+                List<Transform> transforms = new List<Transform>(LPAC.affectors);
+                foreach (var bone in mapper.smr2.bones)
+                {
+                    if (bone.GetComponent<EmoteConstraint>() && (bone.GetComponent<EmoteConstraint>().emoteBone == mapper.a2.GetBoneTransform(HumanBodyBones.LeftFoot) || bone.GetComponent<EmoteConstraint>().emoteBone == mapper.a2.GetBoneTransform(HumanBodyBones.RightFoot)))
+                    {
+                        transforms.Add(bone);
+                    }
+                }
+                BadAssEmotesPlugin.LPAC.affectors = transforms.ToArray();
+            }
         }
 
         private void CustomEmotesAPI_emoteSpotJoined_Prop(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
