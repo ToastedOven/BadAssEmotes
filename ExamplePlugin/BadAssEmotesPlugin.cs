@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.6.4";
+        public const string PluginVersion = "1.6.5";
         int stageInt = -1;
         internal static GameObject stage;
         internal static LivingParticleArrayController LPAC;
@@ -69,7 +69,7 @@ namespace ExamplePlugin
             AddAnimation("Breakneck", "Breakneck", true, true, true);
             AddAnimation("Crabby", "Crabby", true, true, true);
             AddAnimation("Dabstand", "Dabstand", false, false, false);
-            AddAnimation("DanceMoves", "DanceMoves", false, true, false);
+            AddAnimation("DanceMoves", "DanceMoves", false, true, true);
             AddAnimation("DanceTherapyIntro", "DanceTherapy", "DanceTherapyLoop", true, true);
             AddAnimation("DeepDab", "Dabstand", false, false, false);
             AddAnimation("Droop", "Droop", true, true, true);
@@ -137,6 +137,7 @@ namespace ExamplePlugin
             AddAnimation("PoseRecoome", "GinyuForce", true, true, true);
             AddAnimation("StoodHere", new string[] { "Play_StandingHere2" }, "StandingHere2", true, true, false, new JoinSpot[] { new JoinSpot("StandingHereJoinSpot", new Vector3(0, 0, 2)) });
             CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/StandingHere.anim"), true, visible: false);
+            BoneMapper.animClips["StandingHere"].vulnerableEmote = true;
             AddAnimation("Carson", "Carson", false, true, true);
             AddAnimation("Frolic", "Frolic", true, true, true);
             AddAnimation("MoveIt", "MoveIt", true, true, true);
@@ -173,9 +174,13 @@ namespace ExamplePlugin
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Haruhi.anim") }, false, new string[] { "Play_Haruhi", "Play_HaruhiYoung" }, new string[] { "Stop_Haruhi", "Stop_Haruhi" }, dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: 0, joinPref: 0, joinSpots: new JoinSpot[] { new JoinSpot("Yuki_Nagato", new Vector3(3, 0, -3)), new JoinSpot("Mikuru_Asahina", new Vector3(-3, 0, -3)) });
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Yuki_Nagato.anim") }, false, "", visible: false, syncAnim: true);
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Mikuru_Asahina.anim") }, false, "", visible: false, syncAnim: true);
+            BoneMapper.animClips["Yuki_Nagato"].vulnerableEmote = true;
+            BoneMapper.animClips["Mikuru_Asahina"].vulnerableEmote = true;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG2.anim"), Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/GGGG3.anim") }, false, new string[] { "Play_GGGG" }, new string[] { "Stop_GGGG" }, dimWhenClose: true, syncAnim: true, syncAudio: true, startPref: -2, joinPref: -2);
             AddAnimation("Shufflin", "Shufflin", false, true, true);
             AddStartAndJoinAnim(new string[] { "Train", "TrainPassenger" }, "Train", new string[] { "Trainloop", "TrainPassenger" }, true, false, true);
+            BoneMapper.animClips["Train"].vulnerableEmote = true;
+
             CustomEmotesAPI.BlackListEmote("Train");
             AddAnimation("BimBamBom", "BimBamBom", true, true, true);
             AddAnimation("Savage", "Savage", true, true, true);
@@ -190,6 +195,9 @@ namespace ExamplePlugin
             CustomEmotesAPI.BlackListEmote("DuckThisOneIdle");
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOne.anim") }, false, new string[] { "Play_DuckThisOne" }, new string[] { "Stop_DuckThisOne" }, visible: false, dimWhenClose: true);
             CustomEmotesAPI.AddCustomAnimation(Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOneJoin.anim"), false, visible: false, dimWhenClose: true);
+            BoneMapper.animClips["DuckThisOneIdle"].vulnerableEmote = true;
+            BoneMapper.animClips["DuckThisOne"].vulnerableEmote = true;
+            BoneMapper.animClips["DuckThisOneJoin"].vulnerableEmote = true;
             //CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DevilSpawn.anim") }, true, joinSpots: new JoinSpot[] { new JoinSpot(Vector3.zero) });
             AddAnimation("Griddy", "Griddy", true, true, true);
             AddAnimation("Tidy", "Tidy", true, true, true);
@@ -214,9 +222,11 @@ namespace ExamplePlugin
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2, 0, 0)) });
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorldJoin.anim") }, true, new string[] { "Play_MyWorld" }, new string[] { "Stop_MyWorld" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             BoneMapper.animClips["MyWorldJoin"].syncPos--;
+            BoneMapper.animClips["MyWorldJoin"].vulnerableEmote = true;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLD.anim") }, true, new string[] { "Play_VSWORLD" }, new string[] { "Stop_VSWORLD" }, dimWhenClose: true, syncAnim: true, syncAudio: true, joinSpots: new JoinSpot[] { new JoinSpot("VSWORLDJoinSpot", new Vector3(-2, 0, 0)) });
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLDLEFT.anim") }, true, new string[] { "Play_VSWORLD" }, new string[] { "Stop_VSWORLD" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
+            BoneMapper.animClips["VSWORLDLEFT"].vulnerableEmote = true;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ChugJug.anim") }, false, new string[] { "Play_ChugJug", "Play_MikuJug" }, new string[] { "Stop_ChugJug", "Stop_ChugJug" }, dimWhenClose: true, syncAnim: true, syncAudio: true);
             CustomEmotesAPI.AddNonAnimatingEmote("IFU Stage");
             CustomEmotesAPI.BlackListEmote("IFU Stage");
@@ -225,6 +235,9 @@ namespace ExamplePlugin
             BoneMapper.animClips["ifeleft"].syncPos--;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/ifuright.anim") }, false, new string[] { "Play_ifu", "Play_ifucover" }, new string[] { "Stop_ifu", "Stop_ifu" }, dimWhenClose: true, syncAnim: true, syncAudio: true, visible: false);
             BoneMapper.animClips["ifuright"].syncPos -= 2;
+            BoneMapper.animClips["ifu"].vulnerableEmote = true;
+            BoneMapper.animClips["ifeleft"].vulnerableEmote = true;
+            BoneMapper.animClips["ifuright"].vulnerableEmote = true;
             GameObject g2 = Assets.Load<GameObject>($"assets/prefabs/ifustagebasebased.prefab");
             var g = g2.transform.Find("ifuStage").Find("GameObject").Find("LivingParticlesFloor11_Audio").gameObject;
             g2.AddComponent<StageHandler>();
@@ -461,7 +474,7 @@ namespace ExamplePlugin
                     stand = mapper.currentClip.syncPos;
                 }
             }
-            catch (System.Exception)
+            catch (System.Exception e)
             {
             }
             if (punchingMappers.Contains(mapper))
@@ -563,7 +576,7 @@ namespace ExamplePlugin
                 mapper.props.Add(myNutz);
                 //mapper.ScaleProps();
             }
-            if (stand != -1 && newAnimation == "Train")
+            if (newAnimation == "Train")
             {
                 prop1 = mapper.props.Count;
                 if (CustomAnimationClip.syncPlayerCount[stand] == 1)
