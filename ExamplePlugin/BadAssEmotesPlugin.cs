@@ -31,10 +31,14 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.6.5";
+        public const string PluginVersion = "1.7.1";
         int stageInt = -1;
+        int pressInt = -1;
         internal static GameObject stage;
+        internal static GameObject press;
+        internal static GameObject pressMechanism;
         internal static LivingParticleArrayController LPAC;
+        public static BadAssEmotesPlugin instance;
         static List<string> HatKidDances = new List<string>();
 
         internal static void TestFunction(BoneMapper mapper)
@@ -43,6 +47,7 @@ namespace ExamplePlugin
         }
         public void Awake()
         {
+            instance = this;
             Assets.PopulateAssets();
             Assets.AddSoundBank("Test.bnk");
             //Assets.AddSoundBank("nunchukemotes.bnk");
@@ -51,9 +56,11 @@ namespace ExamplePlugin
             Assets.AddSoundBank("BadAssEmotes.bnk");
             Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.AddSoundBank("BadAssEmotes3.bnk");
+            Assets.AddSoundBank("Hydrolic.bnk");
             Assets.LoadSoundBanks();
             TC.Internal.TCParticleGlobalManager.Init();
             TestModPlugin.Cumsplosion();
+            Settings.Setup();
             //AddAnimation("Breakin", "Breakin_", false, true, true);
             AnimationClipParams param = new AnimationClipParams();
             param.animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/Breakin.anim") };
@@ -263,15 +270,57 @@ namespace ExamplePlugin
             AddAnimation("CaliforniaGirls", "CaliforniaGirls", true, true, true);
             AddAnimation("SeeTinh", "SeeTinh", false, true, true);
 
+
+            //Update 8ish
+            CustomEmotesAPI.AddNonAnimatingEmote("Hydraulic Press");
+            CustomEmotesAPI.BlackListEmote("Hydraulic Press");
+            AddAnimation("VirtualInsanity", "VirtualInsanity", false, true, false);
+
+
+
+
+
+            GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
+            foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
+            {
+                foreach (var mat in item.sharedMaterials)
+                {
+                    mat.shader = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Commando/CommandoBody.prefab").WaitForCompletion().GetComponentInChildren<SkinnedMeshRenderer>().material.shader;
+                }
+            }
+            pressObject.AddComponent<HydrolicPressMechanism>();
+            pressInt = CustomEmotesAPI.RegisterWorldProp(pressObject, new JoinSpot[] { new JoinSpot("HydrolicPressJoinSpot", new Vector3(0, .1f, 0)) });
+
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
             CustomEmotesAPI.emoteSpotJoined_Body += CustomEmotesAPI_emoteSpotJoined_Body;
             CustomEmotesAPI.emoteSpotJoined_Prop += CustomEmotesAPI_emoteSpotJoined_Prop;
             CustomEmotesAPI.boneMapperCreated += CustomEmotesAPI_boneMapperCreated;
+
+            On.RoR2.Run.OnClientGameOver += Run_OnClientGameOver;
+        }
+
+        private void Run_OnClientGameOver(On.RoR2.Run.orig_OnClientGameOver orig, Run self, RunReport runReport)
+        {
+            orig(self, runReport);
+            if (NetworkServer.active)
+            {
+                if (UnityEngine.Random.Range(1, 101) < Settings.EnemyTauntOnDeathChance.Value + 1)
+                {
+                    foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
+                    {
+                        if (item.mapperBody.GetComponent<TeamComponent>().teamIndex != TeamIndex.Player)
+                        {
+                            CustomEmotesAPI.PlayAnimation("DanceMoves", item);
+                        }
+                    }
+                }
+            }
         }
 
         private void CustomEmotesAPI_boneMapperCreated(BoneMapper mapper)
         {
-            if(LPAC && LPAC.affectors.Length != 0 && !mapper.worldProp){
+            if (LPAC && LPAC.affectors.Length != 0 && !mapper.worldProp)
+            {
                 List<Transform> transforms = new List<Transform>(LPAC.affectors);
                 foreach (var bone in mapper.smr2.bones)
                 {
@@ -287,33 +336,37 @@ namespace ExamplePlugin
         private void CustomEmotesAPI_emoteSpotJoined_Prop(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
         {
             string emoteSpotName = emoteSpot.name;
-            if (emoteSpotName == "ifumiddle")
+            GameObject g;
+            switch (emoteSpotName)
             {
-                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
-                joiner.PlayAnim("ifu", 0);
-                GameObject g = new GameObject();
-                g.name = "ifumiddle_JoinProp";
-                IFU(joiner, host, emoteSpot, g);
-            }
-            else if (emoteSpotName == "ifeleft")
-            {
-                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
-
-                joiner.PlayAnim("ifeleft", 0);
-
-                GameObject g = new GameObject();
-                g.name = "ifeleft_JoinProp";
-                IFU(joiner, host, emoteSpot, g);
-            }
-            else if (emoteSpotName == "ifuright")
-            {
-                host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
-
-                joiner.PlayAnim("ifuright", 0);
-
-                GameObject g = new GameObject();
-                g.name = "ifuright_JoinProp";
-                IFU(joiner, host, emoteSpot, g);
+                case "ifumiddle":
+                    host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+                    joiner.PlayAnim("ifu", 0);
+                    g = new GameObject();
+                    g.name = "ifumiddle_JoinProp";
+                    IFU(joiner, host, emoteSpot, g);
+                    break;
+                case "ifeleft":
+                    host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+                    joiner.PlayAnim("ifeleft", 0);
+                    g = new GameObject();
+                    g.name = "ifeleft_JoinProp";
+                    IFU(joiner, host, emoteSpot, g);
+                    break;
+                case "ifuright":
+                    host.GetComponentsInChildren<Animator>()[1].SetTrigger("Start");
+                    joiner.PlayAnim("ifuright", 0);
+                    g = new GameObject();
+                    g.name = "ifuright_JoinProp";
+                    IFU(joiner, host, emoteSpot, g);
+                    break;
+                case "HydrolicPressJoinSpot":
+                    g = new GameObject();
+                    g.name = "hydrolicpress_JoinProp";
+                    HydrolicPress(joiner, host, emoteSpot, g);
+                    break;
+                default:
+                    break;
             }
         }
         private void IFU(BoneMapper joiner, BoneMapper host, GameObject emoteSpot, GameObject g)
@@ -338,6 +391,41 @@ namespace ExamplePlugin
                         cameraParamsData = data
                     }, 1f);
                 }
+            }
+        }
+        private void HydrolicPress(BoneMapper joiner, BoneMapper host, GameObject emoteSpot, GameObject g)
+        {
+            joiner.props.Add(g);
+            g.transform.SetParent(host.transform);
+            g.transform.localPosition = new Vector3(0, .03f, 0);
+            g.transform.localEulerAngles = Vector3.zero;
+            g.transform.localScale = Vector3.one;
+            g.AddComponent<HydrolicPressComponent>().boneMapper = joiner;
+            joiner.AssignParentGameObject(g, true, false, true, false, false);
+            emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
+            StartCoroutine(WaitForSecondsThenEndEmote(joiner, 10f, g));
+        }
+        IEnumerator WaitForSecondsThenEndEmote(BoneMapper mapper, float time, GameObject parent)
+        {
+            yield return new WaitForSeconds(time);
+            if (mapper)
+            {
+                if (mapper.parentGameObject == parent)
+                {
+                    mapper.preserveProps = true;
+                    mapper.AssignParentGameObject(mapper.parentGameObject, false, false, true, false, false);
+                    mapper.preserveParent = true;
+                    mapper.preserveProps = true;
+                    mapper.PlayAnim("none", 0);
+                }
+            }
+        }
+        internal IEnumerator WaitForSecondsThenDeleteGameObject(GameObject obj, float time)
+        {
+            yield return new WaitForSeconds(time);
+            if (obj)
+            {
+                GameObject.Destroy(obj);
             }
         }
         private void CustomEmotesAPI_emoteSpotJoined_Body(GameObject emoteSpot, BoneMapper joiner, BoneMapper host)
@@ -712,6 +800,24 @@ namespace ExamplePlugin
                     NetworkServer.Spawn(stage);
                 }
             }
+            if (newAnimation == "Hydraulic Press")
+            {
+                if (NetworkServer.active)
+                {
+                    if (press)
+                    {
+                        NetworkServer.Destroy(press);
+                    }
+                    bool lowes = UnityEngine.Random.Range(0, 15) == 0;
+                    press = CustomEmotesAPI.SpawnWorldProp(pressInt);
+                    press.GetComponent<HydrolicPressMechanism>().lowes = lowes;
+                    press.transform.SetParent(mapper.transform.parent);
+                    press.transform.localPosition = new Vector3(0, 0, 0);
+                    press.transform.SetParent(null);
+                    //press.transform.localPosition += new Vector3(0, .5f, 0);
+                    NetworkServer.Spawn(press);
+                }
+            }
             //if (newAnimation == "Sad")
             //{
             //    prop1 = mapper.props.Count;
@@ -772,6 +878,4 @@ namespace ExamplePlugin
             CustomEmotesAPI.AddCustomAnimation(nuts.ToArray(), looping, $"Play_{wwise}", $"Stop_{wwise}", dimWhenClose: dimaudio, syncAnim: sync, syncAudio: sync, startPref: 0, joinPref: 1, secondaryAnimation: nuts2.ToArray());
         }
     }
-
-
 }

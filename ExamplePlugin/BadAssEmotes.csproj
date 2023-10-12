@@ -22,6 +22,8 @@
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
     <None Remove="enemyskeletons" />
+    <None Remove="Hydrolic.bnk" />
+    <None Remove="hydrolicpresstest" />
     <None Remove="ifubundle" />
     <None Remove="Init.bnk" />
     <None Remove="Init2.bnk" />
@@ -35,6 +37,8 @@
     <EmbeddedResource Include="BadAssEmotes2.bnk" />
     <EmbeddedResource Include="BadAssEmotes3.bnk" />
     <EmbeddedResource Include="badassemotesifustage" />
+    <EmbeddedResource Include="Hydrolic.bnk" />
+    <EmbeddedResource Include="hydrolicpresstest" />
     <EmbeddedResource Include="ifubundle" />
     <EmbeddedResource Include="Init.bnk" />
     <EmbeddedResource Include="Init2.bnk" />
