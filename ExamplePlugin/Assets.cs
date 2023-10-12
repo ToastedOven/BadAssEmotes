@@ -157,6 +157,29 @@ namespace ExamplePlugin
             Other
         }
 
+        public static void LoadAssetBundlesFromFolder(string folderName)
+        {
+            folderName = Path.Combine(Path.GetDirectoryName(BadAssEmotesPlugin.PInfo.Location), folderName);
+            foreach (var file in Directory.GetFiles(folderName))
+            {
+                AssetBundle assetBundle = AssetBundle.LoadFromFile(file);
+
+                int index = AssetBundles.Count;
+                AssetBundles.Add(assetBundle);
+
+                foreach (var assetName in assetBundle.GetAllAssetNames())
+                {
+                    string path = assetName.ToLowerInvariant();
+                    if (path.StartsWith("assets/"))
+                        path = path.Remove(0, "assets/".Length);
+
+                    //DebugClass.Log($"paring [{path}] with [{index}]");
+                    AssetIndices[path] = index;
+                }
+
+                DebugClass.Log($"Loaded AssetBundle: {Path.GetFileName(file)}");
+            }
+        }
         private static void LoadAssetBundle(string location)
         {
             using var assetBundleStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(location);
@@ -176,6 +199,36 @@ namespace ExamplePlugin
             }
 
             DebugClass.Log($"Loaded AssetBundle: {location}");
+        }
+
+        public static void LoadAllSoundBanksFromFolder(string folderName)
+        {
+            folderName = Path.Combine(Path.GetDirectoryName(BadAssEmotesPlugin.PInfo.Location), folderName);
+            var akResult = AkSoundEngine.AddBasePath(folderName);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                DebugClass.Log($"Added bank base path : {folderName}");
+            }
+            else
+            {
+                DebugClass.Log(
+                    $"Error adding base path : {folderName} " +
+                    $"Error code : {akResult}");
+            }
+            foreach (var file in Directory.GetFiles(folderName))
+            {
+                akResult = AkSoundEngine.LoadBank(Path.GetFileName(file), out _);
+                if (akResult == AKRESULT.AK_Success)
+                {
+                    DebugClass.Log($"Added bank : {Path.GetFileName(file)}");
+                }
+                else
+                {
+                    DebugClass.Log(
+                        $"Error loading bank : {Path.GetFileName(file)} " +
+                        $"Error code : {akResult}");
+                }
+            }
         }
 
         private static void LoadSoundBank(string location)

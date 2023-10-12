@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.7.1";
+        public const string PluginVersion = "1.7.2";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -40,15 +40,22 @@ namespace ExamplePlugin
         internal static LivingParticleArrayController LPAC;
         public static BadAssEmotesPlugin instance;
         static List<string> HatKidDances = new List<string>();
+        public static PluginInfo PInfo { get; private set; }
 
         internal static void TestFunction(BoneMapper mapper)
         {
             AkSoundEngine.PostEvent(BoneMapper.startEvents[mapper.currentClip.syncPos][mapper.currEvent], CustomEmotesAPI.audioContainers[mapper.currentClip.syncPos]);
         }
+        public void Start()
+        {
+            Assets.LoadAllSoundBanksFromFolder("soundbanks");
+        }
         public void Awake()
         {
             instance = this;
-            Assets.PopulateAssets();
+            PInfo = Info;
+            //Assets.PopulateAssets();
+            Assets.LoadAssetBundlesFromFolder("assetbundles");
             Assets.AddSoundBank("Test.bnk");
             //Assets.AddSoundBank("nunchukemotes.bnk");
             Assets.AddSoundBank("Init.bnk");
@@ -57,7 +64,7 @@ namespace ExamplePlugin
             Assets.AddSoundBank("BadAssEmotes2.bnk");
             Assets.AddSoundBank("BadAssEmotes3.bnk");
             Assets.AddSoundBank("Hydrolic.bnk");
-            Assets.LoadSoundBanks();
+            //Assets.LoadSoundBanks();
             TC.Internal.TCParticleGlobalManager.Init();
             TestModPlugin.Cumsplosion();
             Settings.Setup();
