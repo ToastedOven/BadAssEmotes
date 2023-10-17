@@ -14,7 +14,6 @@
 					</PropertyList>
 				</Effect>
 				<Effect Name="Band1" ID="{CFDF0A4C-9704-4DB5-8328-1E48343DDFAD}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-					<Comment> </Comment>
 					<PropertyList>
 						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
 					</PropertyList>
@@ -30,7 +29,7 @@
 						<Property Name="FrequencyBand3" Type="Real32" Value="261"/>
 						<Property Name="GainBand2" Type="Real32" Value="-24"/>
 						<Property Name="GainBand3" Type="Real32" Value="-24"/>
-						<Property Name="OutputLevel" Type="Real32" Value="4.5"/>
+						<Property Name="OutputLevel" Type="Real32" Value="2"/>
 						<Property Name="QFactorBand2" Type="Real32" Value="9.4"/>
 					</PropertyList>
 				</Effect>

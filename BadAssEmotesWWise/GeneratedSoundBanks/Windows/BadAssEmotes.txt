@@ -149,6 +149,10 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	246773394	Volume_EmoteInput			\Default Work Unit\Volume_EmoteInput	
 	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
 	517048260	People_In_Range			\Default Work Unit\People_In_Range	
+	3193682177	Band1			\Default Work Unit\Band1	
+	3193682178	Band2			\Default Work Unit\Band2	
+	3193682179	Band3			\Default Work Unit\Band3	
+	3193682180	Band4			\Default Work Unit\Band4	
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 	3695994288	Volume_Master			\Default Work Unit\Volume_Master	
 
@@ -156,93 +160,93 @@ External Source	ID	Name			Wwise Object Path	Notes
 	618371124	External_Source			\Default Work Unit\Emotes\EmoteInput\External_Source	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	5854293	Miku	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Miku_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Miku		3968379
-	22197893	Never Gonna Give you Up	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Never Gonna Give you Up_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Never Gonna Give you Up		598305
-	31086969	Trombonetauntv2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Trombonetauntv2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Trombonetauntv2		108909
-	33132360	MEMEME	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TeddyLoid - ME!ME!ME! feat. Daoko_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\MEMEME		661644
-	52218649	DontStart	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DontStart_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\DontStart		294639
-	74182108	Butt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Butt_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Butt		24216
-	104657059	Floss	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Floss_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Floss		153188
-	104807641	Carson	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Carson_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Carson		284071
-	105575453	Springy	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Springy_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Springy		228546
-	112117115	starget3	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget3		48322
-	115302274	Athena_Emote_SadTrombone	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Athena_Emote_SadTrombone_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Athena_Emote_SadTrombone		113843
-	139866433	FullTilt2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FullTilt2_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt2		1592004
-	146585453	Scenario	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Scenario_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Scenario		622668
-	153802453	Dance Therapy Intro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dance Therapy Intro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Intro		61971
-	168243202	AnkhaZone	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\AnkhaZone_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\AnkhaZone		2724354
-	170824598	SquatKick	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SquatKick_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SquatKick		267771
-	188156113	Cartwheelin	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Cartwheelin_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Cartwheelin		51839
-	198448931	Infectious	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Infectious_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infectious		1685944
-	207251754	OrangeJustice	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Orange Justice_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OrangeJustice		384152
-	215704961	ArkDance	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ArkDance_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ArkDance		2409026
-	222179220	ByTheFire	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ByTheFire_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\ByTheFire		365693
-	236167254	starget7	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget7_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget7		84998
-	239737930	LetsDanceBoys	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\LetsDanceBoys_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\LetsDanceBoys		3819249
-	249196016	IntesityIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\IntesityIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntesityIntro		120587
-	250120523	InfinidabLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\InfinidabLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabLoop		300231
-	267329345	Macarena	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Macarena_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Macarena		410694
-	269508921	StarGet2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\StarGet2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\StarGet2		55589
-	287756944	BunnyHop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BunnyHop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BunnyHop		344584
-	311636974	Dabstand	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dabstand_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Dabstand		55254
-	313525913	Thicc	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Thicc_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Thicc		2239406
-	321315922	BlindingLightsLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BlindingLightsLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsLoop		293591
-	328795648	hi5	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi5_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi5		49193
-	329430408	Fresh	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Fresh_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Fresh		82597
-	350421790	GangTorture	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangTorture_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GangTorture		914427
-	351681333	Overdrive	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Overdrive_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Overdrive		560722
-	356289195	Yakuza	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Yakuza_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Yakuza		2308908
-	359863975	GinyuForce	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GinyuForce_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GinyuForce		238464
-	372285233	MoveIt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MoveIt_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\MoveIt		149645
-	372643282	Crabby	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crabby_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Crabby		851625
-	384265436	StandingHere	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\StandingHere_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StandingHere		2180636
-	396533803	Poyo	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Poyo_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Poyo		1144374
-	423398404	Hype	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hype_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Hype		283203
-	433757311	PhoneItIn	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Phone It In_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PhoneItIn		372525
-	451183420	CrazyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\CrazyFeet_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\CrazyFeet		518713
-	461389380	PopLock	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PopLock_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PopLock		155660
-	504147652	Droop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Droop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Droop		1058023
-	534816575	Wah Wah Wahhhh (Sound Effect)	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Wah Wah Wahhhh (Sound Effect)		57536
-	540478322	starget6	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget6_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget6		86306
-	551181905	Breakin'	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakin'_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakin'		152099
-	574532012	Crackdown	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crackdown_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Crackdown		249578
-	579062041	ItsDynamite	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ItsDynamite_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ItsDynamite		268775
-	589932617	Renegade	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Renegade_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Renegade		486546
-	604678094	hi2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi2		32606
-	611100602	FullTilt	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FullTilt_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt		180480
-	623780510	BestMates	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BestMates_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BestMates		102887
-	625052513	Dance Therapy Loop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dance Therapy Loop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Loop		507536
-	628532740	SpringLoaded	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SpringLoaded_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SpringLoaded		151670
-	635525640	Specialist	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Specialist_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Specialist		3100648
-	637023442	Sway	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Sway_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sway		1516129
-	658696158	Flamenco	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Flamenco_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\Flamenco		13328
-	665818124	FancyFeet	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FancyFeet_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\FancyFeet		355380
-	667027545	Frolic	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Frolic_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Frolic		2736688
-	682654059	FlamencoLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\FlamencoLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\FlamencoLoop		518362
-	700718868	Extraterestrial	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Extraterestrial_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Extraterestrial		526232
-	717722066	starget4	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget4		80438
-	719458032	DanceMoves	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Fortnite default dance sound_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceMoves		131380
-	760458160	ImDiamond	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ImDiamond_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ImDiamond		224513
-	769581195	Breakneck	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Breakneck_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakneck		737431
-	787279635	PPmusic	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PPmusic_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\PPmusic		338430
-	787738225	NinjaStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\NinjaStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\NinjaStyle		229493
-	800301908	Horny	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Horny_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\Horny		559636
-	808233883	IntensityLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\IntensityLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntensityLoop		486986
-	821426950	TakeTheL	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TakeTheL_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TakeTheL		180199
-	830724367	InfinidabIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\InfinidabIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabIntro		8371
-	838367546	hi1	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi1		20137
-	846861708	Goopie	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Goopie_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Goopie		478562
-	850727505	BlindingLightsIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BlindingLightsIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsIntro		58247
-	876497341	hi3	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi3		44842
-	892494116	GetDown	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GetDown_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GetDown		739548
-	914307656	Paws&Claws	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Im A Cat_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Paws&Claws		3903028
-	945033372	Crossbounce	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Crossbounce_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Crossbounce		305096
-	950145501	Thanos	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Thanos_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Thanos		1621858
-	957939238	OldSchool	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Old SChool_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OldSchool		619369
-	959529791	starget5	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\starget5_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget5		65425
-	960109726	ElectroSwing	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ElectroSwing_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\ElectroSwing		291197
-	1027952488	TheRobot	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\TheRobot_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TheRobot		406999
-	1048696440	hi4	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Hi\hi4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi4		19160
-	1057510112	Chika	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Chika_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Chika		1986210
-	1065322382	GangnamStyle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GangnamStyle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\GangnamStyle		4548806
+	5854293	Miku	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Miku_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Miku		5127612
+	22197893	Never Gonna Give you Up	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Never Gonna Give you Up_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Never Gonna Give you Up		795217
+	31086969	Trombonetauntv2	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Sad\Trombonetauntv2_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Trombonetauntv2		126747
+	33132360	MEMEME	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\TeddyLoid - ME!ME!ME! feat. Daoko_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\MEMEME		762563
+	52218649	DontStart	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\DontStart_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\DontStart		407081
+	74182108	Butt	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Butt_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Butt		30584
+	104657059	Floss	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Floss_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Floss		187565
+	104807641	Carson	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Carson_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Carson		352246
+	105575453	Springy	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Springy_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Springy		309661
+	112117115	starget3	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\starget3_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget3		78134
+	115302274	Athena_Emote_SadTrombone	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Sad\Athena_Emote_SadTrombone_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Athena_Emote_SadTrombone		164019
+	139866433	FullTilt2	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\FullTilt2_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt2		2184771
+	146585453	Scenario	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Scenario_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Scenario		883063
+	153802453	Dance Therapy Intro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Dance Therapy Intro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Intro		89589
+	168243202	AnkhaZone	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\AnkhaZone_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\AnkhaZone		3104204
+	170824598	SquatKick	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SquatKick_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SquatKick		400336
+	188156113	Cartwheelin	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Cartwheelin_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Cartwheelin		65582
+	198448931	Infectious	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Infectious_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infectious		1567814
+	207251754	OrangeJustice	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Orange Justice_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OrangeJustice		482768
+	215704961	ArkDance	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ArkDance_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ArkDance		2296956
+	222179220	ByTheFire	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ByTheFire_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\ByTheFire		482052
+	236167254	starget7	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\starget7_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget7		101996
+	239737930	LetsDanceBoys	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\LetsDanceBoys_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\LetsDanceBoys		5442275
+	249196016	IntesityIntro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\IntesityIntro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntesityIntro		177874
+	250120523	InfinidabLoop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\InfinidabLoop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabLoop		407563
+	267329345	Macarena	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Macarena_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Macarena		457907
+	269508921	StarGet2	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\StarGet2_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\StarGet2		86357
+	287756944	BunnyHop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\BunnyHop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BunnyHop		425642
+	311636974	Dabstand	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Dabstand_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Dabstand		78108
+	313525913	Thicc	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Thicc_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Thicc		2788909
+	321315922	BlindingLightsLoop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\BlindingLightsLoop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsLoop		288162
+	328795648	hi5	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hi\hi5_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi5		32077
+	329430408	Fresh	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Fresh_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Fresh		139213
+	350421790	GangTorture	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\GangTorture_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GangTorture		1187306
+	351681333	Overdrive	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Overdrive_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Overdrive		684680
+	356289195	Yakuza	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Yakuza_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Yakuza		2959592
+	359863975	GinyuForce	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\GinyuForce_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GinyuForce		317492
+	372285233	MoveIt	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MoveIt_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\MoveIt		184415
+	372643282	Crabby	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Crabby_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Crabby		764040
+	384265436	StandingHere	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\StandingHere_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StandingHere		2577322
+	396533803	Poyo	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Poyo_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Poyo		1860775
+	423398404	Hype	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hype_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Hype		356399
+	433757311	PhoneItIn	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Phone It In_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PhoneItIn		392369
+	451183420	CrazyFeet	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\CrazyFeet_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\CrazyFeet		540415
+	461389380	PopLock	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PopLock_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\PopLock		204930
+	504147652	Droop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Droop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Droop		1272265
+	534816575	Wah Wah Wahhhh (Sound Effect)	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sad\Wah Wah Wahhhh (Sound Effect)		124091
+	540478322	starget6	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\starget6_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget6		103262
+	551181905	Breakin'	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Breakin'_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakin'		242044
+	574532012	Crackdown	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Crackdown_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Crackdown		331139
+	579062041	ItsDynamite	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ItsDynamite_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ItsDynamite		212282
+	589932617	Renegade	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Renegade_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Renegade		677351
+	604678094	hi2	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hi\hi2_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi2		49365
+	611100602	FullTilt	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\FullTilt_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\FullTilt		205309
+	623780510	BestMates	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\BestMates_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BestMates		108404
+	625052513	Dance Therapy Loop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Dance Therapy Loop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceTherapy\Dance Therapy Loop		688719
+	628532740	SpringLoaded	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SpringLoaded_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\SpringLoaded		215202
+	635525640	Specialist	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Specialist_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\Specialist		3549233
+	637023442	Sway	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Sway_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Sway		1647758
+	658696158	Flamenco	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Flamenco_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\Flamenco		20112
+	665818124	FancyFeet	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\FancyFeet_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\FancyFeet		422269
+	667027545	Frolic	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Frolic_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Frolic		3703791
+	682654059	FlamencoLoop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\FlamencoLoop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Flamenco\FlamencoLoop		684838
+	700718868	Extraterestrial	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Extraterestrial_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Extraterestrial		754754
+	717722066	starget4	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\starget4_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget4		89941
+	719458032	DanceMoves	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Fortnite default dance sound_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\DanceMoves		202149
+	760458160	ImDiamond	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ImDiamond_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\ImDiamond		213662
+	769581195	Breakneck	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Breakneck_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Breakneck		947390
+	787279635	PPmusic	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PPmusic_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\PPmusic		586260
+	787738225	NinjaStyle	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\NinjaStyle_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\NinjaStyle		194985
+	800301908	Horny	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Horny_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Horny\Horny		777031
+	808233883	IntensityLoop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\IntensityLoop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Intensity\IntensityLoop		654463
+	821426950	TakeTheL	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\TakeTheL_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TakeTheL		327988
+	830724367	InfinidabIntro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\InfinidabIntro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Infinidab\InfinidabIntro		12893
+	838367546	hi1	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hi\hi1_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi1		34786
+	846861708	Goopie	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Goopie_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Goopie		473934
+	850727505	BlindingLightsIntro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\BlindingLightsIntro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\BlindingLights\BlindingLightsIntro		73457
+	876497341	hi3	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hi\hi3_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi3		87565
+	892494116	GetDown	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\GetDown_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\GetDown		920920
+	914307656	Paws&Claws	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Im A Cat_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\Paws&Claws		3511313
+	945033372	Crossbounce	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Crossbounce_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Crossbounce		402952
+	950145501	Thanos	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Thanos_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Thanos		2032620
+	957939238	OldSchool	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Old SChool_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\OldSchool		819748
+	959529791	starget5	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\starget5_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\StarGet\starget5		96160
+	960109726	ElectroSwing	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ElectroSwing_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\emotes\ElectroSwing		392068
+	1027952488	TheRobot	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\TheRobot_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\TheRobot		519863
+	1048696440	hi4	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Hi\hi4_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Hi\hi4		32196
+	1057510112	Chika	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Chika_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new emotes 2\Chika		2464531
+	1065322382	GangnamStyle	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\GangnamStyle_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes\GangnamStyle		5274093
 
