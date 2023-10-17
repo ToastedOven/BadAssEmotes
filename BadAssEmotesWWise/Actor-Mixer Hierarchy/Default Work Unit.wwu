@@ -11,7 +11,7 @@
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4</Value>
+								<Value>8.8</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{B0281003-C37C-4B54-8D21-B6E6FFF9CA43}" ShortID="865371904">

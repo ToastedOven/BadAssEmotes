@@ -212,6 +212,7 @@ namespace ExamplePlugin
                 bankStream.Read(bytes, 0, bytes.Length);
                 SoundBanks.Add(bytes);
                 DebugClass.Log($"Loaded SoundBank: {Path.GetFileName(file)}");
+
             }
         }
 

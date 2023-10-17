@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\</ProjectRoot>
+		<SourceFilesRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,7 +22,7 @@
 				<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2800433960" Language="SFX" Hash="3051096665">
+		<SoundBank Id="2800433960" Language="SFX" Hash="2728438078">
 			<ObjectPath>\SoundBanks\Default Work Unit\Badassemotes2</ObjectPath>
 			<ShortName>Badassemotes2</ShortName>
 			<Path>Badassemotes2.bnk</Path>
@@ -537,7 +537,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2800433961" Language="SFX" Hash="116015753">
+		<SoundBank Id="2800433961" Language="SFX" Hash="1162664485">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes3</ObjectPath>
 			<ShortName>BadAssEmotes3</ShortName>
 			<Path>BadAssEmotes3.bnk</Path>
@@ -862,7 +862,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4059541694" Language="SFX" Hash="2242422062">
+		<SoundBank Id="4059541694" Language="SFX" Hash="151552406">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes</ObjectPath>
 			<ShortName>BadAssEmotes</ShortName>
 			<Path>BadAssEmotes.bnk</Path>
