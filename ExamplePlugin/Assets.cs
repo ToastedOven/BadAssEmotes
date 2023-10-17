@@ -204,30 +204,14 @@ namespace ExamplePlugin
         public static void LoadAllSoundBanksFromFolder(string folderName)
         {
             folderName = Path.Combine(Path.GetDirectoryName(BadAssEmotesPlugin.PInfo.Location), folderName);
-            var akResult = AkSoundEngine.AddBasePath(folderName);
-            if (akResult == AKRESULT.AK_Success)
-            {
-                DebugClass.Log($"Added bank base path : {folderName}");
-            }
-            else
-            {
-                DebugClass.Log(
-                    $"Error adding base path : {folderName} " +
-                    $"Error code : {akResult}");
-            }
+
             foreach (var file in Directory.GetFiles(folderName))
             {
-                akResult = AkSoundEngine.LoadBank(Path.GetFileName(file), out _);
-                if (akResult == AKRESULT.AK_Success)
-                {
-                    DebugClass.Log($"Added bank : {Path.GetFileName(file)}");
-                }
-                else
-                {
-                    DebugClass.Log(
-                        $"Error loading bank : {Path.GetFileName(file)} " +
-                        $"Error code : {akResult}");
-                }
+                using var bankStream = File.OpenRead($"{folderName}\\{Path.GetFileName(file)}");
+                var bytes = new byte[bankStream!.Length];
+                bankStream.Read(bytes, 0, bytes.Length);
+                SoundBanks.Add(bytes);
+                DebugClass.Log($"Loaded SoundBank: {Path.GetFileName(file)}");
             }
         }
 

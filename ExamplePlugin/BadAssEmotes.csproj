@@ -13,9 +13,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="BadAssEmotes.bnk" />
+    <None Remove="Badassemotes2.bnk" />
+    <None Remove="BadAssEmotes3.bnk" />
     <None Remove="caramell.bnk" />
     <None Remove="caramelldansen" />
     <None Remove="enemyskeletons" />
+    <None Remove="Hydrolic.bnk" />
+    <None Remove="Init.bnk" />
+    <None Remove="Test.bnk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="BadAssEmotes.bnk" />
+    <EmbeddedResource Include="Badassemotes2.bnk" />
+    <EmbeddedResource Include="BadAssEmotes3.bnk" />
+    <EmbeddedResource Include="Hydrolic.bnk" />
+    <EmbeddedResource Include="Init.bnk" />
+    <EmbeddedResource Include="Test.bnk" />
   </ItemGroup>
 
   <ItemGroup>
