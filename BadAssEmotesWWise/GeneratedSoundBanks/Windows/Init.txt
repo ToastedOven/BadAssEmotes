@@ -1,17 +1,16 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	394814041	Ifu			\Default Work Unit\Ifu	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	3193682177	Band1			\Default Work Unit\Ifu\Band1	
-	3193682178	Band2			\Default Work Unit\Ifu\Band2	
-	3193682179	Band3			\Default Work Unit\Ifu\Band3	
-	3193682180	Band4			\Default Work Unit\Ifu\Band4	
+	3193682177	Band1			\Default Work Unit\Master Audio Bus\Band1	
+	3193682178	Band2			\Default Work Unit\Master Audio Bus\Band2	
+	3193682179	Band3			\Default Work Unit\Master Audio Bus\Band3	
+	3193682180	Band4			\Default Work Unit\Master Audio Bus\Band4	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1162292245	Band4_EQ	Wwise Parametric EQ			
 	2429859659	Band2_EQ	Wwise Parametric EQ			
-	3193682177	Band1	Wwise Meter			 
+	3193682177	Band1	Wwise Meter			
 	3193682178	Band2	Wwise Meter			
 	3193682179	Band3	Wwise Meter			
 	3193682180	Band4	Wwise Meter			

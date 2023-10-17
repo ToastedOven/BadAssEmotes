@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1865832298">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2779779110">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
-				<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
-				<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
-				<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+				<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+				<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+				<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+				<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2800433960" Language="SFX" Hash="1090604792">
+		<SoundBank Id="2800433960" Language="SFX" Hash="3051096665">
 			<ObjectPath>\SoundBanks\Default Work Unit\Badassemotes2</ObjectPath>
 			<ShortName>Badassemotes2</ShortName>
 			<Path>Badassemotes2.bnk</Path>
@@ -31,273 +31,471 @@
 					<IncludedMemoryFiles>
 						<File Id="754907085" Language="SFX">
 							<ShortName>Emotes\BimBamBom.wav</ShortName>
-							<Path>SFX\Emotes\BimBamBom_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\BimBamBom_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1165102373" Name="Play_Cirno" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Cirno">
 					<IncludedMemoryFiles>
 						<File Id="744639287" Language="SFX">
 							<ShortName>Emotes\Cirno.wav</ShortName>
-							<Path>SFX\Emotes\Cirno_05842A19.wem</Path>
+							<Path>SFX\Emotes\Cirno_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1223968216" Name="Play_DesertRivers" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_DesertRivers">
 					<IncludedMemoryFiles>
 						<File Id="459878853" Language="SFX">
 							<ShortName>Emotes\DesertRivers.wav</ShortName>
-							<Path>SFX\Emotes\DesertRivers_05842A19.wem</Path>
+							<Path>SFX\Emotes\DesertRivers_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1516543637" Name="Play_DevilSpawn" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_DevilSpawn">
 					<IncludedMemoryFiles>
 						<File Id="545466271" Language="SFX">
 							<ShortName>Emotes\DevilSpawn.wav</ShortName>
-							<Path>SFX\Emotes\DevilSpawn_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\DevilSpawn_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1662486726" Name="Play_Distraction" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Distraction">
 					<IncludedMemoryFiles>
 						<File Id="405165257" Language="SFX">
 							<ShortName>Emotes\Distraction.wav</ShortName>
-							<Path>SFX\Emotes\Distraction_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Distraction_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2262770719" Name="Play_DuckThisOne" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_DuckThisOne">
 					<IncludedMemoryFiles>
 						<File Id="806606659" Language="SFX">
 							<ShortName>Emotes\DuckThisOne.wav</ShortName>
-							<Path>SFX\Emotes\DuckThisOne_05842A19.wem</Path>
+							<Path>SFX\Emotes\DuckThisOne_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3042671289" Name="Play_DuckThisOneIdle" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_DuckThisOneIdle">
 					<IncludedMemoryFiles>
 						<File Id="262777534" Language="SFX">
 							<ShortName>Emotes\DuckThisOneIdle.wav</ShortName>
-							<Path>SFX\Emotes\DuckThisOneIdle_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\DuckThisOneIdle_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1238668148" Name="Play_Float" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Float">
 					<IncludedMemoryFiles>
 						<File Id="439063458" Language="SFX">
 							<ShortName>Emotes\Float.wav</ShortName>
-							<Path>SFX\Emotes\Float_05842A19.wem</Path>
+							<Path>SFX\Emotes\Float_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3879740299" Name="Play_GalaxyObservatory1" ObjectPath="\Events\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory1">
 					<IncludedMemoryFiles>
 						<File Id="724601687" Language="SFX">
 							<ShortName>Emotes\GalaxyObservatory1.wav</ShortName>
-							<Path>SFX\Emotes\GalaxyObservatory1_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\GalaxyObservatory1_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3879740296" Name="Play_GalaxyObservatory2" ObjectPath="\Events\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory2">
 					<IncludedMemoryFiles>
 						<File Id="910953562" Language="SFX">
 							<ShortName>Emotes\GalaxyObservatory2.wav</ShortName>
-							<Path>SFX\Emotes\GalaxyObservatory2_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\GalaxyObservatory2_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3879740297" Name="Play_GalaxyObservatory3" ObjectPath="\Events\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory3">
 					<IncludedMemoryFiles>
 						<File Id="498190223" Language="SFX">
 							<ShortName>Emotes\GalaxyObservatory3.wav</ShortName>
-							<Path>SFX\Emotes\GalaxyObservatory3_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\GalaxyObservatory3_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="317599862" Name="Play_GGGG" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_GGGG">
 					<IncludedMemoryFiles>
 						<File Id="805891037" Language="SFX">
 							<ShortName>Emotes\GGGG.wav</ShortName>
-							<Path>SFX\Emotes\GGGG_05842A19.wem</Path>
+							<Path>SFX\Emotes\GGGG_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4181209287" Name="Play_Griddy" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Griddy">
 					<IncludedMemoryFiles>
 						<File Id="1060483798" Language="SFX">
 							<ShortName>Emotes\Griddy.wav</ShortName>
-							<Path>SFX\Emotes\Griddy_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Griddy_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2040263805" Name="Play_Haruhi" ObjectPath="\Events\Default Work Unit\New Emotes 4\Haruhi Random\Play_Haruhi">
 					<IncludedMemoryFiles>
 						<File Id="1007511386" Language="SFX">
 							<ShortName>Emotes\Haruhi.wav</ShortName>
-							<Path>SFX\Emotes\Haruhi_05842A19.wem</Path>
+							<Path>SFX\Emotes\Haruhi_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2365789735" Name="Play_HaruhiYoung" ObjectPath="\Events\Default Work Unit\New Emotes 4\Haruhi Random\Play_HaruhiYoung">
 					<IncludedMemoryFiles>
 						<File Id="85655457" Language="SFX">
 							<ShortName>Emotes\HaruhiYoung.wav</ShortName>
-							<Path>SFX\Emotes\HaruhiYoung_05842A19.wem</Path>
+							<Path>SFX\Emotes\HaruhiYoung_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3592718810" Name="Play_HondaStep" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_HondaStep">
 					<IncludedMemoryFiles>
 						<File Id="762792574" Language="SFX">
 							<ShortName>Emotes\HondaStep.wav</ShortName>
-							<Path>SFX\Emotes\HondaStep_05842A19.wem</Path>
+							<Path>SFX\Emotes\HondaStep_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3402708688" Name="Play_INEEDAMEDICBAG" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_INEEDAMEDICBAG">
 					<IncludedMemoryFiles>
 						<File Id="413690763" Language="SFX">
 							<ShortName>Emotes\INEEDAMEDICBAG1.wav</ShortName>
-							<Path>SFX\Emotes\INEEDAMEDICBAG1_05842A19.wem</Path>
+							<Path>SFX\Emotes\INEEDAMEDICBAG1_E686EB18.wem</Path>
 						</File>
 						<File Id="820220678" Language="SFX">
 							<ShortName>Emotes\INEEDAMEDICBAG2.wav</ShortName>
-							<Path>SFX\Emotes\INEEDAMEDICBAG2_05842A19.wem</Path>
+							<Path>SFX\Emotes\INEEDAMEDICBAG2_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3515373101" Name="Play_MakeItRain" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_MakeItRain">
 					<IncludedMemoryFiles>
 						<File Id="124391147" Language="SFX">
 							<ShortName>Emotes\MakeItRainIntro.wav</ShortName>
-							<Path>SFX\Emotes\MakeItRainIntro_05842A19.wem</Path>
+							<Path>SFX\Emotes\MakeItRainIntro_E686EB18.wem</Path>
 						</File>
 						<File Id="682079538" Language="SFX">
 							<ShortName>Emotes\MakeItRainLoop.wav</ShortName>
-							<Path>SFX\Emotes\MakeItRainLoop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\MakeItRainLoop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="189478106" Name="Play_Markiplier" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Markiplier">
 					<IncludedMemoryFiles>
 						<File Id="914143" Language="SFX">
 							<ShortName>Emotes\Markiplier.wav</ShortName>
-							<Path>SFX\Emotes\Markiplier_05842A19.wem</Path>
+							<Path>SFX\Emotes\Markiplier_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3510186762" Name="Play_Penguin" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_Penguin">
 					<IncludedMemoryFiles>
 						<File Id="383052001" Language="SFX">
 							<ShortName>Emotes\Penguin.wav</ShortName>
-							<Path>SFX\Emotes\Penguin_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Penguin_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4058026774" Name="Play_Roflcopter" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Roflcopter">
 					<IncludedMemoryFiles>
 						<File Id="498390598" Language="SFX">
 							<ShortName>Emotes\Roflcopter.wav</ShortName>
-							<Path>SFX\Emotes\Roflcopter_05842A19.wem</Path>
+							<Path>SFX\Emotes\Roflcopter_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="11295061" Name="Play_Rollie" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Rollie">
 					<IncludedMemoryFiles>
 						<File Id="915476243" Language="SFX">
 							<ShortName>Emotes\Rollie.wav</ShortName>
-							<Path>SFX\Emotes\Rollie_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Rollie_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3295767853" Name="Play_Savage" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Savage">
 					<IncludedMemoryFiles>
 						<File Id="566389662" Language="SFX">
 							<ShortName>Emotes\Savage.wav</ShortName>
-							<Path>SFX\Emotes\Savage_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Savage_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="999297848" Name="Play_Security" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Security">
 					<IncludedMemoryFiles>
 						<File Id="619455322" Language="SFX">
 							<ShortName>Emotes\Security.wav</ShortName>
-							<Path>SFX\Emotes\Security_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Security_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="649188789" Name="Play_Shufflin" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Shufflin">
 					<IncludedMemoryFiles>
 						<File Id="810774165" Language="SFX">
 							<ShortName>Emotes\Shufflin.wav</ShortName>
-							<Path>SFX\Emotes\Shufflin_05842A19.wem</Path>
+							<Path>SFX\Emotes\Shufflin_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2555336501" Name="Play_Smoke" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Smoke">
 					<IncludedMemoryFiles>
 						<File Id="31254085" Language="SFX">
 							<ShortName>Emotes\Smoke.wav</ShortName>
-							<Path>SFX\Emotes\Smoke_05842A19.wem</Path>
+							<Path>SFX\Emotes\Smoke_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2379800534" Name="Play_Stuck" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Stuck">
 					<IncludedMemoryFiles>
 						<File Id="117172224" Language="SFX">
 							<ShortName>Emotes\Stuck.wav</ShortName>
-							<Path>SFX\Emotes\Stuck_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Stuck_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4027241097" Name="Play_SuperIdol" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_SuperIdol">
 					<IncludedMemoryFiles>
 						<File Id="444764063" Language="SFX">
 							<ShortName>Emotes\SuperIdol.wav</ShortName>
-							<Path>SFX\Emotes\SuperIdol_05842A19.wem</Path>
+							<Path>SFX\Emotes\SuperIdol_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2632024304" Name="Play_Thriller" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Thriller">
 					<IncludedMemoryFiles>
 						<File Id="724245301" Language="SFX">
 							<ShortName>Emotes\Thriller.wav</ShortName>
-							<Path>SFX\Emotes\Thriller_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Thriller_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3508253378" Name="Play_Tidy" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Tidy">
 					<IncludedMemoryFiles>
 						<File Id="443650272" Language="SFX">
 							<ShortName>Emotes\Tidy.wav</ShortName>
-							<Path>SFX\Emotes\Tidy_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Tidy_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4034196201" Name="Play_Toosie" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Toosie">
 					<IncludedMemoryFiles>
 						<File Id="334163883" Language="SFX">
 							<ShortName>Emotes\Toosie.wav</ShortName>
-							<Path>SFX\Emotes\Toosie_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Toosie_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1990096184" Name="Play_UGotThat" ObjectPath="\Events\Default Work Unit\New Emotes 3\Play_UGotThat">
 					<IncludedMemoryFiles>
 						<File Id="360974261" Language="SFX">
 							<ShortName>Emotes\UGotThat.wav</ShortName>
-							<Path>SFX\Emotes\UGotThat_05842A19.wem</Path>
+							<Path>SFX\Emotes\UGotThat_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1103419728" Name="Play_Wess" ObjectPath="\Events\Default Work Unit\New Emotes 4\Play_Wess">
 					<IncludedMemoryFiles>
 						<File Id="859999181" Language="SFX">
 							<ShortName>Emotes\Wess.wav</ShortName>
-							<Path>SFX\Emotes\Wess_05842A19.wem</Path>
+							<Path>SFX\Emotes\Wess_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4192083750" Name="Stop_BimBamBom" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_BimBamBom"/>
 				<Event Id="3357261423" Name="Stop_Cirno" ObjectPath="\Events\Default Work Unit\New Emotes 4\Stop_Cirno"/>
@@ -332,163 +530,339 @@
 			<GameParameters>
 				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>
 				<GameParameter Id="517048260" Name="People_In_Range" ObjectPath="\Game Parameters\Default Work Unit\People_In_Range"/>
+				<GameParameter Id="3193682177" Name="Band1" ObjectPath="\Game Parameters\Default Work Unit\Band1"/>
+				<GameParameter Id="3193682178" Name="Band2" ObjectPath="\Game Parameters\Default Work Unit\Band2"/>
+				<GameParameter Id="3193682179" Name="Band3" ObjectPath="\Game Parameters\Default Work Unit\Band3"/>
+				<GameParameter Id="3193682180" Name="Band4" ObjectPath="\Game Parameters\Default Work Unit\Band4"/>
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2800433961" Language="SFX" Hash="130663436">
+		<SoundBank Id="2800433961" Language="SFX" Hash="116015753">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes3</ObjectPath>
 			<ShortName>BadAssEmotes3</ShortName>
 			<Path>BadAssEmotes3.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2356540261" Name="Play_CaliforniaGirls" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_CaliforniaGirls">
+					<IncludedMemoryFiles>
+						<File Id="977310683" Language="SFX">
+							<ShortName>Emotes\CaliforniaGirls.wav</ShortName>
+							<Path>SFX\Emotes\CaliforniaGirls_2CC0AFE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2965936580" Name="Play_Chugatone" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_Chugatone">
 					<IncludedMemoryFiles>
 						<File Id="721850728" Language="SFX">
 							<ShortName>Emotes\Chugatone.wav</ShortName>
-							<Path>SFX\Emotes\Chugatone_05842A19.wem</Path>
+							<Path>SFX\Emotes\Chugatone_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3104542863" Name="Play_ChugJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_ChugJug">
 					<IncludedMemoryFiles>
 						<File Id="753326694" Language="SFX">
 							<ShortName>Emotes\ChugJug.wav</ShortName>
-							<Path>SFX\Emotes\ChugJug_05842A19.wem</Path>
+							<Path>SFX\Emotes\ChugJug_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3114478207" Name="Play_Dougie" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Dougie">
 					<IncludedMemoryFiles>
 						<File Id="433095661" Language="SFX">
 							<ShortName>Emotes\Dougie.wav</ShortName>
-							<Path>SFX\Emotes\Dougie_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Dougie_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4110287622" Name="Play_hydraulicpressing" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_hydraulicpressing">
+					<IncludedMemoryFiles>
+						<File Id="506515846" Language="SFX">
+							<ShortName>Emotes\hydraulicpressing.wav</ShortName>
+							<Path>SFX\Emotes\hydraulicpressing_E686EB18.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1375768516" Name="Play_hydraulicpressingnoexplosion" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_hydraulicpressingnoexplosion">
+					<IncludedMemoryFiles>
+						<File Id="409339749" Language="SFX">
+							<ShortName>Emotes\hydraulicpressingnoexplosion.wav</ShortName>
+							<Path>SFX\Emotes\hydraulicpressingnoexplosion_E686EB18.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3846466482" Name="Play_HydraulicSong" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_HydraulicSong">
+					<IncludedMemoryFiles>
+						<File Id="690817904" Language="SFX">
+							<ShortName>Emotes\HydraulicSong.wav</ShortName>
+							<Path>SFX\Emotes\HydraulicSong_2CC0AFE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2608483140" Name="Play_ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Play_ifu">
 					<IncludedMemoryFiles>
 						<File Id="799130385" Language="SFX">
 							<ShortName>Emotes\Ifu2.wav</ShortName>
-							<Path>SFX\Emotes\Ifu2_05842A19.wem</Path>
+							<Path>SFX\Emotes\Ifu2_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
-						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
-						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
-						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1445193325" Name="Play_ifucover" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Play_ifucover">
 					<IncludedMemoryFiles>
 						<File Id="303607888" Language="SFX">
 							<ShortName>Emotes\ifucover.wav</ShortName>
-							<Path>SFX\Emotes\ifucover_05842A19.wem</Path>
+							<Path>SFX\Emotes\ifucover_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band1"/>
-						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band2"/>
-						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band3"/>
-						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ifu\Band4"/>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3396460556" Name="Play_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_KillMeBaby">
 					<IncludedMemoryFiles>
 						<File Id="782902476" Language="SFX">
 							<ShortName>Emotes\KillMeBaby.wav</ShortName>
-							<Path>SFX\Emotes\KillMeBaby_05842A19.wem</Path>
+							<Path>SFX\Emotes\KillMeBaby_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3512614687" Name="Play_MetalJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_MetalJug">
 					<IncludedMemoryFiles>
 						<File Id="114258280" Language="SFX">
 							<ShortName>Emotes\MetalJug.wav</ShortName>
-							<Path>SFX\Emotes\MetalJug_05842A19.wem</Path>
+							<Path>SFX\Emotes\MetalJug_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2476995674" Name="Play_MikuJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Play_MikuJug">
 					<IncludedMemoryFiles>
 						<File Id="387027888" Language="SFX">
 							<ShortName>Emotes\MikuJug.wav</ShortName>
-							<Path>SFX\Emotes\MikuJug_05842A19.wem</Path>
+							<Path>SFX\Emotes\MikuJug_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="744559796" Name="Play_MyWorld" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_MyWorld">
 					<IncludedMemoryFiles>
 						<File Id="630543393" Language="SFX">
 							<ShortName>Emotes\MyWorld.wav</ShortName>
-							<Path>SFX\Emotes\MyWorld_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\MyWorld_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2133520559" Name="Play_PeaceAndTranquility" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility">
 					<IncludedMemoryFiles>
 						<File Id="970082705" Language="SFX">
 							<ShortName>Emotes\PeaceAndTranquility.wav</ShortName>
-							<Path>SFX\Emotes\PeaceAndTranquility_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\PeaceAndTranquility_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3751338831" Name="Play_PeaceAndTranquility2" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility2">
 					<IncludedMemoryFiles>
 						<File Id="1041115636" Language="SFX">
 							<ShortName>Emotes\PeaceAndTranquility2.wav</ShortName>
-							<Path>SFX\Emotes\PeaceAndTranquility2_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\PeaceAndTranquility2_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3741709616" Name="Play_PeaceAndTranquilitySlow" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquilitySlow">
 					<IncludedMemoryFiles>
 						<File Id="216601581" Language="SFX">
 							<ShortName>Emotes\PeaceAndTranquilitySlow.wav</ShortName>
-							<Path>SFX\Emotes\PeaceAndTranquilitySlow_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\PeaceAndTranquilitySlow_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4230733868" Name="Play_SeeTinh" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_SeeTinh">
+					<IncludedMemoryFiles>
+						<File Id="149396184" Language="SFX">
+							<ShortName>Emotes\SeeTinh.wav</ShortName>
+							<Path>SFX\Emotes\SeeTinh_E686EB18.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1881092702" Name="Play_SingleFurry" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_SingleFurry">
 					<IncludedMemoryFiles>
 						<File Id="64649456" Language="SFX">
 							<ShortName>Emotes\SingleFurry.wav</ShortName>
-							<Path>SFX\Emotes\SingleFurry_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\SingleFurry_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1252670438" Name="Play_Summertime" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Summertime">
 					<IncludedMemoryFiles>
 						<File Id="459553268" Language="SFX">
 							<ShortName>Emotes\Summertime.wav</ShortName>
-							<Path>SFX\Emotes\Summertime_05842A19.wem</Path>
+							<Path>SFX\Emotes\Summertime_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1242278832" Name="Play_VirtualInsanity" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_VirtualInsanity">
+					<IncludedMemoryFiles>
+						<File Id="640853846" Language="SFX">
+							<ShortName>Emotes\VirtualInsanity.wav</ShortName>
+							<Path>SFX\Emotes\VirtualInsanity_2CC0AFE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3172316917" Name="Play_VSWORLD" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_VSWORLD">
 					<IncludedMemoryFiles>
 						<File Id="1048028950" Language="SFX">
 							<ShortName>Emotes\VSWORLD.wav</ShortName>
-							<Path>SFX\Emotes\VSWORLD_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\VSWORLD_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
+				<Event Id="463518711" Name="Stop_CaliforniaGirls" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_CaliforniaGirls"/>
 				<Event Id="3280836561" Name="Stop_ChugJug" ObjectPath="\Events\Default Work Unit\New Emotes 5\Chug\Stop_ChugJug"/>
 				<Event Id="2742710221" Name="Stop_Dougie" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Dougie"/>
+				<Event Id="1119078372" Name="Stop_hydraulicpressing" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_hydraulicpressing"/>
+				<Event Id="3091449398" Name="Stop_hydraulicpressingnoexplosion" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_hydraulicpressingnoexplosion"/>
+				<Event Id="612677556" Name="Stop_HydraulicSong" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_HydraulicSong"/>
 				<Event Id="820375322" Name="Stop_ifu" ObjectPath="\Events\Default Work Unit\New Emotes 5\Ifu\Stop_ifu"/>
 				<Event Id="2314948190" Name="Stop_KillMeBaby" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_KillMeBaby"/>
 				<Event Id="2249795290" Name="Stop_MyWorld" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_MyWorld"/>
 				<Event Id="3860486633" Name="Stop_PeaceAndTranquility" ObjectPath="\Events\Default Work Unit\New Emotes 5\peace\Stop_PeaceAndTranquility"/>
+				<Event Id="4224196750" Name="Stop_SeeTinh" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_SeeTinh"/>
 				<Event Id="1007305616" Name="Stop_SingleFurry" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_SingleFurry"/>
 				<Event Id="3770559380" Name="Stop_Summertime" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Summertime"/>
+				<Event Id="3143031798" Name="Stop_VirtualInsanity" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_VirtualInsanity"/>
 				<Event Id="2499063995" Name="Stop_VSWORLD" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_VSWORLD"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>
 				<GameParameter Id="517048260" Name="People_In_Range" ObjectPath="\Game Parameters\Default Work Unit\People_In_Range"/>
+				<GameParameter Id="3193682177" Name="Band1" ObjectPath="\Game Parameters\Default Work Unit\Band1"/>
+				<GameParameter Id="3193682178" Name="Band2" ObjectPath="\Game Parameters\Default Work Unit\Band2"/>
+				<GameParameter Id="3193682179" Name="Band3" ObjectPath="\Game Parameters\Default Work Unit\Band3"/>
+				<GameParameter Id="3193682180" Name="Band4" ObjectPath="\Game Parameters\Default Work Unit\Band4"/>
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4059541694" Language="SFX" Hash="896249059">
+		<SoundBank Id="4059541694" Language="SFX" Hash="2242422062">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes</ObjectPath>
 			<ShortName>BadAssEmotes</ShortName>
 			<Path>BadAssEmotes.bnk</Path>
@@ -497,646 +871,1085 @@
 					<IncludedMemoryFiles>
 						<File Id="168243202" Language="SFX">
 							<ShortName>Emotes\AnkhaZone.wav</ShortName>
-							<Path>SFX\Emotes\AnkhaZone_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\AnkhaZone_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3413426191" Name="Play_ArkDance" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ArkDance">
 					<IncludedMemoryFiles>
 						<File Id="215704961" Language="SFX">
 							<ShortName>Emotes\ArkDance.wav</ShortName>
-							<Path>SFX\Emotes\ArkDance_05842A19.wem</Path>
+							<Path>SFX\Emotes\ArkDance_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="223087538" Name="Play_BestMates" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BestMates">
 					<IncludedMemoryFiles>
 						<File Id="623780510" Language="SFX">
 							<ShortName>Emotes\BestMates.wav</ShortName>
-							<Path>SFX\Emotes\BestMates_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\BestMates_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1163679226" Name="Play_BlindingLights" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BlindingLights">
 					<IncludedMemoryFiles>
 						<File Id="321315922" Language="SFX">
 							<ShortName>Emotes\BlindingLightsLoop.wav</ShortName>
-							<Path>SFX\Emotes\BlindingLightsLoop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\BlindingLightsLoop_2CC0AFE2.wem</Path>
 						</File>
 						<File Id="850727505" Language="SFX">
 							<ShortName>Emotes\BlindingLightsIntro.wav</ShortName>
-							<Path>SFX\Emotes\BlindingLightsIntro_05842A19.wem</Path>
+							<Path>SFX\Emotes\BlindingLightsIntro_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3480225049" Name="Play_Breakin_" ObjectPath="\Events\Default Work Unit\Emotes\Play_Breakin_">
 					<IncludedMemoryFiles>
 						<File Id="551181905" Language="SFX">
 							<ShortName>Emotes\Breakin'.wav</ShortName>
-							<Path>SFX\Emotes\Breakin'_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Breakin'_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1672912446" Name="Play_Breakneck" ObjectPath="\Events\Default Work Unit\Emotes\Play_Breakneck">
 					<IncludedMemoryFiles>
 						<File Id="769581195" Language="SFX">
 							<ShortName>Emotes\Breakneck.wav</ShortName>
-							<Path>SFX\Emotes\Breakneck_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Breakneck_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3665331543" Name="Play_BunnyHop" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_BunnyHop">
 					<IncludedMemoryFiles>
 						<File Id="287756944" Language="SFX">
 							<ShortName>Emotes\BunnyHop.wav</ShortName>
-							<Path>SFX\Emotes\BunnyHop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\BunnyHop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1808941305" Name="Play_Butt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Butt">
 					<IncludedMemoryFiles>
 						<File Id="74182108" Language="SFX">
 							<ShortName>Emotes\Butt.wav</ShortName>
-							<Path>SFX\Emotes\Butt_05842A19.wem</Path>
+							<Path>SFX\Emotes\Butt_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3055967018" Name="Play_ByTheFire" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_ByTheFire">
 					<IncludedMemoryFiles>
 						<File Id="222179220" Language="SFX">
 							<ShortName>Emotes\ByTheFire.wav</ShortName>
-							<Path>SFX\Emotes\ByTheFire_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\ByTheFire_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2898378660" Name="Play_Carson" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Carson">
 					<IncludedMemoryFiles>
 						<File Id="104807641" Language="SFX">
 							<ShortName>Emotes\Carson.wav</ShortName>
-							<Path>SFX\Emotes\Carson_05842A19.wem</Path>
+							<Path>SFX\Emotes\Carson_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1400398136" Name="Play_Cartwheelin" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Cartwheelin">
 					<IncludedMemoryFiles>
 						<File Id="188156113" Language="SFX">
 							<ShortName>Emotes\Cartwheelin.wav</ShortName>
-							<Path>SFX\Emotes\Cartwheelin_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Cartwheelin_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3069711804" Name="Play_Chika" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Chika">
 					<IncludedMemoryFiles>
 						<File Id="1057510112" Language="SFX">
 							<ShortName>Emotes\Chika.wav</ShortName>
-							<Path>SFX\Emotes\Chika_05842A19.wem</Path>
+							<Path>SFX\Emotes\Chika_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="196555151" Name="Play_Crabby" ObjectPath="\Events\Default Work Unit\Emotes\Play_Crabby">
 					<IncludedMemoryFiles>
 						<File Id="372643282" Language="SFX">
 							<ShortName>Emotes\Crabby.wav</ShortName>
-							<Path>SFX\Emotes\Crabby_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Crabby_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2258858796" Name="Play_Crackdown" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Crackdown">
 					<IncludedMemoryFiles>
 						<File Id="574532012" Language="SFX">
 							<ShortName>Emotes\Crackdown.wav</ShortName>
-							<Path>SFX\Emotes\Crackdown_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Crackdown_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2255872501" Name="Play_CrazyFeet" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_CrazyFeet">
 					<IncludedMemoryFiles>
 						<File Id="451183420" Language="SFX">
 							<ShortName>Emotes\CrazyFeet.wav</ShortName>
-							<Path>SFX\Emotes\CrazyFeet_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\CrazyFeet_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="229814850" Name="Play_Crossbounce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Crossbounce">
 					<IncludedMemoryFiles>
 						<File Id="945033372" Language="SFX">
 							<ShortName>Emotes\Crossbounce.wav</ShortName>
-							<Path>SFX\Emotes\Crossbounce_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Crossbounce_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3768260481" Name="Play_Dabstand" ObjectPath="\Events\Default Work Unit\Emotes\Play_Dabstand">
 					<IncludedMemoryFiles>
 						<File Id="311636974" Language="SFX">
 							<ShortName>Emotes\Dabstand.wav</ShortName>
-							<Path>SFX\Emotes\Dabstand_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Dabstand_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1073155275" Name="Play_DanceMoves" ObjectPath="\Events\Default Work Unit\Emotes\Play_DanceMoves">
 					<IncludedMemoryFiles>
 						<File Id="719458032" Language="SFX">
 							<ShortName>Emotes\Fortnite default dance sound.wav</ShortName>
-							<Path>SFX\Emotes\Fortnite default dance sound_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Fortnite default dance sound_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2823183102" Name="Play_DanceTherapy" ObjectPath="\Events\Default Work Unit\Emotes\Play_DanceTherapy">
 					<IncludedMemoryFiles>
 						<File Id="153802453" Language="SFX">
 							<ShortName>Emotes\Dance Therapy Intro.wav</ShortName>
-							<Path>SFX\Emotes\Dance Therapy Intro_05842A19.wem</Path>
+							<Path>SFX\Emotes\Dance Therapy Intro_E686EB18.wem</Path>
 						</File>
 						<File Id="625052513" Language="SFX">
 							<ShortName>Emotes\Dance Therapy Loop.wav</ShortName>
-							<Path>SFX\Emotes\Dance Therapy Loop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Dance Therapy Loop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3818113153" Name="Play_DontStart" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_DontStart">
 					<IncludedMemoryFiles>
 						<File Id="52218649" Language="SFX">
 							<ShortName>Emotes\DontStart.wav</ShortName>
-							<Path>SFX\Emotes\DontStart_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\DontStart_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4025363538" Name="Play_Droop" ObjectPath="\Events\Default Work Unit\Emotes\Play_Droop">
 					<IncludedMemoryFiles>
 						<File Id="504147652" Language="SFX">
 							<ShortName>Emotes\Droop.wav</ShortName>
-							<Path>SFX\Emotes\Droop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Droop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1413951596" Name="Play_ElectroSwing" ObjectPath="\Events\Default Work Unit\Emotes\Play_ElectroSwing">
 					<IncludedMemoryFiles>
 						<File Id="960109726" Language="SFX">
 							<ShortName>Emotes\ElectroSwing.wav</ShortName>
-							<Path>SFX\Emotes\ElectroSwing_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\ElectroSwing_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="439399278" Name="Play_EmoteInput" ObjectPath="\Events\Default Work Unit\Emotes\Play_EmoteInput"/>
+				<Event Id="439399278" Name="Play_EmoteInput" ObjectPath="\Events\Default Work Unit\Emotes\Play_EmoteInput">
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2519726551" Name="Play_Extraterestrial" ObjectPath="\Events\Default Work Unit\Emotes\Play_Extraterestrial">
 					<IncludedMemoryFiles>
 						<File Id="700718868" Language="SFX">
 							<ShortName>Emotes\Extraterestrial.wav</ShortName>
-							<Path>SFX\Emotes\Extraterestrial_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Extraterestrial_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2939172889" Name="Play_FancyFeet" ObjectPath="\Events\Default Work Unit\Emotes\Play_FancyFeet">
 					<IncludedMemoryFiles>
 						<File Id="665818124" Language="SFX">
 							<ShortName>Emotes\FancyFeet.wav</ShortName>
-							<Path>SFX\Emotes\FancyFeet_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\FancyFeet_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2688619661" Name="Play_Flamenco" ObjectPath="\Events\Default Work Unit\Emotes\Play_Flamenco">
 					<IncludedMemoryFiles>
 						<File Id="658696158" Language="SFX">
 							<ShortName>Emotes\Flamenco.wav</ShortName>
-							<Path>SFX\Emotes\Flamenco_05842A19.wem</Path>
+							<Path>SFX\Emotes\Flamenco_E686EB18.wem</Path>
 						</File>
 						<File Id="682654059" Language="SFX">
 							<ShortName>Emotes\FlamencoLoop.wav</ShortName>
-							<Path>SFX\Emotes\FlamencoLoop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\FlamencoLoop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1540665125" Name="Play_Floss" ObjectPath="\Events\Default Work Unit\Emotes\Play_Floss">
 					<IncludedMemoryFiles>
 						<File Id="104657059" Language="SFX">
 							<ShortName>Emotes\Floss.wav</ShortName>
-							<Path>SFX\Emotes\Floss_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Floss_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1538240022" Name="Play_Fresh" ObjectPath="\Events\Default Work Unit\Emotes\Play_Fresh">
 					<IncludedMemoryFiles>
 						<File Id="329430408" Language="SFX">
 							<ShortName>Emotes\Fresh.wav</ShortName>
-							<Path>SFX\Emotes\Fresh_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Fresh_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3591569191" Name="Play_Frolic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Frolic">
 					<IncludedMemoryFiles>
 						<File Id="667027545" Language="SFX">
 							<ShortName>Emotes\Frolic.wav</ShortName>
-							<Path>SFX\Emotes\Frolic_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Frolic_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3581141368" Name="Play_FullTilt" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_FullTilt">
 					<IncludedMemoryFiles>
 						<File Id="139866433" Language="SFX">
 							<ShortName>Emotes\FullTilt2.wav</ShortName>
-							<Path>SFX\Emotes\FullTilt2_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\FullTilt2_2CC0AFE2.wem</Path>
 						</File>
 						<File Id="611100602" Language="SFX">
 							<ShortName>Emotes\FullTilt.wav</ShortName>
-							<Path>SFX\Emotes\FullTilt_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\FullTilt_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3180981952" Name="Play_GangnamStyle" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_GangnamStyle">
 					<IncludedMemoryFiles>
 						<File Id="1065322382" Language="SFX">
 							<ShortName>Emotes\GangnamStyle.wav</ShortName>
-							<Path>SFX\Emotes\GangnamStyle_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\GangnamStyle_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4252070008" Name="Play_GangTorture" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GangTorture">
 					<IncludedMemoryFiles>
 						<File Id="350421790" Language="SFX">
 							<ShortName>Emotes\GangTorture.wav</ShortName>
-							<Path>SFX\Emotes\GangTorture_05842A19.wem</Path>
+							<Path>SFX\Emotes\GangTorture_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3218083406" Name="Play_GetDown" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GetDown">
 					<IncludedMemoryFiles>
 						<File Id="892494116" Language="SFX">
 							<ShortName>Emotes\GetDown.wav</ShortName>
-							<Path>SFX\Emotes\GetDown_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\GetDown_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3753885755" Name="Play_GinyuForce" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_GinyuForce">
 					<IncludedMemoryFiles>
 						<File Id="359863975" Language="SFX">
 							<ShortName>Emotes\GinyuForce.wav</ShortName>
-							<Path>SFX\Emotes\GinyuForce_05842A19.wem</Path>
+							<Path>SFX\Emotes\GinyuForce_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="852365355" Name="Play_Goopie" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Goopie">
 					<IncludedMemoryFiles>
 						<File Id="846861708" Language="SFX">
 							<ShortName>Emotes\Goopie.wav</ShortName>
-							<Path>SFX\Emotes\Goopie_05842A19.wem</Path>
+							<Path>SFX\Emotes\Goopie_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2497743187" Name="Play_Hi" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Hi">
 					<IncludedMemoryFiles>
 						<File Id="328795648" Language="SFX">
 							<ShortName>Emotes\Hi\hi5.wav</ShortName>
-							<Path>SFX\Emotes\Hi\hi5_05842A19.wem</Path>
+							<Path>SFX\Emotes\Hi\hi5_E686EB18.wem</Path>
 						</File>
 						<File Id="604678094" Language="SFX">
 							<ShortName>Emotes\Hi\hi2.wav</ShortName>
-							<Path>SFX\Emotes\Hi\hi2_05842A19.wem</Path>
+							<Path>SFX\Emotes\Hi\hi2_E686EB18.wem</Path>
 						</File>
 						<File Id="838367546" Language="SFX">
 							<ShortName>Emotes\Hi\hi1.wav</ShortName>
-							<Path>SFX\Emotes\Hi\hi1_05842A19.wem</Path>
+							<Path>SFX\Emotes\Hi\hi1_E686EB18.wem</Path>
 						</File>
 						<File Id="876497341" Language="SFX">
 							<ShortName>Emotes\Hi\hi3.wav</ShortName>
-							<Path>SFX\Emotes\Hi\hi3_05842A19.wem</Path>
+							<Path>SFX\Emotes\Hi\hi3_E686EB18.wem</Path>
 						</File>
 						<File Id="1048696440" Language="SFX">
 							<ShortName>Emotes\Hi\hi4.wav</ShortName>
-							<Path>SFX\Emotes\Hi\hi4_05842A19.wem</Path>
+							<Path>SFX\Emotes\Hi\hi4_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1275111858" Name="Play_Horny" ObjectPath="\Events\Default Work Unit\New Emotes 2\Horny\Play_Horny">
 					<IncludedMemoryFiles>
 						<File Id="800301908" Language="SFX">
 							<ShortName>Emotes\Horny.wav</ShortName>
-							<Path>SFX\Emotes\Horny_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Horny_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2785512014" Name="Play_Hype" ObjectPath="\Events\Default Work Unit\Emotes\Play_Hype">
 					<IncludedMemoryFiles>
 						<File Id="423398404" Language="SFX">
 							<ShortName>Emotes\Hype.wav</ShortName>
-							<Path>SFX\Emotes\Hype_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Hype_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2889382180" Name="Play_ImDiamond" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ImDiamond">
 					<IncludedMemoryFiles>
 						<File Id="760458160" Language="SFX">
 							<ShortName>Emotes\ImDiamond.wav</ShortName>
-							<Path>SFX\Emotes\ImDiamond_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\ImDiamond_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2244413701" Name="Play_Infectious" ObjectPath="\Events\Default Work Unit\Emotes\Play_Infectious">
 					<IncludedMemoryFiles>
 						<File Id="198448931" Language="SFX">
 							<ShortName>Emotes\Infectious.wav</ShortName>
-							<Path>SFX\Emotes\Infectious_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Infectious_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2237729388" Name="Play_Infinidab" ObjectPath="\Events\Default Work Unit\Emotes\Play_Infinidab">
 					<IncludedMemoryFiles>
 						<File Id="250120523" Language="SFX">
 							<ShortName>Emotes\InfinidabLoop.wav</ShortName>
-							<Path>SFX\Emotes\InfinidabLoop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\InfinidabLoop_2CC0AFE2.wem</Path>
 						</File>
 						<File Id="830724367" Language="SFX">
 							<ShortName>Emotes\InfinidabIntro.wav</ShortName>
-							<Path>SFX\Emotes\InfinidabIntro_05842A19.wem</Path>
+							<Path>SFX\Emotes\InfinidabIntro_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="770905341" Name="Play_Intensity" ObjectPath="\Events\Default Work Unit\Emotes\Play_Intensity">
 					<IncludedMemoryFiles>
 						<File Id="249196016" Language="SFX">
 							<ShortName>Emotes\IntesityIntro.wav</ShortName>
-							<Path>SFX\Emotes\IntesityIntro_05842A19.wem</Path>
+							<Path>SFX\Emotes\IntesityIntro_E686EB18.wem</Path>
 						</File>
 						<File Id="808233883" Language="SFX">
 							<ShortName>Emotes\IntensityLoop.wav</ShortName>
-							<Path>SFX\Emotes\IntensityLoop_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\IntensityLoop_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3996257737" Name="Play_ItsDynamite" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_ItsDynamite">
 					<IncludedMemoryFiles>
 						<File Id="579062041" Language="SFX">
 							<ShortName>Emotes\ItsDynamite.wav</ShortName>
-							<Path>SFX\Emotes\ItsDynamite_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\ItsDynamite_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4252381820" Name="Play_LetsDanceBoys" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_LetsDanceBoys">
 					<IncludedMemoryFiles>
 						<File Id="239737930" Language="SFX">
 							<ShortName>Emotes\LetsDanceBoys.wav</ShortName>
-							<Path>SFX\Emotes\LetsDanceBoys_05842A19.wem</Path>
+							<Path>SFX\Emotes\LetsDanceBoys_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4112254572" Name="Play_Macarena" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Macarena">
 					<IncludedMemoryFiles>
 						<File Id="267329345" Language="SFX">
 							<ShortName>Emotes\Macarena.wav</ShortName>
-							<Path>SFX\Emotes\Macarena_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Macarena_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1565865752" Name="Play_MEMEME" ObjectPath="\Events\Default Work Unit\New Emotes 2\Horny\Play_MEMEME">
 					<IncludedMemoryFiles>
 						<File Id="33132360" Language="SFX">
 							<ShortName>Emotes\TeddyLoid - ME!ME!ME! feat. Daoko.wav</ShortName>
-							<Path>SFX\Emotes\TeddyLoid - ME!ME!ME! feat. Daoko_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\TeddyLoid - ME!ME!ME! feat. Daoko_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1765621212" Name="Play_Miku" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Miku">
 					<IncludedMemoryFiles>
 						<File Id="5854293" Language="SFX">
 							<ShortName>Emotes\Miku.wav</ShortName>
-							<Path>SFX\Emotes\Miku_05842A19.wem</Path>
+							<Path>SFX\Emotes\Miku_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1732242186" Name="Play_MoveIt" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_MoveIt">
 					<IncludedMemoryFiles>
 						<File Id="372285233" Language="SFX">
 							<ShortName>Emotes\MoveIt.wav</ShortName>
-							<Path>SFX\Emotes\MoveIt_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\MoveIt_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="981597226" Name="Play_Never_Gonna_Give_you_Up" ObjectPath="\Events\Default Work Unit\Emotes\Play_Never_Gonna_Give_you_Up">
 					<IncludedMemoryFiles>
 						<File Id="22197893" Language="SFX">
 							<ShortName>Emotes\Never Gonna Give you Up.wav</ShortName>
-							<Path>SFX\Emotes\Never Gonna Give you Up_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Never Gonna Give you Up_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4289548637" Name="Play_NinjaStyle" ObjectPath="\Events\Default Work Unit\Emotes\Play_NinjaStyle">
 					<IncludedMemoryFiles>
 						<File Id="787738225" Language="SFX">
 							<ShortName>Emotes\NinjaStyle.wav</ShortName>
-							<Path>SFX\Emotes\NinjaStyle_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\NinjaStyle_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2985177453" Name="Play_OldSchool" ObjectPath="\Events\Default Work Unit\Emotes\Play_OldSchool">
 					<IncludedMemoryFiles>
 						<File Id="957939238" Language="SFX">
 							<ShortName>Emotes\Old SChool.wav</ShortName>
-							<Path>SFX\Emotes\Old SChool_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Old SChool_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3295654239" Name="Play_OrangeJustice" ObjectPath="\Events\Default Work Unit\Emotes\Play_OrangeJustice">
 					<IncludedMemoryFiles>
 						<File Id="207251754" Language="SFX">
 							<ShortName>Emotes\Orange Justice.wav</ShortName>
-							<Path>SFX\Emotes\Orange Justice_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Orange Justice_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="726991772" Name="Play_Overdrive" ObjectPath="\Events\Default Work Unit\Emotes\Play_Overdrive">
 					<IncludedMemoryFiles>
 						<File Id="351681333" Language="SFX">
 							<ShortName>Emotes\Overdrive.wav</ShortName>
-							<Path>SFX\Emotes\Overdrive_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Overdrive_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="246143008" Name="Play_Paws_Claws" ObjectPath="\Events\Default Work Unit\Emotes\Play_Paws_Claws">
 					<IncludedMemoryFiles>
 						<File Id="914307656" Language="SFX">
 							<ShortName>Emotes\Im A Cat.wav</ShortName>
-							<Path>SFX\Emotes\Im A Cat_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Im A Cat_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2839619656" Name="Play_PhoneItIn" ObjectPath="\Events\Default Work Unit\Emotes\Play_PhoneItIn">
 					<IncludedMemoryFiles>
 						<File Id="433757311" Language="SFX">
 							<ShortName>Emotes\Phone It In.wav</ShortName>
-							<Path>SFX\Emotes\Phone It In_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Phone It In_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1985354438" Name="Play_PopLock" ObjectPath="\Events\Default Work Unit\Emotes\Play_PopLock">
 					<IncludedMemoryFiles>
 						<File Id="461389380" Language="SFX">
 							<ShortName>Emotes\PopLock.wav</ShortName>
-							<Path>SFX\Emotes\PopLock_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\PopLock_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1920913173" Name="Play_Poyo" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Poyo">
 					<IncludedMemoryFiles>
 						<File Id="396533803" Language="SFX">
 							<ShortName>Emotes\Poyo.wav</ShortName>
-							<Path>SFX\Emotes\Poyo_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Poyo_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3760268623" Name="Play_PPmusic" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_PPmusic">
 					<IncludedMemoryFiles>
 						<File Id="787279635" Language="SFX">
 							<ShortName>Emotes\PPmusic.wav</ShortName>
-							<Path>SFX\Emotes\PPmusic_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\PPmusic_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3846432779" Name="Play_Renegade" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Renegade">
 					<IncludedMemoryFiles>
 						<File Id="589932617" Language="SFX">
 							<ShortName>Emotes\Renegade.wav</ShortName>
-							<Path>SFX\Emotes\Renegade_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Renegade_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3225017982" Name="Play_Sad" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Sad">
 					<IncludedMemoryFiles>
 						<File Id="31086969" Language="SFX">
 							<ShortName>Emotes\Sad\Trombonetauntv2.wav</ShortName>
-							<Path>SFX\Emotes\Sad\Trombonetauntv2_05842A19.wem</Path>
+							<Path>SFX\Emotes\Sad\Trombonetauntv2_E686EB18.wem</Path>
 						</File>
 						<File Id="115302274" Language="SFX">
 							<ShortName>Emotes\Sad\Athena_Emote_SadTrombone.wav</ShortName>
-							<Path>SFX\Emotes\Sad\Athena_Emote_SadTrombone_05842A19.wem</Path>
+							<Path>SFX\Emotes\Sad\Athena_Emote_SadTrombone_E686EB18.wem</Path>
 						</File>
 						<File Id="534816575" Language="SFX">
 							<ShortName>Emotes\Sad\Wah Wah Wahhhh (Sound Effect).wav</ShortName>
-							<Path>SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_05842A19.wem</Path>
+							<Path>SFX\Emotes\Sad\Wah Wah Wahhhh (Sound Effect)_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1791795284" Name="Play_Scenario" ObjectPath="\Events\Default Work Unit\Emotes\Play_Scenario">
 					<IncludedMemoryFiles>
 						<File Id="146585453" Language="SFX">
 							<ShortName>Emotes\Scenario.wav</ShortName>
-							<Path>SFX\Emotes\Scenario_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Scenario_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1593989185" Name="Play_Specialist" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Specialist">
 					<IncludedMemoryFiles>
 						<File Id="635525640" Language="SFX">
 							<ShortName>Emotes\Specialist.wav</ShortName>
-							<Path>SFX\Emotes\Specialist_05842A19.wem</Path>
+							<Path>SFX\Emotes\Specialist_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2597828886" Name="Play_SpringLoaded" ObjectPath="\Events\Default Work Unit\Emotes\Play_SpringLoaded">
 					<IncludedMemoryFiles>
 						<File Id="628532740" Language="SFX">
 							<ShortName>Emotes\SpringLoaded.wav</ShortName>
-							<Path>SFX\Emotes\SpringLoaded_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\SpringLoaded_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2002994874" Name="Play_Springy" ObjectPath="\Events\Default Work Unit\Emotes\Play_Springy">
 					<IncludedMemoryFiles>
 						<File Id="105575453" Language="SFX">
 							<ShortName>Emotes\Springy.wav</ShortName>
-							<Path>SFX\Emotes\Springy_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Springy_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2323178122" Name="Play_SquatKick" ObjectPath="\Events\Default Work Unit\Emotes\Play_SquatKick">
 					<IncludedMemoryFiles>
 						<File Id="170824598" Language="SFX">
 							<ShortName>Emotes\SquatKick.wav</ShortName>
-							<Path>SFX\Emotes\SquatKick_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\SquatKick_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="240058584" Name="Play_StandingHere" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_StandingHere">
 					<IncludedMemoryFiles>
 						<File Id="384265436" Language="SFX">
 							<ShortName>Emotes\StandingHere.wav</ShortName>
-							<Path>SFX\Emotes\StandingHere_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\StandingHere_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2735417078" Name="Play_StarGet" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_StarGet">
 					<IncludedMemoryFiles>
 						<File Id="112117115" Language="SFX">
 							<ShortName>Emotes\starget3.wav</ShortName>
-							<Path>SFX\Emotes\starget3_05842A19.wem</Path>
+							<Path>SFX\Emotes\starget3_E686EB18.wem</Path>
 						</File>
 						<File Id="236167254" Language="SFX">
 							<ShortName>Emotes\starget7.wav</ShortName>
-							<Path>SFX\Emotes\starget7_05842A19.wem</Path>
+							<Path>SFX\Emotes\starget7_E686EB18.wem</Path>
 						</File>
 						<File Id="269508921" Language="SFX">
 							<ShortName>Emotes\StarGet2.wav</ShortName>
-							<Path>SFX\Emotes\StarGet2_05842A19.wem</Path>
+							<Path>SFX\Emotes\StarGet2_E686EB18.wem</Path>
 						</File>
 						<File Id="540478322" Language="SFX">
 							<ShortName>Emotes\starget6.wav</ShortName>
-							<Path>SFX\Emotes\starget6_05842A19.wem</Path>
+							<Path>SFX\Emotes\starget6_E686EB18.wem</Path>
 						</File>
 						<File Id="717722066" Language="SFX">
 							<ShortName>Emotes\starget4.wav</ShortName>
-							<Path>SFX\Emotes\starget4_05842A19.wem</Path>
+							<Path>SFX\Emotes\starget4_E686EB18.wem</Path>
 						</File>
 						<File Id="959529791" Language="SFX">
 							<ShortName>Emotes\starget5.wav</ShortName>
-							<Path>SFX\Emotes\starget5_05842A19.wem</Path>
+							<Path>SFX\Emotes\starget5_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="299993122" Name="Play_Sway" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Sway">
 					<IncludedMemoryFiles>
 						<File Id="637023442" Language="SFX">
 							<ShortName>Emotes\Sway.wav</ShortName>
-							<Path>SFX\Emotes\Sway_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Sway_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="791024472" Name="Play_TakeTheL" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_TakeTheL">
 					<IncludedMemoryFiles>
 						<File Id="821426950" Language="SFX">
 							<ShortName>Emotes\TakeTheL.wav</ShortName>
-							<Path>SFX\Emotes\TakeTheL_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\TakeTheL_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="851915445" Name="Play_Thanos" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Thanos">
 					<IncludedMemoryFiles>
 						<File Id="950145501" Language="SFX">
 							<ShortName>Emotes\Thanos.wav</ShortName>
-							<Path>SFX\Emotes\Thanos_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Thanos_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3575995933" Name="Play_TheRobot" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_TheRobot">
 					<IncludedMemoryFiles>
 						<File Id="1027952488" Language="SFX">
 							<ShortName>Emotes\TheRobot.wav</ShortName>
-							<Path>SFX\Emotes\TheRobot_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\TheRobot_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2578240237" Name="Play_Thicc" ObjectPath="\Events\Default Work Unit\New Emotes 1\Play_Thicc">
 					<IncludedMemoryFiles>
 						<File Id="313525913" Language="SFX">
 							<ShortName>Emotes\Thicc.wav</ShortName>
-							<Path>SFX\Emotes\Thicc_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Thicc_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2500679095" Name="Play_Yakuza" ObjectPath="\Events\Default Work Unit\New Emotes 2\Play_Yakuza">
 					<IncludedMemoryFiles>
 						<File Id="356289195" Language="SFX">
 							<ShortName>Emotes\Yakuza.wav</ShortName>
-							<Path>SFX\Emotes\Yakuza_6AF693E7.wem</Path>
+							<Path>SFX\Emotes\Yakuza_2CC0AFE2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1084720583" Name="Stop_AnkhaZone" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_AnkhaZone"/>
 				<Event Id="578450013" Name="Stop_ArkDance" ObjectPath="\Events\Default Work Unit\New Emotes 1\Stop_ArkDance"/>
@@ -1215,6 +2028,10 @@
 				<GameParameter Id="246773394" Name="Volume_EmoteInput" ObjectPath="\Game Parameters\Default Work Unit\Volume_EmoteInput"/>
 				<GameParameter Id="396176897" Name="Volume_Emotes" ObjectPath="\Game Parameters\Default Work Unit\Volume_Emotes"/>
 				<GameParameter Id="517048260" Name="People_In_Range" ObjectPath="\Game Parameters\Default Work Unit\People_In_Range"/>
+				<GameParameter Id="3193682177" Name="Band1" ObjectPath="\Game Parameters\Default Work Unit\Band1"/>
+				<GameParameter Id="3193682178" Name="Band2" ObjectPath="\Game Parameters\Default Work Unit\Band2"/>
+				<GameParameter Id="3193682179" Name="Band3" ObjectPath="\Game Parameters\Default Work Unit\Band3"/>
+				<GameParameter Id="3193682180" Name="Band4" ObjectPath="\Game Parameters\Default Work Unit\Band4"/>
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 				<GameParameter Id="3695994288" Name="Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Volume_Master"/>
 			</GameParameters>

@@ -10,7 +10,34 @@
 						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
 							<RTPCList>
+								<RTPC Name="" ID="{B0281003-C37C-4B54-8D21-B6E6FFF9CA43}" ShortID="865371904">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Band3" ID="{9C988E7B-73A9-47EE-8F96-364C2DC38DA9}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EF40F7EF-FCAF-457C-A820-1ABFC9E891FB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
 								<RTPC Name="" ID="{32C1280D-1725-4BD4-BED6-5527B1E904F2}" ShortID="1006787359">
 									<ReferenceList>
 										<Reference Name="ControlInput">
@@ -35,6 +62,30 @@
 										</PointList>
 									</Curve>
 								</RTPC>
+								<RTPC Name="" ID="{E8E6AC21-2305-444E-B8B0-09A82BF3233A}" ShortID="396286572">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Band1" ID="{693E75EE-F9D4-4470-8628-5362D8B1EA4F}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7D6AB7FA-62C1-49C7-BB0E-40D5ADB2EB09}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
 								<RTPC Name="" ID="{577EFF5F-2F12-400B-BA12-441B721A2859}" ShortID="991000691">
 									<ReferenceList>
 										<Reference Name="ControlInput">
@@ -53,6 +104,54 @@
 											</Point>
 											<Point>
 												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{22E41087-2A00-48CF-9EEE-005FBC244C0F}" ShortID="231363151">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Band4" ID="{17A4EF2A-C500-4F35-AA32-D6B04602E373}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F2196148-EC8F-4F2D-9BE4-4516E9CD1C07}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{BF2C659D-E59A-4A5D-9109-AD5AF0733C2C}" ShortID="979299631">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Band2" ID="{DD9F4C8A-6FE5-410D-9BFB-52617D2026E6}" WorkUnitID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F07CA6D0-C7D5-4D9C-95A2-6E00BD418125}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -96,6 +195,18 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Band1" ID="{B6F5D83F-DEF3-458D-B1C8-ECF8A7BD49CC}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Band2" ID="{C7C92A3F-B759-4BCE-B428-0571EF10A289}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="Band3" ID="{C53CA7CE-7DDE-4534-A0BD-2D895EDD953E}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+						</Reference>
+						<Reference Name="UserAuxSend3">
+							<ObjectRef Name="Band4" ID="{18576AF4-17F8-47B4-B6AF-09C02CDB0077}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -4115,107 +4226,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Ifudoodu" ID="{DE028210-0701-4E04-B17C-BA9C08395726}" ShortID="461352399">
-									<PropertyList>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="ifucover" ID="{34FD34C6-77E6-48FD-A962-21148630976B}" ShortID="828788689">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideEffect" Type="bool" Value="True"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Emotes" ID="{5789518B-3237-42DB-A2EC-4C043BA5D792}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ifu" ID="{04C4D8A7-F5E3-4B48-91E8-8C58812434A7}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="Band1" ID="{548511E9-6AD7-40BC-8B82-1B6B79F55459}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="Band2" ID="{ECB660C4-0F02-499F-8AEA-FE22D43A7A2A}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="Band3" ID="{57ACD00F-297B-4EF2-BB28-8E7C5E1136C6}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend3">
-													<ObjectRef Name="Band4" ID="{8F1D080B-FD21-426E-9D66-EEF95A400874}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="ifucover" ID="{DBE6A49D-8CF7-4C65-AD9C-C26D719D0539}">
-													<Language>SFX</Language>
-													<AudioFile>Emotes\ifucover.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="303607888"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Position Name="" ID="{B9D23E85-9437-482B-BAA7-98055C1015B8}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="ifucover" ID="{DBE6A49D-8CF7-4C65-AD9C-C26D719D0539}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ifu" ID="{9805116B-8CD8-4BCC-9C68-F01458B10463}" ShortID="296266280">
-											<PropertyList>
-												<Property Name="OverrideEffect" Type="bool" Value="True"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ifu" ID="{04C4D8A7-F5E3-4B48-91E8-8C58812434A7}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="Band1" ID="{548511E9-6AD7-40BC-8B82-1B6B79F55459}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="Band2" ID="{ECB660C4-0F02-499F-8AEA-FE22D43A7A2A}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="Band3" ID="{57ACD00F-297B-4EF2-BB28-8E7C5E1136C6}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-												<Reference Name="UserAuxSend3">
-													<ObjectRef Name="Band4" ID="{8F1D080B-FD21-426E-9D66-EEF95A400874}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ifu2" ID="{E4BA01AC-6EEF-4774-B725-1311E951FEB9}">
-													<Language>SFX</Language>
-													<AudioFile>Emotes\Ifu2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="799130385"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ifu2" ID="{E4BA01AC-6EEF-4774-B725-1311E951FEB9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="SingleFurry" ID="{DBBDB4CC-9732-41E2-B813-B41DCF036472}" ShortID="417633589">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -4383,6 +4393,226 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Ifu" ID="{39AF4026-F7DB-4F3D-A3A7-DEB45C8D5EE3}" ShortID="29489770">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ifucover" ID="{D02F1DF1-C4D2-45DD-8BBD-6CD428810676}" ShortID="1061563893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ifucover" ID="{516F05AD-E548-49C4-BDC4-75E6ABE73E82}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\ifucover.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303607888"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ifucover" ID="{516F05AD-E548-49C4-BDC4-75E6ABE73E82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ifu" ID="{8282BC8F-1E92-4880-A0AC-782DE0B163DA}" ShortID="488406466">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ifu2" ID="{4CA8D318-D895-4F59-A72F-4F73DC1867A0}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Ifu2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="799130385"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ifu2" ID="{4CA8D318-D895-4F59-A72F-4F73DC1867A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="CaliforniaGirls" ID="{6CADF3D9-FE0B-4747-8532-3BCB1FC6E7AF}" ShortID="63238291">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CaliforniaGirls" ID="{3D79BE52-FDAA-44EE-86FF-84C4E111A827}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\CaliforniaGirls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977310683"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CaliforniaGirls" ID="{3D79BE52-FDAA-44EE-86FF-84C4E111A827}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SeeTinh" ID="{A7EA800E-F68D-4C19-8AEF-BBB60B74C5B4}" ShortID="696107579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SeeTinh" ID="{F434EC7D-7202-4F55-BCB9-67004F79DAB1}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\SeeTinh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149396184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SeeTinh" ID="{F434EC7D-7202-4F55-BCB9-67004F79DAB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hydraulicpressing" ID="{DACE39EA-98E8-48DB-A573-881B16D8EB64}" ShortID="280165533">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hydraulicpressing" ID="{2FCAAF32-0F77-4C90-A936-07E7A266B787}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\hydraulicpressing.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="506515846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hydraulicpressing" ID="{2FCAAF32-0F77-4C90-A936-07E7A266B787}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HydraulicSong" ID="{0031483A-AD45-4E4F-A5C0-EAB3413E514B}" ShortID="611955260">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="World Prop" ID="{F35432DD-E486-4679-B728-107561C67730}" WorkUnitID="{3BA03FEE-7A67-448A-A677-2240F1B427EB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HydraulicSong" ID="{6925721B-E220-4936-8E04-50060FF7D010}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\HydraulicSong.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="690817904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HydraulicSong" ID="{6925721B-E220-4936-8E04-50060FF7D010}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hydraulicpressingnoexplosion" ID="{BC740BB0-743D-4622-A29D-66378FC94CD6}" ShortID="597647220">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hydraulicpressingnoexplosion" ID="{C88817B4-0F9B-4F5F-93ED-4EF675B39C29}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\hydraulicpressingnoexplosion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409339749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hydraulicpressingnoexplosion" ID="{C88817B4-0F9B-4F5F-93ED-4EF675B39C29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VirtualInsanity" ID="{25CCBA3E-B5CC-4C9D-BEF1-B96DB3F03A87}" ShortID="649829515">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VirtualInsanity" ID="{B960974A-B378-435D-8198-B48BB294B728}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\VirtualInsanity.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640853846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VirtualInsanity" ID="{B960974A-B378-435D-8198-B48BB294B728}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

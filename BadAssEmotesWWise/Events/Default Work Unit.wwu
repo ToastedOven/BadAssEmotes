@@ -3011,47 +3011,47 @@
 						</Folder>
 						<Folder Name="Ifu" ID="{5FBC56F6-3204-49C8-B559-EDD7C2B7036D}" ShortID="410778790">
 							<ChildrenList>
-								<Event Name="Play_ifu" ID="{3EA430CE-C19C-4E1E-8928-FA748171C9D3}">
+								<Event Name="Play_ifu" ID="{36B0EF96-D62B-45C0-B0AA-1B209B4B7062}">
 									<ChildrenList>
-										<Action Name="" ID="{FA6863DD-8975-4727-84EC-F7674C1BE171}" ShortID="396807085">
+										<Action Name="" ID="{ED5934B1-3CC8-4413-AE0D-3195BE458FF0}" ShortID="12934969">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ifu" ID="{9805116B-8CD8-4BCC-9C68-F01458B10463}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+													<ObjectRef Name="ifu" ID="{8282BC8F-1E92-4880-A0AC-782DE0B163DA}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_ifucover" ID="{5604F483-FD6B-4CA2-A3C6-934E48F18837}">
+								<Event Name="Play_ifucover" ID="{1F319CCC-88BA-4A37-AD7B-02CB39F238D4}">
 									<ChildrenList>
-										<Action Name="" ID="{A6EF7234-1E39-4A75-ADDA-996DD7769F7C}" ShortID="278417721">
+										<Action Name="" ID="{0AEF01FB-E206-42E1-B17F-1AA396127745}" ShortID="983731997">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="ifucover" ID="{34FD34C6-77E6-48FD-A962-21148630976B}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+													<ObjectRef Name="ifucover" ID="{D02F1DF1-C4D2-45DD-8BBD-6CD428810676}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Stop_ifu" ID="{1C925430-4C35-432E-9445-2F599FAB7D0F}">
+								<Event Name="Stop_ifu" ID="{E4D08957-AE53-4F3F-A2C9-73F6759403D6}">
 									<ChildrenList>
-										<Action Name="" ID="{4AA6E24C-FBAD-4429-99A9-8D1577C3B8BA}" ShortID="605481268">
+										<Action Name="" ID="{0FBD227D-8322-47B4-9D66-67A385CB9E22}" ShortID="892779616">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ifu" ID="{9805116B-8CD8-4BCC-9C68-F01458B10463}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+													<ObjectRef Name="ifu" ID="{8282BC8F-1E92-4880-A0AC-782DE0B163DA}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{631EAD22-CE29-4A77-B01C-3A7ACDBD03E1}" ShortID="131168779">
+										<Action Name="" ID="{FA960E95-0285-4D63-9DBD-36F046DD9587}" ShortID="281020991">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="ifucover" ID="{34FD34C6-77E6-48FD-A962-21148630976B}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+													<ObjectRef Name="ifucover" ID="{D02F1DF1-C4D2-45DD-8BBD-6CD428810676}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -3059,6 +3059,156 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Stop_CaliforniaGirls" ID="{DF009611-57E3-4869-A162-9D90C9F3CB92}">
+							<ChildrenList>
+								<Action Name="" ID="{402A557E-D4C8-49F5-B8CD-ACE1BEC8AC60}" ShortID="47543582">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaliforniaGirls" ID="{6CADF3D9-FE0B-4747-8532-3BCB1FC6E7AF}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SeeTinh" ID="{D91437B1-91F9-40F0-9543-7837B54CB987}">
+							<ChildrenList>
+								<Action Name="" ID="{2BC45BCA-AC6F-44DE-8BE4-F700F7C6E5F9}" ShortID="890069677">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SeeTinh" ID="{A7EA800E-F68D-4C19-8AEF-BBB60B74C5B4}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SeeTinh" ID="{29F8ACB0-7C93-4EA0-8E15-4D9F6628D0A5}">
+							<ChildrenList>
+								<Action Name="" ID="{2916CA4D-2AD7-44F1-AC96-DD7845525929}" ShortID="741841387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SeeTinh" ID="{A7EA800E-F68D-4C19-8AEF-BBB60B74C5B4}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CaliforniaGirls" ID="{F0450488-4B4E-4E5A-A6EA-8716EEF01709}">
+							<ChildrenList>
+								<Action Name="" ID="{26684E8B-276A-4CE1-8772-4DD6A5EB6153}" ShortID="1009538535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaliforniaGirls" ID="{6CADF3D9-FE0B-4747-8532-3BCB1FC6E7AF}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_hydraulicpressing" ID="{CC3CC980-A4E8-4CBB-AB56-1A6B9E69F9E4}">
+							<ChildrenList>
+								<Action Name="" ID="{E7891F1E-B4BE-4075-AEA1-DA87E3AA07E8}" ShortID="867602464">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hydraulicpressing" ID="{DACE39EA-98E8-48DB-A573-881B16D8EB64}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_HydraulicSong" ID="{BD4751F9-AAD0-4D79-AD7D-289B873CFFEF}">
+							<ChildrenList>
+								<Action Name="" ID="{9D459F7C-7470-4BF0-9948-1FD068AAD9B9}" ShortID="625269682">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HydraulicSong" ID="{0031483A-AD45-4E4F-A5C0-EAB3413E514B}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_hydraulicpressing" ID="{F5537B56-8169-4FCB-90F9-73B26C522C86}">
+							<ChildrenList>
+								<Action Name="" ID="{771B9D49-A810-45EA-A114-49E2CCE82F46}" ShortID="374295363">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hydraulicpressing" ID="{DACE39EA-98E8-48DB-A573-881B16D8EB64}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HydraulicSong" ID="{8C4040B1-475D-4CA4-BA95-578309F0D2A7}">
+							<ChildrenList>
+								<Action Name="" ID="{8205A8C5-1E03-4705-B595-8D09D4FA745B}" ShortID="367251943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HydraulicSong" ID="{0031483A-AD45-4E4F-A5C0-EAB3413E514B}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_hydraulicpressingnoexplosion" ID="{578B19E8-D4B1-4E79-B68D-4F9105239B86}">
+							<ChildrenList>
+								<Action Name="" ID="{1703B225-2F77-4E43-A32D-774C4854F833}" ShortID="1051019001">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hydraulicpressingnoexplosion" ID="{BC740BB0-743D-4622-A29D-66378FC94CD6}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_hydraulicpressingnoexplosion" ID="{15314E25-9C6F-4B49-B97D-B8FA0A1AEE10}">
+							<ChildrenList>
+								<Action Name="" ID="{EF02D2E4-DEB4-4559-96E6-8494D7EEFC2F}" ShortID="484383144">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hydraulicpressingnoexplosion" ID="{BC740BB0-743D-4622-A29D-66378FC94CD6}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_VirtualInsanity" ID="{50023C72-DA6B-4798-9253-60042A46CF4C}">
+							<ChildrenList>
+								<Action Name="" ID="{E2501C2B-BF4A-4B19-B515-E2A0AAB2E589}" ShortID="503885061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VirtualInsanity" ID="{25CCBA3E-B5CC-4C9D-BEF1-B96DB3F03A87}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_VirtualInsanity" ID="{318A5871-311C-40BC-8180-964C831429A9}">
+							<ChildrenList>
+								<Action Name="" ID="{528AEEED-1C94-4774-952C-45410235A9C9}" ShortID="1024485205">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VirtualInsanity" ID="{25CCBA3E-B5CC-4C9D-BEF1-B96DB3F03A87}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
