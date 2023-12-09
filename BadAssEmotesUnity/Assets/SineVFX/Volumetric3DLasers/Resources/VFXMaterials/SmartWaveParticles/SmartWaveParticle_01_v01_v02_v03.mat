@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SmartWaveParticle_01_v01_v02_v03
+  m_Shader: {fileID: 4800000, guid: 1508ffa566714a4fbf6d5fb957318377, type: 3}
+  m_ShaderKeywords: _STARTPOINTENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Core:
+        m_Texture: {fileID: 2800000, guid: 75afc57a36ca4de5b65bb82b7691a229, type: 3}
+        m_Scale: {x: 1, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _FireTexture:
+        m_Texture: {fileID: 2800000, guid: c21d4a73d02870842be67f7332a4910c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient2:
+        m_Texture: {fileID: 2800000, guid: f9efb96faef946aaa9e1c7db321dd8bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 77d4fb3924534c96930be79c8d6f0658, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DistanceAdd: 0
+    - _DistanceMaskAdd: 0
+    - _DistanceMaskMultiply: 2
+    - _DistanceMultiply: 2.5
+    - _FinalPower: 10
+    - _MaxClamp: 0.5
+    - _MinClamp: -0.5
+    - _ParticleSize: -1.62
+    - _PrePower: 4
+    - _StartPointEnabled: 1
+    - _StartPointMaskAdd: 0
+    - _StartPointMaskMultiply: 2
+    - _WaveEnabled: 4
+    - _WaveExp: 1.7
+    - _WaveLength: 4
+    - _WaveSomething: 1
+    - _WaveSpeed: 1
+    - _WaveTravelDistance: 4
+    - _node_2074: 0
+    - _node_5733: 1
+    - _node_8466: 4.82
+    m_Colors:
+    - _Color: {r: 0, g: 0.4627451, b: 1, a: 1}
+    - _FinalColor: {r: 0, g: 0.4627451, b: 1, a: 1}

@@ -1,0 +1,6 @@
+USING THIS ASSET WITH HDRP, LWPR or URP:
+
+1. It is fairly simple, just unpack the right package from the "Packages/SRP" folder. After that, you can check the new Demo Scenes.
+2. Also, the new SRP prefabs are added to your prefab folder as well.
+3. HDRP shaders are fully editable with Shader Graph.
+4. When using HDRP or URP, you don't need old PostProcessing, so you need to delete the "PostProcessingV2" folder to avoid errors.

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LivingParticlesMorph_05Gamma
+  m_Shader: {fileID: 4800000, guid: 1ea9999687617f9478125b9e3763e00e, type: 3}
+  m_ShaderKeywords: _CENTERMASKENABLED_ON _FLIPEMISSIONMASK_ON _USEGAMMARENDERING_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: adfb0917a0fcd864994e4ba747ff562c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 44cf96d90ab5e4f41966d163743711fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 95a62287a84aa0e41846654a9e6ea8f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MorphMain:
+        m_Texture: {fileID: 2800000, guid: ee8e27d0570689d41a1afc1b6843fbc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MorphNormal:
+        m_Texture: {fileID: 2800000, guid: 4ceddd8a7f1ef8f409b7e203f99065dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 1260249478b816b468c2888f0a40a2e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CenterMaskEnabled: 1
+    - _CenterMaskMultiply: 8
+    - _CenterMaskSubtract: 0.85
+    - _Distance: 2
+    - _DistanceNegativeRemap: 0
+    - _DistancePower: 1
+    - _DistanceRemap: 2
+    - _FinalMaskMultiply: 1
+    - _FinalPower: 1.75
+    - _FlipEmissionMask: 1
+    - _FlipMorphMask: 0
+    - _FlipOffsetMask: 0
+    - _Metallic: 1
+    - _OffsetPower: 0
+    - _OffsetYLock: 0
+    - _RampEnabled: 0
+    - _Smoothness: 1
+    - _UseGammaRendering: 1
+    - _VertexDistortionEnabled: 0
+    - _VertexDistortionPower: 0.1
+    - _VertexDistortionTiling: 1
+    - __dirty: 0
+    m_Colors:
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _FinalColorOne: {r: 1, g: 0.5372549, b: 0.32941177, a: 1}
+    - _FinalColorTwo: {r: 0, g: 0, b: 0, a: 0}

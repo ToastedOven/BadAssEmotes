@@ -3209,6 +3209,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Terrestrial" ID="{8AB8BCC5-94C6-4C79-853F-94CAF98843D3}">
+							<ChildrenList>
+								<Action Name="" ID="{CB87AE54-8CD0-41C0-82B2-D14B957D15CF}" ShortID="466824474">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Terrestrial" ID="{4FAEF2A2-2D91-413C-B7BC-8F36E64A9080}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Terrestrial" ID="{6A4289B9-99AB-4491-B4AC-C587C67AD284}">
+							<ChildrenList>
+								<Action Name="" ID="{05539E66-E9DD-46E3-AD9A-D2A03DFDC0E5}" ShortID="351765659">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Terrestrial" ID="{4FAEF2A2-2D91-413C-B7BC-8F36E64A9080}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -1,0 +1,27 @@
+IMPORTANT NOTES:
+
+- Turn on "HDR" on your Camera, Shaders requires it
+- This VFX Asset looks much better in "Linear Rendering", but there is also optimized Prefabs for "Gamma Rendering" Mode
+- Image Effects are necessary in order to make a great looking game, as well as our asset. Be sure you use "Tone Mapping" and "Bloom"
+- We also recommend using Deferred Rendering for better performance
+- If you using SRP, check the "Packages/SRP" folder, and unpack the right SRP into your project
+- Check the GPU package, it's a package with updated shaders compatible with Particle GPU Mesh Instantiation. This technique will dramatically increase FPS in your projects.
+
+HOW TO USE:
+
+- First of all, check for Demo Scene in the Scenes folder. Also, there is a Prefabs folder with complete effects.
+- Drag and Drop prefabs from the "Prefabs" folder into your scene, then assign your affector GameObject in the "Living Particle Controller" component.
+- Assign multiple Affectors if you using an Array Prefab.
+- If you want to use Ground Particles on a vertical surface, please check the XY UV and ZY UV properties of the material.
+
+BASIC ADJUSTMENTS AND CUSTOMIZATION:
+
+- You can scale, rotate and transform the prefab like you normally do.
+- When you scale the effect, you might also need to scale the "Noise Tiling" and "Distance" parameters of the material
+- Most of the adjustments come from Material parameters, not from Particle System.
+- Materials have a lot of settings, just play with them and create your own unique look. Be aware, that in a play mode, most materials will be converted into instances. So if you change material settings in a play mode, the original material won't be affected. This is a great way to just test all the settings.
+- Most of the parameters are described in a "02.MaterialParameters.txt" file.
+
+
+
+Support email: sinevfx@gmail.com

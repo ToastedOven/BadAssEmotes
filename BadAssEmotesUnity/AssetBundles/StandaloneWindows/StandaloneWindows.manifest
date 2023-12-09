@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 802569369
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: badassemotes
+      Dependencies:
+        Dependency_0: ifubundle
+    Info_1:
+      Name: css
+      Dependencies: {}
+    Info_2:
+      Name: ds3
+      Dependencies: {}
+    Info_3:
+      Name: ifubundle
+      Dependencies: {}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FlamesLong_01_Distorted
+  m_Shader: {fileID: 4800000, guid: 606463fc53474cef84d134e134c0bbf2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: 5555c5e9943046f986d6ef684214d3b0, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlipBookTex:
+        m_Texture: {fileID: 2800000, guid: c86263b7c8ce4e929343b42b3fb58aaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6cd5a43b667f38342bf1a5bd51501845, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionVectors:
+        m_Texture: {fileID: 2800000, guid: 1ca7d883090e4973963b9974099ea97d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 87d62e2f6ec2451ba33297590164a6bb, type: 3}
+        m_Scale: {x: 2.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3198:
+        m_Texture: {fileID: 2800000, guid: 6cd5a43b667f38342bf1a5bd51501845, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DistortionPower: 0.01
+    - _DistortionTexturePower: 0.1
+    - _FinalPower: 4
+    - _OpacityBoost: 2
+    - _RotationAngle: 1
+    - _RotatorAng: -1.57
+    - _RowCount: 8
+    - _Speed: 8
+    - _node_6923: 0.5
+    m_Colors:
+    - _FinalColor: {r: 0, g: 0.4627451, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

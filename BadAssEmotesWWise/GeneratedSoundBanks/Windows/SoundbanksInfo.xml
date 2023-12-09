@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\</ProjectRoot>
-		<SourceFilesRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,7 +22,7 @@
 				<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2800433960" Language="SFX" Hash="2728438078">
+		<SoundBank Id="2800433960" Language="SFX" Hash="7696256">
 			<ObjectPath>\SoundBanks\Default Work Unit\Badassemotes2</ObjectPath>
 			<ShortName>Badassemotes2</ShortName>
 			<Path>Badassemotes2.bnk</Path>
@@ -537,7 +537,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2800433961" Language="SFX" Hash="1162664485">
+		<SoundBank Id="2800433961" Language="SFX" Hash="810781674">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes3</ObjectPath>
 			<ShortName>BadAssEmotes3</ShortName>
 			<Path>BadAssEmotes3.bnk</Path>
@@ -808,6 +808,24 @@
 						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1664926657" Name="Play_Terrestrial" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_Terrestrial">
+					<IncludedMemoryFiles>
+						<File Id="23154445" Language="SFX">
+							<ShortName>Emotes\Terrestrial Start.wav</ShortName>
+							<Path>SFX\Emotes\Terrestrial Start_E686EB18.wem</Path>
+						</File>
+						<File Id="691584054" Language="SFX">
+							<ShortName>Emotes\Terrestrial.wav</ShortName>
+							<Path>SFX\Emotes\Terrestrial_2CC0AFE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1242278832" Name="Play_VirtualInsanity" ObjectPath="\Events\Default Work Unit\New Emotes 5\Play_VirtualInsanity">
 					<IncludedMemoryFiles>
 						<File Id="640853846" Language="SFX">
@@ -849,6 +867,7 @@
 				<Event Id="4224196750" Name="Stop_SeeTinh" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_SeeTinh"/>
 				<Event Id="1007305616" Name="Stop_SingleFurry" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_SingleFurry"/>
 				<Event Id="3770559380" Name="Stop_Summertime" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Summertime"/>
+				<Event Id="2286250947" Name="Stop_Terrestrial" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_Terrestrial"/>
 				<Event Id="3143031798" Name="Stop_VirtualInsanity" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_VirtualInsanity"/>
 				<Event Id="2499063995" Name="Stop_VSWORLD" ObjectPath="\Events\Default Work Unit\New Emotes 5\Stop_VSWORLD"/>
 			</IncludedEvents>
@@ -862,7 +881,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4059541694" Language="SFX" Hash="151552406">
+		<SoundBank Id="4059541694" Language="SFX" Hash="473941699">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes</ObjectPath>
 			<ShortName>BadAssEmotes</ShortName>
 			<Path>BadAssEmotes.bnk</Path>

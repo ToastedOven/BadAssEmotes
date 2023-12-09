@@ -1,0 +1,31 @@
+SETUP FOR AUDIO REACTIVE EFFECTS:
+
+1. Add "Living Particles Audio Source" to your audio source GameObject
+2. Drag and Drop Effect from a Prefab folder with "_Audio" in its name.
+3. Make sure it has "Living Particles Audio Module" component
+4. Assign your audio source with "Living Particles Audio Source" component to an "L Pa Source" variable
+5. Assign any transform to "Audio Position", it will control the center of audio waves
+
+AUDIO SOURCE PARAMETERS:
+
+Buffer Initial Decrease Speed - Speed at which particles will lose audio affection force
+Buffer Decrease Speed Multiply - Speed will be multiplied by this value every frame
+Freq Bands Power - Multiply the power of the spectrum
+Audio Profile Initial Value - Initial maximum value for the spectrum, you can play with this parameter, it will affect how quickly the final spectrum result will smoothen out
+Audio Profile Decreasing - Decrease the value above every frame by Audio Profile Decreasing Speed
+Number Of Bands - chouse between 8 and 16 bands textures, 8x1 pixels or 16x1 pixels
+
+AUDIO MODULE PARAMETERS:
+
+UseBuffer - Particles now will slowly lose their affection power
+FirstAndLastPixelBlack - Set the first and the last pixel of generated texture to black
+
+NEW MATERIAL PARAMETERS:
+
+Audio Spectrum - Controls the power of an initial spectrum texture
+Audio Mask - Creates a radial mask
+Audio Amplitude - Affects all particles based on an average amplitude parameter
+
+
+
+Support email: sinevfx@gmail.com
