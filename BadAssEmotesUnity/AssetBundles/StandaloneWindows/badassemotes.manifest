@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2915777121
+CRC: 4181795655
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2bee98790109229b035fc9b6066a7d8c
+    Hash: 169b22cf2476054252053e1438c6ecfe
   TypeTreeHash:
     serializedVersion: 2
     Hash: 917e7dcfaff41b66507f1049923904d0
@@ -116,6 +116,7 @@ Assets:
 - Assets/BadAssEmotes/FullTilt.anim
 - Assets/BadAssEmotes/TakeTheL.anim
 - Assets/BadAssEmotes/Horny.anim
+- Assets/BadAssEmotes/Bird.anim
 - Assets/BadAssEmotes/Crackdown.anim
 - Assets/BadAssEmotes/NinjaStyle.anim
 - Assets/BadAssEmotes/DontStart.anim
@@ -129,6 +130,7 @@ Assets:
 - Assets/BadAssEmotes/Hype.anim
 - Assets/BadAssEmotes/Float.anim
 - Assets/BadAssEmotes/Dabstand.anim
+- Assets/BadAssEmotes/Steady.anim
 - Assets/BadAssEmotes/DEDEDE.anim
 - Assets/BadAssEmotes/FamilyGuyDeath.anim
 - Assets/BadAssEmotes/Frolic.anim
@@ -153,10 +155,12 @@ Assets:
 - Assets/BadAssEmotes/Spiderman.anim
 - Assets/BadAssEmotes/OfficerEarl.anim
 - Assets/BadAssEmotes/BearHugJoin.anim
+- Assets/BadAssEmotes/Im a Mystery Loop.anim
 - Assets/BadAssEmotes/LetsDanceBoys.anim
 - Assets/BadAssEmotes/Summertime.anim
 - Assets/BadAssEmotes/DuckThisOneJoin.anim
 - Assets/BadAssEmotes/Droop.anim
+- Assets/BadAssEmotes/Real Slim Shady.anim
 - Assets/BadAssEmotes/Breakin.anim
 - Assets/BadAssEmotes/VirtualInsanity.anim
 - Assets/BadAssEmotes/Haruhi.anim
@@ -203,8 +207,10 @@ Assets:
 - Assets/BadAssEmotes/Macarena.anim
 - Assets/BadAssEmotes/Springy.anim
 - Assets/BadAssEmotes/ByTheFirePartner.anim
+- Assets/BadAssEmotes/Real Slim Shady Loop.anim
 - Assets/BadAssEmotes/PhoneItIn.anim
 - Assets/BadAssEmotes/Stuck.anim
+- Assets/BadAssEmotes/Jpop1.anim
 - Assets/BadAssEmotes/Markiplier.anim
 - Assets/BadAssEmotes/OldSchool.anim
 - Assets/BadAssEmotes/SwayPartner.anim
@@ -217,6 +223,7 @@ Assets:
 - Assets/Prefabs/explosion press.prefab
 - Assets/BadAssEmotes/Panda.anim
 - Assets/BadAssEmotes/MakeItRainIntro.anim
+- Assets/BadAssEmotes/Im a Mystery.anim
 - Assets/BadAssEmotes/Griddy.anim
 - Assets/Prefabs/Money.prefab
 - Assets/Prefabs/FloatLight.prefab
@@ -237,4 +244,4 @@ Assets:
 - Assets/BadAssEmotes/StarGet.anim
 - Assets/BadAssEmotes/PoseGinyu.anim
 Dependencies:
-- E:/Backup/unity/BadAssEmotes/AssetBundles/StandaloneWindows/ifubundle
+- C:/Users/lucky/Documents/GitHub/BadAssEmotes/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle

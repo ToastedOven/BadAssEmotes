@@ -4725,6 +4725,194 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="new Emotes 6" ID="{EFD6363A-5BE9-48A1-99FC-5BF688A18C01}" ShortID="573638469">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Im a Mystery" ID="{04460F6A-C791-4A71-90F2-1D36B97EBAD1}" ShortID="78848466">
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="mystery-intro" ID="{2101EFBA-E55D-4CA8-A1D0-917F6747A4B8}" ShortID="425273519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mystery-intro" ID="{6272544E-64CE-42DD-9B16-55916BF4063C}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Im a M;ystery\mystery-intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="510371622"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="mystery-intro" ID="{6272544E-64CE-42DD-9B16-55916BF4063C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="mystery-loop" ID="{35CF2783-5AAA-4210-966C-80274ED075B7}" ShortID="227519366">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="mystery-loop" ID="{E1EEA4C7-BA5C-44DA-87B6-FFCABDBAD3D2}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Im a M;ystery\mystery-loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1030611823"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="mystery-loop" ID="{E1EEA4C7-BA5C-44DA-87B6-FFCABDBAD3D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="mystery-intro" ID="{2101EFBA-E55D-4CA8-A1D0-917F6747A4B8}"/>
+										<ItemRef Name="mystery-loop" ID="{35CF2783-5AAA-4210-966C-80274ED075B7}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Real Slim Shady" ID="{432C26FC-6657-4FD6-A7DA-4DBF87759778}" ShortID="289199025">
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="slim-intro" ID="{38FEE179-B78F-4E63-9E92-C16DA636FB23}" ShortID="398410081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="slim-intro" ID="{0AE9D283-7046-470E-A2E9-BC4C29DD1910}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Real Slim Shady\slim-intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536578825"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="slim-intro" ID="{0AE9D283-7046-470E-A2E9-BC4C29DD1910}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="slim-loop" ID="{15A7BAC3-B713-4D9B-8A25-1A67AC6148A6}" ShortID="1053674195">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="slim-loop" ID="{FBF2B222-3042-4458-B676-8C914DFA2117}">
+													<Language>SFX</Language>
+													<AudioFile>Emotes\Real Slim Shady\slim-loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="994870554"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="slim-loop" ID="{FBF2B222-3042-4458-B676-8C914DFA2117}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="slim-intro" ID="{38FEE179-B78F-4E63-9E92-C16DA636FB23}"/>
+										<ItemRef Name="slim-loop" ID="{15A7BAC3-B713-4D9B-8A25-1A67AC6148A6}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="Bird" ID="{98A1B692-85C1-491F-A282-1309DFFEEAB6}" ShortID="939772266">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bird" ID="{0BE7E6A6-C852-4080-B6F1-8A328E769C55}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\bird.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612782511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bird" ID="{0BE7E6A6-C852-4080-B6F1-8A328E769C55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Steady" ID="{043522AB-3BA6-446F-925D-934293755C31}" ShortID="866501838">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Steady" ID="{4222EC2D-22AD-45BC-8D47-045AE19742B6}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Steady.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="711822355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Steady" ID="{4222EC2D-22AD-45BC-8D47-045AE19742B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 					<PositioningInfo>
 						<Position Name="" ID="{46E350DC-A7AD-4A3E-B9E7-E1A42AD09393}"/>

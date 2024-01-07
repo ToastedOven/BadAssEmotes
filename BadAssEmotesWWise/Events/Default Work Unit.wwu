@@ -3236,6 +3236,54 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="New Emotes 6" ID="{E8D88277-8652-4D33-BD4D-5922CAD76D35}" ShortID="518037035">
+					<ChildrenList>
+						<Event Name="Play_Im_a_Mystery" ID="{65B3ABB8-1508-4221-ADAD-754D79F1D111}">
+							<ChildrenList>
+								<Action Name="" ID="{A7225F43-5071-4D31-B3AB-9DB93447414E}" ShortID="342712074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Im a Mystery" ID="{04460F6A-C791-4A71-90F2-1D36B97EBAD1}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Real_Slim_Shady" ID="{4827045C-5EC5-475A-9C6B-A649C994922A}">
+							<ChildrenList>
+								<Action Name="" ID="{A22A954C-017D-4088-BD87-C66416CBAC15}" ShortID="786279606">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Real Slim Shady" ID="{432C26FC-6657-4FD6-A7DA-4DBF87759778}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bird" ID="{DA5BA08E-3B0E-4EF2-BF33-A29DE2B3705A}">
+							<ChildrenList>
+								<Action Name="" ID="{F2B4ECB4-EAED-424D-91CF-6C166903A2E9}" ShortID="860463247">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bird" ID="{98A1B692-85C1-491F-A282-1309DFFEEAB6}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Steady" ID="{E0027AFB-B4B4-4759-9902-1703FEB620ED}">
+							<ChildrenList>
+								<Action Name="" ID="{DEF69CA0-2EA9-4D60-8766-DFEEECFD6DB8}" ShortID="409295447">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Steady" ID="{043522AB-3BA6-446F-925D-934293755C31}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
