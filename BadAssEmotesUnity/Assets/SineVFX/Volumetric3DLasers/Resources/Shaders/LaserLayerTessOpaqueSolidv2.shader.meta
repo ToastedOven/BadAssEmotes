@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 16740df4b7cb44c882f2660e78095580
+timeCreated: 1515593907
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Noise01Distortion: {fileID: 2800000, guid: 257e43786c09482ebde4c6ee7ff0e59c,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
