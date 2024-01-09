@@ -26,6 +26,7 @@
 				<Property Name="Event Action List\{A78434E6-487E-4ECF-8277-3831AF97D3BF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BBBE18F4-2DA4-4464-8825-9AA669C1E62D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BD4751F9-AAD0-4D79-AD7D-289B873CFFEF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C1A1AC1D-F617-49E9-9F33-2ADF6459BD24}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CC3CC980-A4E8-4CBB-AB56-1A6B9E69F9E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CFDAE5F9-B1C1-4DAE-B7CB-42C8AA820F25}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D91437B1-91F9-40F0-9543-7837B54CB987}\x64_Expand States" Type="string" Value=""/>
@@ -84,8 +85,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ82BZHTfEdSdFvnbUvUuljOc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="ovKuT5EtPEG3vI825kqQgKCy5BhwlhNDjItYsMxbcswV1lUUxN+XRZJyigAyW4uuRRIym/kLpUaRitXvcRlWazo21u/pW6FImfxb9oihjAFqD0YEkcdxSpDyHTa5frrRJkCvOdv3PU+jp960XI1e4/wmLENXZtZPp9pNv4d1l3g="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="+QGPGG/770uxlWpjvG81wXeC2OhShjNNvU1ZIsrXbTU="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="ovKuT5EtPEG3vI825kqQgKCy5BhwlhNDjItYsMxbcswV1lUUxN+XRZJyigAyW4uuwAc8os2KMka/G8yaOaDRo0USMpv5C6VGkYrV73EZVms6Ntbv6VuhSJn8W/aIoYwBag9GBJHHcUqQ8h02uX660dpiBxs1TDhMsV1s/sfax+ImQK852/c9T6On3rRcjV7j/CYsQ1dm1k+n2k2/h3WXeA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="+QGPGG/770uxlWpjvG81wXeC2OhShjNNvU1ZIsrXbTWY7OkGURrpTbQeAf2LkYI5"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>

@@ -537,7 +537,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2800433961" Language="SFX" Hash="1388229715">
+		<SoundBank Id="2800433961" Language="SFX" Hash="2667610973">
 			<ObjectPath>\SoundBanks\Default Work Unit\BadAssEmotes3</ObjectPath>
 			<ShortName>BadAssEmotes3</ShortName>
 			<Path>BadAssEmotes3.bnk</Path>
@@ -789,6 +789,20 @@
 						<File Id="216601581" Language="SFX">
 							<ShortName>Emotes\PeaceAndTranquilitySlow.wav</ShortName>
 							<Path>SFX\Emotes\PeaceAndTranquilitySlow_2CC0AFE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3193682177" Name="Band1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band1"/>
+						<AuxBus Id="3193682178" Name="Band2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band2"/>
+						<AuxBus Id="3193682179" Name="Band3" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band3"/>
+						<AuxBus Id="3193682180" Name="Band4" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Band4"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3017419268" Name="Play_Popular_Vibe" ObjectPath="\Events\Default Work Unit\New Emotes 6\Play_Popular_Vibe">
+					<IncludedMemoryFiles>
+						<File Id="265936317" Language="SFX">
+							<ShortName>Emotes\Popular Vibe.wav</ShortName>
+							<Path>SFX\Emotes\Popular Vibe_E686EB18.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>

@@ -4591,6 +4591,11 @@
 								<Sound Name="VirtualInsanity" ID="{25CCBA3E-B5CC-4C9D-BEF1-B96DB3F03A87}" ShortID="649829515">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4909,6 +4914,28 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Steady" ID="{4222EC2D-22AD-45BC-8D47-045AE19742B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Popular Vibe" ID="{8AECC005-7C99-43E9-87DC-BB17381B9D4F}" ShortID="388894835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Popular Vibe" ID="{9C2F82F1-CFB1-48E0-B44B-40E9B8CA19E5}">
+											<Language>SFX</Language>
+											<AudioFile>Emotes\Popular Vibe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265936317"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Popular Vibe" ID="{9C2F82F1-CFB1-48E0-B44B-40E9B8CA19E5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

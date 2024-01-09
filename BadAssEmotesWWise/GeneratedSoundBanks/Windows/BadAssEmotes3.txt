@@ -23,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2608483140	Play_ifu			\Default Work Unit\New Emotes 5\Ifu\Play_ifu	
 	2742710221	Stop_Dougie			\Default Work Unit\New Emotes 5\Stop_Dougie	
 	2965936580	Play_Chugatone			\Default Work Unit\New Emotes 5\Chug\Play_Chugatone	
+	3017419268	Play_Popular_Vibe			\Default Work Unit\New Emotes 6\Play_Popular_Vibe	
 	3091449398	Stop_hydraulicpressingnoexplosion			\Default Work Unit\New Emotes 5\Stop_hydraulicpressingnoexplosion	
 	3104542863	Play_ChugJug			\Default Work Unit\New Emotes 5\Chug\Play_ChugJug	
 	3114478207	Play_Dougie			\Default Work Unit\New Emotes 5\Play_Dougie	
@@ -57,6 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	114258280	MetalJug	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MetalJug_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MetalJug		4108597
 	149396184	SeeTinh	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SeeTinh_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SeeTinh		803490
 	216601581	PeaceAndTranquilitySlow	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquilitySlow_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquilitySlow		7720202
+	265936317	Popular Vibe	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Popular Vibe_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Popular Vibe		262438
 	303607888	ifucover	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ifucover_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifu\ifucover		3519745
 	387027888	MikuJug	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MikuJug_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MikuJug		3980128
 	409339749	hydraulicpressingnoexplosion	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\hydraulicpressingnoexplosion_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\hydraulicpressingnoexplosion		208377
