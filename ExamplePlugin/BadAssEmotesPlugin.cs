@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.7.4";
+        public const string PluginVersion = "1.7.9";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -304,18 +304,25 @@ namespace ExamplePlugin
         private void Run_OnClientGameOver(On.RoR2.Run.orig_OnClientGameOver orig, Run self, RunReport runReport)
         {
             orig(self, runReport);
-            if (NetworkServer.active)
+            try
             {
-                if (UnityEngine.Random.Range(1, 101) < Settings.EnemyTauntOnDeathChance.Value + 1)
+                if (NetworkServer.active)
                 {
-                    foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
+                    if (UnityEngine.Random.Range(1, 101) < Settings.EnemyTauntOnDeathChance.Value + 1)
                     {
-                        if (item.mapperBody.GetComponent<TeamComponent>().teamIndex != TeamIndex.Player)
+                        foreach (var item in CustomEmotesAPI.GetAllBoneMappers())
                         {
-                            CustomEmotesAPI.PlayAnimation("DanceMoves", item);
+                            if (item.mapperBody.GetComponent<TeamComponent>().teamIndex != TeamIndex.Player)
+                            {
+                                CustomEmotesAPI.PlayAnimation("DanceMoves", item);
+                            }
                         }
                     }
                 }
+            }
+            catch (System.Exception)
+            {
+                Debug.Log($"had issue with the Run_OnClientGameOver call. But if you are seeing this, the original vanilla function already completed fully");
             }
         }
 
