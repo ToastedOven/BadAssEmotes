@@ -57,4 +57,4 @@
      
     # Crashlytics generated file
     crashlytics-build.properties
-	/[Ll]ibrary/**
+	/[Ll]ibrary/**.bin
