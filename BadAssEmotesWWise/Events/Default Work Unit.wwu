@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" PersistMode="Standalone">
 			<ChildrenList>
@@ -3288,6 +3288,76 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Popular Vibe" ID="{8AECC005-7C99-43E9-87DC-BB17381B9D4F}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Bird" ID="{A1B2B4C6-27F5-4FD9-AA3A-0C2C7CC8FD91}">
+							<ChildrenList>
+								<Action Name="" ID="{4CB256FA-A55D-48E0-ADEE-80C9B99B7672}" ShortID="765611970">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bird" ID="{98A1B692-85C1-491F-A282-1309DFFEEAB6}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Im_a_Mystery" ID="{B647E47A-4C57-4344-9876-79CFE6AB611E}">
+							<ChildrenList>
+								<Action Name="" ID="{8F1E9BEB-FB97-40B7-AA92-2A91EA584B90}" ShortID="715207717">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Im a Mystery" ID="{04460F6A-C791-4A71-90F2-1D36B97EBAD1}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Popular_Vibe" ID="{0A299D86-CF27-4A6E-AF4D-5C3BA4B18DBD}">
+							<ChildrenList>
+								<Action Name="" ID="{A9CDB720-C2DB-4B01-B963-13C073104C88}" ShortID="1011956782">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Popular Vibe" ID="{8AECC005-7C99-43E9-87DC-BB17381B9D4F}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Real_Slim_Shady" ID="{51029096-C6DC-45AA-A2E5-F0E42DF48766}">
+							<ChildrenList>
+								<Action Name="" ID="{AA962FE3-54CA-40CB-9B44-333B6E97F892}" ShortID="1053823997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Real Slim Shady" ID="{432C26FC-6657-4FD6-A7DA-4DBF87759778}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Steady" ID="{E097719F-25A0-4FA7-90E2-FF114EED1905}">
+							<ChildrenList>
+								<Action Name="" ID="{B6B61328-B3BB-4A31-BF6E-97D66C4BC7CA}" ShortID="644816390">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Steady" ID="{043522AB-3BA6-446F-925D-934293755C31}" WorkUnitID="{9B321245-0BF9-46A5-918A-D5EF7119566B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

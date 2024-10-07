@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="BadAssEmotes" Platform="Windows" BasePlatform="Windows">
-	<Plugins>
-		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
-		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
-		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain"/>
-		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
-		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
-	</Plugins>
+<PluginInfo Platform="Windows" BasePlatform="Windows">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Parametric EQ" LibId="6881283" Type="Effect" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
+		<PluginLib LibName="Wwise Meter" LibId="8454147" Type="Effect" DLL="AkSoundEngineDLL" StaticLib="AkMeterFX"/>
+		<PluginLib LibName="Wwise Gain" LibId="9109507" Type="Effect" DLL="AkGain" StaticLib="AkGainFX"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{07379183-A5DB-065A-0AE3-52005D671329}</FileHash>
 </PluginInfo>

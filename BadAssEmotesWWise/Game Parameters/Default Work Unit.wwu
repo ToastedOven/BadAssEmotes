@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}" SchemaVersion="119">
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{14353A76-A0CA-4C28-931E-3E6ABB515D35}" PersistMode="Standalone">
 			<ChildrenList>
@@ -21,7 +21,9 @@
 				</GameParameter>
 				<GameParameter Name="People_In_Range" ID="{F4378C12-6FF0-45A1-8C3F-681CA4DB491D}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="InitialValue" Type="Real64" Value="50.01"/>
+						<Property Name="Max" Type="Real64" Value="50.01"/>
+						<Property Name="Min" Type="Real64" Value="50"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="75"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="75"/>

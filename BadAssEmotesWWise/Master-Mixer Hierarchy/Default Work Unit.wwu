@@ -1,66 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}" SchemaVersion="119">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{371D5960-75C4-4527-BE76-D4BD4BA58CE7}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{AF13A4D6-448E-4CBC-B340-92D1974DAA2D}" WorkUnitID="{CADC543D-77B4-4477-9FB6-B170CE56A96E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Band1" ID="{B6F5D83F-DEF3-458D-B1C8-ECF8A7BD49CC}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<ObjectRef Name="Band1_EQ" ID="{17DD7110-113C-412F-9830-1D4E83E5AB1B}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="Band1" ID="{CFDF0A4C-9704-4DB5-8328-1E48343DDFAD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
-									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{33D54E97-0FF7-4EAB-82C9-E76737484C1A}" ShortID="1005645137">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Band1_EQ" ID="{17DD7110-113C-412F-9830-1D4E83E5AB1B}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F770304A-6C2B-4FBA-8EB0-B6B94AEC16E5}" ShortID="363649061">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Band1" ID="{CFDF0A4C-9704-4DB5-8328-1E48343DDFAD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{866BCC72-5FE4-4227-B62D-14595E255AEA}" ShortID="723775870">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="Band2" ID="{C7C92A3F-B759-4BCE-B428-0571EF10A289}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<ObjectRef Name="Band2_EQ" ID="{02FDA77F-D23B-474E-8A2D-C9FDC5606281}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="Band2" ID="{38729D85-7B37-4307-B5E4-E64B7CDB93B7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
-									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{61BDA857-8425-4AB1-8689-329BAF9F2B9B}" ShortID="304505955">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Band2_EQ" ID="{02FDA77F-D23B-474E-8A2D-C9FDC5606281}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{7EE56999-D469-4F1B-8329-E247C12A5EA8}" ShortID="355196605">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Band2" ID="{38729D85-7B37-4307-B5E4-E64B7CDB93B7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{76FD78A0-50D2-4447-A2DD-86E931DB05D9}" ShortID="235003930">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="Band4" ID="{18576AF4-17F8-47B4-B6AF-09C02CDB0077}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<ObjectRef Name="Band4_EQ" ID="{F1B6CF80-FA21-4081-B65C-A9FBA5A2B8AD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="Band4" ID="{BB5AA84E-9A9A-4B45-856B-374BA6AC71E7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
-									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{C5362760-6A30-41C8-90F8-8570172B7C1D}" ShortID="488096050">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Band4_EQ" ID="{F1B6CF80-FA21-4081-B65C-A9FBA5A2B8AD}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4E43E600-0648-4D14-9B9F-AFA41C3B0439}" ShortID="133361020">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Band4" ID="{BB5AA84E-9A9A-4B45-856B-374BA6AC71E7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{60FC92E2-469C-4274-ADA8-0DF7AB9FF05B}" ShortID="657324448">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="Band3" ID="{C53CA7CE-7DDE-4534-A0BD-2D895EDD953E}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<ObjectRef Name="Band3_EQ" ID="{13330379-BBC7-4DD6-8055-27DC84235209}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-									<ObjectRef Name="Band3" ID="{8248E9C0-33E9-443F-9724-EAC45DA389A7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
-									<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
-								</Reference>
-							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A79DD3DD-73C2-4805-AD01-CAB15C2D9D96}" ShortID="786097784">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Band3_EQ" ID="{13330379-BBC7-4DD6-8055-27DC84235209}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{97324BF7-689A-4888-8D9F-90987EDD2E52}" ShortID="206888562">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Band3" ID="{8248E9C0-33E9-443F-9724-EAC45DA389A7}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F3C13AF4-5246-4E04-BC23-4772E9B53D13}" ShortID="233570718">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" WorkUnitID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</AuxBus>
 					</ChildrenList>
 				</Bus>

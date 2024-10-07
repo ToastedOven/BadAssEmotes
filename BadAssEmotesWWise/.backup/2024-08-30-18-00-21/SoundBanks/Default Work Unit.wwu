@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D2C6920-8B38-403F-B6F5-B8A78DB14FD0}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4D2C6920-8B38-403F-B6F5-B8A78DB14FD0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="BadAssEmotes" ID="{E6EB98EF-4CD5-4AC4-832C-2EC2D13AEA4D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="New Emotes 1" ID="{AF60466E-0391-461D-9C09-4EDD562B5165}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Emotes" ID="{434FA4B2-1170-4D6D-8BD1-E5635D536660}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="New Emotes 2" ID="{E953A0F0-B46A-4EE0-B370-7B26205305C1}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Badassemotes2" ID="{388630CA-4485-4968-B780-B0D147E8C87A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="New Emotes 4" ID="{A85259CB-8925-40CE-AE5F-9412943F082F}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="New Emotes 3" ID="{DC5D8A24-FACF-445C-B3E6-6E4313ED3EE2}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="BadAssEmotes3" ID="{5B3009DB-8DB9-48AA-97F9-AD27EBB35D38}">
+					<ObjectInclusionList>
+						<ObjectRef Name="New Emotes 6" ID="{E8D88277-8652-4D33-BD4D-5922CAD76D35}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="New Emotes 5" ID="{06E9EC98-1A51-4DE9-B41E-01FD8B918239}" WorkUnitID="{188F01F9-FB6F-4BEF-B195-6A63BC6F35C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

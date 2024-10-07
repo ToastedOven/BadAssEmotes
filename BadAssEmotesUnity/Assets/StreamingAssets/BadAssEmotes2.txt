@@ -1,0 +1,106 @@
+Event	ID	Name			Wwise Object Path	Notes
+	11295061	Play_Rollie			\Default Work Unit\New Emotes 4\Play_Rollie	
+	121327151	Stop_MakeItRain			\Default Work Unit\New Emotes 3\Stop_MakeItRain	
+	189478106	Play_Markiplier			\Default Work Unit\New Emotes 4\Play_Markiplier	
+	317599862	Play_GGGG			\Default Work Unit\New Emotes 4\Play_GGGG	
+	649188789	Play_Shufflin			\Default Work Unit\New Emotes 4\Play_Shufflin	
+	667519210	Stop_Security			\Default Work Unit\New Emotes 4\Stop_Security	
+	843855677	Stop_Griddy			\Default Work Unit\New Emotes 4\Stop_Griddy	
+	985708647	Stop_Haruhi			\Default Work Unit\New Emotes 4\Haruhi Random\Stop_Haruhi	
+	998475790	Stop_UGotThat			\Default Work Unit\New Emotes 3\Stop_UGotThat	
+	999297848	Play_Security			\Default Work Unit\New Emotes 4\Play_Security	
+	1077492228	Stop_Roflcopter			\Default Work Unit\New Emotes 4\Stop_Roflcopter	
+	1092110415	Stop_SuperIdol			\Default Work Unit\New Emotes 3\Stop_SuperIdol	
+	1103419728	Play_Wess			\Default Work Unit\New Emotes 4\Play_Wess	
+	1165102373	Play_Cirno			\Default Work Unit\New Emotes 4\Play_Cirno	
+	1170496508	Play_BimBamBom			\Default Work Unit\New Emotes 4\Play_BimBamBom	
+	1223968216	Play_DesertRivers			\Default Work Unit\New Emotes 3\Play_DesertRivers	
+	1238668148	Play_Float			\Default Work Unit\New Emotes 4\Play_Float	
+	1299922347	Stop_Rollie			\Default Work Unit\New Emotes 4\Stop_Rollie	
+	1431426452	Stop_Markiplier			\Default Work Unit\New Emotes 4\Stop_Markiplier	
+	1465420875	Stop_DevilSpawn			\Default Work Unit\New Emotes 4\Stop_DevilSpawn	
+	1516543637	Play_DevilSpawn			\Default Work Unit\New Emotes 4\Play_DevilSpawn	
+	1662486726	Play_Distraction			\Default Work Unit\New Emotes 4\Play_Distraction	
+	1856692800	Stop_Penguin			\Default Work Unit\New Emotes 3\Stop_Penguin	
+	1902034464	Stop_Tidy			\Default Work Unit\New Emotes 4\Stop_Tidy	
+	1990096184	Play_UGotThat			\Default Work Unit\New Emotes 3\Play_UGotThat	
+	2040263805	Play_Haruhi			\Default Work Unit\New Emotes 4\Haruhi Random\Play_Haruhi	
+	2060029608	Stop_GalaxyObservatory			\Default Work Unit\New Emotes 4\Galaxy random\Stop_GalaxyObservatory	
+	2137145078	Stop_INEEDAMEDICBAG			\Default Work Unit\New Emotes 4\Stop_INEEDAMEDICBAG	
+	2245847230	Stop_DesertRivers			\Default Work Unit\New Emotes 3\Stop_DesertRivers	
+	2262770719	Play_DuckThisOne			\Default Work Unit\New Emotes 4\Play_DuckThisOne	
+	2351685532	Stop_Stuck			\Default Work Unit\New Emotes 4\Stop_Stuck	
+	2365789735	Play_HaruhiYoung			\Default Work Unit\New Emotes 4\Haruhi Random\Play_HaruhiYoung	
+	2379800534	Play_Stuck			\Default Work Unit\New Emotes 4\Play_Stuck	
+	2555336501	Play_Smoke			\Default Work Unit\New Emotes 4\Play_Smoke	
+	2632024304	Play_Thriller			\Default Work Unit\New Emotes 4\Play_Thriller	
+	2996548575	Stop_Savage			\Default Work Unit\New Emotes 4\Stop_Savage	
+	3042671289	Play_DuckThisOneIdle			\Default Work Unit\New Emotes 4\Play_DuckThisOneIdle	
+	3204776075	Stop_Shufflin			\Default Work Unit\New Emotes 4\Stop_Shufflin	
+	3254245653	Stop_DuckThisOne			\Default Work Unit\New Emotes 4\Stop_DuckThisOne	
+	3295767853	Play_Savage			\Default Work Unit\New Emotes 4\Play_Savage	
+	3357261423	Stop_Cirno			\Default Work Unit\New Emotes 4\Stop_Cirno	
+	3366263883	Stop_Smoke			\Default Work Unit\New Emotes 4\Stop_Smoke	
+	3402708688	Play_INEEDAMEDICBAG			\Default Work Unit\New Emotes 4\Play_INEEDAMEDICBAG	
+	3410615347	Stop_Toosie			\Default Work Unit\New Emotes 4\Stop_Toosie	
+	3508253378	Play_Tidy			\Default Work Unit\New Emotes 4\Play_Tidy	
+	3510186762	Play_Penguin			\Default Work Unit\New Emotes 3\Play_Penguin	
+	3512574604	Stop_Distraction			\Default Work Unit\New Emotes 4\Stop_Distraction	
+	3515373101	Play_MakeItRain			\Default Work Unit\New Emotes 3\Play_MakeItRain	
+	3526158434	Stop_Wess			\Default Work Unit\New Emotes 4\Stop_Wess	
+	3572213222	Stop_Float			\Default Work Unit\New Emotes 4\Stop_Float	
+	3592718810	Play_HondaStep			\Default Work Unit\New Emotes 3\Play_HondaStep	
+	3631817056	Stop_HondaStep			\Default Work Unit\New Emotes 3\Stop_HondaStep	
+	3879740296	Play_GalaxyObservatory2			\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory2	
+	3879740297	Play_GalaxyObservatory3			\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory3	
+	3879740299	Play_GalaxyObservatory1			\Default Work Unit\New Emotes 4\Galaxy random\Play_GalaxyObservatory1	
+	3915133054	Stop_Thriller			\Default Work Unit\New Emotes 4\Stop_Thriller	
+	4027241097	Play_SuperIdol			\Default Work Unit\New Emotes 3\Play_SuperIdol	
+	4034196201	Play_Toosie			\Default Work Unit\New Emotes 4\Play_Toosie	
+	4058026774	Play_Roflcopter			\Default Work Unit\New Emotes 4\Play_Roflcopter	
+	4136180716	Stop_GGGG			\Default Work Unit\New Emotes 4\Stop_GGGG	
+	4181209287	Play_Griddy			\Default Work Unit\New Emotes 4\Play_Griddy	
+	4192083750	Stop_BimBamBom			\Default Work Unit\New Emotes 4\Stop_BimBamBom	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
+	517048260	People_In_Range			\Default Work Unit\People_In_Range	
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	914143	Markiplier	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Markiplier_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Markiplier		2856281
+	31254085	Smoke	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Smoke_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Smoke		2142433
+	85655457	HaruhiYoung	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\HaruhiYoung_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Haruhi\HaruhiYoung		1231332
+	117172224	Stuck	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Stuck_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Stuck		437658
+	124391147	MakeItRainIntro	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MakeItRainIntro_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\MakeItRain\MakeItRainIntro		21484
+	262777534	DuckThisOneIdle	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DuckThisOneIdle_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Duckthisoneidle\DuckThisOneIdle		1807674
+	334163883	Toosie	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Toosie_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Toosie		655646
+	360974261	UGotThat	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\UGotThat_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\UGotThat		1708719
+	383052001	Penguin	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Penguin_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\Penguin		1431331
+	405165257	Distraction	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Distraction_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Distraction		285162
+	413690763	INEEDAMEDICBAG1	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\INEEDAMEDICBAG1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\INEEDAMEDICBAG\INEEDAMEDICBAG1		50611
+	439063458	Float	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Float_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Float		289467
+	443650272	Tidy	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Tidy_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Tidy		194063
+	444764063	SuperIdol	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SuperIdol_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\SuperIdol		241855
+	459878853	DesertRivers	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DesertRivers_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\DesertRivers		4718235
+	498190223	GalaxyObservatory3	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GalaxyObservatory3_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\GalaxyObservatory\GalaxyObservatory3		1611839
+	498390598	Roflcopter	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Roflcopter_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Roflcopter		369959
+	545466271	DevilSpawn	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DevilSpawn_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\DevilSpawn		4352743
+	566389662	Savage	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Savage_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Savage		216326
+	619455322	Security	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Security_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Security		4146425
+	682079538	MakeItRainLoop	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MakeItRainLoop_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\MakeItRain\MakeItRainLoop		2806792
+	724245301	Thriller	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Thriller_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Thriller		5676746
+	724601687	GalaxyObservatory1	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GalaxyObservatory1_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\GalaxyObservatory\GalaxyObservatory1		1505927
+	744639287	Cirno	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Cirno_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Cirno		2935394
+	754907085	BimBamBom	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\BimBamBom_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\BimBamBom		394565
+	762792574	HondaStep	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\HondaStep_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 3\HondaStep		2564732
+	805891037	GGGG	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GGGG_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\GGGG		4473827
+	806606659	DuckThisOne	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\DuckThisOne_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Duckthisoneidle\DuckThisOne		57859
+	810774165	Shufflin	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Shufflin_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Shufflin		675257
+	820220678	INEEDAMEDICBAG2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\INEEDAMEDICBAG2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\INEEDAMEDICBAG\INEEDAMEDICBAG2		56254
+	859999181	Wess	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Wess_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Wess		478677
+	910953562	GalaxyObservatory2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\GalaxyObservatory2_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\GalaxyObservatory\GalaxyObservatory2		1643592
+	915476243	Rollie	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Rollie_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Rollie		248392
+	1007511386	Haruhi	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Haruhi_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Haruhi\Haruhi		1205714
+	1060483798	Griddy	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Griddy_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New emotes 4\Griddy		447243
+

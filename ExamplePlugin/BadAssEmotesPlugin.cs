@@ -40,7 +40,7 @@ namespace ExamplePlugin
         internal static LivingParticleArrayController LPAC;
         public static BadAssEmotesPlugin instance;
         static List<string> HatKidDances = new List<string>();
-        public static PluginInfo PInfo { get; private set; }
+        public static BepInEx.PluginInfo PInfo { get; private set; }
 
         internal static void TestFunction(BoneMapper mapper)
         {
@@ -279,6 +279,12 @@ namespace ExamplePlugin
             AddAnimation("VirtualInsanity", "VirtualInsanity", false, true, false);
 
 
+            //Update 9
+            AddAnimation("Im a Mystery", "Im_a_Mystery", "Im a Mystery Loop", true, true);
+            AddAnimation("Real Slim Shady", "Real_Slim_Shady", "Real Slim Shady Loop", true, true);
+            AddAnimation("Bird", "Bird", true, true, true);
+            AddAnimation("Popular Vibe", "Popular_Vibe", true, true, true);
+            AddAnimation("Steady", "Steady", true, true, true);
 
 
 
@@ -826,6 +832,15 @@ namespace ExamplePlugin
                     //press.transform.localPosition += new Vector3(0, .5f, 0);
                     NetworkServer.Spawn(press);
                 }
+            }
+            if (newAnimation == "Im a Mystery")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/Im a Mystery.prefab")));
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
             }
             //if (newAnimation == "Sad")
             //{

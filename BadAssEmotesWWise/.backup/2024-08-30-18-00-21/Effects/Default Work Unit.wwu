@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{0265A493-CF72-4ADA-A1DA-0D4B85B189D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="yes" ID="{23D85639-3858-4FB0-A67E-E65D28982D00}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="WindowSize" Type="int32" Value="1536"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="yesses" ID="{BA97005E-CCE6-4A74-946A-AB4D76E6317E}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Band1" ID="{CFDF0A4C-9704-4DB5-8328-1E48343DDFAD}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Band1" ID="{693E75EE-F9D4-4470-8628-5362D8B1EA4F}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Band1_EQ" ID="{17DD7110-113C-412F-9830-1D4E83E5AB1B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand2" Type="int32" Value="5"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="232"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="232"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="261"/>
+						<Property Name="GainBand2" Type="Real32" Value="-24"/>
+						<Property Name="GainBand3" Type="Real32" Value="-24"/>
+						<Property Name="OutputLevel" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="9.4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Banded" ID="{979F29A0-D164-4C92-A5EC-37D37DF26CB1}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="-96.3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Band2" ID="{38729D85-7B37-4307-B5E4-E64B7CDB93B7}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Band4" ID="{17A4EF2A-C500-4F35-AA32-D6B04602E373}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Band2_EQ" ID="{02FDA77F-D23B-474E-8A2D-C9FDC5606281}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="476"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="2077"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="3081"/>
+						<Property Name="GainBand1" Type="Real32" Value="-24"/>
+						<Property Name="GainBand3" Type="Real32" Value="-24"/>
+						<Property Name="OutputLevel" Type="Real32" Value="1.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="2.1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Band3" ID="{8248E9C0-33E9-443F-9724-EAC45DA389A7}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Band3" ID="{9C988E7B-73A9-47EE-8F96-364C2DC38DA9}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Band3_EQ" ID="{13330379-BBC7-4DD6-8055-27DC84235209}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="3081"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6096"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="9110"/>
+						<Property Name="GainBand1" Type="Real32" Value="-24"/>
+						<Property Name="GainBand3" Type="Real32" Value="-24"/>
+						<Property Name="OutputLevel" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Band4_EQ" ID="{F1B6CF80-FA21-4081-B65C-A9FBA5A2B8AD}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="3"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="20"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="20"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="12105"/>
+						<Property Name="GainBand1" Type="Real32" Value="-24"/>
+						<Property Name="GainBand2" Type="Real32" Value="-24"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OutputLevel" Type="Real32" Value="14"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Band4" ID="{BB5AA84E-9A9A-4B45-856B-374BA6AC71E7}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Band4" ID="{17A4EF2A-C500-4F35-AA32-D6B04602E373}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -44,7 +44,7 @@ namespace TC.Internal {
 //			Instance.ComputeShader = Resources.Load("Compute/MassParticle") as ComputeShader;
 //#endif
 //#if UNITY_STANDALONE
-			Instance.ComputeShader = Assets.Load<ComputeShader>("Assets/test/tc/Resources/Compute/MassParticle.compute");
+			Instance.ComputeShader = ExamplePlugin.Assets.Load<ComputeShader>("Assets/test/tc/Resources/Compute/MassParticle.compute");
 //#endif
 
 			if (Instance.ComputeShader == null)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}" SchemaVersion="119">
 	<Conversions>
 		<WorkUnit Name="Default Work Unit" ID="{63E05E91-88E9-43D0-9DA8-A80698F0FD43}" PersistMode="Standalone">
 			<ChildrenList>
@@ -33,7 +33,7 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{C1AC1260-2890-43ED-9FC1-A6A9FA57BC4E}" PluginName="Opus" CompanyID="0" PluginID="19">
+							<ConversionPlugin Name="" ID="{C1AC1260-2890-43ED-9FC1-A6A9FA57BC4E}" PluginName="WEM Opus" CompanyID="0" PluginID="20">
 								<PropertyList>
 									<Property Name="Quality" Type="int32" Value="100"/>
 								</PropertyList>

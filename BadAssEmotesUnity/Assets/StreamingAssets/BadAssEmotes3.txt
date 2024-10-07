@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	744559796	Play_MyWorld			\Default Work Unit\New Emotes 5\Play_MyWorld	
+	820375322	Stop_ifu			\Default Work Unit\New Emotes 5\Ifu\Stop_ifu	
+	1007305616	Stop_SingleFurry			\Default Work Unit\New Emotes 5\Stop_SingleFurry	
+	1252670438	Play_Summertime			\Default Work Unit\New Emotes 5\Play_Summertime	
+	1445193325	Play_ifucover			\Default Work Unit\New Emotes 5\Ifu\Play_ifucover	
+	1881092702	Play_SingleFurry			\Default Work Unit\New Emotes 5\Play_SingleFurry	
+	2133520559	Play_PeaceAndTranquility			\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility	
+	2249795290	Stop_MyWorld			\Default Work Unit\New Emotes 5\Stop_MyWorld	
+	2314948190	Stop_KillMeBaby			\Default Work Unit\New Emotes 5\Stop_KillMeBaby	
+	2476995674	Play_MikuJug			\Default Work Unit\New Emotes 5\Chug\Play_MikuJug	
+	2499063995	Stop_VSWORLD			\Default Work Unit\New Emotes 5\Stop_VSWORLD	
+	2608483140	Play_ifu			\Default Work Unit\New Emotes 5\Ifu\Play_ifu	
+	2742710221	Stop_Dougie			\Default Work Unit\New Emotes 5\Stop_Dougie	
+	2965936580	Play_Chugatone			\Default Work Unit\New Emotes 5\Chug\Play_Chugatone	
+	3104542863	Play_ChugJug			\Default Work Unit\New Emotes 5\Chug\Play_ChugJug	
+	3114478207	Play_Dougie			\Default Work Unit\New Emotes 5\Play_Dougie	
+	3172316917	Play_VSWORLD			\Default Work Unit\New Emotes 5\Play_VSWORLD	
+	3280836561	Stop_ChugJug			\Default Work Unit\New Emotes 5\Chug\Stop_ChugJug	
+	3396460556	Play_KillMeBaby			\Default Work Unit\New Emotes 5\Play_KillMeBaby	
+	3512614687	Play_MetalJug			\Default Work Unit\New Emotes 5\Chug\Play_MetalJug	
+	3741709616	Play_PeaceAndTranquilitySlow			\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquilitySlow	
+	3751338831	Play_PeaceAndTranquility2			\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility2	
+	3770559380	Stop_Summertime			\Default Work Unit\New Emotes 5\Stop_Summertime	
+	3860486633	Stop_PeaceAndTranquility			\Default Work Unit\New Emotes 5\peace\Stop_PeaceAndTranquility	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
+	517048260	People_In_Range			\Default Work Unit\People_In_Range	
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	64649456	SingleFurry	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\SingleFurry_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SingleFurry		3625663
+	114258280	MetalJug	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MetalJug_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MetalJug		3422663
+	216601581	PeaceAndTranquilitySlow	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PeaceAndTranquilitySlow_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquilitySlow		4123555
+	303607888	ifucover	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ifucover_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifudoodu\ifucover		3898023
+	387027888	MikuJug	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MikuJug_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MikuJug		2793503
+	433095661	Dougie	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Dougie_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Dougie		203378
+	459553268	Summertime	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Summertime_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Summertime		2220006
+	630543393	MyWorld	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\MyWorld_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\MyWorld		375566
+	721850728	Chugatone	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Chugatone_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\Chugatone		2148938
+	753326694	ChugJug	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\ChugJug_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\ChugJug		2763012
+	782902476	KillMeBaby	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\KillMeBaby_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\KillMeBaby		1506621
+	799130385	Ifu	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\Ifu2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifudoodu\Ifu		2873114
+	970082705	PeaceAndTranquility	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PeaceAndTranquility_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility		3559647
+	1041115636	PeaceAndTranquility2	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\PeaceAndTranquility2_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility2		3818830
+	1048028950	VSWORLD	C:\Users\Lucas\Documents\WwiseProjects\BadAssEmotes\.cache\Windows\SFX\Emotes\VSWORLD_6AF693E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\VSWORLD		981982
+

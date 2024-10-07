@@ -4,12 +4,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	744559796	Play_MyWorld			\Default Work Unit\New Emotes 5\Play_MyWorld	
 	820375322	Stop_ifu			\Default Work Unit\New Emotes 5\Ifu\Stop_ifu	
 	1007305616	Stop_SingleFurry			\Default Work Unit\New Emotes 5\Stop_SingleFurry	
+	1030587862	Stop_Popular_Vibe			\Default Work Unit\New Emotes 6\Stop_Popular_Vibe	
 	1119078372	Stop_hydraulicpressing			\Default Work Unit\New Emotes 5\Stop_hydraulicpressing	
 	1242278832	Play_VirtualInsanity			\Default Work Unit\New Emotes 5\Play_VirtualInsanity	
 	1252670438	Play_Summertime			\Default Work Unit\New Emotes 5\Play_Summertime	
 	1335971350	Play_Im_a_Mystery			\Default Work Unit\New Emotes 6\Play_Im_a_Mystery	
 	1375768516	Play_hydraulicpressingnoexplosion			\Default Work Unit\New Emotes 5\Play_hydraulicpressingnoexplosion	
 	1445193325	Play_ifucover			\Default Work Unit\New Emotes 5\Ifu\Play_ifucover	
+	1525225266	Stop_Steady			\Default Work Unit\New Emotes 6\Stop_Steady	
 	1664926657	Play_Terrestrial			\Default Work Unit\New Emotes 5\Play_Terrestrial	
 	1844467875	Play_Bird			\Default Work Unit\New Emotes 6\Play_Bird	
 	1881092702	Play_SingleFurry			\Default Work Unit\New Emotes 5\Play_SingleFurry	
@@ -20,6 +22,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2356540261	Play_CaliforniaGirls			\Default Work Unit\New Emotes 5\Play_CaliforniaGirls	
 	2476995674	Play_MikuJug			\Default Work Unit\New Emotes 5\Chug\Play_MikuJug	
 	2499063995	Stop_VSWORLD			\Default Work Unit\New Emotes 5\Stop_VSWORLD	
+	2513375508	Stop_Im_a_Mystery			\Default Work Unit\New Emotes 6\Stop_Im_a_Mystery	
 	2608483140	Play_ifu			\Default Work Unit\New Emotes 5\Ifu\Play_ifu	
 	2742710221	Stop_Dougie			\Default Work Unit\New Emotes 5\Stop_Dougie	
 	2965936580	Play_Chugatone			\Default Work Unit\New Emotes 5\Chug\Play_Chugatone	
@@ -33,11 +36,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3341762240	Play_Steady			\Default Work Unit\New Emotes 6\Play_Steady	
 	3396460556	Play_KillMeBaby			\Default Work Unit\New Emotes 5\Play_KillMeBaby	
 	3512614687	Play_MetalJug			\Default Work Unit\New Emotes 5\Chug\Play_MetalJug	
+	3663687073	Stop_Bird			\Default Work Unit\New Emotes 6\Stop_Bird	
 	3741709616	Play_PeaceAndTranquilitySlow			\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquilitySlow	
 	3751338831	Play_PeaceAndTranquility2			\Default Work Unit\New Emotes 5\peace\Play_PeaceAndTranquility2	
 	3770559380	Stop_Summertime			\Default Work Unit\New Emotes 5\Stop_Summertime	
 	3846466482	Play_HydraulicSong			\Default Work Unit\New Emotes 5\Play_HydraulicSong	
 	3860486633	Stop_PeaceAndTranquility			\Default Work Unit\New Emotes 5\peace\Stop_PeaceAndTranquility	
+	4014726466	Stop_Real_Slim_Shady			\Default Work Unit\New Emotes 6\Stop_Real_Slim_Shady	
 	4110287622	Play_hydraulicpressing			\Default Work Unit\New Emotes 5\Play_hydraulicpressing	
 	4160875116	Play_Real_Slim_Shady			\Default Work Unit\New Emotes 6\Play_Real_Slim_Shady	
 	4224196750	Stop_SeeTinh			\Default Work Unit\New Emotes 5\Stop_SeeTinh	
@@ -53,34 +58,34 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	23154445	Terrestrial Start	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Terrestrial Start_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Terrestrial\Terrestrial Start		35077
-	64649456	SingleFurry	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SingleFurry_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SingleFurry		4674587
-	114258280	MetalJug	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MetalJug_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MetalJug		4108597
-	149396184	SeeTinh	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SeeTinh_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SeeTinh		803490
-	216601581	PeaceAndTranquilitySlow	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquilitySlow_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquilitySlow		7720202
-	265936317	Popular Vibe	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Popular Vibe_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Popular Vibe		262438
-	303607888	ifucover	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ifucover_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifu\ifucover		3519745
-	387027888	MikuJug	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MikuJug_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MikuJug		3980128
-	409339749	hydraulicpressingnoexplosion	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\hydraulicpressingnoexplosion_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\hydraulicpressingnoexplosion		208377
-	433095661	Dougie	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Dougie_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Dougie		277459
-	459553268	Summertime	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Summertime_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Summertime		2830171
-	506515846	hydraulicpressing	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\hydraulicpressing_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\hydraulicpressing		336517
-	510371622	mystery-intro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Im a M;ystery\mystery-intro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Im a Mystery\mystery-intro		9649
-	536578825	slim-intro	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Real Slim Shady\slim-intro_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Real Slim Shady\slim-intro		10167
-	612782511	Bird	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\bird_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Bird		175641
-	630543393	MyWorld	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MyWorld_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\MyWorld		536223
-	640853846	VirtualInsanity	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\VirtualInsanity_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\VirtualInsanity		5096405
-	690817904	HydraulicSong	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\HydraulicSong_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\HydraulicSong		1348615
-	691584054	Terrestrial	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Terrestrial_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Terrestrial\Terrestrial		1002647
-	711822355	Steady	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Steady_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Steady		464803
-	721850728	Chugatone	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Chugatone_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\Chugatone		3350571
-	753326694	ChugJug	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ChugJug_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\ChugJug		3953377
-	782902476	KillMeBaby	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\KillMeBaby_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\KillMeBaby		1987527
-	799130385	ifu	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Ifu2_E686EB18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifu\ifu		3587801
-	970082705	PeaceAndTranquility	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquility_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility		5119790
-	977310683	CaliforniaGirls	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\CaliforniaGirls_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\CaliforniaGirls		5174748
-	994870554	slim-loop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Real Slim Shady\slim-loop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Real Slim Shady\slim-loop		242202
-	1030611823	mystery-loop	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Im a M;ystery\mystery-loop_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Im a Mystery\mystery-loop		742178
-	1041115636	PeaceAndTranquility2	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquility2_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility2		5304810
-	1048028950	VSWORLD	C:\Users\lucky\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\VSWORLD_2CC0AFE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\VSWORLD		1171752
+	23154445	Terrestrial Start	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Terrestrial Start_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Terrestrial\Terrestrial Start		35103
+	64649456	SingleFurry	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SingleFurry_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SingleFurry		4672537
+	114258280	MetalJug	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MetalJug_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MetalJug		4105347
+	149396184	SeeTinh	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\SeeTinh_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\SeeTinh		802098
+	216601581	PeaceAndTranquilitySlow	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquilitySlow_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquilitySlow		7695384
+	265936317	Popular Vibe	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Popular Vibe_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Popular Vibe		262130
+	303607888	ifucover	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ifucover_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifu\ifucover		3517237
+	387027888	MikuJug	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MikuJug_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\MikuJug		3961737
+	409339749	hydraulicpressingnoexplosion	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\hydraulicpressingnoexplosion_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\hydraulicpressingnoexplosion		207943
+	433095661	Dougie	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Dougie_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Dougie		277729
+	459553268	Summertime	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Summertime_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Summertime		2824422
+	506515846	hydraulicpressing	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\hydraulicpressing_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\hydraulicpressing		335994
+	510371622	mystery-intro	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Im a M;ystery\mystery-intro_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Im a Mystery\mystery-intro		9566
+	536578825	slim-intro	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Real Slim Shady\slim-intro_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Real Slim Shady\slim-intro		10095
+	612782511	Bird	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\bird_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Bird		175639
+	630543393	MyWorld	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\MyWorld_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\MyWorld		533870
+	640853846	VirtualInsanity	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\VirtualInsanity_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\VirtualInsanity		5091829
+	690817904	HydraulicSong	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\HydraulicSong_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\HydraulicSong		1347110
+	691584054	Terrestrial	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Terrestrial_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Terrestrial\Terrestrial		1001712
+	711822355	Steady	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Steady_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Steady		464592
+	721850728	Chugatone	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Chugatone_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\Chugatone		3334411
+	753326694	ChugJug	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\ChugJug_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Chugjugged\ChugJug		3950676
+	782902476	KillMeBaby	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\KillMeBaby_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\KillMeBaby		1986802
+	799130385	ifu	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Ifu2_8D2F2FE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Ifu\ifu		3554482
+	970082705	PeaceAndTranquility	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquility_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility		5096926
+	977310683	CaliforniaGirls	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\CaliforniaGirls_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\CaliforniaGirls		5176048
+	994870554	slim-loop	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Real Slim Shady\slim-loop_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Real Slim Shady\slim-loop		241998
+	1030611823	mystery-loop	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\Im a M;ystery\mystery-loop_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\new Emotes 6\Im a Mystery\mystery-loop		741707
+	1041115636	PeaceAndTranquility2	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\PeaceAndTranquility2_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\Peac e\PeaceAndTranquility2		5297018
+	1048028950	VSWORLD	C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\BadAssEmotesWWise\.cache\Windows\SFX\Emotes\VSWORLD_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Emotes\New Emotes 5\VSWORLD		1167440
 

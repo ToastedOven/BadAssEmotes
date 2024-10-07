@@ -102,6 +102,9 @@ ModelImporter:
   - first:
       74: 8612617642206311228
     second: Armature|Yaw
+  - first:
+      74: -623603649343465320
+    second: Scene
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -117,59 +120,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Armature|CSS' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'hand.002.L' has translation animation that
-      will be discarded.\n\t'hand.007.L' has translation animation that will be discarded.\n\t'hand.002.R'
-      has translation animation that will be discarded.\n\t'hand.007.R' has translation
-      animation that will be discarded.\n\t'pelvis' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\nClip 'Armature|Emote1'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'shoulder.L'
-      has translation animation that will be discarded.\n\t'hand.004.L' has translation
-      animation that will be discarded.\n\t'hand.007.L' has translation animation
-      that will be discarded.\n\t'shoulder.R' has translation animation that will
-      be discarded.\n\t'hand.004.R' has translation animation that will be discarded.\n\t'hand.007.R'
-      has translation animation that will be discarded.\n\nClip 'Armature|Enrage'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'stomach'
-      has translation animation that will be discarded.\n\nClip 'Armature|Idle' has
-      import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'pelvis' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|IdleIn' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|IdleToRest' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|Jump' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|Landing' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|RunB' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|RunF' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|RunL' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|RunR' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|Sprint' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'pelvis'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature|ThrowKnife4' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'shoulder.L'
-      has translation animation that will be discarded.\n\nClip 'Armature|ThrowPotionS'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'stomach'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
