@@ -20,7 +20,7 @@ namespace ExamplePlugin
             ModSettingsManager.SetModDescription("Don't ask me how I know");
             EnemyTauntOnDeathChance = BadAssEmotesPlugin.instance.Config.Bind<float>("Yes", "Enemies taunt on loss chance", 100, "Bottom Text");
             ModSettingsManager.AddOption(new SliderOption(EnemyTauntOnDeathChance));
-            EnemyEmotes = Config.Bind<string>("Yes",
+            EnemyEmotes = BadAssEmotesPlugin.instance.Config.Bind<string>("Yes",
                              "Enemy Emotes",
                              "Extraterrestial,Droop,SeeTinh,PopLock,DanceMoves,ImDiamond,Frolic,SwayLead,BestMates,Crackdown,Distraction,GangnamStyle,FlamencoIntro,Popular Vibe,VSWORLD,PPmusic,SquatKickIntro,Breakneck,Dougie,MyWorld,BimBamBom,GetDown,ArkDance,Macarena,ElectroSwing,Horny,Fresh,Goopie,TakeTheL,Infectious,Rollie,NeverGonna,CaliforniaGirls",
                              "Emotes that enemies play on players death");

@@ -92,7 +92,6 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /y &quot;C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\ExamplePlugin\bin\Debug\netstandard2.1\BadAssEmotes.dll&quot; &quot;C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Default\BepInEx\plugins\MetrosexualFruitcake-BadAssEmotes\BadAssEmotes.dll&quot;" />
     <Exec Command="copy /y &quot;C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\ExamplePlugin\bin\Debug\netstandard2.1\BadAssEmotes.dll&quot; &quot;C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Seekers of my ass\BepInEx\plugins\MetrosexualFruitcake-BadAssEmotes\BadAssEmotes.dll&quot;" />
   </Target>
 

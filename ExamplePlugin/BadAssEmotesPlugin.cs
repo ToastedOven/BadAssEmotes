@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.7.9";
+        public const string PluginVersion = "1.8.4";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -42,7 +42,7 @@ namespace ExamplePlugin
         static List<string> HatKidDances = new List<string>();
         int EmoteIndex;
         string[] EnemyEmotesArray;
-        public static PluginInfo PInfo { get; private set; }
+        public static BepInEx.PluginInfo PInfo { get; private set; }
 
         internal static void TestFunction(BoneMapper mapper)
         {
@@ -326,7 +326,7 @@ namespace ExamplePlugin
 
                                 EmoteIndex = Random.Range(0, EnemyEmotesArray.Length);
            
-                               CustomEmotesAPI.PlayAnimation(EnemyEmotesArray[EmoteIndex]);
+                               CustomEmotesAPI.PlayAnimation(EnemyEmotesArray[EmoteIndex], item);
                             }
                         }
                     }
