@@ -24,7 +24,7 @@ namespace ExamplePlugin
                              "Enemy Emotes",
                              "Extraterrestial,Droop,SeeTinh,PopLock,DanceMoves,ImDiamond,Frolic,SwayLead,BestMates,Crackdown,Distraction,GangnamStyle,FlamencoIntro,Popular Vibe,VSWORLD,PPmusic,SquatKickIntro,Breakneck,Dougie,MyWorld,BimBamBom,GetDown,ArkDance,Macarena,ElectroSwing,Horny,Fresh,Goopie,TakeTheL,Infectious,Rollie,NeverGonna,CaliforniaGirls",
                              "Emotes that enemies play on players death");
-
+            ModSettingsManager.AddOption(new StringInputFieldOption(EnemyEmotes));
         }
     }
 }
