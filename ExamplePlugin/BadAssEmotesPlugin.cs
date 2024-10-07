@@ -40,7 +40,10 @@ namespace ExamplePlugin
         internal static LivingParticleArrayController LPAC;
         public static BadAssEmotesPlugin instance;
         static List<string> HatKidDances = new List<string>();
+        int EmoteIndex;
+        string[] EnemyEmotesArray;
         public static PluginInfo PInfo { get; private set; }
+        
 
         internal static void TestFunction(BoneMapper mapper)
         {
@@ -314,7 +317,11 @@ namespace ExamplePlugin
                         {
                             if (item.mapperBody.GetComponent<TeamComponent>().teamIndex != TeamIndex.Player)
                             {
-                                CustomEmotesAPI.PlayAnimation("DanceMoves", item);
+                                EnemyEmotesArray = Settings.EnemyEmotes.Value.ToString().Split(',');
+
+                                EmoteIndex = Random.Range(0, EnemyEmotesArray.Length);
+           
+                               CustomEmotesAPI.PlayAnimation(EnemyEmotesArray[EmoteIndex]);
                             }
                         }
                     }
