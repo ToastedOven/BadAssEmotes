@@ -289,6 +289,42 @@ namespace ExamplePlugin
             AddAnimation("Steady", "Steady", true, true, true);
 
 
+            //update 10
+            AddAnimation("AirShredder", "AirShredder", true, true, true);
+            AddAnimation("ArmyBunny", "ArmyBunny", "ArmyBunnyLoop", true, true);
+            AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true);
+            AddAnimation("BoldStance", "BoldStance", true, true, true);
+            AddAnimation("Bombastic", "Bombastic", true, true, true);
+            AddAnimation("BounceWit'It", "BounceWit_It", "BounceWit'ItPoop", true, true);
+            AddAnimation("Boy'sALier", "Boy_sALier", true, true, true);
+            AddAnimation("Caffeinated", "Caffeinated", "CaffeinatedLoop", true, true);
+            AddAnimation("CelebrateMe", "CelebrateMe", true, true, true);
+            AddAnimation("CluckStrut", "CluckStrut", true, true, true);
+            AddAnimation("CongaFT", "CongaFT", true, true, true);
+            AddAnimation("Copines", "Copines", true, true, true);
+            AddAnimation("Cupid'sArrow", "Cupid_sArrow", "Cupid'sArrowLoop", true, true);
+            AddAnimation("FastFlex", "FastFlex", "FastFlexLoop", true, true);
+            AddAnimation("FeelTheFlow", "FeelTheFlow", true, true, true);
+            AddAnimation("GetGone", "GetGone", true, true, true);
+            AddAnimation("GetLoose", "GetLoose", true, true, true);
+            AddAnimation("Gloss", "Gloss", true, true, true);
+            AddAnimation("InHaMood", "InHaMood", "InHaMoodLoop", true, true);
+            AddAnimation("MakeSomeWaves", "MakeSomeWaves", true, true, true);
+            AddAnimation("NanaNana", "NanaNana", true, true, true);
+            AddAnimation("NightOut", "NightOut", true, true, true);
+            AddAnimation("PointAndStrut", "PointAndStrut", "PointAndStrutLoop", true, true);
+            AddAnimation("PrimoMoves", "PrimoMoves", true, true, true);
+            AddAnimation("RapMonster", "RapMonster", "RapMonsterLoop", true, true);
+            AddAnimation("RunItDown", "RunItDown", true, true, true);
+            AddAnimation("Rushin'Around", "Rushin_Around", true, true, true);
+            AddAnimation("ShowYa", "ShowYa", "ShowYaLoop", true, true);
+            AddAnimation("Ska-stra-terrestrial", "Ska_stra_terrestrial", true, true, true);
+            AddAnimation("SugarRush", "SugarRush", true, true, true);
+            AddAnimation("Switchstep", "Switchstep", true, true, true);
+            AddAnimation("YouShouldSeeMeInACrown", "YouShouldSeeMeInACrown", "YouShouldSeeMeInACrowLoop", true, true);
+            AddAnimation("Zany", "Zany", true, true, true);
+
+
 
             GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
             foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
