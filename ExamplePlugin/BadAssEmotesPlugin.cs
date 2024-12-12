@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.8.4";
+        public const string PluginVersion = "1.9.0";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
