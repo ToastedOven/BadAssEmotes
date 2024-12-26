@@ -289,8 +289,13 @@ namespace ExamplePlugin
             AddAnimation("Steady", "Steady", true, true, true);
 
 
+<<<<<<< Updated upstream
             //update 10
             AddAnimation("AirShredder", "AirShredder", true, true, true);
+=======
+            //Update 10
+            AddAnimation("AirShredder", "AirShredder", true, true, true); //NEEDS A REAL NAME
+>>>>>>> Stashed changes
             AddAnimation("ArmyBunny", "ArmyBunny", "ArmyBunnyLoop", true, true);
             AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true);
             AddAnimation("BoldStance", "BoldStance", true, true, true);
@@ -334,7 +339,10 @@ namespace ExamplePlugin
             AddAnimation("GoMufasa", "GoMufasa", true, true, true);
             AddAnimation("Snoop'sWalk", "Snoop_sWalk", "Snoop'sWalkLoop", true, true);
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
             GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
             foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
@@ -617,7 +625,11 @@ namespace ExamplePlugin
         int stand = -1;
         List<BoneMapper> punchingMappers = new List<BoneMapper>();
         int prop1 = -1;
+<<<<<<< Updated upstream
         int prop2 = -1
+=======
+        int prop2 = -1;
+>>>>>>> Stashed changes
         CameraTargetParams.CameraParamsOverrideHandle fovHandle;
         internal CharacterBody localBody = null;
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
@@ -750,7 +762,7 @@ namespace ExamplePlugin
                 mapper.SetAutoWalk(1, true);
                 mapper.ScaleProps();
             }
-            if (newAnimation == "BimBamBom")
+            if (newAnimation == "BimBamBom" || newAnimation == "BimBamBomTest")
             {
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/BimBamBom.prefab")));
@@ -770,9 +782,19 @@ namespace ExamplePlugin
             }
             if (newAnimation == "CheerUp")
             {
+<<<<<<< Updated upstream
                 var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
                 foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
                     componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+=======
+
+                var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
+                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                //var newPrefab = Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab");
+                //foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                //    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+>>>>>>> Stashed changes
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(newPrefab));
                 mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));

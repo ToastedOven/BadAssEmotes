@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1603733967
+CRC: 792489349
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e9d9a6a17634a502ef9ecc1896abf721
+    Hash: 7bd923bbfc51c2a409f0566865262da1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9f0dcb482713c47bff106bce4aea1a1d
+    Hash: d2d292a72701dab82229320dc3843376
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,9 +48,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 40c9a327a0b28244ea89603f7028a920, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: c4bf52dff9761aa4ba376ca5ee091407, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f847caa0bdea81b4aa75c794a8090874, type: 3}
 - Class: 114
@@ -82,12 +82,11 @@ Assets:
 - Assets/BadAssEmotes/DuckThisOneJoin.anim
 - Assets/Models/desker.prefab
 - Assets/Prefabs/Amogus.prefab
-- Assets/BadAssEmotes/ifu.anim
+- Assets/BadAssEmotes/ChugJug.anim
 - Assets/BadAssEmotes/Droop.anim
 - Assets/BadAssEmotes/ItsDynamite.anim
-- Assets/BadAssEmotes/ByTheFireLead.anim
-- Assets/BadAssEmotes/ifuright.anim
 - Assets/Prefabs/Money.prefab
+- Assets/BadAssEmotes/ByTheFireLead.anim
 - Assets/BadAssEmotes/UGotThat.anim
 - Assets/BadAssEmotes/BlindingLights.anim
 - Assets/BadAssEmotes/Spiderman.anim
@@ -108,6 +107,7 @@ Assets:
 - Assets/BadAssEmotes/DanceTherapyIntro.anim
 - Assets/BadAssEmotes/Crackdown.anim
 - Assets/BadAssEmotes/Floss.anim
+- Assets/Prefabs/CSSDesker.prefab
 - Assets/BadAssEmotes/FloorSamus.anim
 - Assets/BadAssEmotes/Crabby.anim
 - Assets/BadAssEmotes/Summertime.anim
@@ -121,6 +121,7 @@ Assets:
 - Assets/Prefabs/DesertLight.prefab
 - Assets/BadAssEmotes/DuckThisOne.anim
 - Assets/BadAssEmotes/SpringLoaded.anim
+- Assets/BadAssEmotes/DesertRivers.anim
 - Assets/BadAssEmotes/Breakin.anim
 - Assets/BadAssEmotes/GangTorture.anim
 - Assets/BadAssEmotes/DEDEDE.anim
@@ -129,20 +130,18 @@ Assets:
 - Assets/BadAssEmotes/Springy.anim
 - Assets/BadAssEmotes/PPmusicFollow.anim
 - Assets/BadAssEmotes/Yakuza.anim
-- Assets/BadAssEmotes/GGGG3.anim
 - Assets/BadAssEmotes/Bird.anim
 - Assets/BadAssEmotes/Popular Vibe.anim
+- Assets/BadAssEmotes/ifu.anim
 - Assets/BadAssEmotes/PhoneItIn.anim
 - Assets/BadAssEmotes/IntensityLoop.anim
 - Assets/BadAssEmotes/Float.anim
 - Assets/BadAssEmotes/SquatKickLoop.anim
 - Assets/BadAssEmotes/OrangeJustice.anim
-- Assets/BadAssEmotes/ifeleft.anim
 - Assets/BadAssEmotes/KillMeBaby.anim
 - Assets/BadAssEmotes/Crossbounce.anim
 - Assets/BadAssEmotes/AnkhaZone.anim
 - Assets/BadAssEmotes/Thriller.anim
-- Assets/BadAssEmotes/LetsDanceBoys.anim
 - Assets/BadAssEmotes/StarGet.anim
 - Assets/BadAssEmotes/Goopie.anim
 - Assets/BadAssEmotes/Renegade.anim
@@ -166,6 +165,7 @@ Assets:
 - Assets/BadAssEmotes/VSWORLDLEFT.anim
 - Assets/BadAssEmotes/Train.anim
 - Assets/BadAssEmotes/Breakneck.anim
+- Assets/BadAssEmotes/GGGG3.anim
 - Assets/Prefabs/FloatLight.prefab
 - Assets/BadAssEmotes/DeepDab.anim
 - Assets/BadAssEmotes/SingleFurry.anim
@@ -182,11 +182,9 @@ Assets:
 - Assets/BadAssEmotes/Roflcopter.anim
 - Assets/BadAssEmotes/PoseBurter.anim
 - Assets/BadAssEmotes/Horny.anim
-- Assets/BadAssEmotes/DesertRivers.anim
 - Assets/BadAssEmotes/Thanos.anim
 - Assets/BadAssEmotes/SquatKickIntro.anim
 - Assets/BadAssEmotes/Real Slim Shady.anim
-- Assets/BadAssEmotes/ChugJug.anim
 - Assets/BadAssEmotes/SwayPartner.anim
 - Assets/BadAssEmotes/Infectious.anim
 - Assets/BadAssEmotes/Real Slim Shady Loop.anim
@@ -204,6 +202,7 @@ Assets:
 - Assets/BadAssEmotes/Chika.anim
 - Assets/BadAssEmotes/TrainPassenger.anim
 - Assets/BadAssEmotes/StandingHere.anim
+- Assets/BadAssEmotes/ifeleft.anim
 - Assets/BadAssEmotes/Dabstand.anim
 - Assets/BadAssEmotes/DuckThisOneIdle.anim
 - Assets/Prefabs/Summermogus.prefab
@@ -218,6 +217,7 @@ Assets:
 - Assets/BadAssEmotes/GGGG.anim
 - Assets/BadAssEmotes/Extraterrestial.anim
 - Assets/BadAssEmotes/Dougie.anim
+- Assets/BadAssEmotes/LetsDanceBoys.anim
 - Assets/BadAssEmotes/ImDiamond.anim
 - Assets/BadAssEmotes/TheRobot.anim
 - Assets/BadAssEmotes/MyWorld.anim
@@ -233,9 +233,10 @@ Assets:
 - Assets/BadAssEmotes/DanceTherapyLoop.anim
 - Assets/Prefabs/ifustagebase.prefab
 - Assets/BadAssEmotes/Rollie.anim
+- Assets/BadAssEmotes/ifuright.anim
 - Assets/BadAssEmotes/INEEDAMEDICBAG.anim
 - Assets/BadAssEmotes/BunnyHop.anim
 - Assets/BadAssEmotes/Penguin.anim
 - Assets/BadAssEmotes/Distraction.anim
 Dependencies:
-- C:/Windows.old/Users/dwelx/Documents/GitHub/BadAssEmotes/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle
+- D:/Ror2Mods/BadAssEmotes/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle
