@@ -1,17 +1,17 @@
 ManifestFileVersion: 0
-CRC: 1010402814
+CRC: 756727746
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: ifubundle
+      Name: ds3
       Dependencies: {}
     Info_1:
       Name: badassemotes
       Dependencies:
         Dependency_0: ifubundle
     Info_2:
-      Name: ds3
+      Name: css
       Dependencies: {}
     Info_3:
-      Name: css
+      Name: ifubundle
       Dependencies: {}

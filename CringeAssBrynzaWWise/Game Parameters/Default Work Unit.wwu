@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6E488EC-B3A2-424A-9260-69BD74D3D47F}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D6E488EC-B3A2-424A-9260-69BD74D3D47F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Volume_Emotes" ID="{9842ED76-A004-4FCA-8794-1A5168A5D51E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

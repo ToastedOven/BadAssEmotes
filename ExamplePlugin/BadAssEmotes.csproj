@@ -31,17 +31,17 @@
 
   <ItemGroup>
     <Reference Include="CSS">
-      <HintPath>..\..\ExampleEmotePlugin\ExamplePlugin\bin\Debug\netstandard2.0\CSS.dll</HintPath>
+      <HintPath>E:\Загрузки торрент\MetrosexualFruitcake-CSS-1.0.1\CSS.dll</HintPath>
     </Reference>
     <Reference Include="CustomEmotesAPI">
-      <HintPath>J:\CustomEmotesAPI\CustomEmotesAPI\CustomEmotesAPI\bin\Debug\netstandard2.1\CustomEmotesAPI.dll</HintPath>
+      <HintPath>D:\r2modman\RiskOfRain2\profiles\my_mod\BepInEx\plugins\MetrosexualFruitcake-CustomEmotesAPI\CustomEmotesAPI.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Steamworks">
       <HintPath>libs\Facepunch.Steamworks.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="GenericIK">
-      <HintPath>J:\Windows.old.000\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Managed\GenericIK.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Managed\GenericIK.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
       <HintPath>libs\KdTreeLib.dll</HintPath>
@@ -79,7 +79,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="RiskOfOptions">
-      <HintPath>C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Seekers of my ass\BepInEx\plugins\Rune580-Risk_Of_Options\RiskOfOptions\RiskOfOptions.dll</HintPath>
+      <HintPath>D:\r2modman\RiskOfRain2\profiles\my_mod\BepInEx\plugins\Rune580-Risk_Of_Options\RiskOfOptions\RiskOfOptions.dll</HintPath>
     </Reference>
     <Reference Include="SimpleJSON">
       <HintPath>libs\SimpleJSON.dll</HintPath>
@@ -90,9 +90,5 @@
       <Private>false</Private>
     </Reference>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /y &quot;C:\Windows.old\Users\dwelx\Documents\GitHub\BadAssEmotes\ExamplePlugin\bin\Debug\netstandard2.1\BadAssEmotes.dll&quot; &quot;C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Seekers of my ass\BepInEx\plugins\MetrosexualFruitcake-BadAssEmotes\BadAssEmotes.dll&quot;" />
-  </Target>
 
 </Project>
