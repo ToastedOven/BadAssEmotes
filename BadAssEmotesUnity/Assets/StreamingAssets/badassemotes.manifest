@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1603733967
+CRC: 620434792
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e9d9a6a17634a502ef9ecc1896abf721
+    Hash: b7a088427f4c80afa09f9024755a1095
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9f0dcb482713c47bff106bce4aea1a1d
+    Hash: d2d292a72701dab82229320dc3843376
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,9 +48,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 40c9a327a0b28244ea89603f7028a920, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: c4bf52dff9761aa4ba376ca5ee091407, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f847caa0bdea81b4aa75c794a8090874, type: 3}
 - Class: 114
@@ -66,176 +66,169 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/BadAssEmotes/BearHug.anim
+- Assets/BadAssEmotes/Goopie.anim
+- Assets/BadAssEmotes/Renegade.anim
+- Assets/BadAssEmotes/DanceMoves.anim
 - Assets/BadAssEmotes/Im a Mystery.anim
+- Assets/BadAssEmotes/OldSchool.anim
+- Assets/BadAssEmotes/GetDown.anim
 - Assets/BadAssEmotes/DontStart.anim
 - Assets/BadAssEmotes/PPmusic.anim
 - Assets/BadAssEmotes/PoseJeice.anim
 - Assets/BadAssEmotes/FlamencoLoop.anim
 - Assets/Prefabs/explosion press.prefab
+- Assets/BadAssEmotes/Toosie.anim
 - Assets/BadAssEmotes/MakeItRainLoop.anim
 - Assets/BadAssEmotes/GangnamStyle.anim
 - Assets/BadAssEmotes/Overdrive.anim
 - Assets/BadAssEmotes/MoveIt.anim
-- Assets/BadAssEmotes/PoseGinyu.anim
-- Assets/Prefabs/Starfield.prefab
-- Assets/BadAssEmotes/Im a Mystery Loop.anim
-- Assets/BadAssEmotes/DuckThisOneJoin.anim
-- Assets/Models/desker.prefab
-- Assets/Prefabs/Amogus.prefab
-- Assets/BadAssEmotes/ifu.anim
-- Assets/BadAssEmotes/Droop.anim
-- Assets/BadAssEmotes/ItsDynamite.anim
-- Assets/BadAssEmotes/ByTheFireLead.anim
-- Assets/BadAssEmotes/ifuright.anim
-- Assets/Prefabs/Money.prefab
-- Assets/BadAssEmotes/UGotThat.anim
-- Assets/BadAssEmotes/BlindingLights.anim
-- Assets/BadAssEmotes/Spiderman.anim
-- Assets/BadAssEmotes/BlindingLightsIntro.anim
-- Assets/BadAssEmotes/SwayLead.anim
-- Assets/BadAssEmotes/PoseGuldo.anim
-- Assets/BadAssEmotes/Poyo.anim
-- Assets/BadAssEmotes/CrazyFeet.anim
-- Assets/BadAssEmotes/Sad.anim
-- Assets/BadAssEmotes/SeeTinh.anim
-- Assets/BadAssEmotes/StoodHere.anim
-- Assets/BadAssEmotes/Panda.anim
-- Assets/BadAssEmotes/InfinidabIntro.anim
-- Assets/BadAssEmotes/Butt.anim
-- Assets/BadAssEmotes/Jpop1.anim
-- Assets/BadAssEmotes/PoseRecoome.anim
-- Assets/BadAssEmotes/Steady.anim
-- Assets/BadAssEmotes/DanceTherapyIntro.anim
-- Assets/BadAssEmotes/Crackdown.anim
-- Assets/BadAssEmotes/Floss.anim
-- Assets/BadAssEmotes/FloorSamus.anim
-- Assets/BadAssEmotes/Crabby.anim
-- Assets/BadAssEmotes/Summertime.anim
-- Assets/BadAssEmotes/Tidy.anim
-- Assets/BadAssEmotes/HondaStep.anim
-- Assets/BadAssEmotes/Hype.anim
-- Assets/BadAssEmotes/Scenario.anim
-- Assets/BadAssEmotes/Specialist.anim
-- Assets/BadAssEmotes/BearHugJoin.anim
-- Assets/BadAssEmotes/InfinidabLoop.anim
-- Assets/Prefabs/DesertLight.prefab
-- Assets/BadAssEmotes/DuckThisOne.anim
-- Assets/BadAssEmotes/SpringLoaded.anim
-- Assets/BadAssEmotes/Breakin.anim
-- Assets/BadAssEmotes/GangTorture.anim
-- Assets/BadAssEmotes/DEDEDE.anim
-- Assets/BadAssEmotes/FlamencoIntro.anim
-- Assets/BadAssEmotes/SuperIdol.anim
-- Assets/BadAssEmotes/Springy.anim
-- Assets/BadAssEmotes/PPmusicFollow.anim
-- Assets/BadAssEmotes/Yakuza.anim
-- Assets/BadAssEmotes/GGGG3.anim
-- Assets/BadAssEmotes/Bird.anim
-- Assets/BadAssEmotes/Popular Vibe.anim
-- Assets/BadAssEmotes/PhoneItIn.anim
-- Assets/BadAssEmotes/IntensityLoop.anim
-- Assets/BadAssEmotes/Float.anim
-- Assets/BadAssEmotes/SquatKickLoop.anim
-- Assets/BadAssEmotes/OrangeJustice.anim
-- Assets/BadAssEmotes/ifeleft.anim
-- Assets/BadAssEmotes/KillMeBaby.anim
-- Assets/BadAssEmotes/Crossbounce.anim
-- Assets/BadAssEmotes/AnkhaZone.anim
-- Assets/BadAssEmotes/Thriller.anim
-- Assets/BadAssEmotes/LetsDanceBoys.anim
-- Assets/BadAssEmotes/StarGet.anim
-- Assets/BadAssEmotes/Goopie.anim
-- Assets/BadAssEmotes/Renegade.anim
-- Assets/BadAssEmotes/DanceMoves.anim
-- Assets/BadAssEmotes/GetDown.anim
-- Assets/BadAssEmotes/Toosie.anim
-- Assets/BadAssEmotes/Smoke.anim
-- Assets/Prefabs/neversee.prefab
 - Assets/BadAssEmotes/Macarena.anim
 - Assets/BadAssEmotes/Trainloop.anim
+- Assets/Prefabs/Starfield.prefab
+- Assets/Prefabs/neversee.prefab
+- Assets/BadAssEmotes/Im a Mystery Loop.anim
+- Assets/BadAssEmotes/Smoke.anim
 - Assets/BadAssEmotes/JackOPose.anim
 - Assets/BadAssEmotes/Savage.anim
+- Assets/BadAssEmotes/DuckThisOneJoin.anim
+- Assets/Models/desker.prefab
 - Assets/BadAssEmotes/Fresh.anim
+- Assets/BadAssEmotes/PoseGinyu.anim
+- Assets/Prefabs/Amogus.prefab
 - Assets/BadAssEmotes/Hi.anim
 - Assets/BadAssEmotes/VSWORLD.anim
+- Assets/BadAssEmotes/Droop.anim
+- Assets/BadAssEmotes/ItsDynamite.anim
+- Assets/Prefabs/Money.prefab
 - Assets/Prefabs/Im a Mystery.prefab
+- Assets/BadAssEmotes/ByTheFireLead.anim
 - Assets/BadAssEmotes/Haruhi.anim
 - Assets/BadAssEmotes/ByTheFirePartner.anim
 - Assets/BadAssEmotes/Thicc.anim
 - Assets/Prefabs/HondaStuff.prefab
+- Assets/BadAssEmotes/UGotThat.anim
+- Assets/BadAssEmotes/BlindingLights.anim
 - Assets/BadAssEmotes/VSWORLDLEFT.anim
+- Assets/BadAssEmotes/Spiderman.anim
+- Assets/BadAssEmotes/BlindingLightsIntro.anim
+- Assets/BadAssEmotes/SwayLead.anim
 - Assets/BadAssEmotes/Train.anim
+- Assets/BadAssEmotes/PoseGuldo.anim
 - Assets/BadAssEmotes/Breakneck.anim
 - Assets/Prefabs/FloatLight.prefab
 - Assets/BadAssEmotes/DeepDab.anim
+- Assets/BadAssEmotes/Poyo.anim
 - Assets/BadAssEmotes/SingleFurry.anim
-- Assets/BadAssEmotes/Griddy.anim
-- Assets/BadAssEmotes/DevilSpawn.anim
+- Assets/BadAssEmotes/CrazyFeet.anim
 - Assets/BadAssEmotes/FamilyGuyDeath.anim
+- Assets/BadAssEmotes/Griddy.anim
 - Assets/BadAssEmotes/Security.anim
 - Assets/BadAssEmotes/Cartwheelin.anim
+- Assets/BadAssEmotes/Sad.anim
 - Assets/BadAssEmotes/PawsAndClaws.anim
 - Assets/BadAssEmotes/ArkDance.anim
 - Assets/Prefabs/BluntAnimator.prefab
 - Assets/BadAssEmotes/GGGG2.anim
 - Assets/BadAssEmotes/NeverGonna.anim
+- Assets/BadAssEmotes/DevilSpawn.anim
 - Assets/BadAssEmotes/Roflcopter.anim
+- Assets/BadAssEmotes/SeeTinh.anim
 - Assets/BadAssEmotes/PoseBurter.anim
+- Assets/BadAssEmotes/StoodHere.anim
 - Assets/BadAssEmotes/Horny.anim
-- Assets/BadAssEmotes/DesertRivers.anim
 - Assets/BadAssEmotes/Thanos.anim
+- Assets/BadAssEmotes/Panda.anim
+- Assets/BadAssEmotes/InfinidabIntro.anim
+- Assets/BadAssEmotes/Butt.anim
 - Assets/BadAssEmotes/SquatKickIntro.anim
 - Assets/BadAssEmotes/Real Slim Shady.anim
-- Assets/BadAssEmotes/ChugJug.anim
+- Assets/BadAssEmotes/PoseRecoome.anim
 - Assets/BadAssEmotes/SwayPartner.anim
 - Assets/BadAssEmotes/Infectious.anim
+- Assets/BadAssEmotes/Steady.anim
+- Assets/BadAssEmotes/Jpop1.anim
+- Assets/BadAssEmotes/DanceTherapyIntro.anim
+- Assets/BadAssEmotes/Crackdown.anim
 - Assets/BadAssEmotes/Real Slim Shady Loop.anim
 - Assets/BadAssEmotes/Shufflin.anim
 - Assets/BadAssEmotes/BimBamBom.anim
 - Assets/BadAssEmotes/IntensityIntro.anim
 - Assets/BadAssEmotes/VirtualInsanity.anim
+- Assets/BadAssEmotes/Floss.anim
+- Assets/BadAssEmotes/FloorSamus.anim
+- Assets/BadAssEmotes/Crabby.anim
 - Assets/BadAssEmotes/GalaxyObservatory.anim
 - Assets/BadAssEmotes/MakeItRainIntro.anim
+- Assets/BadAssEmotes/Summertime.anim
+- Assets/BadAssEmotes/Tidy.anim
 - Assets/BadAssEmotes/MyWorldJoin.anim
 - Assets/BadAssEmotes/Frolic.anim
+- Assets/BadAssEmotes/HondaStep.anim
 - Assets/BadAssEmotes/ElectroSwing.anim
 - Assets/Prefabs/train.prefab
+- Assets/BadAssEmotes/Hype.anim
+- Assets/BadAssEmotes/Scenario.anim
 - Assets/BadAssEmotes/Stuck.anim
+- Assets/BadAssEmotes/Specialist.anim
+- Assets/BadAssEmotes/BearHugJoin.anim
 - Assets/BadAssEmotes/Chika.anim
 - Assets/BadAssEmotes/TrainPassenger.anim
 - Assets/BadAssEmotes/StandingHere.anim
+- Assets/Prefabs/DesertLight.prefab
 - Assets/BadAssEmotes/Dabstand.anim
+- Assets/BadAssEmotes/InfinidabLoop.anim
 - Assets/BadAssEmotes/DuckThisOneIdle.anim
+- Assets/BadAssEmotes/DuckThisOne.anim
+- Assets/BadAssEmotes/SpringLoaded.anim
 - Assets/Prefabs/Summermogus.prefab
 - Assets/BadAssEmotes/Miku.anim
+- Assets/BadAssEmotes/Breakin.anim
+- Assets/BadAssEmotes/GangTorture.anim
+- Assets/BadAssEmotes/DEDEDE.anim
 - Assets/BadAssEmotes/CaliforniaGirls.anim
+- Assets/BadAssEmotes/FlamencoIntro.anim
+- Assets/BadAssEmotes/SuperIdol.anim
 - Assets/BadAssEmotes/BestMates.anim
 - Assets/BadAssEmotes/Yamcha.anim
+- Assets/BadAssEmotes/PPmusicFollow.anim
+- Assets/BadAssEmotes/Yakuza.anim
 - Assets/BadAssEmotes/Wess.anim
 - Assets/Prefabs/BimBamBom.prefab
+- Assets/BadAssEmotes/Springy.anim
 - Assets/BadAssEmotes/FancyFeet.anim
 - Assets/BadAssEmotes/PopLock.anim
+- Assets/BadAssEmotes/Bird.anim
+- Assets/BadAssEmotes/Popular Vibe.anim
+- Assets/BadAssEmotes/PhoneItIn.anim
 - Assets/BadAssEmotes/GGGG.anim
 - Assets/BadAssEmotes/Extraterrestial.anim
+- Assets/BadAssEmotes/IntensityLoop.anim
 - Assets/BadAssEmotes/Dougie.anim
+- Assets/BadAssEmotes/Float.anim
+- Assets/BadAssEmotes/SquatKickLoop.anim
 - Assets/BadAssEmotes/ImDiamond.anim
+- Assets/BadAssEmotes/OrangeJustice.anim
 - Assets/BadAssEmotes/TheRobot.anim
-- Assets/BadAssEmotes/MyWorld.anim
 - Assets/BadAssEmotes/NinjaStyle.anim
+- Assets/BadAssEmotes/MyWorld.anim
+- Assets/BadAssEmotes/KillMeBaby.anim
 - Assets/BadAssEmotes/Cirno.anim
-- Assets/BadAssEmotes/OldSchool.anim
 - Assets/Prefabs/passenger.prefab
+- Assets/BadAssEmotes/Crossbounce.anim
 - Assets/BadAssEmotes/TakeTheL.anim
-- Assets/BadAssEmotes/Carson.anim
+- Assets/BadAssEmotes/AnkhaZone.anim
 - Assets/BadAssEmotes/FullTilt.anim
 - Assets/BadAssEmotes/OfficerEarl.anim
+- Assets/BadAssEmotes/Carson.anim
 - Assets/BadAssEmotes/Markiplier.anim
+- Assets/BadAssEmotes/Thriller.anim
 - Assets/BadAssEmotes/DanceTherapyLoop.anim
 - Assets/Prefabs/ifustagebase.prefab
 - Assets/BadAssEmotes/Rollie.anim
+- Assets/BadAssEmotes/StarGet.anim
 - Assets/BadAssEmotes/INEEDAMEDICBAG.anim
 - Assets/BadAssEmotes/BunnyHop.anim
 - Assets/BadAssEmotes/Penguin.anim
 - Assets/BadAssEmotes/Distraction.anim
 Dependencies:
-- C:/Windows.old/Users/dwelx/Documents/GitHub/BadAssEmotes/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle
+- D:/Ror2Mods/BadAssEmotes/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle

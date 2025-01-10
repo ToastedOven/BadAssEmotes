@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.9.0";
+        public const string PluginVersion = "1.10.0";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -200,7 +200,7 @@ namespace ExamplePlugin
             AddAnimation("Float", "Float", false, true, true);
             AddAnimation("Rollie", "Rollie", true, true, true);
             AddAnimation("GalaxyObservatory", new string[] { "Play_GalaxyObservatory1", "Play_GalaxyObservatory2", "Play_GalaxyObservatory3" }, "GalaxyObservatory", true, true, true);
-            AddAnimation("Markiplier", "Markiplier", false, false, false);
+            AddAnimation("Markiplier", "Markiplier", false, true, false);
             AddAnimation("DevilSpawn", "DevilSpawn", true, true, true);
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOneIdle.anim") }, true, new string[] { "Play_DuckThisOneIdle" }, new string[] { "Stop_DuckThisOne" }, joinSpots: new JoinSpot[] { new JoinSpot("DuckThisJoinSpot", new Vector3(0, 0, 2)) }, dimWhenClose: true);
             CustomEmotesAPI.BlackListEmote("DuckThisOneIdle");
@@ -289,7 +289,8 @@ namespace ExamplePlugin
             AddAnimation("Steady", "Steady", true, true, true);
 
 
-            //update 10
+            //Update 10
+            AddAnimation("AirShredder", "AirShredder", true, true, true);
             AddAnimation("AirShredder", "AirShredder", true, true, true);
             AddAnimation("ArmyBunny", "ArmyBunny", "ArmyBunnyLoop", true, true);
             AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true);
@@ -325,6 +326,14 @@ namespace ExamplePlugin
             AddAnimation("Zany", "Zany", true, true, true);
 
 
+            //Update 11
+            AddAnimation("CheerUp", "CheerUp", true, true, true);
+            AddAnimation("CrissCross", "CrissCross", true, true, true);
+            AddAnimation("NuthinButAGThang", "NuthinButAGThang", "NuthinButAGThangLoop", true, true);
+            AddAnimation("JabbaSwitchway", "SwitchAway", "JabbaSwitchwaLoopy", true, true);
+            AddAnimation("ByeByeBye", "ByeByeBye", "ByeByeByeLoop", true, true);
+            AddAnimation("GoMufasa", "GoMufasa", true, true, true);
+            AddAnimation("Snoop'sWalk", "Snoop_sWalk", "Snoop'sWalkLoop", true, true);
 
             GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
             foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
@@ -607,11 +616,13 @@ namespace ExamplePlugin
         int stand = -1;
         List<BoneMapper> punchingMappers = new List<BoneMapper>();
         int prop1 = -1;
+        int prop2 = -1
         CameraTargetParams.CameraParamsOverrideHandle fovHandle;
         internal CharacterBody localBody = null;
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
         {
             prop1 = -1;
+            prop2 = -1;
             try
             {
                 if (newAnimation != "none")
@@ -738,7 +749,7 @@ namespace ExamplePlugin
                 mapper.SetAutoWalk(1, true);
                 mapper.ScaleProps();
             }
-            if (newAnimation == "BimBamBom")
+            if (newAnimation == "BimBamBom" || newAnimation == "BimBamBomTest")
             {
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:assets/Prefabs/BimBamBom.prefab")));
@@ -754,6 +765,23 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.SetParent(mapper.transform.parent);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "CheerUp")
+            {
+                var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
+                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                prop2 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop2].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.RightHand));
+                mapper.props[prop2].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop2].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
             }
             if (newAnimation == "Float")

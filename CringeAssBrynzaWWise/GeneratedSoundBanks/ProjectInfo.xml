@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="CringeAssBrynzaWWise" GUID="{AC1F3E89-3C0B-48FC-BD1F-45114ABE9BB5}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{FFB560E3-0E0B-477B-81A5-E4267958BE47}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{67725D5A-CA95-4C45-BAE7-D34C38D4171C}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{2869DD9F-5D0C-0887-1E84-14346ECE6E02}</FileHash>
+</ProjectInfo>
