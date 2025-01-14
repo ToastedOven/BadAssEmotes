@@ -14,6 +14,7 @@ namespace ExamplePlugin
     {
         public static ConfigEntry<float> EnemyTauntOnDeathChance;
         public static ConfigEntry<string> EnemyEmotes;
+        public static ConfigEntry<float> RainbowSpeed;
         internal static void Setup()
         {
             ModSettingsManager.SetModIcon(Assets.Load<Sprite>("@BadAssEmotes_badassemotes:assets/hydrolic/icon.png"));
@@ -24,7 +25,9 @@ namespace ExamplePlugin
                              "Enemy Emotes",
                              "Extraterrestial,Droop,SeeTinh,PopLock,DanceMoves,ImDiamond,Frolic,SwayLead,BestMates,Crackdown,Distraction,GangnamStyle,FlamencoIntro,Popular Vibe,VSWORLD,PPmusic,SquatKickIntro,Breakneck,Dougie,MyWorld,BimBamBom,GetDown,ArkDance,Macarena,ElectroSwing,Horny,Fresh,Goopie,TakeTheL,Infectious,Rollie,NeverGonna,CaliforniaGirls",
                              "Emotes that enemies play on players death");
+            RainbowSpeed = BadAssEmotesPlugin.instance.Config.Bind<float>("Yes", "RainbowSpeed", 1, "Bottom Text");
             ModSettingsManager.AddOption(new StringInputFieldOption(EnemyEmotes));
+            ModSettingsManager.AddOption(new FloatFieldOption(RainbowSpeed));
         }
     }
 }

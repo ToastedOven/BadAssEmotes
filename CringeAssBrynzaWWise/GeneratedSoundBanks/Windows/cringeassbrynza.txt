@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	20851358	Play_IAintAfraid			\Default Work Unit\Play_IAintAfraid	
+	24186436	Stop_Fanciful			\Default Work Unit\Stop_Fanciful	
 	61131039	Play_FeelTheFlow			\Default Work Unit\Play_FeelTheFlow	
 	78658521	Stop_FeelTheFlow			\Default Work Unit\Stop_FeelTheFlow	
 	102264818	Stop_GetLoose			\Default Work Unit\Stop_GetLoose	
@@ -7,135 +9,242 @@ Event	ID	Name			Wwise Object Path	Notes
 	165289442	Stop_Switchstep			\Default Work Unit\Stop_Switchstep	
 	181247066	Play_Zany			\Default Work Unit\Play_Zany	
 	189404564	Play_NightOut			\Default Work Unit\Play_NightOut	
+	233151049	Stop_SignatureShuffle			\Default Work Unit\Stop_SignatureShuffle	
+	248028087	Play_Carefree			\Default Work Unit\Play_Carefree	
 	311391416	Stop_CheerUp			\Default Work Unit\Stop_CheerUp	
+	329161351	Play_SignatureShuffle			\Default Work Unit\Play_SignatureShuffle	
+	357901735	Play_AskMe			\Default Work Unit\Play_AskMe	
+	367660044	Stop_ReapersShowtime			\Default Work Unit\Stop_ReapersShowtime	
+	412362318	Stop_Glyphic			\Default Work Unit\Stop_Glyphic	
+	419346921	Play_GoWithTheFlow			\Default Work Unit\Play_GoWithTheFlow	
+	431558531	Stop_Dimensional			\Default Work Unit\Stop_Dimensional	
+	462590605	Stop_MikuMikuBeam			\Default Work Unit\Stop_MikuMikuBeam	
+	563840300	Play_LaidBackShuffle			\Default Work Unit\Play_LaidBackShuffle	
+	596986337	Stop_Fantasy_Faceoff			\Default Work Unit\Stop_Fantasy_Faceoff	
 	677098573	Play_Copines			\Default Work Unit\Play_Copines	
 	739003999	Play_PointAndStrut			\Default Work Unit\Play_PointAndStrut	
+	781901612	Stop_Revel			\Default Work Unit\Stop_Revel	
+	837710411	Stop_Challenge			\Default Work Unit\Stop_Challenge	
+	877691915	Stop_DeepExplorer			\Default Work Unit\Stop_DeepExplorer	
 	914074118	Stop_Gloss			\Default Work Unit\Stop_Gloss	
 	945963862	Play_MakeSomeWaves			\Default Work Unit\Play_MakeSomeWaves	
 	949725828	Play_Switchstep			\Default Work Unit\Play_Switchstep	
+	1028650916	Play_Glyphic			\Default Work Unit\Play_Glyphic	
+	1106915573	Stop_DreamFeet			\Default Work Unit\Stop_DreamFeet	
 	1111751306	Play_SugarRush			\Default Work Unit\Play_SugarRush	
 	1168883255	Play_NuthinButAGThang			\Default Work Unit\Play_NuthinButAGThang	
 	1175727921	Play_FastFlex			\Default Work Unit\Play_FastFlex	
 	1204639695	Play_GetGone			\Default Work Unit\Play_GetGone	
 	1240605868	Play_GetLoose			\Default Work Unit\Play_GetLoose	
 	1246195285	Play_GoMufasa			\Default Work Unit\Play_GoMufasa	
+	1248261668	Stop_NoTears			\Default Work Unit\Stop_NoTears	
 	1297445400	Play_CongaFT			\Default Work Unit\Play_CongaFT	
 	1301395949	Play_PrimoMoves			\Default Work Unit\Play_PrimoMoves	
 	1306013559	Stop_BoneyBounce			\Default Work Unit\Stop_BoneyBounce	
+	1401672441	Stop_AskMe			\Default Work Unit\Stop_AskMe	
 	1402463504	Stop_NanaNana			\Default Work Unit\Stop_NanaNana	
+	1443493677	Stop_MiluLive			\Default Work Unit\Stop_MiluLive	
+	1459530651	Play_WhatYouWant			\Default Work Unit\Play_WhatYouWant	
 	1468294296	Stop_Zany			\Default Work Unit\Stop_Zany	
 	1547731691	Stop_GoMufasa			\Default Work Unit\Stop_GoMufasa	
 	1552855333	Stop_BoldStance			\Default Work Unit\Stop_BoldStance	
 	1605138001	Play_BoneyBounce			\Default Work Unit\Play_BoneyBounce	
+	1690442739	Play_WithoutYou			\Default Work Unit\Play_WithoutYou	
+	1761784223	Play_Smeeze			\Default Work Unit\Play_Smeeze	
+	1769248174	Play_Glowsticks			\Default Work Unit\Play_Glowsticks	
 	1776357654	Play_CheerUp			\Default Work Unit\Play_CheerUp	
 	1796400140	Stop_Caffeinated			\Default Work Unit\Stop_Caffeinated	
 	1851405051	Stop_FastFlex			\Default Work Unit\Stop_FastFlex	
 	1867424785	Stop_GetGone			\Default Work Unit\Stop_GetGone	
 	1879494926	Stop_CluckStrut			\Default Work Unit\Stop_CluckStrut	
+	1883402492	Play_ClickClickFlash			\Default Work Unit\Play_ClickClickFlash	
+	1886962373	Play_Challenge			\Default Work Unit\Play_Challenge	
+	1896764118	Stop_ClickClickFlash			\Default Work Unit\Stop_ClickClickFlash	
 	1957172398	Play_Bombastic			\Default Work Unit\Play_Bombastic	
 	1964053930	Play_ByeByeBye			\Default Work Unit\Play_ByeByeBye	
 	1978981257	Stop_ShowYa			\Default Work Unit\Stop_ShowYa	
 	1990438606	Play_RunItDown			\Default Work Unit\Play_RunItDown	
 	2004634794	Play_BounceWit_It			\Default Work Unit\Play_BounceWit_It	
+	2025501113	Play_Dimensional			\Default Work Unit\Play_Dimensional	
 	2081781038	Stop_Ska_stra_terrestrial			\Default Work Unit\Stop_Ska_stra_terrestrial	
+	2147935738	Stop_Independence			\Default Work Unit\Stop_Independence	
 	2166120127	Stop_Copines			\Default Work Unit\Stop_Copines	
 	2194889408	Play_CrissCross			\Default Work Unit\Play_CrissCross	
 	2265085720	Stop_Cupid_sArrow			\Default Work Unit\Stop_Cupid_sArrow	
 	2288488570	Stop_CrissCross			\Default Work Unit\Stop_CrissCross	
+	2318674914	Stop_Strut			\Default Work Unit\Stop_Strut	
+	2409593844	Play_Ambitions			\Default Work Unit\Play_Ambitions	
 	2440363380	Stop_Bombastic			\Default Work Unit\Stop_Bombastic	
 	2486703110	Stop_NightOut			\Default Work Unit\Stop_NightOut	
+	2487434070	Play_Fanciful			\Default Work Unit\Play_Fanciful	
 	2495761370	Play_Caffeinated			\Default Work Unit\Play_Caffeinated	
 	2540265077	Stop_CelebrateMe			\Default Work Unit\Stop_CelebrateMe	
+	2547326352	Play_Strut			\Default Work Unit\Play_Strut	
 	2548806514	Play_YouShouldSeeMeInACrown			\Default Work Unit\Play_YouShouldSeeMeInACrown	
 	2614389767	Play_ArmyBunny			\Default Work Unit\Play_ArmyBunny	
 	2615950989	Stop_NuthinButAGThang			\Default Work Unit\Stop_NuthinButAGThang	
 	2638815735	Stop_PrimoMoves			\Default Work Unit\Stop_PrimoMoves	
 	2686646814	Play_Cupid_sArrow			\Default Work Unit\Play_Cupid_sArrow	
+	2740463453	Stop_Carefree			\Default Work Unit\Stop_Carefree	
+	2748430128	Play_Riches			\Default Work Unit\Play_Riches	
 	2826153543	Play_ShowYa			\Default Work Unit\Play_ShowYa	
+	2846576684	Play_Fandangle			\Default Work Unit\Play_Fandangle	
+	2850984165	Stop_TakeItSlow			\Default Work Unit\Stop_TakeItSlow	
+	2888137868	Play_Independence			\Default Work Unit\Play_Independence	
+	2895677596	Stop_IAintAfraid			\Default Work Unit\Stop_IAintAfraid	
 	2939576377	Play_AirShredder			\Default Work Unit\Play_AirShredder	
 	3008089516	Play_CluckStrut			\Default Work Unit\Play_CluckStrut	
+	3018604515	Play_MikuMikuBeam			\Default Work Unit\Play_MikuMikuBeam	
 	3027237066	Play_NanaNana			\Default Work Unit\Play_NanaNana	
 	3030028416	Play_Snoop_sWalk			\Default Work Unit\Play_Snoop_sWalk	
+	3030747221	Stop_WhatYouWant			\Default Work Unit\Stop_WhatYouWant	
 	3092328107	Play_RapMonster			\Default Work Unit\Play_RapMonster	
 	3112422224	Stop_ByeByeBye			\Default Work Unit\Stop_ByeByeBye	
+	3179933293	Stop_WithoutYou			\Default Work Unit\Stop_WithoutYou	
+	3214748971	Stop_GoWithTheFlow			\Default Work Unit\Stop_GoWithTheFlow	
 	3228575560	Stop_MakeSomeWaves			\Default Work Unit\Stop_MakeSomeWaves	
 	3261458096	Stop_SugarRush			\Default Work Unit\Stop_SugarRush	
 	3343505252	Play_SwitchAway			\Default Work Unit\Play_SwitchAway	
 	3369967881	Stop_Boy_sALier			\Default Work Unit\Stop_Boy_sALier	
+	3378249283	Play_DreamFeet			\Default Work Unit\Play_DreamFeet	
+	3392976950	Stop_Ambitions			\Default Work Unit\Stop_Ambitions	
+	3394143688	Stop_Glowsticks			\Default Work Unit\Stop_Glowsticks	
 	3401972896	Stop_YouShouldSeeMeInACrown			\Default Work Unit\Stop_YouShouldSeeMeInACrown	
 	3414173272	Stop_BounceWit_It			\Default Work Unit\Stop_BounceWit_It	
 	3424663283	Play_Rushin_Around			\Default Work Unit\Play_Rushin_Around	
+	3464110827	Play_Fantasy_Faceoff			\Default Work Unit\Play_Fantasy_Faceoff	
 	3519952403	Play_BoldStance			\Default Work Unit\Play_BoldStance	
+	3549386714	Play_ReapersShowtime			\Default Work Unit\Play_ReapersShowtime	
 	3552613541	Stop_PointAndStrut			\Default Work Unit\Stop_PointAndStrut	
 	3591481973	Stop_RapMonster			\Default Work Unit\Stop_RapMonster	
 	3692453327	Play_Boy_sALier			\Default Work Unit\Play_Boy_sALier	
 	3778454502	Stop_CongaFT			\Default Work Unit\Stop_CongaFT	
 	3802457393	Stop_Rushin_Around			\Default Work Unit\Stop_Rushin_Around	
 	3817411916	Play_Gloss			\Default Work Unit\Play_Gloss	
+	3833008879	Stop_HeelClickBreakdown			\Default Work Unit\Stop_HeelClickBreakdown	
+	3852246509	Stop_Smeeze			\Default Work Unit\Stop_Smeeze	
 	3855855596	Stop_RunItDown			\Default Work Unit\Stop_RunItDown	
+	3861811670	Stop_LaidBackShuffle			\Default Work Unit\Stop_LaidBackShuffle	
 	3863227064	Play_Ska_stra_terrestrial			\Default Work Unit\Play_Ska_stra_terrestrial	
+	3895323202	Stop_Riches			\Default Work Unit\Stop_Riches	
+	4037394974	Stop_Fandangle			\Default Work Unit\Stop_Fandangle	
+	4047268277	Play_HeelClickBreakdown			\Default Work Unit\Play_HeelClickBreakdown	
+	4049969938	Play_NoTears			\Default Work Unit\Play_NoTears	
 	4063596847	Play_CelebrateMe			\Default Work Unit\Play_CelebrateMe	
 	4083921163	Play_InHaMood			\Default Work Unit\Play_InHaMood	
 	4095550411	Stop_AirShredder			\Default Work Unit\Stop_AirShredder	
 	4115711330	Stop_Snoop_sWalk			\Default Work Unit\Stop_Snoop_sWalk	
 	4137960073	Stop_ArmyBunny			\Default Work Unit\Stop_ArmyBunny	
+	4161932947	Play_MiluLive			\Default Work Unit\Play_MiluLive	
+	4183604495	Play_TakeItSlow			\Default Work Unit\Play_TakeItSlow	
+	4259913706	Play_Revel			\Default Work Unit\Play_Revel	
+	4286762305	Play_DeepExplorer			\Default Work Unit\Play_DeepExplorer	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	396176897	Volume_Emotes			\Default Work Unit\Volume_Emotes	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	81900433	Emote_Believer_MX_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Believer_MX_Intro_5AEF7652.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ska-stra-terrestrial\Emote_Believer_MX_Intro		35421
-	86723488	Zany	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Music_Emotes_Bendy_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Zany		274803
-	133163303	GetGone	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BeHere_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GetGone		295219
-	147041133	Emote_Caffeine_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Caffeine_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Caffeinated\Emote_Caffeine_Music_Intro		15652
-	180237064	Emote_Adoration_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adoration_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Cupid'sArrow\Emote_Adoration_Music_Intro		14666
-	191742836	CrissCross	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Criss_Cross_Emote_Music_01_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CrissCross		1021769
-	201813505	Emote_ArmyBunny_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ArmyBunny_Music_Loop_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ArmyBunny\Emote_ArmyBunny_Music_Loop		448902
-	227250847	Emote_Cadaver_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cadaver_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoneyBounce\Emote_Cadaver_Music_Intro		6800
-	234389697	GoMufasa	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\GoMufasa_52E20499.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GoMufasa		819971
-	237149669	CongaFT	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Conga_Line_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CongaFT		885912
-	280334847	RunItDown	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_EmoteMusic_Bulletproof_AudioAsset_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RunItDown		312056
-	307254119	SwitchAway	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\SwitchAway_90338CC2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\SwitchAway		817592
-	328344158	Emote_Adapter_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adapter_Music_Loop_0F0C567C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\YouShouldSeeMeInACrown\Emote_Adapter_Music_Loop		364601
-	342916037	Emote_Believer_MX_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Believer_MX_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ska-stra-terrestrial\Emote_Believer_MX_Loop		1025715
-	347697841	Emote_LemonCart_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LemonCart_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Snoop'sWalk\Emote_LemonCart_Music_Intro		18628
-	383817197	Emote_Bewilder_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Bewilder_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PointAndStrut\Emote_Bewilder_Music_Intro		14326
-	386526097	Emote_LowRider_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LowRider_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NuthinButAGThang\Emote_LowRider_Music_Intro		19089
-	459734906	Emote_BerryTart_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BerryTart_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\InHaMood\Emote_BerryTart_Music_Loop		200993
-	471910511	Emote_LowRider_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LowRider_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NuthinButAGThang\Emote_LowRider_Music_Loop		531782
-	478289002	Emote_Farewell_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Farewell_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ByeByeBye\Emote_Farewell_Music_Loop		545042
-	488796994	Emote_Caffeine_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Caffeine_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Caffeinated\Emote_Caffeine_Music_Loop		457788
-	500625339	Emote_ArmyBunny_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ArmyBunny_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ArmyBunny\Emote_ArmyBunny_Music_Intro		8627
-	531859537	Switchstep	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Breakboy_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Switchstep		393492
-	534334215	ShowYa	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Affluent_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ShowYa		230697
-	543057232	CluckStrut	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_ChickenMoves_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CluckStrut		692763
-	575717475	Emote_Cherish_Loop_01	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cherish_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BounceWit'It\Emote_Cherish_Loop_01		205031
-	590636303	NightOut	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_Emote_Competitor_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NightOut		197956
-	608841763	Emote_Cherish_Intro_01	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cherish_Intro_01_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BounceWit'It\Emote_Cherish_Intro_01		21749
-	636274987	Gloss	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Butter_Music_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Gloss		1320303
-	637810181	Emote_Bewilder_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Bewilder_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PointAndStrut\Emote_Bewilder_Music_Loop		218446
-	647295357	Boy'sALier	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Deceiver_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Boy'sALier		206633
-	648360001	PrimoMoves	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Breakfast_Coffee_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PrimoMoves		1506656
-	648813185	CheerUp	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Music_Cheerleader_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CheerUp		309847
-	707526273	SugarRush	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_CandyDance_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\SugarRush		427111
-	718240451	MakeSomeWaves	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Affection_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MakeSomeWaves		390683
-	748787005	FeelTheFlow	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Alliteration_MX_LP_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FeelTheFlow		231515
-	755923623	Emote_Adoration_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adoration_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Cupid'sArrow\Emote_Adoration_Music_Loop		712082
-	759205203	AirShredder	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Air_Guitar_Emote_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\AirShredder		800007
-	759403399	NanaNana	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_Banana_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NanaNana		319016
-	794559845	CelebrateMe	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_Emote_Cottontail_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CelebrateMe		299356
-	795772271	Emote_BerryTart_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BerryTart_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\InHaMood\Emote_BerryTart_Music_Intro		16404
-	812033932	Emote_Adapter_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adapter_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\YouShouldSeeMeInACrown\Emote_Adapter_Music_Intro		36511
-	894386922	EmoteBanknotes_Intro_01	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\EmoteBanknotes_Intro_01_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FastFlex\EmoteBanknotes_Intro_01		11136
-	896402478	GetLoose	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_DaBounce_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GetLoose		828912
-	898530369	Emote_Farewell_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Farewell_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ByeByeBye\Emote_Farewell_Music_Intro		18186
-	914624812	Emote_ClayPlug_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ClayPlug_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RapMonster\Emote_ClayPlug_Music_Loop		626324
-	943271271	EmoteBanknotes_Loop_01	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\EmoteBanknotes_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FastFlex\EmoteBanknotes_Loop_01		487676
-	951347465	Emote_Cadaver_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cadaver_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoneyBounce\Emote_Cadaver_Music_Loop		417641
-	953915007	Rushin'Around	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Comrade_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Rushin'Around		771875
-	990585918	Emote_LemonCart_Music_Loop	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LemonCart_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Snoop'sWalk\Emote_LemonCart_Music_Loop		266577
-	1001257940	Emote_ClayPlug_Music_Intro	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ClayPlug_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RapMonster\Emote_ClayPlug_Music_Intro		41145
-	1012496351	Copines	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Coping_Loop01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Copines		283516
-	1036041254	Bombastic	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\emote_afroHouse_A_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Bombastic		392940
-	1055122636	BoldStance	C:\Users\1\Documents\WwiseProjects\CringeAssBrynzaWWise\.cache\Windows\SFX\Gwara_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoldStance		845880
+	14183792	DreamFeet	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Double_Dream_Feet_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\DreamFeet		647844
+	31480770	Emote_Dont_Sneeze_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dont_Sneeze_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Smeeze\Emote_Dont_Sneeze_Loop		253944
+	56490808	Emote_Gilded_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Gilded_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Riches\Emote_Gilded_Music_Loop		727862
+	81900433	Emote_Believer_MX_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Believer_MX_Intro_5AEF7652.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ska-stra-terrestrial\Emote_Believer_MX_Intro		35421
+	85816951	Emote_JadeTowel_Gloss_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_JadeTowel_Gloss_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MikuMikuBeam\Emote_JadeTowel_Gloss_Music_Intro		15159
+	86723488	Zany	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Music_Emotes_Bendy_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Zany		274803
+	93710150	Emote_JadeTowel_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_JadeTowel_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MiluLive\Emote_JadeTowel_Music_Intro		23812
+	99046601	Emote_Exquisite_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Exquisite_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Carefree\Emote_Exquisite_Loop		339440
+	129676432	Glowsticks	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Glowsticks_F89E37F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Glowsticks		248247
+	133163303	GetGone	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BeHere_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GetGone		295219
+	137294969	Emote_Dreadful_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dreadful_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\AskMe\Emote_Dreadful_Intro		7307
+	147041133	Emote_Caffeine_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Caffeine_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Caffeinated\Emote_Caffeine_Music_Intro		15652
+	156736896	Emote_Destiny_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Destiny_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GoWithTheFlow\Emote_Destiny_Music_Intro		6821
+	180237064	Emote_Adoration_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adoration_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Cupid'sArrow\Emote_Adoration_Music_Intro		14666
+	191742836	CrissCross	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Criss_Cross_Emote_Music_01_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CrissCross		1021769
+	201813505	Emote_ArmyBunny_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ArmyBunny_Music_Loop_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ArmyBunny\Emote_ArmyBunny_Music_Loop		448902
+	227250847	Emote_Cadaver_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cadaver_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoneyBounce\Emote_Cadaver_Music_Intro		6800
+	234389697	GoMufasa	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\GoMufasa_52E20499.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GoMufasa		819971
+	237149669	CongaFT	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Conga_Line_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CongaFT		885912
+	243696276	SignatureShuffle	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\athena_emote_electroshuffle_music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\SignatureShuffle		198082
+	275652036	Emote_Distraught_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Distraught_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NoTears\Emote_Distraught_Music_Intro		13031
+	280334847	RunItDown	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_EmoteMusic_Bulletproof_AudioAsset_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RunItDown		312056
+	300459890	Emote_Depart_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Depart_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\HeelClickBreakdown\Emote_Depart_Music_Intro		14213
+	307254119	SwitchAway	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\SwitchAway_90338CC2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\SwitchAway		817592
+	308607916	Fanciful	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Fancy_Workout_Music_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Fanciful		403620
+	315579441	ClickClickFlash	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_GalaxyLevel_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ClickClickFlash		251607
+	328344158	Emote_Adapter_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adapter_Music_Loop_0F0C567C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\YouShouldSeeMeInACrown\Emote_Adapter_Music_Loop		364601
+	328540293	Devotion_Intro_02	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Devotion_Intro_02_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\WithoutYou\Devotion_Intro_02		14095
+	332463041	Emote_Distraught_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Distraught_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NoTears\Emote_Distraught_Music_Loop		357944
+	342916037	Emote_Believer_MX_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Believer_MX_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ska-stra-terrestrial\Emote_Believer_MX_Loop		1025715
+	347697841	Emote_LemonCart_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LemonCart_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Snoop'sWalk\Emote_LemonCart_Music_Intro		18628
+	368246041	Emote_Delirious_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Delirious_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ReapersShowtime\Emote_Delirious_Loop		469079
+	383817197	Emote_Bewilder_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Bewilder_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PointAndStrut\Emote_Bewilder_Music_Intro		14326
+	386526097	Emote_LowRider_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LowRider_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NuthinButAGThang\Emote_LowRider_Music_Intro		19089
+	395586072	Devotion_Loop01	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Devotion_Loop01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\WithoutYou\Devotion_Loop01		309643
+	412626694	Emote_Gilded_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Gilded_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Riches\Emote_Gilded_Music_Intro		32694
+	417178565	Emote_Dont_Sneeze_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dont_Sneeze_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Smeeze\Emote_Dont_Sneeze_Intro		63353
+	454537473	Emote_Disband_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Disband_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Independence\Emote_Disband_Music_Intro		15518
+	459734906	Emote_BerryTart_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BerryTart_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\InHaMood\Emote_BerryTart_Music_Loop		200993
+	466827943	Emote_Dignified_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dignified_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\WhatYouWant\Emote_Dignified_Music_Intro		11750
+	470899065	Emote_Encounter_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Encounter_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Fantasy Faceoff\Emote_Encounter_Music_Intro		13996
+	471910511	Emote_LowRider_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LowRider_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NuthinButAGThang\Emote_LowRider_Music_Loop		531782
+	478289002	Emote_Farewell_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Farewell_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ByeByeBye\Emote_Farewell_Music_Loop		545042
+	480076667	Revel	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_DoubleSnap_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Revel		809198
+	488796994	Emote_Caffeine_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Caffeine_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Caffeinated\Emote_Caffeine_Music_Loop		457788
+	493257214	Emote_JadeTowel_Gloss_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_JadeTowel_Gloss_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MikuMikuBeam\Emote_JadeTowel_Gloss_Music_Loop		250799
+	500625339	Emote_ArmyBunny_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ArmyBunny_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ArmyBunny\Emote_ArmyBunny_Music_Intro		8627
+	526732473	Emote_Fantasy_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Fantasy_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ambitions\Emote_Fantasy_Music_Intro		10386
+	527432098	Fandangle	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_Floppy_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Fandangle		454833
+	531859537	Switchstep	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Breakboy_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Switchstep		393492
+	534334215	ShowYa	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Affluent_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ShowYa		230697
+	543057232	CluckStrut	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_ChickenMoves_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CluckStrut		692763
+	569657380	Emote_Enrapture_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Enrapture_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\TakeItSlow\Emote_Enrapture_Music_Intro		41196
+	575717475	Emote_Cherish_Loop_01	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cherish_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BounceWit'It\Emote_Cherish_Loop_01		205031
+	577015334	Emote_Fantasy_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Fantasy_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Ambitions\Emote_Fantasy_Music_Loop		245400
+	590636303	NightOut	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_Emote_Competitor_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NightOut		197956
+	597007543	Emote_Encounter_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Encounter_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Fantasy Faceoff\Emote_Encounter_Music_Loop		386073
+	608841763	Emote_Cherish_Intro_01	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cherish_Intro_01_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BounceWit'It\Emote_Cherish_Intro_01		21749
+	616953651	Emote_Exquisite_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Exquisite_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Carefree\Emote_Exquisite_Intro		26771
+	636274987	Gloss	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Butter_Music_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Gloss		1320303
+	637810181	Emote_Bewilder_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Bewilder_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PointAndStrut\Emote_Bewilder_Music_Loop		218446
+	639859227	LaidBackShuffle	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Gabby_Hip_Hop_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\LaidBackShuffle		434636
+	647295357	Boy'sALier	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Deceiver_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Boy'sALier		206633
+	648360001	PrimoMoves	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Breakfast_Coffee_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\PrimoMoves		1506656
+	648813185	CheerUp	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Music_Cheerleader_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CheerUp		309847
+	654261903	Emote_JadeTowel_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_JadeTowel_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MiluLive\Emote_JadeTowel_Music_Loop		376638
+	674202966	Emote_Dimension_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dimension_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Dimensional\Emote_Dimension_Music_Intro		9999
+	675307521	Emote_Enrapture_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Enrapture_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\TakeItSlow\Emote_Enrapture_Music_Loop		634592
+	707526273	SugarRush	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_CandyDance_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\SugarRush		427111
+	707852386	Emote_Factual_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Factual_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Challenge\Emote_Factual_Music_Loop		217501
+	708886665	Emote_Delirious_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Delirious_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ReapersShowtime\Emote_Delirious_Intro		17472
+	718240451	MakeSomeWaves	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Affection_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\MakeSomeWaves		390683
+	731129049	Emote_Dignified_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dignified_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\WhatYouWant\Emote_Dignified_Music_Loop		421642
+	748787005	FeelTheFlow	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Alliteration_MX_LP_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FeelTheFlow		231515
+	755923623	Emote_Adoration_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adoration_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Cupid'sArrow\Emote_Adoration_Music_Loop		712082
+	759205203	AirShredder	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Air_Guitar_Emote_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\AirShredder		800007
+	759403399	NanaNana	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Athena_Emote_Banana_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\NanaNana		319016
+	794559845	CelebrateMe	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\IP_Emote_Cottontail_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\CelebrateMe		299356
+	795772271	Emote_BerryTart_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_BerryTart_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\InHaMood\Emote_BerryTart_Music_Intro		16404
+	812033932	Emote_Adapter_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Adapter_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\YouShouldSeeMeInACrown\Emote_Adapter_Music_Intro		36511
+	829776432	Strut	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_DoggyStrut_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Strut		810311
+	839573585	Emote_Disband_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Disband_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Independence\Emote_Disband_Music_Loop		379324
+	877142137	Emote_Asteroid_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Asteroid_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\DeepExplorer\Emote_Asteroid_Music_Intro		12805
+	880860154	Emote_Destiny_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Destiny_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GoWithTheFlow\Emote_Destiny_Music_Loop		280685
+	881516299	Emote_Depart_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Depart_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\HeelClickBreakdown\Emote_Depart_Music_Loop		375063
+	884447818	Emote_Dreadful_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dreadful_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\AskMe\Emote_Dreadful_Loop		290407
+	894386922	EmoteBanknotes_Intro_01	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\EmoteBanknotes_Intro_01_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FastFlex\EmoteBanknotes_Intro_01		11136
+	896402478	GetLoose	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_DaBounce_Music_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\GetLoose		828912
+	898530369	Emote_Farewell_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Farewell_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ByeByeBye\Emote_Farewell_Music_Intro		18186
+	913766978	Emote_Dimension_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Dimension_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Dimensional\Emote_Dimension_Music_Loop		459784
+	914624812	Emote_ClayPlug_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ClayPlug_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RapMonster\Emote_ClayPlug_Music_Loop		626324
+	925781867	Emote_Asteroid_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Asteroid_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\DeepExplorer\Emote_Asteroid_Music_Loop		386020
+	943271271	EmoteBanknotes_Loop_01	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\EmoteBanknotes_Loop_01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\FastFlex\EmoteBanknotes_Loop_01		487676
+	951347465	Emote_Cadaver_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Cadaver_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoneyBounce\Emote_Cadaver_Music_Loop		417641
+	953915007	Rushin'Around	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Comrade_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Rushin'Around		771875
+	965919052	Glyphic	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Egyptian_Dance_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Glyphic		1519333
+	984063441	Emote_Factual_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Factual_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Challenge\Emote_Factual_Music_Intro		17555
+	990585918	Emote_LemonCart_Music_Loop	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_LemonCart_Music_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Snoop'sWalk\Emote_LemonCart_Music_Loop		266577
+	1001257940	Emote_ClayPlug_Music_Intro	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_ClayPlug_Music_Intro_7A307A96.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\RapMonster\Emote_ClayPlug_Music_Intro		41145
+	1012240619	IAintAfraid	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Emote_Eerie_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\IAintAfraid		860955
+	1012496351	Copines	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Coping_Loop01_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Copines		283516
+	1036041254	Bombastic	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\emote_afroHouse_A_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Bombastic		392940
+	1055122636	BoldStance	D:\Ror2Mods\BadAssEmotes\CringeAssBrynzaWWise\.cache\Windows\SFX\Gwara_Loop_89F99160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\BoldStance		845880
 
