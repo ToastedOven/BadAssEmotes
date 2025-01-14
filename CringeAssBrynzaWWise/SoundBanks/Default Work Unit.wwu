@@ -5,18 +5,31 @@
 			<ChildrenList>
 				<SoundBank Name="cringeassbrynza" ID="{B43D269E-59BE-4713-A77D-E8982A856E10}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_MiluLive" ID="{FD994F15-BF73-4003-A1A4-05FB8E92F5E5}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GetLoose" ID="{5A643A2B-49BA-4024-A9CD-A8FDB84A7E84}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_FeelTheFlow" ID="{BD56975A-8422-4032-B3B9-2D91CBAD07B3}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Glyphic" ID="{A70D4086-B2FC-4045-8666-B5257A2BA8BD}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Challenge" ID="{65FA2FAD-4280-4051-AE50-58AD8E3A8C1A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_CluckStrut" ID="{4551F1A0-E0EE-4054-9FFE-BD07E142EBC3}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_BoneyBounce" ID="{79F616AF-5639-4056-8A22-5706D4D83BB9}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_MiluLive" ID="{EC8CAA9E-8557-4058-AA04-4870E4EA341A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PrimoMoves" ID="{A97ABDAC-137D-405C-9E88-5EEDAEF65742}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Switchstep" ID="{12CD084F-DDBA-405F-A09F-07FFB4F61F01}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SugarRush" ID="{FD6FBABC-A30C-407B-A089-177B4B5DF28E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_DeepExplorer" ID="{245C646D-173F-40ED-8D3F-BB0ABD8728E7}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Riches" ID="{930A5B29-BB06-40F5-B2D5-BFEA30277011}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_HeelClickBreakdown" ID="{1BDA5BE2-3903-4146-8028-9C9712B91A91}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_NoTears" ID="{F330997B-917A-415C-9CE7-07A373A2EF44}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BoldStance" ID="{1614613D-126A-4178-9805-FE112B4145C1}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_CrissCross" ID="{E1194346-C42D-4179-968B-E6FB7F15A1AE}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Bombastic" ID="{6A521A9D-7350-4182-A5D3-642DC361F050}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ska_stra_terrestrial" ID="{2047CFCC-0977-41A8-9627-1334101B8C5A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_TakeItSlow" ID="{F66BD4D6-B710-41D8-A49F-5A3A40497A7B}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Independence" ID="{A664CED4-54B9-4291-BD87-DD70B5C20DAC}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WithoutYou" ID="{C8430F78-FB57-4294-9C36-C58B5FF84BD5}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_MakeSomeWaves" ID="{A8017955-AA6B-4296-8456-130A55075162}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DreamFeet" ID="{7492EB9B-38C6-42DF-8583-5344AF9B13C1}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Smeeze" ID="{83DC8181-F89C-42FC-8DED-4FA86B11A65B}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_ByeByeBye" ID="{4D37C79C-FF66-42FE-ACB6-21B6573B8D75}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BounceWit_It" ID="{A34FCBDA-5F7B-4305-AFA1-070BC3996F6C}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GoMufasa" ID="{1D01A937-DF00-430D-8C25-4D898F8C9A5F}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
@@ -29,62 +42,109 @@
 						<ObjectRef Name="Play_Caffeinated" ID="{473E7A00-B72F-4409-9A51-B4372F253418}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Rushin_Around" ID="{D9360305-23A3-441B-B07D-71C8DCA6DF6E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GetGone" ID="{34C4338E-6258-443C-9523-8E3D7DE45F2C}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_DreamFeet" ID="{798AD87D-B50D-446D-A560-DC2F44880BB8}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_LaidBackShuffle" ID="{8FB05FE5-F440-447D-82D8-9073AD6098DA}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_ShowYa" ID="{0E629231-B828-44AB-A16E-5E9BCBAEB065}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Copines" ID="{399B56C1-DF00-44CA-AB08-AE0E4DF77BEB}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Strut" ID="{2814B7B0-2198-44D7-8094-8CA6EDC785CD}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boy_sALier" ID="{C3A035C0-8492-44DD-9FB1-A38E3993D3FA}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ska_stra_terrestrial" ID="{0FAB880E-6DDB-4518-8621-E05AE56B93B6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Cupid_sArrow" ID="{04D26A90-7C46-451E-A10E-25B1183854C2}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_NoTears" ID="{31272C8F-02A4-452D-BA92-313FCE851FE7}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Zany" ID="{677EF92B-E7DA-4531-8EF1-A57FAC3CA4B6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fanciful" ID="{0C41AEB7-BD68-4533-A7A8-54F700224B21}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ByeByeBye" ID="{2404D85F-F4FB-453C-A543-4C4C54C56CE4}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LaidBackShuffle" ID="{C7D174DC-5449-4548-84D2-3F315A36CAB6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FastFlex" ID="{8B44993C-DFE0-4551-B952-0D18DE3362C3}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_YouShouldSeeMeInACrown" ID="{254E4B34-E172-455B-8FE9-DD2EBE08AE71}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Glyphic" ID="{4B01E0C7-AC74-455C-9277-B64368B4405A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Challenge" ID="{EA358A76-7EE6-4562-9004-E5C68D0B106C}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Fanciful" ID="{B42FD3A4-CE6E-4566-B367-EAFFD37EBA40}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SugarRush" ID="{65D0644C-A9B0-456A-B72B-7D523C1465C9}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Copines" ID="{B4451D0F-74FB-45C6-930E-2D830331F668}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_CongaFT" ID="{17EA1D30-68F5-45CD-B9A2-F32570DBB57D}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Fandangle" ID="{4A2CF1C8-26E4-4623-8DF2-EB0CDF80585F}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FeelTheFlow" ID="{1F6A8579-E905-463E-B746-B3B4DD8DC967}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_MikuMikuBeam" ID="{69685A27-3936-46D8-8B61-9A9C06599E86}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_BoldStance" ID="{522AFBE1-28CB-4702-939E-B3B9B24BBE52}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ShowYa" ID="{24AD01E0-7FC9-4720-A4E6-8CEF00110292}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Glowsticks" ID="{F784963F-521F-4764-AC9D-2987E28EAA50}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Smeeze" ID="{8FE09A39-019B-4767-A018-0AAB7524F648}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Fantasy_Faceoff" ID="{E5936C72-4791-477B-BE0B-BD547F82FF44}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_PrimoMoves" ID="{25CA3D61-416D-4782-A791-20868B5E357B}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CluckStrut" ID="{03D2AA7B-5E48-47AD-8D59-CA41FE075CC9}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_ClickClickFlash" ID="{89406ED3-5DDE-47BF-9D5F-2C004A8254BA}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_NuthinButAGThang" ID="{7EC4650A-C335-47F2-923A-AD1C13BE1769}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ReapersShowtime" ID="{68532322-0CC0-481B-BD70-02A12FBB3133}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MikuMikuBeam" ID="{10538F1C-33F2-4834-AAEB-06F8EE6006C2}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SignatureShuffle" ID="{BE710606-A3DC-483F-A000-051899061411}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Zany" ID="{6B40D736-4EF0-4856-9F7E-0E40E2CF1821}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_CelebrateMe" ID="{FAE2ACFB-95E8-4856-A65B-FC52957C5B71}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Caffeinated" ID="{8CB984EB-474C-48CB-A245-A71CC72737BC}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoWithTheFlow" ID="{41BF0BB7-A843-48FC-82B7-4B8B6D5C1A42}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Boy_sALier" ID="{B2CE1C03-E8B9-492C-BDC8-470784B6C0DF}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ClickClickFlash" ID="{E205A254-0CFC-4970-9DD5-70AA27ADC6FA}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_FastFlex" ID="{1FAD7FE7-9B62-497A-AB7E-7A05CE28984A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gloss" ID="{5799652F-7571-49AE-8B55-404A050B709D}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AskMe" ID="{C770FB26-A3C2-49B8-8CF8-F24DD2D607E7}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Strut" ID="{2C619061-6920-49BA-8DDE-8A6FD2843C64}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PointAndStrut" ID="{F6003C7C-424F-49C0-AF49-468A4022A33E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RunItDown" ID="{6D776F04-A4A8-49C2-94AF-C8FFB3567F50}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_WhatYouWant" ID="{CDAAD9D2-BB34-49C9-B479-B97D85EE6AE6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GoWithTheFlow" ID="{210F45C4-FE05-49C9-B04C-6E5054DBAC21}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dimensional" ID="{4706BDBA-EA7E-49D5-A3E5-B9A7460BF397}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DeepExplorer" ID="{77023AF9-2748-49DC-9241-2327E4DFE92E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_RapMonster" ID="{BA07CD27-1803-49F5-A86C-1F6A31D7F161}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_InHaMood" ID="{893DA6E7-A025-4A20-885C-6C1502853DEB}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bombastic" ID="{1AEDD3BF-1C5C-4A28-A19C-7BE0ECEB6F3E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_PointAndStrut" ID="{1D30C51E-0714-4A2F-8097-20E43D271005}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_NanaNana" ID="{DCACAA04-2F74-4A33-8AC2-18CC98955335}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HeelClickBreakdown" ID="{73C7CEB4-AA33-4A4B-BEEB-C6194BCF1A0A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwitchAway" ID="{C370BD92-0696-4A5C-B7D8-610A7ED4B96D}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fandangle" ID="{0152165D-94B6-4A64-A5DC-7E1D3859B845}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Snoop_sWalk" ID="{1FBF7112-E218-4A79-96B5-85AAB2A3DCF5}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_IAintAfraid" ID="{1B9254D8-68F0-4A88-9FE8-B540A239075A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Glowsticks" ID="{2AA8F4C1-BDC3-4AA6-8363-360AE1FD0320}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AirShredder" ID="{1BD08D8D-8D0F-4AA7-B6C4-5501FC21F14C}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Independence" ID="{BFA888DF-F50C-4AB6-B13C-D608C59875B4}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CrissCross" ID="{FECE334C-00D7-4AD5-9279-FB76FCE4EB45}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_NightOut" ID="{6BB88E82-CF15-4AF9-9687-7530295C6D45}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Rushin_Around" ID="{CF66FF18-54D4-4AFB-B8A4-ED8DC80F9CBD}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_CheerUp" ID="{CB3E59C6-F80F-4B1E-81CF-0DF168592B50}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Switchstep" ID="{78B16B54-EAA6-4B2A-9421-E5E9077A9487}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambitions" ID="{6DB0353A-8A69-4B34-B839-9DE953A01AC1}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CelebrateMe" ID="{F651E8C8-42BF-4B77-A733-71FF3149A509}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MakeSomeWaves" ID="{0D530E43-0977-4B80-A3FE-2F21AA449E5E}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Gloss" ID="{87023AD5-992F-4B81-AD3F-540FD97EEC4B}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_ReapersShowtime" ID="{95BE3EDD-6822-4BBE-85AC-5C299D670038}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_AskMe" ID="{8082FBFC-2411-4BC7-8BA8-F86D1C15FC94}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_InHaMood" ID="{5AB9DEBD-E2A6-4BDB-8F13-D1921E1ABE75}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_NanaNana" ID="{F3CC4156-CF5D-4BEF-B9A4-ECEB800CDAF9}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambitions" ID="{839E03AB-3EB6-4BFE-8A25-780E0EDD2E84}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_YouShouldSeeMeInACrown" ID="{EBF0BD0B-095C-4C0E-84F5-1C96225B73F8}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_WithoutYou" ID="{568E7261-E260-4CC2-A212-BD630239B7C4}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Revel" ID="{86341ACC-C3CB-4CDA-915A-87A731934CE8}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Carefree" ID="{5D9E4551-F019-4CED-B219-97A5D525C006}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Carefree" ID="{AC54C921-9A5F-4D1A-A1FD-4ED816054096}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoMufasa" ID="{CE4253C7-247A-4D24-B65B-06E650D86E55}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_AirShredder" ID="{ADC98308-A16A-4D2D-8A76-ECAA5B5D1053}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CheerUp" ID="{7F9E0D72-D22B-4D31-B311-A7CFAF5815A4}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_BounceWit_It" ID="{F3DD336D-D666-4D76-84C6-8671FEF73471}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_IAintAfraid" ID="{F53396AB-E799-4D89-B3EB-D564BA87DAD2}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CongaFT" ID="{C291C828-CBA1-4DA0-8B4C-F8746936F47C}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Revel" ID="{A8157794-69E9-4DA8-8DFE-0D6DD4A81FE0}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_NightOut" ID="{764573C0-A203-4DC5-BA60-CB640D534A60}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cupid_sArrow" ID="{A95F03EB-B04D-4DF8-A241-729FF05BD7AE}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GetLoose" ID="{EAEE046A-EFE4-4E54-8534-C18728E9B677}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GetGone" ID="{77CB396E-FDA2-4E61-BD72-B5CB294A3FC8}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SignatureShuffle" ID="{CAB3FA8F-CB10-4E8B-8E9B-63E6E61CA2FF}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Riches" ID="{D55CF750-7DF1-4EB8-94DC-10C07716E7C6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TakeItSlow" ID="{46FB4FD1-2624-4EBD-BD86-646DB3F0EBC6}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Snoop_sWalk" ID="{8D298E13-E4E7-4F2B-A7A9-8C7D9AD7DE17}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dimensional" ID="{AE5740BF-8171-4F2D-9C81-559623B21EFE}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_NuthinButAGThang" ID="{1793D2BF-1D1F-4F72-95AA-091E9B4D0170}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WhatYouWant" ID="{05BBF321-0C53-4F99-8CE4-3690DB95B97A}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fantasy_Faceoff" ID="{16459BE3-AB01-4FC7-B89A-798968A942F8}" WorkUnitID="{F21DDC87-45B6-4197-9604-38F6B04440AA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

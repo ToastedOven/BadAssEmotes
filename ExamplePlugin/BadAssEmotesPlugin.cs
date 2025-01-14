@@ -31,7 +31,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badassemotes";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssEmotes";
-        public const string PluginVersion = "1.10.0";
+        public const string PluginVersion = "1.11.0";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -200,7 +200,7 @@ namespace ExamplePlugin
             AddAnimation("Float", "Float", false, true, true);
             AddAnimation("Rollie", "Rollie", true, true, true);
             AddAnimation("GalaxyObservatory", new string[] { "Play_GalaxyObservatory1", "Play_GalaxyObservatory2", "Play_GalaxyObservatory3" }, "GalaxyObservatory", true, true, true);
-            AddAnimation("Markiplier", "Markiplier", false, false, false);
+            AddAnimation("Markiplier", "Markiplier", false, true, false);
             AddAnimation("DevilSpawn", "DevilSpawn", true, true, true);
             CustomEmotesAPI.AddCustomAnimation(new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/DuckThisOneIdle.anim") }, true, new string[] { "Play_DuckThisOneIdle" }, new string[] { "Stop_DuckThisOne" }, joinSpots: new JoinSpot[] { new JoinSpot("DuckThisJoinSpot", new Vector3(0, 0, 2)) }, dimWhenClose: true);
             CustomEmotesAPI.BlackListEmote("DuckThisOneIdle");
@@ -289,13 +289,8 @@ namespace ExamplePlugin
             AddAnimation("Steady", "Steady", true, true, true);
 
 
-<<<<<<< Updated upstream
-            //update 10
-            AddAnimation("AirShredder", "AirShredder", true, true, true);
-=======
             //Update 10
-            AddAnimation("AirShredder", "AirShredder", true, true, true); //NEEDS A REAL NAME
->>>>>>> Stashed changes
+            AddAnimation("AirShredder", "AirShredder", true, true, true);
             AddAnimation("ArmyBunny", "ArmyBunny", "ArmyBunnyLoop", true, true);
             AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true);
             AddAnimation("BoldStance", "BoldStance", true, true, true);
@@ -339,10 +334,38 @@ namespace ExamplePlugin
             AddAnimation("GoMufasa", "GoMufasa", true, true, true);
             AddAnimation("Snoop'sWalk", "Snoop_sWalk", "Snoop'sWalkLoop", true, true);
 
-<<<<<<< Updated upstream
+            //Update 12
+            AddAnimation("Ambitions", "Ambitions", "AmbitionsLoop", true, true);
+            AddAnimation("AskMe", "AskMe", true, true, true);
+            AddAnimation("Carefree", "Carefree", "CarefreeLoop", true, true);
+            AddAnimation("Challenge", "Challenge", true, true, true);
+            AddAnimation("ClickClickFlash", "ClickClickFlash", "ClickClickFlashLoop", true, true);
+            AddAnimation("DeepExplorer", "DeepExplorer", "DeepExplorerLoop", true, true);
+            AddAnimation("Dimensional", "Dimensional", "DimensionalLoop", true, true);
+            AddAnimation("DreamFeet", "DreamFeet", true, true, true);
+            AddAnimation("Fanciful", "Fanciful", true, true, true);
+            AddAnimation("Fandangle", "Fandangle", true, true, true);
+            AddAnimation("FantasyFaceoff", "Fantasy_Faceoff", "FantasyFaceoffLoop", true, true);
+            AddAnimation("Glowsticks", "Glowsticks", true, true, true);
+            AddAnimation("Glyphic", "Glyphic", true, true, true);
+            AddAnimation("GoWithTheFlow", "GoWithTheFlow", "GoWithTheFlowLoop", true, true);
+            AddAnimation("HeelClickBreakdown", "HeelClickBreakdown", "HeelClickBreakdownLoop", true, true);
+            AddAnimation("IAin'tAfraid", "IAintAfraid", true, true, true);
+            AddAnimation("Independence", "Independence", "IndependenceLoop", true, true);
+            AddAnimation("LaidBackShuffle", "LaidBackShuffle", true, true, true);
+            AddAnimation("NoTears", "NoTears", "NoTearsLoop", true, true);
+            AddAnimation("Reaper'sShowtime", "ReapersShowtime", "Reaper'sShowtimeLoop", true, true);
+            AddAnimation("Revel", "Revel", true, true, true);
+            AddAnimation("Riches", "Riches", "RichesLoop", true, true);
+            AddAnimation("SignatureShuffle", "SignatureShuffle", true, true, true);
+            AddAnimation("Smeeze", "Smeeze", "SmeezeLoop", true, true);
+            AddAnimation("Strut", "Strut", true, true, true);
+            AddAnimation("TakeItSlow", "TakeItSlow", "TakeItSlowLoop", true, true);
+            AddAnimation("WhatYouWant", "WhatYouWant", "WhatYouWantLoop", true, true);
+            AddAnimation("WithoutYou", "WithoutYou", "WithoutYouLoop", true, true);
+            AddAnimation("MikuLive", "MiluLive", "MikuLiveLoop", true, true);
+            AddAnimation("MikuMikuBeam", "MikuMikuBeam", "MikuMikuBeamLoop", true, true);
 
-=======
->>>>>>> Stashed changes
 
             GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
             foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
@@ -352,6 +375,11 @@ namespace ExamplePlugin
                     mat.shader = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Commando/CommandoBody.prefab").WaitForCompletion().GetComponentInChildren<SkinnedMeshRenderer>().material.shader;
                 }
             }
+            var changeHammer1 = Assets.Load<Material>("Assets/Prefabs/Materials/blue.mat");
+            changeHammer1 = Addressables.LoadAssetAsync<Material>("RoR2/Base/Brother/matBrotherStib.mat").WaitForCompletion();
+            var changeHammer2 = Assets.Load<Material>("Assets/Prefabs/Materials/texMoonConcreteDiffuse.mat");
+            changeHammer1 = Addressables.LoadAssetAsync<Material>("RoR2/Base/Brother/matBrotherHammer.mat").WaitForCompletion();
+
             pressObject.AddComponent<HydrolicPressMechanism>();
             pressInt = CustomEmotesAPI.RegisterWorldProp(pressObject, new JoinSpot[] { new JoinSpot("HydrolicPressJoinSpot", new Vector3(0, .1f, 0)) });
 
@@ -362,6 +390,58 @@ namespace ExamplePlugin
 
             On.RoR2.Run.OnClientGameOver += Run_OnClientGameOver;
         }
+
+        public class RainbowGlowstick : MonoBehaviour
+        {
+            public int red = 256;
+            public int green = 0;
+            public int blue = 0;
+            private bool hideUglyParticlesDoneWithCodeBecauseIDontWantToLoseThemInUnity = true;
+            public void Update()
+            {
+                if (hideUglyParticlesDoneWithCodeBecauseIDontWantToLoseThemInUnity)
+                {
+                    foreach (ParticleSystem componentsInChild in GetComponentsInChildren<ParticleSystem>())
+                        componentsInChild.startColor = new Color(1f, 1f, 1f, 0);//componentsInChild.startColor.a);
+                    hideUglyParticlesDoneWithCodeBecauseIDontWantToLoseThemInUnity = false;
+                }
+                for (int i = 0; i < Settings.RainbowSpeed.Value; i++)
+                {
+                    if (red >= 256 && blue <= 0)
+                    {
+                        green++;
+                    }
+                    if (green >= 256 && red > 0)
+                    {
+                        red--;
+                    }
+                    if (green >= 256 && red <= 0)
+                    {
+                        blue++;
+                    }
+                    if (blue >= 256 && green > 0)
+                    {
+                        green--;
+                    }
+                    if (blue >= 256 && green <= 0)
+                    {
+                        red++;
+                    }
+                    if (red >= 256 && blue > 0)
+                    {
+                        blue--;
+                    }
+                }
+                
+                foreach (Light componentsInChild in GetComponentsInChildren<Light>())
+                    componentsInChild.color = new Color(red / 256f, green / 256f, blue / 256f, componentsInChild.color.a);
+                
+                foreach (TrailRenderer componentsInChild in GetComponentsInChildren<TrailRenderer>())
+                    componentsInChild.startColor = new Color(red / 256f, green / 256f, blue / 256f, componentsInChild.startColor.a);
+            }
+
+        }
+
 
         private void Run_OnClientGameOver(On.RoR2.Run.orig_OnClientGameOver orig, Run self, RunReport runReport)
         {
@@ -625,11 +705,7 @@ namespace ExamplePlugin
         int stand = -1;
         List<BoneMapper> punchingMappers = new List<BoneMapper>();
         int prop1 = -1;
-<<<<<<< Updated upstream
-        int prop2 = -1
-=======
         int prop2 = -1;
->>>>>>> Stashed changes
         CameraTargetParams.CameraParamsOverrideHandle fovHandle;
         internal CharacterBody localBody = null;
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
@@ -782,19 +858,11 @@ namespace ExamplePlugin
             }
             if (newAnimation == "CheerUp")
             {
-<<<<<<< Updated upstream
                 var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
-                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
-                    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-=======
-
-                var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
-                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
-                    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-                //var newPrefab = Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab");
-                //foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
-                //    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
->>>>>>> Stashed changes
+                    foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                        componentsInChild.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                
+                
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(newPrefab));
                 mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));
@@ -805,6 +873,34 @@ namespace ExamplePlugin
                 mapper.props[prop2].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.RightHand));
                 mapper.props[prop2].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop2].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Glowsticks")
+            {
+                var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/Glowstick.prefab"));
+                newPrefab.transform.localScale /= 2;
+                newPrefab.AddComponent<RainbowGlowstick>();
+                //foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                //    componentsInChild.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                prop2 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop2].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.RightHand));
+                mapper.props[prop2].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop2].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
+            if (newAnimation == "Reaper'sShowtime")
+            {
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/BrotherSword.prefab"))); //<-- FUCK THIS SHIT
+                mapper.props[prop1].transform.SetParent(mapper.transform.parent);
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
             }
             if (newAnimation == "Float")

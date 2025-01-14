@@ -1871,6 +1871,1901 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+						<Sound Name="ClickClickFlash" ID="{A0DC214E-5131-4B2D-A531-DFEB421744CE}" ShortID="907731579">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.63</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_GalaxyLevel_Loop" ID="{EE3EE837-4BDF-4DB2-B071-6DE1888A89B6}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_GalaxyLevel_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="315579441"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_GalaxyLevel_Loop" ID="{EE3EE837-4BDF-4DB2-B071-6DE1888A89B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LaidBackShuffle" ID="{5846A123-26AD-44F3-9E69-379B3EE0F4A6}" ShortID="21878146">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_Gabby_Hip_Hop_Music_Loop" ID="{B936C606-040D-43A5-A23D-41617766B2F7}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_Gabby_Hip_Hop_Music_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="639859227"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_Gabby_Hip_Hop_Music_Loop" ID="{B936C606-040D-43A5-A23D-41617766B2F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fandangle" ID="{1000CCB4-480D-4C4C-82A8-D90F0D29B447}" ShortID="374128824">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Athena_Emote_Floppy_Music" ID="{88C9B8DE-C2F7-41B1-9B02-EC50DDD9E6F1}">
+									<Language>SFX</Language>
+									<AudioFile>Athena_Emote_Floppy_Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="527432098"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Athena_Emote_Floppy_Music" ID="{88C9B8DE-C2F7-41B1-9B02-EC50DDD9E6F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DreamFeet" ID="{5DA69FEE-2ED8-4021-B4D6-63EEB409849C}" ShortID="265747401">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_Double_Dream_Feet_Music_Loop" ID="{D48BD469-0A1D-48C6-8A33-FA8367B2EFD1}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_Double_Dream_Feet_Music_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="14183792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_Double_Dream_Feet_Music_Loop" ID="{D48BD469-0A1D-48C6-8A33-FA8367B2EFD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fanciful" ID="{999935AA-A6C1-40BD-8DAE-04BE05F9B836}" ShortID="74692546">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_Fancy_Workout_Music_Loop_01" ID="{3D704CA2-CD66-4E0D-8AE2-DA3FFCBDDFCB}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_Fancy_Workout_Music_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="308607916"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_Fancy_Workout_Music_Loop_01" ID="{3D704CA2-CD66-4E0D-8AE2-DA3FFCBDDFCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SignatureShuffle" ID="{90082B88-EFBB-44A6-9127-81B027E95305}" ShortID="754736879">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="athena_emote_electroshuffle_music" ID="{06051F05-93E0-4B87-95EA-68285E95AD93}">
+									<Language>SFX</Language>
+									<AudioFile>athena_emote_electroshuffle_music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="243696276"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="athena_emote_electroshuffle_music" ID="{06051F05-93E0-4B87-95EA-68285E95AD93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="IAintAfraid" ID="{63551115-2F7C-4355-BD42-5282DB7B7536}" ShortID="20694066">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_Eerie" ID="{A7B6A470-34FB-4FE5-BDD5-81038868612E}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_Eerie.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1012240619"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_Eerie" ID="{A7B6A470-34FB-4FE5-BDD5-81038868612E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Revel" ID="{E3BF2DF3-6B3E-4462-BAAD-BED508EE80BE}" ShortID="312900786">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Athena_Emote_DoubleSnap_Music" ID="{E1D0890F-20E5-4BD3-B25B-5F6116925249}">
+									<Language>SFX</Language>
+									<AudioFile>Athena_Emote_DoubleSnap_Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="480076667"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Athena_Emote_DoubleSnap_Music" ID="{E1D0890F-20E5-4BD3-B25B-5F6116925249}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Strut" ID="{59BF552C-0F19-4E84-B397-A5112F1730C9}" ShortID="469498580">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_DoggyStrut_Loop" ID="{E885141A-E867-4727-ACF3-B542F57708D5}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_DoggyStrut_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="829776432"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_DoggyStrut_Loop" ID="{E885141A-E867-4727-ACF3-B542F57708D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boombox_Loop" ID="{90DC1905-3FDA-4A39-B5F0-35D577700845}" ShortID="747218624">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boombox_Loop" ID="{E486A2B4-289E-44EA-946D-F5B53E0A4251}">
+									<Language>SFX</Language>
+									<AudioFile>Boombox_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="216444565"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boombox_Loop" ID="{E486A2B4-289E-44EA-946D-F5B53E0A4251}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="WithoutYou" ID="{450A325F-E780-40E5-912B-6722DBE453E1}" ShortID="263644697">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Devotion_Intro_02" ID="{AF3C8C30-8829-4E16-AEF4-88C3BCE3D0AD}" ShortID="962384069">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Devotion_Intro_02" ID="{5881228A-3858-4012-8928-43179AEAAFC5}">
+											<Language>SFX</Language>
+											<AudioFile>Devotion_Intro_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328540293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Devotion_Intro_02" ID="{5881228A-3858-4012-8928-43179AEAAFC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Devotion_Loop01" ID="{0C6FBBFE-E6CF-481E-B0A0-6D5827AF8A2C}" ShortID="123482348">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Devotion_Loop01" ID="{916E12E4-D96D-4937-AEF1-AD35C202450A}">
+											<Language>SFX</Language>
+											<AudioFile>Devotion_Loop01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395586072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Devotion_Loop01" ID="{916E12E4-D96D-4937-AEF1-AD35C202450A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Devotion_Intro_02" ID="{AF3C8C30-8829-4E16-AEF4-88C3BCE3D0AD}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Devotion_Loop01" ID="{0C6FBBFE-E6CF-481E-B0A0-6D5827AF8A2C}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DeepExplorer" ID="{3B8BF674-60AE-4A05-AC39-A268039CF25D}" ShortID="858137714">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Asteroid_Music_Intro" ID="{C4439FAC-F5FB-4596-8A46-5A1C8957DF2C}" ShortID="1047681696">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Asteroid_Music_Intro" ID="{721F67BF-5A76-4B07-9EA4-36A13E0301CC}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Asteroid_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="877142137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Asteroid_Music_Intro" ID="{721F67BF-5A76-4B07-9EA4-36A13E0301CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Asteroid_Music_Loop" ID="{3660FDDD-218E-4005-B4FB-88CDB3C509E7}" ShortID="668139004">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Asteroid_Music_Loop" ID="{5AED6429-0AD2-4FB9-91BC-62443BB485FB}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Asteroid_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="925781867"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Asteroid_Music_Loop" ID="{5AED6429-0AD2-4FB9-91BC-62443BB485FB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Asteroid_Music_Intro" ID="{C4439FAC-F5FB-4596-8A46-5A1C8957DF2C}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Asteroid_Music_Loop" ID="{3660FDDD-218E-4005-B4FB-88CDB3C509E7}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ReapersShowtime" ID="{07035EE6-EE4E-42FD-9D1A-D326031EFB89}" ShortID="792753900">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Delirious_Intro" ID="{06B7D48D-1BFA-4A89-8146-C08E81E3BC8A}" ShortID="1756354">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Delirious_Intro" ID="{ABBEA2BC-10FF-44F0-8A9B-314889939775}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Delirious_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="708886665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Delirious_Intro" ID="{ABBEA2BC-10FF-44F0-8A9B-314889939775}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Delirious_Loop" ID="{154616E2-0C83-4D8C-BBF1-086B3044EEDA}" ShortID="313143325">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Delirious_Loop" ID="{DDD4FB4A-905B-48E0-83AB-DA2143150973}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Delirious_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="368246041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Delirious_Loop" ID="{DDD4FB4A-905B-48E0-83AB-DA2143150973}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Delirious_Intro" ID="{06B7D48D-1BFA-4A89-8146-C08E81E3BC8A}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Delirious_Loop" ID="{154616E2-0C83-4D8C-BBF1-086B3044EEDA}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GoWithTheFlow" ID="{1BECD400-4088-452A-9FA1-2F1BD9BF77B3}" ShortID="301602785">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Destiny_Music_Intro" ID="{FBA2A829-5C70-45B7-BC9E-27F861EBA1BB}" ShortID="469807440">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Destiny_Music_Intro" ID="{1DDD4F61-4FC2-4DCF-A4A4-682A21DE7864}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Destiny_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156736896"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Destiny_Music_Intro" ID="{1DDD4F61-4FC2-4DCF-A4A4-682A21DE7864}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Destiny_Music_Loop" ID="{86A413C5-B950-4AB5-AA6D-AEA2B50280B2}" ShortID="84072844">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Destiny_Music_Loop" ID="{66B054C3-1E8E-498F-854F-4E4F25BA1D3E}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Destiny_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880860154"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Destiny_Music_Loop" ID="{66B054C3-1E8E-498F-854F-4E4F25BA1D3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Destiny_Music_Intro" ID="{FBA2A829-5C70-45B7-BC9E-27F861EBA1BB}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Destiny_Music_Loop" ID="{86A413C5-B950-4AB5-AA6D-AEA2B50280B2}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WhatYouWant" ID="{55A9541D-D1D3-4C42-92D6-76E25ED5401B}" ShortID="464814414">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Dignified_Music_Loop" ID="{E07246B9-6931-414E-B188-0657EA8D0C4A}" ShortID="919165769">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dignified_Music_Loop" ID="{10A07B51-5AA3-449D-9C8A-FC8C95EC0A4E}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dignified_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="731129049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dignified_Music_Loop" ID="{10A07B51-5AA3-449D-9C8A-FC8C95EC0A4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Dignified_Music_Intro" ID="{E3F99F53-52DC-42EE-AF08-D9B67B0EFB71}" ShortID="364490824">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dignified_Music_Intro" ID="{6DA0A351-6FA2-414B-89C2-D747FFCBE97D}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dignified_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="466827943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dignified_Music_Intro" ID="{6DA0A351-6FA2-414B-89C2-D747FFCBE97D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Dignified_Music_Intro" ID="{E3F99F53-52DC-42EE-AF08-D9B67B0EFB71}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Dignified_Music_Loop" ID="{E07246B9-6931-414E-B188-0657EA8D0C4A}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="HeelClickBreakdown" ID="{8FA88629-E38E-490D-8350-51AAA28D7B1A}" ShortID="741646813">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Depart_Music_Intro" ID="{BC4B0179-E61E-479E-9738-D2451817C0A6}" ShortID="56324218">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Depart_Music_Intro" ID="{8A588913-C079-4912-8367-D4911098C38C}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Depart_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="300459890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Depart_Music_Intro" ID="{8A588913-C079-4912-8367-D4911098C38C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Depart_Music_Loop" ID="{C9F2C2F3-5B57-4942-8E75-10622B5A88BC}" ShortID="727847517">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Depart_Music_Loop" ID="{A6B2B1AE-74A2-4560-AB1B-71E7452C9C9D}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Depart_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="881516299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Depart_Music_Loop" ID="{A6B2B1AE-74A2-4560-AB1B-71E7452C9C9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Depart_Music_Intro" ID="{BC4B0179-E61E-479E-9738-D2451817C0A6}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Depart_Music_Loop" ID="{C9F2C2F3-5B57-4942-8E75-10622B5A88BC}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dimensional" ID="{D2C298FB-0862-41A6-943D-94160AEEFAE6}" ShortID="40578069">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Dimension_Music_Intro" ID="{68F4BA6E-C5EE-48C0-98C6-87850A51AB10}" ShortID="590097249">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dimension_Music_Intro" ID="{7909F58E-ACEB-4A33-B881-6DB995A3E958}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dimension_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674202966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dimension_Music_Intro" ID="{7909F58E-ACEB-4A33-B881-6DB995A3E958}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Dimension_Music_Loop" ID="{E4431AAC-1710-42E8-A274-5B4FF67D052D}" ShortID="7541500">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dimension_Music_Loop" ID="{2745C4B8-0A39-4EC1-BDEC-C26D474966F0}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dimension_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913766978"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dimension_Music_Loop" ID="{2745C4B8-0A39-4EC1-BDEC-C26D474966F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Dimension_Music_Intro" ID="{68F4BA6E-C5EE-48C0-98C6-87850A51AB10}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Dimension_Music_Loop" ID="{E4431AAC-1710-42E8-A274-5B4FF67D052D}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Independence" ID="{BDFDFD96-3877-435A-95B9-7C895F3B140F}" ShortID="184633038">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Disband_Music_Intro" ID="{05B33C67-F186-4413-8704-D3C7ADEC0ECC}" ShortID="18738990">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Disband_Music_Intro" ID="{91D8921D-F694-4C09-AED8-6B90CAE9E2EA}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Disband_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454537473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Disband_Music_Intro" ID="{91D8921D-F694-4C09-AED8-6B90CAE9E2EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Disband_Music_Loop" ID="{B3ED201B-B4F7-481F-AD99-BD460D1A5CB7}" ShortID="355476962">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Disband_Music_Loop" ID="{1E00D685-1774-489C-9F33-019CE61EBF83}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Disband_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="839573585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Disband_Music_Loop" ID="{1E00D685-1774-489C-9F33-019CE61EBF83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Disband_Music_Intro" ID="{05B33C67-F186-4413-8704-D3C7ADEC0ECC}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Disband_Music_Loop" ID="{B3ED201B-B4F7-481F-AD99-BD460D1A5CB7}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="NoTears" ID="{783672DC-D5BE-46CD-9044-118A7039315F}" ShortID="105473553">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Distraught_Music_Intro" ID="{343C0646-578E-4902-9397-8252014990F4}" ShortID="278054266">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Distraught_Music_Intro" ID="{44265ABC-1A58-44EC-8792-9301F8068788}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Distraught_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275652036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Distraught_Music_Intro" ID="{44265ABC-1A58-44EC-8792-9301F8068788}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Distraught_Music_Loop" ID="{ECB6CEDC-E9B4-4B21-A31D-27E47C47B5EF}" ShortID="980461617">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Distraught_Music_Loop" ID="{9A2F20C8-B32D-4A6D-A9CB-E6E800D92BFF}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Distraught_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332463041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Distraught_Music_Loop" ID="{9A2F20C8-B32D-4A6D-A9CB-E6E800D92BFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Distraught_Music_Intro" ID="{343C0646-578E-4902-9397-8252014990F4}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Distraught_Music_Loop" ID="{ECB6CEDC-E9B4-4B21-A31D-27E47C47B5EF}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Smeeze" ID="{1B6A3E31-E9F0-42C8-BB4A-7E47CA2C7A39}" ShortID="518194563">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Dont_Sneeze_Intro" ID="{439CD264-B0C7-414D-848B-01B915EE1357}" ShortID="526193891">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dont_Sneeze_Intro" ID="{B673A221-C6AD-4FB5-B957-1D3A183E241F}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dont_Sneeze_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417178565"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dont_Sneeze_Intro" ID="{B673A221-C6AD-4FB5-B957-1D3A183E241F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Dont_Sneeze_Loop" ID="{8BFF761E-9910-4EA0-BC3F-1FBDFAAC0BA2}" ShortID="863327301">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dont_Sneeze_Loop" ID="{A46C9A6C-3DF1-4BE4-A77A-58983A9638FD}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dont_Sneeze_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31480770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dont_Sneeze_Loop" ID="{A46C9A6C-3DF1-4BE4-A77A-58983A9638FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Dont_Sneeze_Intro" ID="{439CD264-B0C7-414D-848B-01B915EE1357}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Dont_Sneeze_Loop" ID="{8BFF761E-9910-4EA0-BC3F-1FBDFAAC0BA2}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AskMe" ID="{5D25E307-5AB3-4CD8-AE37-51BB6C90E0E0}" ShortID="447568556">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Dreadful_Intro" ID="{ADF65B33-4576-44A6-B6DA-606AF9CA3115}" ShortID="981249340">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dreadful_Intro" ID="{D9862CBB-3F92-4FB1-9F89-7F256FC8CF82}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dreadful_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137294969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dreadful_Intro" ID="{D9862CBB-3F92-4FB1-9F89-7F256FC8CF82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Dreadful_Loop" ID="{1E768227-B06B-43B0-A3E0-C289917B17F1}" ShortID="350003094">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Dreadful_Loop" ID="{F0E1C176-791D-423C-82AE-59E19E682452}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Dreadful_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884447818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Dreadful_Loop" ID="{F0E1C176-791D-423C-82AE-59E19E682452}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Dreadful_Intro" ID="{ADF65B33-4576-44A6-B6DA-606AF9CA3115}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Dreadful_Loop" ID="{1E768227-B06B-43B0-A3E0-C289917B17F1}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Fantasy Faceoff" ID="{28770B32-F44F-4488-B7D3-4DEB4DC18089}" ShortID="265083658">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Encounter_Music_Intro" ID="{9191A702-323C-4F91-AAA4-3860B745EA91}" ShortID="789640315">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Encounter_Music_Intro" ID="{30DCF4A7-9100-4478-920B-AC1014347B51}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Encounter_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470899065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Encounter_Music_Intro" ID="{30DCF4A7-9100-4478-920B-AC1014347B51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Encounter_Music_Loop" ID="{DC5EC54C-99D7-40F8-B836-D646E87CD1C1}" ShortID="69926596">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Encounter_Music_Loop" ID="{6FF43EB7-1556-4B1A-977E-24B663B15864}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Encounter_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="597007543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Encounter_Music_Loop" ID="{6FF43EB7-1556-4B1A-977E-24B663B15864}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Encounter_Music_Intro" ID="{9191A702-323C-4F91-AAA4-3860B745EA91}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Encounter_Music_Loop" ID="{DC5EC54C-99D7-40F8-B836-D646E87CD1C1}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="TakeItSlow" ID="{F8F91472-BE6D-41A7-A644-CB78EA5F6343}" ShortID="224095207">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Enrapture_Music_Intro" ID="{E0C84F02-5905-4B31-8A6F-C68381C40D1C}" ShortID="602747040">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Enrapture_Music_Intro" ID="{0C3A72EE-E5C4-4F7C-A3F2-71FE4FA95CCE}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Enrapture_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="569657380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Enrapture_Music_Intro" ID="{0C3A72EE-E5C4-4F7C-A3F2-71FE4FA95CCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Enrapture_Music_Loop" ID="{BA49EF02-8D36-49CF-BFEE-4533E802660B}" ShortID="495510658">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Enrapture_Music_Loop" ID="{968CEC0F-B8B9-489B-8123-4DFA5DCBCBCC}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Enrapture_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675307521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Enrapture_Music_Loop" ID="{968CEC0F-B8B9-489B-8123-4DFA5DCBCBCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Enrapture_Music_Intro" ID="{E0C84F02-5905-4B31-8A6F-C68381C40D1C}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Enrapture_Music_Loop" ID="{BA49EF02-8D36-49CF-BFEE-4533E802660B}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Carefree" ID="{D06217C8-62E1-455A-94B4-8711FED347C9}" ShortID="520376937">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Exquisite_Intro" ID="{39905BBB-4AB9-47A6-BE4E-6F78C5A03CE7}" ShortID="949874904">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Exquisite_Intro" ID="{1DB5B611-F9EC-48FF-94DE-A1504C2727D7}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Exquisite_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="616953651"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Exquisite_Intro" ID="{1DB5B611-F9EC-48FF-94DE-A1504C2727D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Exquisite_Loop" ID="{2903B8F6-4843-442B-9071-2DA00A39438E}" ShortID="621195521">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Exquisite_Loop" ID="{5DE1773A-A313-4B3A-9C44-7B10B3AC2B10}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Exquisite_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="99046601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Exquisite_Loop" ID="{5DE1773A-A313-4B3A-9C44-7B10B3AC2B10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Exquisite_Intro" ID="{39905BBB-4AB9-47A6-BE4E-6F78C5A03CE7}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Exquisite_Loop" ID="{2903B8F6-4843-442B-9071-2DA00A39438E}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Challenge" ID="{0028CDF0-4F3F-405E-B573-0B5F668D0571}" ShortID="414139797">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Factual_Music_Intro" ID="{02644743-C86B-458E-BA03-F48A59898FE4}" ShortID="836076034">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Factual_Music_Intro" ID="{1987DB9B-31D4-499F-B9E7-56F2399B5CCA}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Factual_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="984063441"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Factual_Music_Intro" ID="{1987DB9B-31D4-499F-B9E7-56F2399B5CCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Factual_Music_Loop" ID="{3598D9AE-E67D-4C55-AF8E-5C6C623F845C}" ShortID="500413200">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Factual_Music_Loop" ID="{BB70BC31-13BD-41B9-A5A8-A5C04B23328D}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Factual_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="707852386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Factual_Music_Loop" ID="{BB70BC31-13BD-41B9-A5A8-A5C04B23328D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Factual_Music_Intro" ID="{02644743-C86B-458E-BA03-F48A59898FE4}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Factual_Music_Loop" ID="{3598D9AE-E67D-4C55-AF8E-5C6C623F845C}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambitions" ID="{D9224F1A-6837-46CF-86B4-6242308FEDA7}" ShortID="679993084">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Fantasy_Music_Intro" ID="{22DB812B-2647-41FF-95C5-BACB3518D4FA}" ShortID="939771645">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Fantasy_Music_Intro" ID="{20D3BF66-281D-4D72-84C6-867DB3670337}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Fantasy_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="526732473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Fantasy_Music_Intro" ID="{20D3BF66-281D-4D72-84C6-867DB3670337}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Fantasy_Music_Loop" ID="{CF229DBA-D017-470D-ACF2-F97097FAA723}" ShortID="353341980">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Fantasy_Music_Loop" ID="{EBADE1D6-9BF8-47CF-84CF-C92001FBAF46}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Fantasy_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577015334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Fantasy_Music_Loop" ID="{EBADE1D6-9BF8-47CF-84CF-C92001FBAF46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Fantasy_Music_Intro" ID="{22DB812B-2647-41FF-95C5-BACB3518D4FA}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Fantasy_Music_Loop" ID="{CF229DBA-D017-470D-ACF2-F97097FAA723}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Riches" ID="{7057E0C6-C1FB-4CFA-AC1F-B6B6433FFFE3}" ShortID="456915337">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_Gilded_Music_Intro" ID="{67F00ABF-431E-4593-AAF5-FA9C45AF8699}" ShortID="586125178">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Gilded_Music_Intro" ID="{4971DF13-E998-4009-ABB5-6A9871713779}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Gilded_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="412626694"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Gilded_Music_Intro" ID="{4971DF13-E998-4009-ABB5-6A9871713779}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_Gilded_Music_Loop" ID="{49D0D0C8-9C14-4F2E-AFA0-6F7CAC13E436}" ShortID="104012866">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_Gilded_Music_Loop" ID="{639B29E6-54DA-4F3B-8C8C-D7DDAE4F74A5}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_Gilded_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="56490808"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_Gilded_Music_Loop" ID="{639B29E6-54DA-4F3B-8C8C-D7DDAE4F74A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_Gilded_Music_Intro" ID="{67F00ABF-431E-4593-AAF5-FA9C45AF8699}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_Gilded_Music_Loop" ID="{49D0D0C8-9C14-4F2E-AFA0-6F7CAC13E436}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="Glowsticks" ID="{77C79A7A-A54C-4878-8A19-A50C00815B70}" ShortID="989350754">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glowsticks" ID="{3B336E1C-26BD-482E-AD70-41505E7040B1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Glowsticks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="129676432"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glowsticks" ID="{3B336E1C-26BD-482E-AD70-41505E7040B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glyphic" ID="{B3DBADE0-69F8-4A51-8D37-047315929C29}" ShortID="59469596">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emote_Egyptian_Dance" ID="{244A1589-BE87-4085-8008-935E1AAE7573}">
+									<Language>SFX</Language>
+									<AudioFile>Emote_Egyptian_Dance.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="965919052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Emote_Egyptian_Dance" ID="{244A1589-BE87-4085-8008-935E1AAE7573}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="MikuMikuBeam" ID="{79BCA964-45DB-4337-A3DC-4737101E2056}" ShortID="512333578">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_JadeTowel_Gloss_Music_Intro" ID="{1CFDDB51-2455-4455-B185-5AEE9F9C734C}" ShortID="871966504">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_JadeTowel_Gloss_Music_Intro" ID="{66EB2DAE-99F7-45E5-B187-E67C27BC5460}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_JadeTowel_Gloss_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85816951"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_JadeTowel_Gloss_Music_Intro" ID="{66EB2DAE-99F7-45E5-B187-E67C27BC5460}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_JadeTowel_Gloss_Music_Loop" ID="{0253E0C1-36FD-4889-AA73-33E8D3ACD0DD}" ShortID="37646505">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_JadeTowel_Gloss_Music_Loop" ID="{A5ADBA44-61C5-46A4-9984-F9C07871A383}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_JadeTowel_Gloss_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493257214"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_JadeTowel_Gloss_Music_Loop" ID="{A5ADBA44-61C5-46A4-9984-F9C07871A383}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_JadeTowel_Gloss_Music_Intro" ID="{1CFDDB51-2455-4455-B185-5AEE9F9C734C}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_JadeTowel_Gloss_Music_Loop" ID="{0253E0C1-36FD-4889-AA73-33E8D3ACD0DD}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MiluLive" ID="{554BF325-7D45-40CC-9F36-8E813CC85158}" ShortID="480410099">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Emote_JadeTowel_Music_Intro" ID="{BF32E678-50B3-499F-A656-A6D0E5EB7A76}" ShortID="842659928">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_JadeTowel_Music_Intro" ID="{5C02854D-B5C9-4839-AE28-9515031FF5A9}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_JadeTowel_Music_Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="93710150"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_JadeTowel_Music_Intro" ID="{5C02854D-B5C9-4839-AE28-9515031FF5A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Emote_JadeTowel_Music_Loop" ID="{1A2356EE-066A-4818-9708-0EC27347F570}" ShortID="287995002">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="cringeassbrynza" ID="{4741F10D-6F25-4ED7-882A-337159C91AFE}" WorkUnitID="{D0D17698-7238-4048-AC4D-DD7A120395DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEBC73EF-6F10-4D74-B8DD-627FF69509ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F1864-123E-4DC6-8E7E-468FAE8A605D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Emote_JadeTowel_Music_Loop" ID="{CACD18B9-F6A3-4645-83CE-9D8C468D151F}">
+											<Language>SFX</Language>
+											<AudioFile>Emote_JadeTowel_Music_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="654261903"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Emote_JadeTowel_Music_Loop" ID="{CACD18B9-F6A3-4645-83CE-9D8C468D151F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Emote_JadeTowel_Music_Intro" ID="{BF32E678-50B3-499F-A656-A6D0E5EB7A76}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Emote_JadeTowel_Music_Loop" ID="{1A2356EE-066A-4818-9708-0EC27347F570}" WorkUnitID="{37B73C1D-800A-4270-B093-EEB476E170EC}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">

@@ -163,25 +163,61 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1720916692" Type="User" Language="SFX" Hash="{2FEF82C3-9622-16DA-620B-473FE0242109}">
+		<SoundBank Id="1720916692" Type="User" Language="SFX" Hash="{97C2A689-959C-D78D-F188-31A79579CDFC}">
 			<ShortName>cringeassbrynza</ShortName>
 			<Path>cringeassbrynza.bnk</Path>
 			<Media>
+				<File Id="14183792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Double_Dream_Feet_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Double_Dream_Feet_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="31480770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dont_Sneeze_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Dont_Sneeze_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="56490808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Gilded_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Gilded_Music_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="81900433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Believer_MX_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_Believer_MX_Intro_5AEF7652.wem</CachePath>
+				</File>
+				<File Id="85816951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_JadeTowel_Gloss_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_JadeTowel_Gloss_Music_Intro_7A307A96.wem</CachePath>
 				</File>
 				<File Id="86723488" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Athena_Music_Emotes_Bendy.wav</ShortName>
 					<CachePath>SFX/Athena_Music_Emotes_Bendy_89F99160.wem</CachePath>
 				</File>
+				<File Id="93710150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_JadeTowel_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_JadeTowel_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="99046601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Exquisite_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Exquisite_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="129676432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Glowsticks.wav</ShortName>
+					<CachePath>SFX/Glowsticks_F89E37F0.wem</CachePath>
+				</File>
 				<File Id="133163303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_BeHere.wav</ShortName>
 					<CachePath>SFX/Emote_BeHere_89F99160.wem</CachePath>
 				</File>
+				<File Id="137294969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dreadful_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Dreadful_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="147041133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Caffeine_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_Caffeine_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="156736896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Destiny_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Destiny_Music_Intro_7A307A96.wem</CachePath>
 				</File>
 				<File Id="180237064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Adoration_Music_Intro.wav</ShortName>
@@ -207,17 +243,45 @@
 					<ShortName>Emote_Conga_Line_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Conga_Line_Music_Loop_89F99160.wem</CachePath>
 				</File>
+				<File Id="243696276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>athena_emote_electroshuffle_music.wav</ShortName>
+					<CachePath>SFX/athena_emote_electroshuffle_music_89F99160.wem</CachePath>
+				</File>
+				<File Id="275652036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Distraught_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Distraught_Music_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="280334847" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>IP_EmoteMusic_Bulletproof_AudioAsset.wav</ShortName>
 					<CachePath>SFX/IP_EmoteMusic_Bulletproof_AudioAsset_89F99160.wem</CachePath>
+				</File>
+				<File Id="300459890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Depart_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Depart_Music_Intro_7A307A96.wem</CachePath>
 				</File>
 				<File Id="307254119" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SwitchAway.wav</ShortName>
 					<CachePath>SFX/SwitchAway_90338CC2.wem</CachePath>
 				</File>
+				<File Id="308607916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Fancy_Workout_Music_Loop_01.wav</ShortName>
+					<CachePath>SFX/Emote_Fancy_Workout_Music_Loop_01_89F99160.wem</CachePath>
+				</File>
+				<File Id="315579441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_GalaxyLevel_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_GalaxyLevel_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="328344158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Adapter_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Adapter_Music_Loop_0F0C567C.wem</CachePath>
+				</File>
+				<File Id="328540293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Devotion_Intro_02.wav</ShortName>
+					<CachePath>SFX/Devotion_Intro_02_7A307A96.wem</CachePath>
+				</File>
+				<File Id="332463041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Distraught_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Distraught_Music_Loop_89F99160.wem</CachePath>
 				</File>
 				<File Id="342916037" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Believer_MX_Loop.wav</ShortName>
@@ -227,6 +291,10 @@
 					<ShortName>Emote_LemonCart_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_LemonCart_Music_Intro_7A307A96.wem</CachePath>
 				</File>
+				<File Id="368246041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Delirious_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Delirious_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="383817197" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Bewilder_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_Bewilder_Music_Intro_7A307A96.wem</CachePath>
@@ -235,9 +303,33 @@
 					<ShortName>Emote_LowRider_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_LowRider_Music_Intro_7A307A96.wem</CachePath>
 				</File>
+				<File Id="395586072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Devotion_Loop01.wav</ShortName>
+					<CachePath>SFX/Devotion_Loop01_89F99160.wem</CachePath>
+				</File>
+				<File Id="412626694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Gilded_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Gilded_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="417178565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dont_Sneeze_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Dont_Sneeze_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="454537473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Disband_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Disband_Music_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="459734906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_BerryTart_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_BerryTart_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="466827943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dignified_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Dignified_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="470899065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Encounter_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Encounter_Music_Intro_7A307A96.wem</CachePath>
 				</File>
 				<File Id="471910511" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_LowRider_Music_Loop.wav</ShortName>
@@ -247,13 +339,29 @@
 					<ShortName>Emote_Farewell_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Farewell_Music_Loop_89F99160.wem</CachePath>
 				</File>
+				<File Id="480076667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Athena_Emote_DoubleSnap_Music.wav</ShortName>
+					<CachePath>SFX/Athena_Emote_DoubleSnap_Music_89F99160.wem</CachePath>
+				</File>
 				<File Id="488796994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Caffeine_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Caffeine_Music_Loop_89F99160.wem</CachePath>
 				</File>
+				<File Id="493257214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_JadeTowel_Gloss_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_JadeTowel_Gloss_Music_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="500625339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_ArmyBunny_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_ArmyBunny_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="526732473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Fantasy_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Fantasy_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="527432098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Athena_Emote_Floppy_Music.wav</ShortName>
+					<CachePath>SFX/Athena_Emote_Floppy_Music_89F99160.wem</CachePath>
 				</File>
 				<File Id="531859537" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Breakboy_01.wav</ShortName>
@@ -267,17 +375,33 @@
 					<ShortName>Athena_Emote_ChickenMoves_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Athena_Emote_ChickenMoves_Music_Loop_89F99160.wem</CachePath>
 				</File>
+				<File Id="569657380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Enrapture_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Enrapture_Music_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="575717475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Cherish_Loop_01.wav</ShortName>
 					<CachePath>SFX/Emote_Cherish_Loop_01_89F99160.wem</CachePath>
+				</File>
+				<File Id="577015334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Fantasy_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Fantasy_Music_Loop_89F99160.wem</CachePath>
 				</File>
 				<File Id="590636303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>IP_Emote_Competitor_Loop.wav</ShortName>
 					<CachePath>SFX/IP_Emote_Competitor_Loop_89F99160.wem</CachePath>
 				</File>
+				<File Id="597007543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Encounter_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Encounter_Music_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="608841763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Cherish_Intro_01.wav</ShortName>
 					<CachePath>SFX/Emote_Cherish_Intro_01_7A307A96.wem</CachePath>
+				</File>
+				<File Id="616953651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Exquisite_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Exquisite_Intro_7A307A96.wem</CachePath>
 				</File>
 				<File Id="636274987" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Butter_Music_Loop_01.wav</ShortName>
@@ -286,6 +410,10 @@
 				<File Id="637810181" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Bewilder_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Bewilder_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="639859227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Gabby_Hip_Hop_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Gabby_Hip_Hop_Music_Loop_89F99160.wem</CachePath>
 				</File>
 				<File Id="647295357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Deceiver.wav</ShortName>
@@ -299,13 +427,37 @@
 					<ShortName>Emote_Music_Cheerleader.wav</ShortName>
 					<CachePath>SFX/Emote_Music_Cheerleader_89F99160.wem</CachePath>
 				</File>
+				<File Id="654261903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_JadeTowel_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_JadeTowel_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="674202966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dimension_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Dimension_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="675307521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Enrapture_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Enrapture_Music_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="707526273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_CandyDance.wav</ShortName>
 					<CachePath>SFX/Emote_CandyDance_89F99160.wem</CachePath>
 				</File>
+				<File Id="707852386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Factual_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Factual_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="708886665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Delirious_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Delirious_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="718240451" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Affection_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_Affection_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="731129049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dignified_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Dignified_Music_Loop_89F99160.wem</CachePath>
 				</File>
 				<File Id="748787005" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_Alliteration_MX_LP.wav</ShortName>
@@ -335,6 +487,30 @@
 					<ShortName>Emote_Adapter_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_Adapter_Music_Intro_7A307A96.wem</CachePath>
 				</File>
+				<File Id="829776432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_DoggyStrut_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_DoggyStrut_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="839573585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Disband_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Disband_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="877142137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Asteroid_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Asteroid_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="880860154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Destiny_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Destiny_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="881516299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Depart_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Depart_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="884447818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dreadful_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Dreadful_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="894386922" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EmoteBanknotes_Intro_01.wav</ShortName>
 					<CachePath>SFX/EmoteBanknotes_Intro_01_7A307A96.wem</CachePath>
@@ -347,9 +523,17 @@
 					<ShortName>Emote_Farewell_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_Farewell_Music_Intro_7A307A96.wem</CachePath>
 				</File>
+				<File Id="913766978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Dimension_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Dimension_Music_Loop_89F99160.wem</CachePath>
+				</File>
 				<File Id="914624812" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_ClayPlug_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_ClayPlug_Music_Loop_89F99160.wem</CachePath>
+				</File>
+				<File Id="925781867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Asteroid_Music_Loop.wav</ShortName>
+					<CachePath>SFX/Emote_Asteroid_Music_Loop_89F99160.wem</CachePath>
 				</File>
 				<File Id="943271271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EmoteBanknotes_Loop_01.wav</ShortName>
@@ -363,6 +547,14 @@
 					<ShortName>Emote_Comrade.wav</ShortName>
 					<CachePath>SFX/Emote_Comrade_89F99160.wem</CachePath>
 				</File>
+				<File Id="965919052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Egyptian_Dance.wav</ShortName>
+					<CachePath>SFX/Emote_Egyptian_Dance_89F99160.wem</CachePath>
+				</File>
+				<File Id="984063441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Factual_Music_Intro.wav</ShortName>
+					<CachePath>SFX/Emote_Factual_Music_Intro_7A307A96.wem</CachePath>
+				</File>
 				<File Id="990585918" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_LemonCart_Music_Loop.wav</ShortName>
 					<CachePath>SFX/Emote_LemonCart_Music_Loop_89F99160.wem</CachePath>
@@ -370,6 +562,10 @@
 				<File Id="1001257940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Emote_ClayPlug_Music_Intro.wav</ShortName>
 					<CachePath>SFX/Emote_ClayPlug_Music_Intro_7A307A96.wem</CachePath>
+				</File>
+				<File Id="1012240619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Emote_Eerie.wav</ShortName>
+					<CachePath>SFX/Emote_Eerie_89F99160.wem</CachePath>
 				</File>
 				<File Id="1012496351" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Coping_Loop01.wav</ShortName>
@@ -390,10 +586,22 @@
 						<MediaRef Id="759205203"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2409593844" Name="Play_Ambitions">
+					<MediaRefs>
+						<MediaRef Id="526732473"/>
+						<MediaRef Id="577015334"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2614389767" Name="Play_ArmyBunny">
 					<MediaRefs>
 						<MediaRef Id="201813505"/>
 						<MediaRef Id="500625339"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="357901735" Name="Play_AskMe">
+					<MediaRefs>
+						<MediaRef Id="137294969"/>
+						<MediaRef Id="884447818"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3519952403" Name="Play_BoldStance">
@@ -435,14 +643,31 @@
 						<MediaRef Id="488796994"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="248028087" Name="Play_Carefree">
+					<MediaRefs>
+						<MediaRef Id="99046601"/>
+						<MediaRef Id="616953651"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4063596847" Name="Play_CelebrateMe">
 					<MediaRefs>
 						<MediaRef Id="794559845"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1886962373" Name="Play_Challenge">
+					<MediaRefs>
+						<MediaRef Id="707852386"/>
+						<MediaRef Id="984063441"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1776357654" Name="Play_CheerUp">
 					<MediaRefs>
 						<MediaRef Id="648813185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1883402492" Name="Play_ClickClickFlash">
+					<MediaRefs>
+						<MediaRef Id="315579441"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3008089516" Name="Play_CluckStrut">
@@ -471,6 +696,39 @@
 						<MediaRef Id="755923623"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4286762305" Name="Play_DeepExplorer">
+					<MediaRefs>
+						<MediaRef Id="877142137"/>
+						<MediaRef Id="925781867"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2025501113" Name="Play_Dimensional">
+					<MediaRefs>
+						<MediaRef Id="674202966"/>
+						<MediaRef Id="913766978"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3378249283" Name="Play_DreamFeet">
+					<MediaRefs>
+						<MediaRef Id="14183792"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2487434070" Name="Play_Fanciful">
+					<MediaRefs>
+						<MediaRef Id="308607916"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2846576684" Name="Play_Fandangle">
+					<MediaRefs>
+						<MediaRef Id="527432098"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3464110827" Name="Play_Fantasy_Faceoff">
+					<MediaRefs>
+						<MediaRef Id="470899065"/>
+						<MediaRef Id="597007543"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1175727921" Name="Play_FastFlex">
 					<MediaRefs>
 						<MediaRef Id="894386922"/>
@@ -497,9 +755,42 @@
 						<MediaRef Id="636274987"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1769248174" Name="Play_Glowsticks">
+					<MediaRefs>
+						<MediaRef Id="129676432"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1028650916" Name="Play_Glyphic">
+					<MediaRefs>
+						<MediaRef Id="965919052"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1246195285" Name="Play_GoMufasa">
 					<MediaRefs>
 						<MediaRef Id="234389697"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="419346921" Name="Play_GoWithTheFlow">
+					<MediaRefs>
+						<MediaRef Id="156736896"/>
+						<MediaRef Id="880860154"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4047268277" Name="Play_HeelClickBreakdown">
+					<MediaRefs>
+						<MediaRef Id="300459890"/>
+						<MediaRef Id="881516299"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="20851358" Name="Play_IAintAfraid">
+					<MediaRefs>
+						<MediaRef Id="1012240619"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2888137868" Name="Play_Independence">
+					<MediaRefs>
+						<MediaRef Id="454537473"/>
+						<MediaRef Id="839573585"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4083921163" Name="Play_InHaMood">
@@ -508,9 +799,26 @@
 						<MediaRef Id="795772271"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="563840300" Name="Play_LaidBackShuffle">
+					<MediaRefs>
+						<MediaRef Id="639859227"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="945963862" Name="Play_MakeSomeWaves">
 					<MediaRefs>
 						<MediaRef Id="718240451"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3018604515" Name="Play_MikuMikuBeam">
+					<MediaRefs>
+						<MediaRef Id="85816951"/>
+						<MediaRef Id="493257214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4161932947" Name="Play_MiluLive">
+					<MediaRefs>
+						<MediaRef Id="93710150"/>
+						<MediaRef Id="654261903"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3027237066" Name="Play_NanaNana">
@@ -521,6 +829,12 @@
 				<Event Id="189404564" Name="Play_NightOut">
 					<MediaRefs>
 						<MediaRef Id="590636303"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4049969938" Name="Play_NoTears">
+					<MediaRefs>
+						<MediaRef Id="275652036"/>
+						<MediaRef Id="332463041"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1168883255" Name="Play_NuthinButAGThang">
@@ -546,6 +860,23 @@
 						<MediaRef Id="1001257940"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3549386714" Name="Play_ReapersShowtime">
+					<MediaRefs>
+						<MediaRef Id="368246041"/>
+						<MediaRef Id="708886665"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4259913706" Name="Play_Revel">
+					<MediaRefs>
+						<MediaRef Id="480076667"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2748430128" Name="Play_Riches">
+					<MediaRefs>
+						<MediaRef Id="56490808"/>
+						<MediaRef Id="412626694"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1990438606" Name="Play_RunItDown">
 					<MediaRefs>
 						<MediaRef Id="280334847"/>
@@ -561,16 +892,32 @@
 						<MediaRef Id="534334215"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="329161351" Name="Play_SignatureShuffle">
+					<MediaRefs>
+						<MediaRef Id="243696276"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3863227064" Name="Play_Ska_stra_terrestrial">
 					<MediaRefs>
 						<MediaRef Id="81900433"/>
 						<MediaRef Id="342916037"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1761784223" Name="Play_Smeeze">
+					<MediaRefs>
+						<MediaRef Id="31480770"/>
+						<MediaRef Id="417178565"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3030028416" Name="Play_Snoop_sWalk">
 					<MediaRefs>
 						<MediaRef Id="347697841"/>
 						<MediaRef Id="990585918"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2547326352" Name="Play_Strut">
+					<MediaRefs>
+						<MediaRef Id="829776432"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1111751306" Name="Play_SugarRush">
@@ -588,6 +935,24 @@
 						<MediaRef Id="531859537"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4183604495" Name="Play_TakeItSlow">
+					<MediaRefs>
+						<MediaRef Id="569657380"/>
+						<MediaRef Id="675307521"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1459530651" Name="Play_WhatYouWant">
+					<MediaRefs>
+						<MediaRef Id="466827943"/>
+						<MediaRef Id="731129049"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1690442739" Name="Play_WithoutYou">
+					<MediaRefs>
+						<MediaRef Id="328540293"/>
+						<MediaRef Id="395586072"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2548806514" Name="Play_YouShouldSeeMeInACrown">
 					<MediaRefs>
 						<MediaRef Id="328344158"/>
@@ -600,7 +965,9 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="4095550411" Name="Stop_AirShredder"/>
+				<Event Id="3392976950" Name="Stop_Ambitions"/>
 				<Event Id="4137960073" Name="Stop_ArmyBunny"/>
+				<Event Id="1401672441" Name="Stop_AskMe"/>
 				<Event Id="1552855333" Name="Stop_BoldStance"/>
 				<Event Id="2440363380" Name="Stop_Bombastic"/>
 				<Event Id="1306013559" Name="Stop_BoneyBounce"/>
@@ -608,35 +975,63 @@
 				<Event Id="3369967881" Name="Stop_Boy_sALier"/>
 				<Event Id="3112422224" Name="Stop_ByeByeBye"/>
 				<Event Id="1796400140" Name="Stop_Caffeinated"/>
+				<Event Id="2740463453" Name="Stop_Carefree"/>
 				<Event Id="2540265077" Name="Stop_CelebrateMe"/>
+				<Event Id="837710411" Name="Stop_Challenge"/>
 				<Event Id="311391416" Name="Stop_CheerUp"/>
+				<Event Id="1896764118" Name="Stop_ClickClickFlash"/>
 				<Event Id="1879494926" Name="Stop_CluckStrut"/>
 				<Event Id="3778454502" Name="Stop_CongaFT"/>
 				<Event Id="2166120127" Name="Stop_Copines"/>
 				<Event Id="2288488570" Name="Stop_CrissCross"/>
 				<Event Id="2265085720" Name="Stop_Cupid_sArrow"/>
+				<Event Id="877691915" Name="Stop_DeepExplorer"/>
+				<Event Id="431558531" Name="Stop_Dimensional"/>
+				<Event Id="1106915573" Name="Stop_DreamFeet"/>
+				<Event Id="24186436" Name="Stop_Fanciful"/>
+				<Event Id="4037394974" Name="Stop_Fandangle"/>
+				<Event Id="596986337" Name="Stop_Fantasy_Faceoff"/>
 				<Event Id="1851405051" Name="Stop_FastFlex"/>
 				<Event Id="78658521" Name="Stop_FeelTheFlow"/>
 				<Event Id="1867424785" Name="Stop_GetGone"/>
 				<Event Id="102264818" Name="Stop_GetLoose"/>
 				<Event Id="914074118" Name="Stop_Gloss"/>
+				<Event Id="3394143688" Name="Stop_Glowsticks"/>
+				<Event Id="412362318" Name="Stop_Glyphic"/>
 				<Event Id="1547731691" Name="Stop_GoMufasa"/>
+				<Event Id="3214748971" Name="Stop_GoWithTheFlow"/>
+				<Event Id="3833008879" Name="Stop_HeelClickBreakdown"/>
+				<Event Id="2895677596" Name="Stop_IAintAfraid"/>
+				<Event Id="2147935738" Name="Stop_Independence"/>
 				<Event Id="115336269" Name="Stop_InHaMood"/>
+				<Event Id="3861811670" Name="Stop_LaidBackShuffle"/>
 				<Event Id="3228575560" Name="Stop_MakeSomeWaves"/>
+				<Event Id="462590605" Name="Stop_MikuMikuBeam"/>
+				<Event Id="1443493677" Name="Stop_MiluLive"/>
 				<Event Id="1402463504" Name="Stop_NanaNana"/>
 				<Event Id="2486703110" Name="Stop_NightOut"/>
+				<Event Id="1248261668" Name="Stop_NoTears"/>
 				<Event Id="2615950989" Name="Stop_NuthinButAGThang"/>
 				<Event Id="3552613541" Name="Stop_PointAndStrut"/>
 				<Event Id="2638815735" Name="Stop_PrimoMoves"/>
 				<Event Id="3591481973" Name="Stop_RapMonster"/>
+				<Event Id="367660044" Name="Stop_ReapersShowtime"/>
+				<Event Id="781901612" Name="Stop_Revel"/>
+				<Event Id="3895323202" Name="Stop_Riches"/>
 				<Event Id="3855855596" Name="Stop_RunItDown"/>
 				<Event Id="3802457393" Name="Stop_Rushin_Around"/>
 				<Event Id="1978981257" Name="Stop_ShowYa"/>
+				<Event Id="233151049" Name="Stop_SignatureShuffle"/>
 				<Event Id="2081781038" Name="Stop_Ska_stra_terrestrial"/>
+				<Event Id="3852246509" Name="Stop_Smeeze"/>
 				<Event Id="4115711330" Name="Stop_Snoop_sWalk"/>
+				<Event Id="2318674914" Name="Stop_Strut"/>
 				<Event Id="3261458096" Name="Stop_SugarRush"/>
 				<Event Id="108034354" Name="Stop_SwitchAway"/>
 				<Event Id="165289442" Name="Stop_Switchstep"/>
+				<Event Id="2850984165" Name="Stop_TakeItSlow"/>
+				<Event Id="3030747221" Name="Stop_WhatYouWant"/>
+				<Event Id="3179933293" Name="Stop_WithoutYou"/>
 				<Event Id="3401972896" Name="Stop_YouShouldSeeMeInACrown"/>
 				<Event Id="1468294296" Name="Stop_Zany"/>
 			</Events>
@@ -645,5 +1040,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4D2DEEF1-5C5A-121D-526B-B6AE844FD5A9}</FileHash>
+	<FileHash>{D451F39E-5117-F0AF-81E3-35C0FC77237A}</FileHash>
 </SoundBanksInfo>
