@@ -365,8 +365,8 @@ namespace ExamplePlugin
             AddAnimation("WithoutYou", "WithoutYou", "WithoutYouLoop", true, true);
             AddAnimation("MikuLive", "MiluLive", "MikuLiveLoop", true, true);
             AddAnimation("MikuMikuBeam", "MikuMikuBeam", "MikuMikuBeamLoop", true, true);
-
-
+            
+            
             GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
             foreach (var item in pressObject.GetComponentsInChildren<Renderer>())
             {
@@ -880,8 +880,8 @@ namespace ExamplePlugin
                 var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/Prefabs/Glowstick.prefab"));
                 newPrefab.transform.localScale /= 2;
                 newPrefab.AddComponent<RainbowGlowstick>();
-                //foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
-                //    componentsInChild.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                    componentsInChild.material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
                 prop1 = mapper.props.Count;
                 mapper.props.Add(GameObject.Instantiate(newPrefab));
                 mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));
